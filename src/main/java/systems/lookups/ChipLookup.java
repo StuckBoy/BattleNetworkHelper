@@ -202,7 +202,7 @@ public class ChipLookup {
     private void beginMemorySizeSearch(Scanner keyboard) {
         print("Please enter the memory size of the desired chip.");
         int input = keyboard.nextInt();
-        List<Chip> foundChip = reader.searchChipsByDamage(input);
+        List<Chip> foundChip = reader.searchChipsByMemorySize(input);
         printMemoryOutcome(foundChip);
     }
 

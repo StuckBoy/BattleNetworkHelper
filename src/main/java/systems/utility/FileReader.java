@@ -2,6 +2,7 @@ package systems.utility;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import constants.PathConstants;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
 
@@ -15,13 +16,6 @@ import java.util.List;
 import static systems.utility.Helpers.print;
 
 public class FileReader {
-    private final String jsonStarterFilePath = "src/main/resources/JSON/";
-    private final String battleNetworkThreePath = "bn3/BN3 ";
-    private final String battleNetworkSixPath = "bn6/BN6 ";
-    private final String chipLibraryJson = "Chip Library.json";
-    private final String customizerPartLibraryJson = "Chip Library.json";
-    private final String exCodeLibraryJson = "Chip Library.json";
-
     private final List<Chip> chipList;
 
     /**
@@ -32,7 +26,8 @@ public class FileReader {
      */
     public FileReader() throws IOException {
         Gson gson = new Gson();
-        Reader reader = Files.newBufferedReader(Paths.get(jsonStarterFilePath + battleNetworkThreePath + chipLibraryJson));
+        //TODO Add support for other Battle Network Files
+        Reader reader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeChipLibrary));
         chipList = gson.fromJson(reader, new TypeToken<List<Chip>>() {}.getType());
         print("BN3 Chips read from file. " + chipList.size() + " regular chips loaded.");
     }

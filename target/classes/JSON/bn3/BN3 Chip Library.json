@@ -1,0 +1,1733 @@
+[
+  {
+    "number": "1",
+    "name": "Cannon",
+    "damage": 40,
+    "possibleCodes": "A, B, C, D, E, *",
+    "memory": 12,
+    "description": "Cannon to attack 1 enemy",
+    "locations": "Defeat Canodumb virus in ACDC areas A \u0026 B come in starting folder Buy C from net dealer in SciLab Square (MMBN3 White)."
+  },
+  {
+    "number": "2",
+    "name": "HiCannon",
+    "damage": 60,
+    "possibleCodes": "H, I, J, K, L, *",
+    "memory": 24,
+    "description": "Cannon to attack 1 enemy",
+    "locations": "Defeat Canodumb2 in Yoka 1 and other areas Get * in Numberman Machine Find K in GMD in Undernet 1."
+  },
+  {
+    "number": "3",
+    "name": "M-Cannon",
+    "damage": 80,
+    "possibleCodes": "O, P, Q, R, S",
+    "memory": 36,
+    "description": "Cannon to attack 1 enemy",
+    "locations": "Defeat Canodumb3 in Tank Comp or WWW robots for O, P, Q, R."
+  },
+  {
+    "number": "4",
+    "name": "AirShot1",
+    "damage": 20,
+    "possibleCodes": "*",
+    "memory": 6,
+    "description": "Knocks enemy back 1",
+    "locations": "In 1st folder."
+  },
+  {
+    "number": "5",
+    "name": "AirShot2",
+    "damage": 30,
+    "possibleCodes": "*",
+    "memory": 12,
+    "description": "Knocks enemy back 1",
+    "locations": "Get from BugFrag trader in MMB3 White in Yoka Area."
+  },
+  {
+    "number": "6",
+    "name": "AirShot3",
+    "damage": 40,
+    "possibleCodes": "*",
+    "memory": 18,
+    "description": "Knocks enemy back 1",
+    "locations": "Get from NumberMan Machine."
+  },
+  {
+    "number": "7",
+    "name": "LavaCan1",
+    "damage": 90,
+    "possibleCodes": "A, G, S, T, V",
+    "memory": 34,
+    "description": "Fires lava fr. area",
+    "locations": "Defeat Volcano virus in Undernet."
+  },
+  {
+    "number": "8",
+    "name": "LavaCan2",
+    "damage": 120,
+    "possibleCodes": "B, D, F, M, O",
+    "memory": 42,
+    "description": "Fires lava fr. area",
+    "locations": "Defeat Volcaner virus."
+  },
+  {
+    "number": "9",
+    "name": "LavaCan3",
+    "damage": 150,
+    "possibleCodes": "E, H, J, R, W",
+    "memory": 60,
+    "description": "Fires lava fr. area",
+    "locations": "Defeat Volcanest virus in Secret Net."
+  },
+  {
+    "number": "10",
+    "name": "Volcano",
+    "damage": 150,
+    "possibleCodes": "A, G, J, Y, Z",
+    "memory": 75,
+    "description": "Fire lava from your area",
+    "locations": "Defeat Volcan, Volcaner, or Volcanest virus with Custom Style with S-Rank under 5 seconds without using NaviChips or buster."
+  },
+  {
+    "number": "11",
+    "name": "ShotGun",
+    "damage": 30,
+    "possibleCodes": "B, F, J, N, T, *",
+    "memory": 8,
+    "description": "Explodes 1 square behind",
+    "locations": "Comes from starting folder."
+  },
+  {
+    "number": "12",
+    "name": "V-Gun",
+    "damage": 30,
+    "possibleCodes": "D, G, L, P, V, *",
+    "memory": 8,
+    "description": "Explodes 2 diag. squares",
+    "locations": "Comes from starting folder."
+  },
+  {
+    "number": "13",
+    "name": "SideGun",
+    "damage": 30,
+    "possibleCodes": "C, H, M, S, Y, *",
+    "memory": 8,
+    "description": "Explodes up, down on hit",
+    "locations": "Comes from starting folder."
+  },
+  {
+    "number": "14",
+    "name": "Spreader",
+    "damage": 30,
+    "possibleCodes": "M, N, O, P, Q, *",
+    "memory": 16,
+    "description": "Creates a large explosion",
+    "locations": "Get * coded chip from Numberman Machine."
+  },
+  {
+    "number": "15",
+    "name": "Bubbler",
+    "damage": 60,
+    "possibleCodes": "A, C, D, E, P, *",
+    "memory": 14,
+    "description": "Explodes 1 square behind",
+    "locations": "Defeat Shrimpy virus in Yoka 1 Buy from net dealer in ACDC 2 for 600z (MMBN3 Blue)."
+  },
+  {
+    "number": "16",
+    "name": "Bub-V",
+    "damage": 60,
+    "possibleCodes": "D, E, F, S, V",
+    "memory": 22,
+    "description": "Explodes 2 diag. squares",
+    "locations": "Defeat Shrimpy2 viruses in Undernet."
+  },
+  {
+    "number": "17",
+    "name": "BublSide",
+    "damage": 60,
+    "possibleCodes": "B, E, F, G, R",
+    "memory": 30,
+    "description": "Explodes up, down on hit",
+    "locations": "Defeat Shrimpy3 viruses in Undernet. Extinguish certain flames during the FlameMan arc."
+  },
+  {
+    "number": "18",
+    "name": "HeatShot",
+    "damage": 40,
+    "possibleCodes": "B, H, I, J, P, *",
+    "memory": 16,
+    "description": "Explodes 1 square behind",
+    "locations": "Buy from net dealer in ACDC 2 for 500z (MMBN3 White); Defeat Spikey virus in ZooComp areas."
+  },
+  {
+    "number": "19",
+    "name": "Heat-V",
+    "damage": 40,
+    "possibleCodes": "F, I, J, K, V, *",
+    "memory": 24,
+    "description": "Explodes 2 diag. squares",
+    "locations": "Defeat Spikey2 virus in ZooComp 4, Hades, Undernet areas."
+  },
+  {
+    "number": "20",
+    "name": "HeatSide",
+    "damage": 40,
+    "possibleCodes": "C, J, K, L, T, *",
+    "memory": 32,
+    "description": "Explodes up, down on hit",
+    "locations": "Defeat Spikey3 virus in Hades and Undernet areas."
+  },
+  {
+    "number": "21",
+    "name": "MiniBomb",
+    "damage": 50,
+    "possibleCodes": "B, G, L, O, S, *",
+    "memory": 6,
+    "description": "Throws a bomb 3 squares",
+    "locations": "Get in starting folder; Green mystery data in ACDC 1."
+  },
+  {
+    "number": "22",
+    "name": "SnglBomb",
+    "damage": 50,
+    "possibleCodes": "D, F, H, J, T, *",
+    "memory": 12,
+    "description": "Throws a big bomb 3 squares",
+    "locations": "Defeat Beetle virus in ZooComp or Beach Area."
+  },
+  {
+    "number": "23",
+    "name": "DublBomb",
+    "damage": 50,
+    "possibleCodes": "A, C, H, K, Q, *",
+    "memory": 24,
+    "description": "Throws 2 big bombs 3 squares",
+    "locations": "Defeat Deetle virus in Undernet or Beach Area."
+  },
+  {
+    "number": "24",
+    "name": "TrplBomb",
+    "damage": 50,
+    "possibleCodes": "E, I, N, P, W",
+    "memory": 36,
+    "description": "Throws 3 big bombs 3 squares",
+    "locations": "Defeat Geetle virus in Secret Net 1\u00262."
+  },
+  {
+    "number": "25",
+    "name": "CannBall",
+    "damage": 160,
+    "possibleCodes": "A, D, F, L, P, *",
+    "memory": 33,
+    "description": "Breaks 3rd panel ahead",
+    "locations": "Defeat HardHead virus in Hades Comp."
+  },
+  {
+    "number": "26",
+    "name": "IceBall",
+    "damage": 120,
+    "possibleCodes": "F, I, M, Q, S, *",
+    "memory": 18,
+    "description": "Freezes 3rd sqr. ahead",
+    "locations": "Defeat ColdHead virus in Hades Comp (use Fish program)."
+  },
+  {
+    "number": "27",
+    "name": "LavaBall",
+    "damage": 140,
+    "possibleCodes": "B, C, H, N, W, *",
+    "memory": 20,
+    "description": "Shoot lava 3rd sq. ahead",
+    "locations": "Defeat HotHead virus in DoorSens Comp in the SciLab doorway (use OilBody program)."
+  },
+  {
+    "number": "28",
+    "name": "BlkBomb1",
+    "damage": 120,
+    "possibleCodes": "F, L, N, P, Z",
+    "memory": 60,
+    "description": "Firebomb hits 3rd sq ahead!",
+    "locations": "Blue Mystery Data in Hades Isle network."
+  },
+  {
+    "number": "29",
+    "name": "BlkBomb2",
+    "damage": 170,
+    "possibleCodes": "D, I, K, Q, S",
+    "memory": 70,
+    "description": "Fire bomb hits 3rd sq ahead!",
+    "locations": "Blue Mystery Data in Undernet 2 (requires defeating FlashMan beta)"
+  },
+  {
+    "number": "30",
+    "name": "BlkBomb3",
+    "damage": 220,
+    "possibleCodes": "C, G, L, U, Y",
+    "memory": 80,
+    "description": "Fire bomb hits 3rd sq ahead!",
+    "locations": "Secret 2 chip seller"
+  },
+  {
+    "number": "31",
+    "name": "Sword",
+    "damage": 80,
+    "possibleCodes": "E, H, L, S, Y",
+    "memory": 10,
+    "description": "Cuts enmy in front! Range: 1",
+    "locations": "Get in starting folder."
+  },
+  {
+    "number": "32",
+    "name": "WideSwrd",
+    "damage": 80,
+    "possibleCodes": "C, E, L, Q, Y",
+    "memory": 16,
+    "description": "Cuts enmy in front! Range: 3",
+    "locations": "Get in starting folder BMD in ACDC 1 GMD in Scilab 2."
+  },
+  {
+    "number": "33",
+    "name": "LongSwrd",
+    "damage": 80,
+    "possibleCodes": "E, I, L, R, Y",
+    "memory": 24,
+    "description": "Cuts enmy in front! Range: 2",
+    "locations": "Defeat Swordy virus (Scilab area), find in Blue mystery data in ACDC 2."
+  },
+  {
+    "number": "34",
+    "name": "FireSwrd",
+    "damage": 130,
+    "possibleCodes": "F, N, P, R, U",
+    "memory": 20,
+    "description": "Fire: Cuts fwd 3 squares",
+    "locations": "Defeat Swordy2 viruses in Undernet or Hades Comp."
+  },
+  {
+    "number": "35",
+    "name": "AquaSwrd",
+    "damage": 150,
+    "possibleCodes": "A, H, N, P, T",
+    "memory": 25,
+    "description": "Water: Cuts fwd 3 squares",
+    "locations": "Defeat Swordy3 viruses in Yoka or Undernet."
+  },
+  {
+    "number": "36",
+    "name": "ElecSwrd",
+    "damage": 130,
+    "possibleCodes": "E, K, N, P, V",
+    "memory": 23,
+    "description": "Elec: Cuts fwd 3 squares",
+    "locations": "Buy from net dealer for 3800z in Blue Trade SonicWave W for ElecSword P."
+  },
+  {
+    "number": "37",
+    "name": "BambSwrd",
+    "damage": 140,
+    "possibleCodes": "B, L, N, P, W",
+    "memory": 18,
+    "description": "Wood: Cuts fwd 3 squares",
+    "locations": "Buy from net dealer for 5000z in White."
+  },
+  {
+    "number": "38",
+    "name": "CustSwrd",
+    "possibleCodes": "B, F, R, V, Z",
+    "memory": 21,
+    "description": "Cust Gauge\u003d Atk Str",
+    "locations": "Buy from net dealer for 5000z in Blue."
+  },
+  {
+    "number": "39",
+    "name": "VarSwrd",
+    "damage": 160,
+    "possibleCodes": "B, C, D, E, F",
+    "memory": 68,
+    "description": "A magical shifting sword",
+    "locations": "Give a \"Shake1 S\" to the man near the information desk at Scilab for it or get from NumberMan Machine."
+  },
+  {
+    "number": "40",
+    "name": "AirSwrd",
+    "damage": 100,
+    "possibleCodes": "C, E, H, J, R, *",
+    "memory": 30,
+    "description": "Wide swrd with air attack!",
+    "locations": "Buy from Chip Merchant on Under Square for 6000 Zennys"
+  },
+  {
+    "number": "41",
+    "name": "StepSwrd",
+    "damage": 130,
+    "possibleCodes": "L, M, N, O, P",
+    "memory": 43,
+    "description": "2 steps, then uses wide swrd",
+    "locations": "Scilab Square chip seller BMD behind Flameman\u0027s security cube"
+  },
+  {
+    "number": "42",
+    "name": "StepCros",
+    "damage": 130,
+    "possibleCodes": "P, Q, R, S, T",
+    "memory": 74,
+    "description": "2 steps, then uses cross atk",
+    "locations": "BMD behind Quizzer door in Secret 1 (defeat Mr. Quiz, Quiz Master, Quiz Queen, and Quiz King)"
+  },
+  {
+    "number": "43",
+    "name": "Slasher",
+    "damage": 240,
+    "possibleCodes": "B, D, G, R, S",
+    "memory": 12,
+    "description": "Cut while A Button is held!",
+    "locations": "Help Quest reward (the two brothers trying to sell Slasher B chips at a cheaper price than the other)"
+  },
+  {
+    "number": "44",
+    "name": "ShockWav",
+    "damage": 60,
+    "possibleCodes": "D, H, J, L, R",
+    "memory": 10,
+    "description": "Shock through enemies",
+    "locations": "Mettaur virus in ACDC and many other areas."
+  },
+  {
+    "number": "45",
+    "name": "SonicWav",
+    "damage": 80,
+    "possibleCodes": "G, I, M, S, W",
+    "memory": 26,
+    "description": "Shock through enemies",
+    "locations": "Mettaur2 virus in ZooComp and many other areas."
+  },
+  {
+    "number": "46",
+    "name": "DynaWave",
+    "damage": 100,
+    "possibleCodes": "E, N, Q, T, V",
+    "memory": 42,
+    "description": "Shock through enemies",
+    "locations": "Mettaur3 virus in Undernet 4-7 and Secret Net 1\u00262."
+  },
+  {
+    "number": "47",
+    "name": "BigWave",
+    "damage": 190,
+    "possibleCodes": "E, J, M, P, Y",
+    "memory": 82,
+    "description": "Shck wave cracks panels",
+    "locations": "S-Rank Mettaur3 with Custom Style in under 5 seconds without using NaviChips or buster."
+  },
+  {
+    "number": "48",
+    "name": "GutPunch",
+    "damage": 80,
+    "possibleCodes": "B, C, D, E, F",
+    "memory": 14,
+    "description": "Punch pushes 1 square",
+    "locations": "Green Green Mystery Data in Yoka 2."
+  },
+  {
+    "number": "49",
+    "name": "GutStrgt",
+    "damage": 100,
+    "possibleCodes": "O, P, Q, R, S",
+    "memory": 30,
+    "description": "Punch 2 square range",
+    "locations": "Green Green Mystery Data in Beach area Get from NumberMan Machine."
+  },
+  {
+    "number": "50",
+    "name": "GutImpct",
+    "damage": 160,
+    "possibleCodes": "G, H, I, J, K",
+    "memory": 50,
+    "description": "Punch pushes 1 square",
+    "locations": "Yoka 1 BugFrag Trader (Blue)"
+  },
+  {
+    "number": "51",
+    "name": "DashAtk",
+    "damage": 90,
+    "possibleCodes": "C, D, G, J, Z, *",
+    "memory": 11,
+    "description": "Dash through enemies!",
+    "locations": "Fishy virus in SciLab areas."
+  },
+  {
+    "number": "52",
+    "name": "Burner",
+    "damage": 130,
+    "possibleCodes": "B, F, Q, S, W",
+    "memory": 15,
+    "description": "Envelops you in flame!",
+    "locations": "Fishy2 virus in Hades Isle."
+  },
+  {
+    "number": "53",
+    "name": "Condor",
+    "damage": 180,
+    "possibleCodes": "B, I, L, S, Z",
+    "memory": 44,
+    "description": "Chrge atk pierces enemies",
+    "locations": "Fishy3 virus in Secret Net."
+  },
+  {
+    "number": "54",
+    "name": "Burning",
+    "damage": 150,
+    "possibleCodes": "A, F, L, R, S",
+    "memory": 42,
+    "description": "Fire atk in cross shape!",
+    "locations": "S-Rank Fishy2 in under 5 seconds using Custom Style without using any Navi Chips or buster."
+  },
+  {
+    "number": "55",
+    "name": "ZapRing1",
+    "damage": 20,
+    "possibleCodes": "A, M, P, Q, S, *",
+    "memory": 8,
+    "description": "Pralyzing electric ring atk!",
+    "locations": "Defeat Bunny virus in ACDC 2\u00263."
+  },
+  {
+    "number": "56",
+    "name": "ZapRing2",
+    "damage": 40,
+    "possibleCodes": "B, G, N, R, W",
+    "memory": 18,
+    "description": "Pralyzing electric ring atk!",
+    "locations": "Defeat TuffBunny virus, comes in 2nd folder from Tora."
+  },
+  {
+    "number": "57",
+    "name": "ZapRing3",
+    "damage": 60,
+    "possibleCodes": "C, E, O, T, Z",
+    "memory": 28,
+    "description": "Pralyzing electric ring atk!",
+    "locations": "Defeat MegaBunny virus in WWW Comps."
+  },
+  {
+    "number": "58",
+    "name": "IceWave1",
+    "damage": 80,
+    "possibleCodes": "A, K, M, Q, W, *",
+    "memory": 14,
+    "description": "Creates a 2 sq wide ice wave!",
+    "locations": "Pengi virus"
+  },
+  {
+    "number": "59",
+    "name": "IceWave2",
+    "damage": 100,
+    "possibleCodes": "D, H, L, P, R, *",
+    "memory": 22,
+    "description": "Creates a 2 sq wide ice wave!",
+    "locations": "Penga virus"
+  },
+  {
+    "number": "60",
+    "name": "IceWave3",
+    "damage": 140,
+    "possibleCodes": "C, D, J, R, V",
+    "memory": 30,
+    "description": "Creates a 2 sq wide ice wave!",
+    "locations": "Defeat Pengon virus in Hospital Comp 5 (use Fish)"
+  },
+  {
+    "number": "61",
+    "name": "Yo-Yo1",
+    "damage": 40,
+    "possibleCodes": "C, D, E, F, G, *",
+    "memory": 72,
+    "description": "3-square yo-yo attack!",
+    "locations": "Defeat Yort virus in Beach areas."
+  },
+  {
+    "number": "62",
+    "name": "Yo-Yo2",
+    "damage": 50,
+    "possibleCodes": "H, I, J, K, L",
+    "memory": 80,
+    "description": "3-square yo-yo attack!",
+    "locations": "Defeat Yurt virus in Undernet 6 and 7."
+  },
+  {
+    "number": "63",
+    "name": "Yo-Yo3",
+    "damage": 60,
+    "possibleCodes": "M, N, O, P, Q",
+    "memory": 88,
+    "description": "3-square yo-yo attack!",
+    "locations": "Defeat Yart virus in Secret Area 1."
+  },
+  {
+    "number": "64",
+    "name": "AirStrm1",
+    "damage": 50,
+    "possibleCodes": "A, F, H, O, S",
+    "memory": 26,
+    "description": "Creates 3 whrlwinds",
+    "locations": "Defeat Snowblow virus in Beach 2."
+  },
+  {
+    "number": "65",
+    "name": "AirStrm2",
+    "damage": 60,
+    "possibleCodes": "C, G, H, M, W",
+    "memory": 35,
+    "description": "Creates 3 whrlwinds",
+    "locations": "Defeat LoBlow virus in gargoyle statue on Hades Isle."
+  },
+  {
+    "number": "66",
+    "name": "AirStrm3",
+    "damage": 70,
+    "possibleCodes": "A, G, I, N, V",
+    "memory": 44,
+    "description": "Creates 3 whrlwinds",
+    "locations": "Defeat MoBlow virus in Secret Area 2."
+  },
+  {
+    "number": "67",
+    "name": "Arrow1",
+    "damage": 100,
+    "possibleCodes": "B, E, M, Q, T",
+    "memory": 40,
+    "description": "Bee fly diagonal paths",
+    "locations": "Defeat Elebee virus in WWW Comps."
+  },
+  {
+    "number": "68",
+    "name": "Arrow2",
+    "damage": 130,
+    "possibleCodes": "F, R, S, U, Z",
+    "memory": 60,
+    "description": "Bee fly diagonal paths",
+    "locations": "Defeat Elewasp virus in Secret Area 2."
+  },
+  {
+    "number": "69",
+    "name": "Arrow3",
+    "damage": 160,
+    "possibleCodes": "A, H, J, N, P",
+    "memory": 80,
+    "description": "Bee fly diagonal paths",
+    "locations": "Defeat Elehornet virus in School Server Comp in the staff lounge of ACDC School (use Battery Program)."
+  },
+  {
+    "number": "70",
+    "name": "Ratton1",
+    "damage": 80,
+    "possibleCodes": "A, C, F, H, J",
+    "memory": 14,
+    "description": "Crawling rat, turns once",
+    "locations": "Defeat Ratty virus in Scilab Area."
+  },
+  {
+    "number": "71",
+    "name": "Ratton2",
+    "damage": 100,
+    "possibleCodes": "A, C, F, N, O",
+    "memory": 24,
+    "description": "Crawling rat, turns once",
+    "locations": "Defeat Ratty2 virus, found in mystery data in Undernet."
+  },
+  {
+    "number": "72",
+    "name": "Ratton3",
+    "damage": 120,
+    "possibleCodes": "A, C, F, R, S",
+    "memory": 34,
+    "description": "Crawling rat, turns once",
+    "locations": "Defeat Ratty3 virus in Secret Net 1."
+  },
+  {
+    "number": "73",
+    "name": "FireRatn",
+    "damage": 230,
+    "possibleCodes": "B, F, H, M, Y",
+    "memory": 35,
+    "description": "Activates when hit w/ fire!",
+    "locations": "Found in mystery data in NetBattling Computer in DNN station. (Where shows are being aired)"
+  },
+  {
+    "number": "74",
+    "name": "Wave",
+    "damage": 80,
+    "possibleCodes": "E, I, L, S, T",
+    "memory": 60,
+    "description": "Creates a wave that moves 3 sq",
+    "locations": "Defeat Jelly virus."
+  },
+  {
+    "number": "75",
+    "name": "RedWave",
+    "damage": 90,
+    "possibleCodes": "B, F, J, R, U",
+    "memory": 72,
+    "description": "Creates a 3 sq wave of lava",
+    "locations": "Defeat HeatJelly virus."
+  },
+  {
+    "number": "76",
+    "name": "MudWave",
+    "damage": 100,
+    "possibleCodes": "D, G, M, V, Z",
+    "memory": 84,
+    "description": "Mud wave advances 3 squares",
+    "locations": "Defeat ErthJelly virus."
+  },
+  {
+    "number": "77",
+    "name": "Tornado",
+    "damage": 20,
+    "possibleCodes": "C, L, R, T, U",
+    "memory": 18,
+    "description": "An 8-hit tornado 2 sq ahead",
+    "locations": "Buy from shop in SciLab Square (MMBN Blue)."
+  },
+  {
+    "number": "78",
+    "name": "Spice1",
+    "damage": 80,
+    "possibleCodes": "B, D, I, S, Z, *",
+    "memory": 22,
+    "description": "Dangerous powder on all grass",
+    "locations": "Defeat Mushy viruses in ZooComp Area."
+  },
+  {
+    "number": "79",
+    "name": "Spice2",
+    "damage": 110,
+    "possibleCodes": "C, F, I, K, R",
+    "memory": 34,
+    "description": "Dangerous powder on all grass",
+    "locations": "Defeat Mashy virus in Hospital Bed Comp with Jungle Equipped."
+  },
+  {
+    "number": "80",
+    "name": "Spice3",
+    "damage": 140,
+    "possibleCodes": "D, F, J, O, Q",
+    "memory": 46,
+    "description": "Dangerous powder on all grass",
+    "locations": "Defeat Moshy virus in Zoo 3 with Jungle Equipped."
+  },
+  {
+    "number": "81",
+    "name": "Shake1",
+    "damage": 90,
+    "possibleCodes": "E, G, R, S, U",
+    "memory": 34,
+    "description": "Vertical shaking 3 sq ahead",
+    "locations": "Defeat Heavy virus."
+  },
+  {
+    "number": "82",
+    "name": "Shake2",
+    "damage": 110,
+    "possibleCodes": "B, F, I, L, Q",
+    "memory": 40,
+    "description": "Vertical shaking 3 sq ahead",
+    "locations": "Defeat Heavier virus."
+  },
+  {
+    "number": "83",
+    "name": "Shake3",
+    "damage": 140,
+    "possibleCodes": "D, M, R, T, Z",
+    "memory": 50,
+    "description": "Vertical shaking 3 sq ahead",
+    "locations": "Defeat Heaviest virus in Secret Net 1."
+  },
+  {
+    "number": "84",
+    "name": "NoBeam1",
+    "damage": 200,
+    "possibleCodes": "C, F, G, T, Z",
+    "memory": 66,
+    "description": "Fires if something behind",
+    "locations": "Defeat N.O. 1 in Hospital TV"
+  },
+  {
+    "number": "85",
+    "name": "NoBeam2",
+    "damage": 260,
+    "possibleCodes": "E, I, S, U, Y",
+    "memory": 77,
+    "description": "Fires if something behind",
+    "locations": "Defeat N.O. 2 in Secret Area 2"
+  },
+  {
+    "number": "86",
+    "name": "NoBeam3",
+    "damage": 300,
+    "possibleCodes": "H, M, V, W, Z",
+    "memory": 88,
+    "description": "Fires if something behind",
+    "locations": "Defeat N.O. 3 in Secret Area 2/3"
+  },
+  {
+    "number": "87",
+    "name": "Hammer",
+    "damage": 100,
+    "possibleCodes": "B, G, L, P, T, *",
+    "memory": 16,
+    "description": "Hammer smashes front!",
+    "locations": "Get in mystery data in ZooComp area."
+  },
+  {
+    "number": "88",
+    "name": "Geyser",
+    "damage": 200,
+    "possibleCodes": "B, C, L, S, W",
+    "memory": 22,
+    "description": "Geyser 3 squares forward",
+    "locations": "Found in mystery data in Panda Alarma Comp (requires Unlocker)."
+  },
+  {
+    "number": "89",
+    "name": "Rope1",
+    "damage": 50,
+    "possibleCodes": "D, G, J, M, O, *",
+    "memory": 45,
+    "description": "Entwines adjacent enemies!",
+    "locations": "Defeat Viney virus in Hosp Comps."
+  },
+  {
+    "number": "90",
+    "name": "Rope2",
+    "damage": 70,
+    "possibleCodes": "E, G, O, T, U",
+    "memory": 55,
+    "description": "Entwines adjacent enemies!",
+    "locations": "Defeat Viner virus in Undernet 6."
+  },
+  {
+    "number": "91",
+    "name": "Rope3",
+    "damage": 90,
+    "possibleCodes": "H, I, T, U, V",
+    "memory": 65,
+    "description": "Entwines adjacent enemies!",
+    "locations": "Defeat Vinert virus in WWW Comps (use Jungle)."
+  },
+  {
+    "number": "92",
+    "name": "Boomer1",
+    "damage": 60,
+    "possibleCodes": "F, H, J, M, T, *",
+    "memory": 15,
+    "description": "Boomerang encircles field",
+    "locations": "Defeat Boomer viruses in Scilab Area."
+  },
+  {
+    "number": "93",
+    "name": "Boomer2",
+    "damage": 80,
+    "possibleCodes": "E, I, K, N, V, *",
+    "memory": 22,
+    "description": "Boomerang encircles field",
+    "locations": "Defeat Gloomer virus in Undernet Areas."
+  },
+  {
+    "number": "94",
+    "name": "Boomer3",
+    "damage": 100,
+    "possibleCodes": "L, O, P, U, Z",
+    "memory": 30,
+    "description": "Boomerang encircles field",
+    "locations": "Defeat Doomer virus in Secret Net."
+  },
+  {
+    "number": "95",
+    "name": "PoisMask",
+    "possibleCodes": "A, F, N, Q, V, *",
+    "memory": 30,
+    "description": "Poison area w/ A Button!",
+    "locations": "Defeat PuffBall virus in Hosp Comp."
+  },
+  {
+    "number": "96",
+    "name": "PoisFace",
+    "possibleCodes": "A, N, Q, V, W, *",
+    "memory": 38,
+    "description": "Spread poison w/ A Button!",
+    "locations": "Defeat PoofBall virus in Hosp Comp."
+  },
+  {
+    "number": "97",
+    "name": "RockArm1",
+    "damage": 100,
+    "possibleCodes": "D, H, J, O, P, *",
+    "memory": 23,
+    "description": "Paralyzes enemy w/ erthquake",
+    "locations": "Defeat Quaker virus in Scilab Area."
+  },
+  {
+    "number": "98",
+    "name": "RockArm2",
+    "damage": 150,
+    "possibleCodes": "G, M, P, S, V, *",
+    "memory": 35,
+    "description": "Paralyzes enemy w/ erthquake",
+    "locations": "Defeat Shaker virus in Beach Area."
+  },
+  {
+    "number": "99",
+    "name": "RockArm3",
+    "damage": 200,
+    "possibleCodes": "C, I, L, T, Z",
+    "memory": 47,
+    "description": "Paralyzes enemy w/ erthquake",
+    "locations": "Defeat Breaker virus."
+  },
+  {
+    "number": "100",
+    "name": "CrsShld1",
+    "damage": 160,
+    "possibleCodes": "A, C, H, L, P, *",
+    "memory": 25,
+    "description": "Guard, and bite into the enemy",
+    "locations": "Defeat Dominerd virus in Undernet."
+  },
+  {
+    "number": "101",
+    "name": "CrsShld2",
+    "damage": 210,
+    "possibleCodes": "B, C, L, S, T",
+    "memory": 33,
+    "description": "Guard, and bite into the enemy",
+    "locations": "Defeat Dominerd2 virus in WWW Wall Comp next to boat at WWW base."
+  },
+  {
+    "number": "102",
+    "name": "CrsShld3",
+    "damage": 260,
+    "possibleCodes": "C, E, L, N, R",
+    "memory": 41,
+    "description": "Guard, and bite into the enemy",
+    "locations": "Defeat Dominerd 3 virus in Secret Net 3."
+  },
+  {
+    "number": "103",
+    "name": "Magnum1",
+    "damage": 120,
+    "possibleCodes": "A, C, H, T, V",
+    "memory": 35,
+    "description": "Cursor destroys panel!",
+    "locations": "Defeat Basher virus in WWW Comp 1, Tank Comp, or find in Dr.Wily`s computer."
+  },
+  {
+    "number": "104",
+    "name": "Magnum2",
+    "damage": 150,
+    "possibleCodes": "B, G, N, O, Z",
+    "memory": 55,
+    "description": "Cursor destroys panel!",
+    "locations": "Defeat Smasher virus in Secret Area 2"
+  },
+  {
+    "number": "105",
+    "name": "Magnum3",
+    "damage": 180,
+    "possibleCodes": "D, F, I, S, W",
+    "memory": 75,
+    "description": "Cursor destroys panel!",
+    "locations": "Defeat Trasher virus in Tank Comp (use OilBody) \u0026 Secret Area 3."
+  },
+  {
+    "number": "106",
+    "name": "Plasma1",
+    "damage": 30,
+    "possibleCodes": "B, D, J, R, T",
+    "memory": 14,
+    "description": "Launches electric attack",
+    "locations": "Defeat Eleball virus in Principal\u0027s PC."
+  },
+  {
+    "number": "107",
+    "name": "Plasma2",
+    "damage": 60,
+    "possibleCodes": "A, G, K, M, Q",
+    "memory": 26,
+    "description": "Launches electric attack",
+    "locations": "Defeat Elesphere virus."
+  },
+  {
+    "number": "108",
+    "name": "Plasma3",
+    "damage": 90,
+    "possibleCodes": "F, I, N, P, S",
+    "memory": 34,
+    "description": "Launches electric attack",
+    "locations": "Defeat Eleglobe virus in Secret Area 1."
+  },
+  {
+    "number": "109",
+    "name": "RndmMetr",
+    "damage": 100,
+    "possibleCodes": "E, I, S, V, Z",
+    "memory": 28,
+    "description": "Meteors smash enemies!",
+    "locations": "Defeat Metrid virus in Undernet."
+  },
+  {
+    "number": "110",
+    "name": "HoleMetr",
+    "damage": 100,
+    "possibleCodes": "C, H, J, N, Q",
+    "memory": 48,
+    "description": "Meteors smash into sq",
+    "locations": "Defeat Metrod virus in WWW Comp 3."
+  },
+  {
+    "number": "111",
+    "name": "ShotMetr",
+    "damage": 100,
+    "possibleCodes": "A, D, F, S, Y",
+    "memory": 38,
+    "description": "Meteors shoot out forward",
+    "locations": "Defeat Metrodo virus in Secret Area 1."
+  },
+  {
+    "number": "112",
+    "name": "Needler1",
+    "damage": 30,
+    "possibleCodes": "I, J, M, R, S",
+    "memory": 32,
+    "description": "Advance w/ A, stop to attack",
+    "locations": "Defeat Needler virus."
+  },
+  {
+    "number": "113",
+    "name": "Needler2",
+    "damage": 40,
+    "possibleCodes": "F, H, M, T, V",
+    "memory": 52,
+    "description": "Advance w/ A, stop to attack",
+    "locations": "Defeat Nailer virus."
+  },
+  {
+    "number": "114",
+    "name": "Needler3",
+    "damage": 50,
+    "possibleCodes": "D, L, O, U, Z",
+    "memory": 72,
+    "description": "Advance w/ A, stop to attack",
+    "locations": "Defeat Spiker virus in Secret Area 3."
+  },
+  {
+    "number": "115",
+    "name": "Totem1",
+    "damage": 100,
+    "possibleCodes": "G, H, M, O, V",
+    "memory": 29,
+    "description": "Creates a totem to blow fire",
+    "locations": "Defeat Totem virus in Hosp Comp."
+  },
+  {
+    "number": "116",
+    "name": "Totem2",
+    "damage": 140,
+    "possibleCodes": "A, C, E, T, Z",
+    "memory": 38,
+    "description": "Creates a totem to blow fire",
+    "locations": "Defeat Totam virus."
+  },
+  {
+    "number": "117",
+    "name": "Totem3",
+    "damage": 180,
+    "possibleCodes": "D, I, K, N, Q",
+    "memory": 47,
+    "description": "Creates a totem to blow fire",
+    "locations": "Defeat Totum virus."
+  },
+  {
+    "number": "118",
+    "name": "Sensor1",
+    "damage": 100,
+    "possibleCodes": "C, K, L, O, P",
+    "memory": 62,
+    "description": "Sensor to watch sq ahead",
+    "locations": "Defeat KillerEye virus in Undernet 3."
+  },
+  {
+    "number": "119",
+    "name": "Sensor2",
+    "damage": 130,
+    "possibleCodes": "A, G, H, N, S",
+    "memory": 70,
+    "description": "Watch sq ahead or diagonal",
+    "locations": "Defeat DemonEye virus in Undernet 6."
+  },
+  {
+    "number": "120",
+    "name": "Sensor3",
+    "damage": 130,
+    "possibleCodes": "B, E, J, O, P",
+    "memory": 72,
+    "description": "Watch sq ahead or diagonal",
+    "locations": "Defeat JokerEye virus in Secret Area 1."
+  },
+  {
+    "number": "121",
+    "name": "MetaGel1",
+    "damage": 90,
+    "possibleCodes": "B, C, D, K, Y",
+    "memory": 18,
+    "description": "Gel atk steals a panel!",
+    "locations": "Defeat Slimey virus in Yoka 1\u00262."
+  },
+  {
+    "number": "122",
+    "name": "MetaGel2",
+    "damage": 130,
+    "possibleCodes": "E, F, G, P, S",
+    "memory": 28,
+    "description": "Gel atk steals a panel!",
+    "locations": "Defeat Slimer virus in Undernet or WWW Comps"
+  },
+  {
+    "number": "123",
+    "name": "MetaGel3",
+    "damage": 170,
+    "possibleCodes": "G, H, S, T, U",
+    "memory": 38,
+    "description": "Gel atk steals a panel!",
+    "locations": "Defeat Slimest virus in Undernet 7."
+  },
+  {
+    "number": "124",
+    "name": "Pawn",
+    "damage": 90,
+    "possibleCodes": "B, E, N, R, Y",
+    "memory": 44,
+    "description": "Attack by pressing A Button",
+    "locations": "Get from 2nd folder from Tora."
+  },
+  {
+    "number": "125",
+    "name": "Knight",
+    "damage": 150,
+    "possibleCodes": "C, H, M, U, V",
+    "memory": 64,
+    "description": "Jumps fwd and attacks",
+    "locations": "Get from 2nd folder from Tora."
+  },
+  {
+    "number": "126",
+    "name": "Rook",
+    "possibleCodes": "D, F, N, Q, U, *",
+    "memory": 30,
+    "description": "Protects you from attacks",
+    "locations": "Green Mystery Data in Secret Area 2 Get from 2nd folder from Tora."
+  },
+  {
+    "number": "127",
+    "name": "Team1",
+    "damage": 10,
+    "possibleCodes": "A, C, E, T, Z, *",
+    "memory": 16,
+    "description": "Powers up when ally is hit",
+    "locations": "Defeat Twins virus in DNN Comp *-code obtained by talking to the green Navi in Yoka 2 with Humor equipped, if accessed from the Bath Comp."
+  },
+  {
+    "number": "128",
+    "name": "Team2",
+    "possibleCodes": "D, L, P, S, Z, *",
+    "memory": 20,
+    "description": "Ally\u0027s HP recovered if hurt",
+    "locations": "Defeat Twins virus in DNN Comp *-code obtained by talking to the purple Navi actor in Beach Square with Black Mind equipped."
+  },
+  {
+    "number": "129",
+    "name": "TimeBomb",
+    "damage": 150,
+    "possibleCodes": "J, K, L, M, N",
+    "memory": 32,
+    "description": "An area-wide time bomb",
+    "locations": "Purchase from various Net-Dealers in SciLab, Beach, and Yoka Square."
+  },
+  {
+    "number": "130",
+    "name": "Mine",
+    "damage": 300,
+    "possibleCodes": "A, D, L, R, S, *",
+    "memory": 16,
+    "description": "Places a mine in enmy area",
+    "locations": "Green Mystery data in Secret Area 3. Get from BugFrag trader in Yoka 1 (MMBN3 White)."
+  },
+  {
+    "number": "131",
+    "name": "Lance",
+    "damage": 130,
+    "possibleCodes": "D, E, H, R, Z",
+    "memory": 46,
+    "description": "Lances through back line",
+    "locations": "Green Mystery Data in Secret Area 2."
+  },
+  {
+    "number": "132",
+    "name": "Snake",
+    "damage": 40,
+    "possibleCodes": "D, E, I, R, Y",
+    "memory": 20,
+    "description": "Snake from hole in area",
+    "locations": "Get from Higsby after completing his jobs."
+  },
+  {
+    "number": "133",
+    "name": "Guard",
+    "possibleCodes": "*",
+    "memory": 5,
+    "description": "Repels enemy\u0027s attack",
+    "locations": "Get rank 5-7 against Mettaur, Mettaur 2, or Mettaur 3 virus."
+  },
+  {
+    "number": "134",
+    "name": "PanlOut1",
+    "possibleCodes": "A, B, D, L, S, *",
+    "memory": 4,
+    "description": "Destroys 1 panel in front",
+    "locations": "Get from starting folder."
+  },
+  {
+    "number": "135",
+    "name": "PanlOut3",
+    "possibleCodes": "C, E, N, R, Y",
+    "memory": 7,
+    "description": "Destroys 3 panels in front",
+    "locations": "Get from blue mystery data in ACDC 2."
+  },
+  {
+    "number": "136",
+    "name": "PanlGrab",
+    "possibleCodes": "A, H, L, S, Y, *",
+    "memory": 10,
+    "description": "Steals 1 enemy square!",
+    "locations": "Random Green Mystery Data in SciLab 2."
+  },
+  {
+    "number": "137",
+    "name": "AreaGrab",
+    "possibleCodes": "E, L, R, S, Y, *",
+    "memory": 15,
+    "description": "Steals left edge from enmy",
+    "locations": "Get in starting folder."
+  },
+  {
+    "number": "138",
+    "name": "GrabBack",
+    "damage": 40,
+    "possibleCodes": "A, E, I, K, N",
+    "memory": 10,
+    "description": "Retaliate stolen panels!",
+    "locations": "Mystery Data in SciLab 2."
+  },
+  {
+    "number": "139",
+    "name": "GrabRvng",
+    "damage": 80,
+    "possibleCodes": "C, G, P, R, Y",
+    "memory": 30,
+    "description": "Retaliate stolen panels!",
+    "locations": "Random Green Mystery Data in Secret 3."
+  },
+  {
+    "number": "140",
+    "name": "RockCube",
+    "possibleCodes": "A, C, E, H, R, *",
+    "memory": 9,
+    "description": "Places a rock cube in front",
+    "locations": "Buy from shop in SciLab Square (MMBN White)."
+  },
+  {
+    "number": "141",
+    "name": "Prism",
+    "possibleCodes": "H, J, K, Q, W",
+    "memory": 60,
+    "description": "Prism fires randomly",
+    "locations": "Blue Mystery Data behind WWW door in Yoka Area 1."
+  },
+  {
+    "number": "142",
+    "name": "Wind",
+    "possibleCodes": "A, E, H, O, S, *",
+    "memory": 14,
+    "description": "WindBox blows at enmy area",
+    "locations": "Easiest to get by S-Ranking Windbox in Tamako\u0027s PC or in Yoka area."
+  },
+  {
+    "number": "143",
+    "name": "Fan",
+    "possibleCodes": "A, G, L, R, T, *",
+    "memory": 14,
+    "description": "Vacuum pulls enemies",
+    "locations": "Defeat VacuumFan virus."
+  },
+  {
+    "number": "144",
+    "name": "Fanfare",
+    "possibleCodes": "C, E, G, L, Y, *",
+    "memory": 32,
+    "description": "Take no dmg for a while",
+    "locations": "Defeat Trumpy virus in Beach area."
+  },
+  {
+    "number": "145",
+    "name": "Discord",
+    "possibleCodes": "D, F, N, T, Z, *",
+    "memory": 38,
+    "description": "Confuses enemies w/ music",
+    "locations": "Defeat Tuby virus."
+  },
+  {
+    "number": "146",
+    "name": "Timpani",
+    "possibleCodes": "A, N, Q, U, W, *",
+    "memory": 42,
+    "description": "Paralyzes enemies w/ music",
+    "locations": "Defeat Tromby virus."
+  },
+  {
+    "number": "147",
+    "name": "Recov10",
+    "possibleCodes": "A, C, E, G, L, *",
+    "memory": 5,
+    "description": "Recovers 10HP",
+    "locations": "Comes in starting folder."
+  },
+  {
+    "number": "148",
+    "name": "Recov30",
+    "possibleCodes": "B, D, F, H, M, *",
+    "memory": 8,
+    "description": "Recovers 30HP",
+    "locations": "Buy from NetDealer from ACDC 2 in Blue for 800z"
+  },
+  {
+    "number": "149",
+    "name": "Recov50",
+    "possibleCodes": "C, E, G, I, N, *",
+    "memory": 14,
+    "description": "Recovers 50HP",
+    "locations": "Comes in 2nd folder from Tora, get from green mystery data from Scilab."
+  },
+  {
+    "number": "150",
+    "name": "Recov80",
+    "possibleCodes": "D, F, H, J, O, *",
+    "memory": 20,
+    "description": "Recovers 80HP",
+    "locations": "Find in green mystery data in Beach Area."
+  },
+  {
+    "number": "151",
+    "name": "Recov120",
+    "possibleCodes": "O, Q, S, U, W, *",
+    "memory": 35,
+    "description": "Recovers 120HP",
+    "locations": "Trade WideSword C for chip to woman somewhere in DNN station."
+  },
+  {
+    "number": "152",
+    "name": "Recov150",
+    "possibleCodes": "N, P, R, T, V",
+    "memory": 50,
+    "description": "Recovers 150HP",
+    "locations": "Random Green Mystery Data in Undernet 6."
+  },
+  {
+    "number": "153",
+    "name": "Recov200",
+    "possibleCodes": "M, N, U, V, W",
+    "memory": 65,
+    "description": "Recovers 200HP",
+    "locations": "Random Green Mystery Data in Secret 3."
+  },
+  {
+    "number": "154",
+    "name": "Recov300",
+    "possibleCodes": "O, R, V, W, Z",
+    "memory": 80,
+    "description": "Recovers 300HP",
+    "locations": "Complete the job \"Help with a Will\" on the scilab Job BBS"
+  },
+  {
+    "number": "155",
+    "name": "Repair",
+    "possibleCodes": "A, C, D, F, S, *",
+    "memory": 8,
+    "description": "Fix your area\u0027s panels",
+    "locations": "Examine the garbage can in Zoo 1 (real world)."
+  },
+  {
+    "number": "156",
+    "name": "SloGauge",
+    "possibleCodes": "A, C, R, S, Z, *",
+    "memory": 20,
+    "description": "CustGauge slow down in battle",
+    "locations": "Get after doing job for Tora."
+  },
+  {
+    "number": "157",
+    "name": "FstGauge",
+    "possibleCodes": "B, E, J, R, Y",
+    "memory": 40,
+    "description": "CustGauge speeds up in battle",
+    "locations": "Complete \"Legendary Tomes\" request from the Job BBS"
+  },
+  {
+    "number": "158",
+    "name": "Panic",
+    "possibleCodes": "A, C, L, R, Z",
+    "memory": 14,
+    "description": "Confuses enemies if you are",
+    "locations": "Get from using WWW ID on skull door in ACDC 1, and use unlocker on mystery data."
+  },
+  {
+    "number": "159",
+    "name": "Geddon1",
+    "possibleCodes": "D, J, M, O, S, *",
+    "memory": 10,
+    "description": "Cracks all panels!",
+    "locations": "Find in blue mystery data in ZooComp."
+  },
+  {
+    "number": "160",
+    "name": "Geddon2",
+    "possibleCodes": "F, H, N, O, W",
+    "memory": 50,
+    "description": "Breaks all empty squares!",
+    "locations": "Find under vines in HospComp 3."
+  },
+  {
+    "number": "161",
+    "name": "Geddon3",
+    "possibleCodes": "C, M, U, W, Y",
+    "memory": 90,
+    "description": "Turns all panels to swamp!",
+    "locations": "Mystery Data in Secret 1."
+  },
+  {
+    "number": "162",
+    "name": "CopyDmg",
+    "possibleCodes": "A, F, H, L, Y, *",
+    "memory": 18,
+    "description": "Duplicate damage on 2nd enemy",
+    "locations": "Green mystery data in SciLab or blue mystery data in ACDC 2."
+  },
+  {
+    "number": "163",
+    "name": "Invis",
+    "possibleCodes": "B, E, F, R, S, *",
+    "memory": 11,
+    "description": "Invisible for a while",
+    "locations": "Purchase from ACDC square Netdealer for 600 Zenny each in blue comes from blue mystery data in Scilab Area."
+  },
+  {
+    "number": "164",
+    "name": "Shadow",
+    "possibleCodes": "H, J, N, Q, U, *",
+    "memory": 60,
+    "description": "Only swrd attacks hurt you",
+    "locations": "Defeat Shadow virus in Secret Area 2. S-rank for J code. S-rank in Custom Style in under 5 seconds without using Navi chips or buster for * code."
+  },
+  {
+    "number": "165",
+    "name": "Mole1",
+    "possibleCodes": "A, D, H, J, O, *",
+    "memory": 28,
+    "description": "Attacks fr. under ground!",
+    "locations": "Defeat Momogra virus in ZooComp."
+  },
+  {
+    "number": "166",
+    "name": "Mole2",
+    "possibleCodes": "B, D, I, K, R, *",
+    "memory": 35,
+    "description": "Attacks fr. under ground!",
+    "locations": "Defeat Momogro virus in Undernet 7."
+  },
+  {
+    "number": "167",
+    "name": "Mole3",
+    "possibleCodes": "C, E, L, M, Q",
+    "memory": 42,
+    "description": "Attacks fr. under ground!",
+    "locations": "Defeat Momogre virus in Secret Net."
+  },
+  {
+    "number": "168",
+    "name": "AirShoes",
+    "possibleCodes": "H, I, N, U, Y, *",
+    "memory": 26,
+    "description": "Can stand on empty squares",
+    "locations": "Mystery Data in SciLab DoorSens Comp."
+  },
+  {
+    "number": "169",
+    "name": "Barrier",
+    "possibleCodes": "C, E, L, R, S, *",
+    "memory": 7,
+    "description": "Nullifies 10HP of damage!",
+    "locations": "Find in doghouse computer in Lan`s house."
+  },
+  {
+    "number": "170",
+    "name": "Barr100",
+    "possibleCodes": "E, J, M, R, T, *",
+    "memory": 25,
+    "description": "Nullifies 100HP of damage!",
+    "locations": "BugFrag shop in Yoka 1 (White)."
+  },
+  {
+    "number": "171",
+    "name": "Barr200",
+    "possibleCodes": "E, F, H, R, U",
+    "memory": 50,
+    "description": "Nullifies 200HP of damage!",
+    "locations": "Shop in Beach Square (Blue)."
+  },
+  {
+    "number": "172",
+    "name": "Aura",
+    "possibleCodes": "F, I, S, U, Y",
+    "memory": 55,
+    "description": "Repels attacks under 100",
+    "locations": "Blue Mystery Data behind BubbleMan\u0027s security cube in Undernet 6 (access from DNN Editing Console)"
+  },
+  {
+    "number": "173",
+    "name": "NrthWind",
+    "possibleCodes": "A, C, N, S, Z",
+    "memory": 43,
+    "description": "Wind removes auras, etc",
+    "locations": "Buy from NetDealer in Undernet Square for 14000z in White."
+  },
+  {
+    "number": "174",
+    "name": "Mettaur",
+    "possibleCodes": "E, L, M, O, T",
+    "memory": 30,
+    "description": "Summons a Mettaur to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Mettaur 1,2,3 battle hidden behind the WWW door in ACDC 1. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "175",
+    "name": "Bunny",
+    "possibleCodes": "A, B, I, L, R",
+    "memory": 32,
+    "description": "Summons a Bunny to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, complete \"Please adopt a virus!!\" job. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "176",
+    "name": "Spikey",
+    "possibleCodes": "A, E, G, R, U",
+    "memory": 34,
+    "description": "Summons a Spikey to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Spikey 1,2,3 battle hidden at the Gargoyle Demon Comp. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "177",
+    "name": "Swordy",
+    "possibleCodes": "D, I, O, S, W",
+    "memory": 30,
+    "description": "Summons a Swordy to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Swordy 1,2,3 battle hidden at the end of the right-side long blue platform in UnderNet 1. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "178",
+    "name": "Jelly",
+    "possibleCodes": "E, J, L, R, Y",
+    "memory": 46,
+    "description": "Summons a Jelly to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Jelly, HeatJelly, EarthJelly battle at the end of a dead-end next to the lower entrance from Beach 2 to Beach 1. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "179",
+    "name": "Mushy",
+    "possibleCodes": "C, H, M, S, Y",
+    "memory": 38,
+    "description": "Summons a Mushy to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Mushy, Mashy, Moshy battle hidden in the empty square 3x3 platform just outside SciLab square. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "180",
+    "name": "Momogra",
+    "possibleCodes": "G, M, O, R, U",
+    "memory": 38,
+    "description": "Summons a Momogra to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find Momogra, Momogre, Momogro battle hidden at the end of ZooComp 4, right where you fought BeastMan. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "181",
+    "name": "KillrEye",
+    "possibleCodes": "E, I, K, L, R",
+    "memory": 50,
+    "description": "Summons a KillerEye to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find KillerEye, DemonEye, JokerEye battle next to the big dark blue blinking board at the top-right in Principal\u0027s PC 1. Then talk to the Virus Breeder scientist."
+  },
+  {
+    "number": "182",
+    "name": "Scuttlst",
+    "possibleCodes": "A, D, E, M, R",
+    "memory": 53,
+    "description": "Summons a Scuttlest to fight!",
+    "locations": "After getting the Virus Breeder in SciLab, find battle hidden in Secret Net. Then talk to the Virus Breeder scientist. A second battle is hidden in Secret Net 3, off of the compressed path."
+  },
+  {
+    "number": "183",
+    "name": "Hole",
+    "possibleCodes": "A, B, S, T, Z, *",
+    "memory": 55,
+    "description": "Open hole to dark world",
+    "locations": "Blue Mystery Data in Secret Net 3."
+  },
+  {
+    "number": "184",
+    "name": "HolyPanl",
+    "possibleCodes": "E, J, L, R, U, *",
+    "memory": 14,
+    "description": "Creates a holy pnl in front",
+    "locations": "Defeat BrushMan virus in Undernet 4/5."
+  },
+  {
+    "number": "185",
+    "name": "LavaStge",
+    "possibleCodes": "A, E, R, T, Y, *",
+    "memory": 22,
+    "description": "Changes all panls to lava",
+    "locations": "Get after helping Mr. Match install data."
+  },
+  {
+    "number": "186",
+    "name": "IceStage",
+    "possibleCodes": "C, G, M, Q, T, *",
+    "memory": 20,
+    "description": "Changes all panls to ice",
+    "locations": "Trade FireSwrd P for IceStage * to the man in front of the Yoka inn."
+  },
+  {
+    "number": "187",
+    "name": "GrassStg",
+    "possibleCodes": "E, J, R, W, Z, *",
+    "memory": 10,
+    "description": "Changes all panls to grass",
+    "locations": "Get from NetDealer in ACDC square for 1000z in White."
+  },
+  {
+    "number": "188",
+    "name": "SandStge",
+    "possibleCodes": "B, C, Q, U, W",
+    "memory": 18,
+    "description": "Changes all panls to sand",
+    "locations": "Blue Mystery Data behind DesertMan\u0027s security cube in Undernet."
+  },
+  {
+    "number": "189",
+    "name": "MetlStge",
+    "possibleCodes": "D, G, M, O, S",
+    "memory": 18,
+    "description": "Changes all panls to metal",
+    "locations": "Get from NetDealer in ACDC square for 2800z in Blue."
+  },
+  {
+    "number": "190",
+    "name": "Snctuary",
+    "possibleCodes": "A, C, E, L, S",
+    "memory": 54,
+    "description": "Change own panls to holy",
+    "locations": "Mystery Data in Secret 3."
+  },
+  {
+    "number": "191",
+    "name": "AntiDmg",
+    "damage": 100,
+    "possibleCodes": "C, F, H, M, S",
+    "memory": 45,
+    "description": "Sets trap \u0026 throws stars!",
+    "locations": "Get from NetDealer in Scilab square in Blue."
+  },
+  {
+    "number": "192",
+    "name": "AntiSwrd",
+    "damage": 100,
+    "possibleCodes": "B, K, R, U, Y",
+    "memory": 68,
+    "description": "Retaliate for sword damage",
+    "locations": "Trade Shadow J for AntiSword Y at DNN studio stage."
+  },
+  {
+    "number": "193",
+    "name": "AntiNavi",
+    "possibleCodes": "A, M, N, V, W",
+    "memory": 60,
+    "description": "Takes the enemy\u0027s Navi away",
+    "locations": "Found in mystery data in Secret 2."
+  },
+  {
+    "number": "194",
+    "name": "AntiRecv",
+    "possibleCodes": "B, D, E, O, S",
+    "memory": 73,
+    "description": "Punish recovery of HPs!",
+    "locations": "Prize for job 14 \"Somebody, please help!\"."
+  },
+  {
+    "number": "195",
+    "name": "Atk+10",
+    "possibleCodes": "*",
+    "memory": 4,
+    "description": "+10 for selected atk chip",
+    "locations": "Get from starting folder."
+  },
+  {
+    "number": "196",
+    "name": "Fire+30",
+    "possibleCodes": "*",
+    "memory": 20,
+    "description": "+30 for Fire atk chip",
+    "locations": "Mystery Data in Spring Lion Comp."
+  },
+  {
+    "number": "197",
+    "name": "Aqua+30",
+    "possibleCodes": "*",
+    "memory": 21,
+    "description": "+30 for Aqua atk chip",
+    "locations": "Reward for complete the job \"Will you deliver?\"."
+  },
+  {
+    "number": "198",
+    "name": "Elec+30",
+    "possibleCodes": "*",
+    "memory": 23,
+    "description": "+30 for Elec atk chip",
+    "locations": "BugFrag Trader in Undernet 2 (Blue)."
+  },
+  {
+    "number": "199",
+    "name": "Wood+30",
+    "possibleCodes": "*",
+    "memory": 26,
+    "description": "+30 for Wood atk chip",
+    "locations": "BugFrag Trader in Undernet 2 (Blue)."
+  },
+  {
+    "number": "200",
+    "name": "Navi+20",
+    "possibleCodes": "*",
+    "memory": 34,
+    "description": "+20 for selected Navi chip",
+    "locations": "Shop in UnderSquare (Blue)."
+  }
+]
