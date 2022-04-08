@@ -7,7 +7,9 @@ public class PathConstants {
     private static final String chipLibraryJson = "Chip Library.json";
     private static final String customizerPartLibraryJson = "Chip Library.json";
     private static final String programAdvanceJson = "PA Combos.json";
-    private static final String exCodeLibraryJson = "Code Library.json";
+    private static final String exCodeLibraryJson = "Extra Codes.json";
+    private static final String errorCodeLibraryJson = "Error Codes.json";
+    private static final String compressionCodeLibraryJson = "Compression Codes.json";
 
     //Battle Network 3 Constants
     public static final String bnThreeJsonPath = jsonFilePath + battleNetworkThreePath;
