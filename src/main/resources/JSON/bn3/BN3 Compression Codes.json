@@ -1,0 +1,154 @@
+[
+  {
+    "programName": "Super Armor",
+    "inputSequence": "UP, RIGHT, UP, R, UP, DOWN"
+  },
+  {
+    "programName": "Break Buster",
+    "inputSequence": "R, A, B, DOWN, L, L"
+  },
+  {
+    "programName": "Break Charge",
+    "inputSequence": "B, A, LEFT, L, UP, B"
+  },
+  {
+    "programName": "Set Green",
+    "inputSequence": "DOWN, R, R, DOWN, B, LEFT"
+  },
+  {
+    "programName": "Set Ice",
+    "inputSequence": "A, UP, A, UP, LEFT, R"
+  },
+  {
+    "programName": "Set Lava",
+    "inputSequence": "B, RIGHT, RIGHT, B, R, A"
+  },
+  {
+    "programName": "Set Sand",
+    "inputSequence": "LEFT, A, A, B, UP, LEFT"
+  },
+  {
+    "programName": "Set Metal",
+    "inputSequence": "B, R, RIGHT, RIGHT, L, L"
+  },
+  {
+    "programName": "Set Holy",
+    "inputSequence": "A, B, R, R, RIGHT, R"
+  },
+  {
+    "programName": "Custom 1",
+    "inputSequence": "RIGHT, RIGHT, RIGHT, UP, LEFT, B"
+  },
+  {
+    "programName": "Custom 2",
+    "inputSequence": "A, DOWN, UP, DOWN, R, DOWN"
+  },
+  {
+    "programName": "Mega Folder 1",
+    "inputSequence": "RIGHT, R, DOWN, R, L, LEFT"
+  },
+  {
+    "programName": "Mega Folder 2",
+    "inputSequence": "A, R, DOWN, DOWN, RIGHT, LEFT"
+  },
+  {
+    "programName": "Giga Folder 1",
+    "inputSequence": "L, DOWN, A, DOWN, R, B, UP"
+  },
+  {
+    "programName": "Block",
+    "inputSequence": "DOWN, B, UP, DOWN, A, L"
+  },
+  {
+    "programName": "Shield",
+    "inputSequence": "LEFT, RIGHT, DOWN, R, DOWN, R"
+  },
+  {
+    "programName": "Reflect",
+    "inputSequence": "B, UP, A, LEFT, LEFT, B"
+  },
+  {
+    "programName": "Anti Damage",
+    "inputSequence": "L, LEFT, R, A, RIGHT, DOWN"
+  },
+  {
+    "programName": "Shadow Shoes",
+    "inputSequence": "UP, LEFT, RIGHT, L, UP, R"
+  },
+  {
+    "programName": "Float Shoes",
+    "inputSequence": "LEFT, DOWN, LEFT, DOWN, LEFT, L"
+  },
+  {
+    "programName": "Air Shoes",
+    "inputSequence": "UP, B, B, DOWN, A, R"
+  },
+  {
+    "programName": "Under Shirt",
+    "inputSequence": "LEFT, UP, B, L, LEFT, UP"
+  },
+  {
+    "programName": "Fast Gauge",
+    "inputSequence": "B, DOWN, A, R, LEFT, R"
+  },
+  {
+    "programName": "Sneak Run",
+    "inputSequence": "R, L, B, DOWN, DOWN, DOWN"
+  },
+  {
+    "programName": "Oil Body",
+    "inputSequence": "UP, RIGHT, A, A, R, UP"
+  },
+  {
+    "programName": "Fish",
+    "inputSequence": "L, R, DOWN, UP, LEFT, RIGHT"
+  },
+  {
+    "programName": "Battery",
+    "inputSequence": "RIGHT, R, RIGHT, R, L, LEFT"
+  },
+  {
+    "programName": "Jungle",
+    "inputSequence": "A, R, LEFT, B, B, A"
+  },
+  {
+    "programName": "Collect",
+    "inputSequence": "B, DOWN, RIGHT, R, RIGHT, RIGHT"
+  },
+  {
+    "programName": "Rush",
+    "inputSequence": "L, A, DOWN, B, B, B"
+  },
+  {
+    "programName": "Beat",
+    "inputSequence": "A, DOWN, A, A, R, A"
+  },
+  {
+    "programName": "Tango",
+    "inputSequence": "A, DOWN, LEFT, L, L, R"
+  },
+  {
+    "programName": "Bug Stop",
+    "inputSequence": "B, DOWN, UP, B, DOWN, B"
+  },
+  {
+    "programName": "Humor",
+    "inputSequence": "UP, R, A, LEFT, RIGHT, RIGHT"
+  },
+  {
+    "programName": "Black Mind",
+    "inputSequence": "RIGHT, LEFT, RIGHT, DOWN, R, DOWN"
+  },
+  {
+    "programName": "Buster MAX",
+    "inputSequence": "DOWN, A, R, R, L, LEFT, LEFT"
+  },
+  {
+    "programName": "Hub Batch",
+    "inputSequence": "B, LEFT, A, DOWN, DOWN, UP, L"
+  },
+  {
+    "programName": "Dark License",
+    "inputSequence": "R, L, R, DOWN, LEFT, B, R"
+  }
+]
