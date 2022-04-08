@@ -1,0 +1,192 @@
+[
+  {
+    "code": "JIEU1AWT",
+    "effect": "HP +100",
+    "glitch": "N/A"
+  },
+  {
+    "code": "U2IEOSKW",
+    "effect": "HP +150",
+    "glitch": "N/A"
+  },
+  {
+    "code": "ASK3IETN",
+    "effect": "HP +200",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SIE1TMSD",
+    "effect": "HP +250",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SEIUT1NG",
+    "effect": "HP +300",
+    "glitch": "N/A"
+  },
+  {
+    "code": "GJHURIE2",
+    "effect": "HP +350",
+    "glitch": "N/A"
+  },
+  {
+    "code": "AWE3ETSW",
+    "effect": "HP +400",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "3MZNBXH1",
+    "effect": "HP +450",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "2YTIWOAM",
+    "effect": "HP +500",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "O3IUTNWQ",
+    "effect": "HP +550",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "ZMJ1IGIE",
+    "effect": "HP +600",
+    "glitch": "Custom screen capacity -2"
+  },
+  {
+    "code": "SRUEIT3A",
+    "effect": "HP +650",
+    "glitch": "Custom screen capacity -2"
+  },
+  {
+    "code": "AKZ21UMW",
+    "effect": "HP +700",
+    "glitch": "Custom screen capacity -2"
+  },
+  {
+    "code": "DMGEIO3W",
+    "effect": "HP +800",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "SM2UIROA",
+    "effect": "HP +900",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "CNJDU2EM",
+    "effect": "HP +1000",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "KTEIUE2D",
+    "effect": "Super Armor",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SKDSHUEO",
+    "effect": "Break Charge",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "SI1IEMGO",
+    "effect": "Break Buster",
+    "glitch": "Custom screen capacity -2"
+  },
+  {
+    "code": "JDKGJ1U2",
+    "effect": "Mega Folder 1",
+    "glitch": "N/A"
+  },
+  {
+    "code": "3DIVNEIQ",
+    "effect": "Mega Folder 2",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "URY33RRO",
+    "effect": "Mega Folder 3",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "FFIM1OWE",
+    "effect": "Mega Folder 4",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "SKFBM3UW",
+    "effect": "Mega Folder 5",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "KSIK1EIG",
+    "effect": "Giga Folder 1",
+    "glitch": "Stepping off a panel converts it into a Poison Panel"
+  },
+  {
+    "code": "ZBKD1UEW",
+    "effect": "Block",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SKFBM3UW",
+    "effect": "Mega Folder 5",
+    "glitch": "N/A"
+  },
+  {
+    "code": "ZBKD1UEW",
+    "effect": "Block",
+    "glitch": "N/A"
+  },
+  {
+    "code": "EIR3BM3I",
+    "effect": "Shield",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SK13EO1M",
+    "effect": "Reflect",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "GKHU1KHI",
+    "effect": "Shadow Shoes",
+    "glitch": "N/A"
+  },
+  {
+    "code": "PEOTIR2G",
+    "effect": "Float Shoes",
+    "glitch": "N/A"
+  },
+  {
+    "code": "L3KJGUEO",
+    "effect": "Anti-Damage",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "ZN3UDOIQ",
+    "effect": "Air Shoes",
+    "glitch": "Custom screen capacity -1"
+  },
+  {
+    "code": "SJH1UEKA",
+    "effect": "Humor",
+    "glitch": "N/A"
+  },
+  {
+    "code": "UIEU2NGO",
+    "effect": "Sneak Run",
+    "glitch": "N/A"
+  },
+  {
+    "code": "SKJGURN2",
+    "effect": "Under Shirt",
+    "glitch": "N/A"
+  },
+  {
+    "code": "XBCJF2RI",
+    "effect": "Fast Gauge",
+    "glitch": "Custom screen capacity -2"
+  }
+]

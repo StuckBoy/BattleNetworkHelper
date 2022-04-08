@@ -1,0 +1,170 @@
+[
+  {
+    "code": "GYU2OPZQ",
+    "program": "Super Armor",
+    "obtainedFrom": "Guts Style",
+    "errorNumber": "A1"
+  },
+  {
+    "code": "3GKQ2RSQ",
+    "program": "Break Buster",
+    "obtainedFrom": "Guts Style",
+    "errorNumber": "A2"
+  },
+  {
+    "code": "LO13ZXME",
+    "program": "Break Charge",
+    "obtainedFrom": "Guts Style",
+    "errorNumber": "A3"
+  },
+  {
+    "code": "JHGIUTOP",
+    "program": "Set Green",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B1"
+  },
+  {
+    "code": "ALSK3W2R",
+    "program": "Set Ice",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B2"
+  },
+  {
+    "code": "Y2UOMNCB",
+    "program": "Set Magma",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B3"
+  },
+  {
+    "code": "1LSKUTOB",
+    "program": "Set Sand",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B4"
+  },
+  {
+    "code": "BM2KWIRA",
+    "program": "Set Metal",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B5"
+  },
+  {
+    "code": "UTI3OMDH",
+    "program": "Set Holy",
+    "obtainedFrom": "Ground Style",
+    "errorNumber": "B6"
+  },
+  {
+    "code": "X2CD3KDA",
+    "program": "Custom 1",
+    "obtainedFrom": "Custom Style",
+    "errorNumber": "C1"
+  },
+  {
+    "code": "UTIXM1LA",
+    "program": "Custom 2",
+    "obtainedFrom": "Custom Style",
+    "errorNumber": "C2"
+  },
+  {
+    "code": "WS1FS1AQ",
+    "program": "Dark License",
+    "obtainedFrom": "Bug Style",
+    "errorNumber": "D2C"
+  },
+  {
+    "code": "OI1UWMAN",
+    "program": "Dark License",
+    "obtainedFrom": "Bug Style",
+    "errorNumber": "D2G"
+  },
+  {
+    "code": "P3TOSIIS",
+    "program": "Dark License",
+    "obtainedFrom": "Bug Style",
+    "errorNumber": "D2S"
+  },
+  {
+    "code": "P2I3MSJL",
+    "program": "Mega Folder 1",
+    "obtainedFrom": "Team Style",
+    "errorNumber": "E1"
+  },
+  {
+    "code": "UTIR1SO2",
+    "program": "Mega Folder 2",
+    "obtainedFrom": "Team Style",
+    "errorNumber": "E2"
+  },
+  {
+    "code": "QSAO3C3L",
+    "program": "Block",
+    "obtainedFrom": "Shield Style",
+    "errorNumber": "F1"
+  },
+  {
+    "code": "NC1FKSA2",
+    "program": "Shield",
+    "obtainedFrom": "Shield Style",
+    "errorNumber": "F2"
+  },
+  {
+    "code": "ITA2CRWQ",
+    "program": "Reflect",
+    "obtainedFrom": "Shield Style",
+    "errorNumber": "F3"
+  },
+  {
+    "code": "TIS1LAEJ",
+    "program": "Giga Folder 1",
+    "obtainedFrom": "N/A",
+    "errorNumber": "G2C"
+  },
+  {
+    "code": "CVVDS2WR",
+    "program": "Giga Folder 1",
+    "obtainedFrom": "N/A",
+    "errorNumber": "G2G"
+  },
+  {
+    "code": "TUIEO23T",
+    "program": "Giga Folder 1",
+    "obtainedFrom": "N/A",
+    "errorNumber": "G2S"
+  },
+  {
+    "code": "A3DJMNB1",
+    "program": "Shadow Shoes",
+    "obtainedFrom": "Shadow Style",
+    "errorNumber": "H1"
+  },
+  {
+    "code": "UTIW2SMF",
+    "program": "Float Shoes",
+    "obtainedFrom": "Shadow Style",
+    "errorNumber": "H2"
+  },
+  {
+    "code": "SK3LROT1",
+    "program": "Anti-Damage",
+    "obtainedFrom": "Shadow Style",
+    "errorNumber": "H3"
+  },
+  {
+    "code": "TU1AW2LL",
+    "program": "Hub Batch",
+    "obtainedFrom": "N/A",
+    "errorNumber": "S2C"
+  },
+  {
+    "code": "AX1RTDS3",
+    "program": "Hub Batch",
+    "obtainedFrom": "N/A",
+    "errorNumber": "S2G"
+  },
+  {
+    "code": "F2AAFETG",
+    "program": "Hub Batch",
+    "obtainedFrom": "N/A",
+    "errorNumber": "S2S"
+  }
+]
