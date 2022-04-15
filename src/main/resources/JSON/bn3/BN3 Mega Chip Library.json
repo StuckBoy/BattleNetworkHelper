@@ -1,0 +1,778 @@
+{
+  "Mega Chips": [
+    {
+      "number": "1",
+      "name": "Muramasa",
+      "damage": 0,
+      "possibleCodes": "M",
+      "memory": 74,
+      "description": "Power = amount of HP lost!",
+      "locations": "Lotto Number 50098263"
+    },
+    {
+      "number": "2",
+      "name": "HeroSwrd",
+      "damage": 180,
+      "possibleCodes": "P",
+      "memory": 65,
+      "description": "Legendary swrd cuts 3 sq!",
+      "locations": "Lotto Number 03284579"
+    },
+    {
+      "number": "3",
+      "name": "ZeusHammer",
+      "damage": 250,
+      "possibleCodes": "Z",
+      "memory": 90,
+      "description": "Damages anyone on a panel",
+      "locations": "Obtain from an NPC at Hades Isle Lava Room by trading GrabBack K. Requires main storyline to be completed."
+    },
+    {
+      "number": "4",
+      "name": "StandOut",
+      "damage": 220,
+      "possibleCodes": "P",
+      "memory": 22,
+      "description": "Heat: Send Fire into hole",
+      "locations": "Purchase from Higsby's shop"
+    },
+    {
+      "number": "5",
+      "name": "Salamndr",
+      "damage": 300,
+      "possibleCodes": "S, *",
+      "memory": 50,
+      "description": "Heat: Send Fire into hole",
+      "locations": "Lotto Number 65497812 or use Untrap on green mystery data in Undernet"
+    },
+    {
+      "number": "6",
+      "name": "WatrLine",
+      "damage": 180,
+      "possibleCodes": "C, *",
+      "memory": 18,
+      "description": "Water: Draw wter from hole",
+      "locations": "Purchase from Higsby's shop."
+    },
+    {
+      "number": "7",
+      "name": "Fountain",
+      "damage": 240,
+      "possibleCodes": "D, *",
+      "memory": 48,
+      "description": "Water: Draw wter from hole",
+      "locations": "Lotto Number 88543997"
+    },
+    {
+      "number": "8",
+      "name": "Lightning",
+      "damage": 160,
+      "possibleCodes": "L, *",
+      "memory": 30,
+      "description": "Elec: Dmgs object & area",
+      "locations": "Purchase from Higsby's shop."
+    },
+    {
+      "number": "9",
+      "name": "Bolt",
+      "damage": 210,
+      "possibleCodes": "T, *",
+      "memory": 52,
+      "description": "Elec: Dmgs object & area",
+      "locations": "Lotto Number 54390805"
+    },
+    {
+      "number": "10",
+      "name": "GaiaSwrd",
+      "damage": 100,
+      "possibleCodes": "G, *",
+      "memory": 28,
+      "description": "Wood: Take power from next chip",
+      "locations": "Purchase from Higsby's shop."
+    },
+    {
+      "number": "11",
+      "name": "GaiaBlad",
+      "damage": 100,
+      "possibleCodes": "G, *",
+      "memory": 55,
+      "description": "Wood: Take power from next chip",
+      "locations": "Lotto Number 33157825"
+    },
+    {
+      "number": "12",
+      "name": "Meteors",
+      "damage": 40,
+      "possibleCodes": "R",
+      "memory": 86,
+      "description": "Drop many meteors on enemy",
+      "locations": "Purchase from NetDealer in Secret Area 2 (White). BugFrag Trader in Undernet 2 (Blue)."
+    },
+    {
+      "number": "13",
+      "name": "Guardian",
+      "damage": 0,
+      "possibleCodes": "O",
+      "memory": 82,
+      "description": "Statue punishes when hit",
+      "locations": "Undernet7 BMD (accessible after defeating Serenade)"
+    },
+    {
+      "number": "14",
+      "name": "Anubis",
+      "damage": 0,
+      "possibleCodes": "A",
+      "memory": 90,
+      "description": "Anubis poisons enemies",
+      "locations": "Purchase from Higsby for 80,000 zenny (Blue)"
+    },
+    {
+      "number": "15",
+      "name": "GodStone",
+      "damage": 150,
+      "possibleCodes": "S",
+      "memory": 66,
+      "description": "Summons a GodStone from hole",
+      "locations": "PUrchase from NetDealer in Beach Square (White)"
+    },
+    {
+      "number": "16",
+      "name": "OldWood",
+      "damage": 100,
+      "possibleCodes": "W",
+      "memory": 72,
+      "description": "Summonds OldWood from hole",
+      "locations": "Purchase from Higsby's shop (White)."
+    },
+    {
+      "number": "17",
+      "name": "Jealousy",
+      "damage": 100,
+      "possibleCodes": "J",
+      "memory": 64,
+      "description": "More damage if enemy has chips",
+      "locations": "PMD in DNN Editing Room Console"
+    },
+    {
+      "number": "18",
+      "name": "Poltrgst",
+      "damage": 0,
+      "possibleCodes": "G",
+      "memory": 58,
+      "description": "Objects thrown at enemies!",
+      "locations": "Obtain from a Ghost Navi behind the Tree of Life in Hospital Basement. Requires main storylineto be completed."
+    },
+    {
+      "number": "19",
+      "name": "LifeAura",
+      "damage": 0,
+      "possibleCodes": "D",
+      "memory": 77,
+      "description": "Repel all attacks under 200",
+      "locations": "Defeat any Scutz/Scuttle/Scuttler/Scuttzer/Scuttles virus in Secret Area 3."
+    },
+    {
+      "number": "20",
+      "name": "FullCust",
+      "damage": 0,
+      "possibleCodes": "*",
+      "memory": 10,
+      "description": "CustGauge instantly refills!",
+      "locations": "Purchase from NetDealer in UnderSquare."
+    },
+    {
+      "number": "21",
+      "name": "Atk+30",
+      "damage": 0,
+      "possibleCodes": "*",
+      "memory": 50,
+      "description": "+30 for selected chip",
+      "locations": ""
+    },
+    {
+      "number": "22",
+      "name": "Navi+40",
+      "damage": 0,
+      "possibleCodes": "*",
+      "memory": 60,
+      "description": "+40 for selected Navi chip",
+      "locations": "Complete the Quiz King's quiz at the top of Hades Isle. Requires main storyline to be completed."
+    },
+    {
+      "number": "23",
+      "name": "Roll",
+      "damage": 20,
+      "possibleCodes": "R",
+      "memory": 10,
+      "description": "Attack an enemy, heal you",
+      "locations": "Obtain by talking to Mayl Sakurai during the storyline."
+    },
+    {
+      "number": "24",
+      "name": "Roll V2",
+      "damage": 30,
+      "possibleCodes": "R",
+      "memory": 22,
+      "description": "Attack an enemy, heal you",
+      "locations": "Obtain in an email from Mayl during the storyline."
+    },
+    {
+      "number": "25",
+      "name": "Roll V3",
+      "damage": 40,
+      "possibleCodes": "R",
+      "memory": 34,
+      "description": "Attack an enemy, heal you",
+      "locations": "Obtain by talking to Mayl during the storyline."
+    },
+    {
+      "number": "26",
+      "name": "GutsMan",
+      "damage": 50,
+      "possibleCodes": "G",
+      "memory": 15,
+      "description": "Sneaks up to smash panels!",
+      "locations": "GutsMan v1/α/β"
+    },
+    {
+      "number": "27",
+      "name": "GutsMan V2",
+      "damage": 70,
+      "possibleCodes": "G",
+      "memory": 41,
+      "description": "Sneaks up to smash panels!",
+      "locations": "GutsMan α/β"
+    },
+    {
+      "number": "28",
+      "name": "GutsMan V3",
+      "damage": 90,
+      "possibleCodes": "G",
+      "memory": 57,
+      "description": "Sneaks up to smash panels!",
+      "locations": "GutsMan β"
+    },
+    {
+      "number": "29",
+      "name": "GutsMan V4",
+      "damage": 100,
+      "possibleCodes": "G",
+      "memory": 63,
+      "description": "Sneaks up to smash panels!",
+      "locations": "S-Rank GutsMan β in under 20 seconds using Team Style"
+    },
+    {
+      "number": "30",
+      "name": "ProtoMan",
+      "damage": 160,
+      "possibleCodes": "B",
+      "memory": 68,
+      "description": "Moves in to slice the enemy",
+      "locations": "ProtoMan v1/α/β"
+    },
+    {
+      "number": "31",
+      "name": "ProtoMn V2",
+      "damage": 180,
+      "possibleCodes": "B",
+      "memory": 76,
+      "description": "Moves in to slice the enemy",
+      "locations": "ProtoMan α/β"
+    },
+    {
+      "number": "32",
+      "name": "ProtoMn V3",
+      "damage": 200,
+      "possibleCodes": "B",
+      "memory": 82,
+      "description": "Moves in to slice the enemy",
+      "locations": "ProtoMan β"
+    },
+    {
+      "number": "33",
+      "name": "ProtoMn V4",
+      "damage": 220,
+      "possibleCodes": "B",
+      "memory": 90,
+      "description": "Moves in to slice the enemy",
+      "locations": "S-Rank Protoman β in under 20 seconds using Team Style"
+    },
+    {
+      "number": "34",
+      "name": "FlashMan",
+      "damage": 50,
+      "possibleCodes": "F",
+      "memory": 39,
+      "description": "Flash atk paralyzes enemy",
+      "locations": "FlashMan α/β"
+    },
+    {
+      "number": "35",
+      "name": "FlashMn V2",
+      "damage": 70,
+      "possibleCodes": "F",
+      "memory": 59,
+      "description": "Flash atk paralyzes enemy",
+      "locations": "FlashMan β"
+    },
+    {
+      "number": "36",
+      "name": "FlashMn V3",
+      "damage": 90,
+      "possibleCodes": "F",
+      "memory": 69,
+      "description": "Flash atk paralyzes enemy",
+      "locations": "FlashMan β"
+    },
+    {
+      "number": "37",
+      "name": "FlashMn V4",
+      "damage": 120,
+      "possibleCodes": "F",
+      "memory": 79,
+      "description": "Flash atk paralyzes enemy",
+      "locations": "S-Rank FlashMan β in under 20 seconds using Team Style"
+    },
+    {
+      "number": "38",
+      "name": "BeastMan",
+      "damage": 40,
+      "possibleCodes": "B",
+      "memory": 38,
+      "description": "Claw atk 3 squares ahead!",
+      "locations": "BeastMan α/β"
+    },
+    {
+      "number": "39",
+      "name": "BeastMn V2",
+      "damage": 50,
+      "possibleCodes": "B",
+      "memory": 60,
+      "description": "Claw atk 3 squares ahead!",
+      "locations": "BeastMan β"
+    },
+    {
+      "number": "40",
+      "name": "BeastMn V3",
+      "damage": 60,
+      "possibleCodes": "B",
+      "memory": 68,
+      "description": "Claw atk 3 squares ahead!",
+      "locations": "BeastMan β"
+    },
+    {
+      "number": "41",
+      "name": "BeastMn V4",
+      "damage": 70,
+      "possibleCodes": "B",
+      "memory": 76,
+      "description": "Claw atk 3 squares ahead!",
+      "locations": "S-Rank BeastMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "42",
+      "name": "BubblMan",
+      "damage": 20,
+      "possibleCodes": "B",
+      "memory": 50,
+      "description": "Fires several AquaShots",
+      "locations": "BubbleMan α/β"
+    },
+    {
+      "number": "43",
+      "name": "BubblMn V2",
+      "damage": 20,
+      "possibleCodes": "B",
+      "memory": 62,
+      "description": "Fires several AquaShots",
+      "locations": "Bubbleman β"
+    },
+    {
+      "number": "44",
+      "name": "BubblMn V3",
+      "damage": 20,
+      "possibleCodes": "B",
+      "memory": 74,
+      "description": "Fires several AquaShots",
+      "locations": "BubbleMan α/β"
+    },
+    {
+      "number": "45",
+      "name": "BubblMn V4",
+      "damage": 20,
+      "possibleCodes": "B",
+      "memory": 74,
+      "description": "Fires several AquaShots",
+      "locations": "S-Rank BubbleMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "46",
+      "name": "DesrtMan",
+      "damage": 120,
+      "possibleCodes": "D",
+      "memory": 38,
+      "description": "Launches fists at enemies!",
+      "locations": "DesertMan α/β"
+    },
+    {
+      "number": "47",
+      "name": "DesrtMn V2",
+      "damage": 140,
+      "possibleCodes": "D",
+      "memory": 52,
+      "description": "Launches fists at enemies!",
+      "locations": "DesertMan β"
+    },
+    {
+      "number": "48",
+      "name": "DesrtMn V3",
+      "damage": 160,
+      "possibleCodes": "D",
+      "memory": 64,
+      "description": "Launches fists at enemies!",
+      "locations": "Desertman β"
+    },
+    {
+      "number": "49",
+      "name": "DesrtMn V4",
+      "damage": 180,
+      "possibleCodes": "D",
+      "memory": 72,
+      "description": "Launches fists at enemies!",
+      "locations": "S-Rank DesertMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "50",
+      "name": "PlantMan",
+      "damage": 20,
+      "possibleCodes": "P",
+      "memory": 60,
+      "description": "Vines harm all enemies!",
+      "locations": "PlantMan α/β"
+    },
+    {
+      "number": "51",
+      "name": "PlantMn V2",
+      "damage": 30,
+      "possibleCodes": "P",
+      "memory": 65,
+      "description": "Vines harm all enemies!",
+      "locations": "PlantMan β"
+    },
+    {
+      "number": "52",
+      "name": "PlantMn V3",
+      "damage": 40,
+      "possibleCodes": "P",
+      "memory": 70,
+      "description": "Vines harm all enemies!",
+      "locations": "PlantMan β"
+    },
+    {
+      "number": "53",
+      "name": "PlantMn V4",
+      "damage": 50,
+      "possibleCodes": "P",
+      "memory": 75,
+      "description": "Vines harm all enemies!",
+      "locations": "S-Rank PlantMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "54",
+      "name": "FlamMan",
+      "damage": 120,
+      "possibleCodes": "F",
+      "memory": 32,
+      "description": "Flames burn all enemies!",
+      "locations": "FlameMan α/β"
+    },
+    {
+      "number": "55",
+      "name": "FlamMan V2",
+      "damage": 150,
+      "possibleCodes": "F",
+      "memory": 52,
+      "description": "Flames burn all enemies!",
+      "locations": "FlameMan β"
+    },
+    {
+      "number": "56",
+      "name": "FlamMan V3",
+      "damage": 180,
+      "possibleCodes": "F",
+      "memory": 62,
+      "description": "Flames burn all enemies!",
+      "locations": "FlameMan β"
+    },
+    {
+      "number": "57",
+      "name": "FlamMan V4",
+      "damage": 210,
+      "possibleCodes": "F",
+      "memory": 72,
+      "description": "Flames burn all enemies!",
+      "locations": "S-Rank FlameMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "58",
+      "name": "DrillMan",
+      "damage": 70,
+      "possibleCodes": "D",
+      "memory": 66,
+      "description": "3 drills fly at enemies!",
+      "locations": "DrillMan α/β"
+    },
+    {
+      "number": "59",
+      "name": "DrillMn V2",
+      "damage": 90,
+      "possibleCodes": "D",
+      "memory": 70,
+      "description": "3 drills fly at enemies!",
+      "locations": "DrillMan β"
+    },
+    {
+      "number": "60",
+      "name": "DrillMn V3",
+      "damage": 110,
+      "possibleCodes": "D",
+      "memory": 74,
+      "description": "3 drills fly at enemies!",
+      "locations": "DrillMan β"
+    },
+    {
+      "number": "61",
+      "name": "DrillMn V4",
+      "damage": 130,
+      "possibleCodes": "D",
+      "memory": 78,
+      "description": "3 drills fly at enemies!",
+      "locations": "S-Rank DrillMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "62",
+      "name": "MetalMan",
+      "damage": 100,
+      "possibleCodes": "M",
+      "memory": 40,
+      "description": "Iron fist smashes 1 square!",
+      "locations": "MetalMan v1/α/β"
+    },
+    {
+      "number": "63",
+      "name": "MetalMn V2",
+      "damage": 130,
+      "possibleCodes": "M",
+      "memory": 60,
+      "description": "Iron fist smashes 1 square!",
+      "locations": "MetalMan α/β"
+    },
+    {
+      "number": "64",
+      "name": "MetalMn V3",
+      "damage": 160,
+      "possibleCodes": "M",
+      "memory": 70,
+      "description": "Iron fist smashes 1 square!",
+      "locations": "MetalMan β"
+    },
+    {
+      "number": "65",
+      "name": "MetalMn V4",
+      "damage": 190,
+      "possibleCodes": "M",
+      "memory": 80,
+      "description": "Iron fist smashes 1 square!",
+      "locations": "S-Rank MetalMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "66",
+      "name": "KingMan",
+      "damage": 140,
+      "possibleCodes": "K",
+      "memory": 36,
+      "description": "Move up 3 square & 4-way hit",
+      "locations": "KingMan v1/α/β"
+    },
+    {
+      "number": "67",
+      "name": "KingMan V2",
+      "damage": 170,
+      "possibleCodes": "K",
+      "memory": 48,
+      "description": "Move up 3 square & 4-way hit",
+      "locations": "KingMan α/β"
+    },
+    {
+      "number": "68",
+      "name": "KingMan V3",
+      "damage": 200,
+      "possibleCodes": "K",
+      "memory": 60,
+      "description": "Move up 3 square & 4-way hit",
+      "locations": "KingMan α/β"
+    },
+    {
+      "number": "69",
+      "name": "KingMan V4",
+      "damage": 240,
+      "possibleCodes": "K",
+      "memory": 72,
+      "description": "Move up 3 square & 4-way hit",
+      "locations": "S-Rank KingMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "70",
+      "name": "MistMan",
+      "damage": 90,
+      "possibleCodes": "M",
+      "memory": 68,
+      "description": "Appears from mist & attacks",
+      "locations": "MistMan v1/α/β or Trade from White Version"
+    },
+    {
+      "number": "71",
+      "name": "MistMan V2",
+      "damage": 110,
+      "possibleCodes": "M",
+      "memory": 71,
+      "description": "Appears from mist & attacks",
+      "locations": "MistMan α/β or Trade from White Version"
+    },
+    {
+      "number": "72",
+      "name": "MistMan V3",
+      "damage": 130,
+      "possibleCodes": "M",
+      "memory": 74,
+      "description": "Appears from mist & attacks",
+      "locations": "MistMan β or Trade from White Version"
+    },
+    {
+      "number": "73",
+      "name": "MistMan V4",
+      "damage": 150,
+      "possibleCodes": "M",
+      "memory": 77,
+      "description": "Appears from mist & attacks",
+      "locations": "S-Rank MistMan β in under 20 seconds using Team Style or Trade from White Version"
+    },
+    {
+      "number": "74",
+      "name": "BowlMan",
+      "damage": 100,
+      "possibleCodes": "B",
+      "memory": 80,
+      "description": "Lines up pins for a strike!",
+      "locations": "BowlMan v1/α/β or Trade from Blue Version"
+    },
+    {
+      "number": "75",
+      "name": "BowlMan V2",
+      "damage": 120,
+      "possibleCodes": "B",
+      "memory": 82,
+      "description": "Lines up pins for a strike!",
+      "locations": "BowlMan α/β or Trade from Blue Version"
+    },
+    {
+      "number": "76",
+      "name": "BowlMan V3",
+      "damage": 140,
+      "possibleCodes": "B",
+      "memory": 84,
+      "description": "Lines up pins for a strike!",
+      "locations": "BowlMan β or Trade from Blue Version"
+    },
+    {
+      "number": "77",
+      "name": "BowlMan V4",
+      "damage": 160,
+      "possibleCodes": "B",
+      "memory": 86,
+      "description": "Lines up pins for a strike!",
+      "locations": "S-Rank BowlMan β in under 20 seconds using Team Style or Trade from Blue Version."
+    },
+    {
+      "number": "78",
+      "name": "DarkMan",
+      "damage": 30,
+      "possibleCodes": "D",
+      "memory": 72,
+      "description": "",
+      "locations": ""
+    },
+    {
+      "number": "79",
+      "name": "DarkMan V2",
+      "damage": 30,
+      "possibleCodes": "D",
+      "memory": 76,
+      "description": "",
+      "locations": ""
+    },
+    {
+      "number": "80",
+      "name": "DarkMan V3",
+      "damage": 30,
+      "possibleCodes": "D",
+      "memory": 80,
+      "description": "",
+      "locations": ""
+    },
+    {
+      "number": "81",
+      "name": "DarkMan V4",
+      "damage": 30,
+      "possibleCodes": "D",
+      "memory": 84,
+      "description": "Multiple attacks w/spear",
+      "locations": "S-Rank DarkMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "82",
+      "name": "JapanMan",
+      "damage": 40,
+      "possibleCodes": "Y",
+      "memory": 82,
+      "description": "Multiple attacks w/spear",
+      "locations": ""
+    },
+    {
+      "number": "83",
+      "name": "JapanMn V2",
+      "damage": 45,
+      "possibleCodes": "Y",
+      "memory": 85,
+      "description": "Multiple attacks w/spear",
+      "locations": ""
+    },
+    {
+      "number": "84",
+      "name": "JapanMn V3",
+      "damage": 50,
+      "possibleCodes": "Y",
+      "memory": 88,
+      "description": "Multiple attacks w/spear",
+      "locations": ""
+    },
+    {
+      "number": "85",
+      "name": "JapanMn V4",
+      "damage": 55,
+      "possibleCodes": "Y",
+      "memory": 91,
+      "description": "Multiple attacks w/spear",
+      "locations": "S-Rank JapanMan β in under 20 seconds using Team Style."
+    },
+    {
+      "number": "86",
+      "name": "Punk",
+      "damage": 180,
+      "possibleCodes": "P",
+      "memory": 92,
+      "description": "Spins and smashes enemies!",
+      "locations": "Obtain from event."
+    }
+  ]
+}

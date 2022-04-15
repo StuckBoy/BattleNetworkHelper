@@ -67,9 +67,7 @@ public class ChipLookup {
             case 4 -> beginCodeSearch(keyboard);
             case 5 -> beginMemorySizeSearch(keyboard);
             case 6 -> print("Returning to main menu...\n");
-            default -> {
-                print("Unusable input, please try again.");
-            }
+            default -> print("Unusable input, please try again.");
         }
     }
 

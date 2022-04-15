@@ -4,6 +4,10 @@ import pojos.Chip;
 
 public class Helpers {
 
+    /**
+     * Simplifies calls to {@link System} for printing.
+     * @param s The complete {@link String} to be printed.
+     */
     public static void print(String s) {
         System.out.println(s);
     }
