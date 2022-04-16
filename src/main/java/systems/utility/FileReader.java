@@ -5,7 +5,6 @@ import com.google.gson.reflect.TypeToken;
 import constants.PathConstants;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
-import pojos.ChipList;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -17,7 +16,9 @@ import java.util.List;
 import static systems.utility.Helpers.print;
 
 public class FileReader {
-    private final List<Chip> chipList;
+    private final List<Chip> standardChipList;
+    private final List<Chip> megaChipList;
+    private final List<Chip> gigaChipList;
 
     /**
      * Automatically prepares the file for reading using a {@link Reader}, and
@@ -31,8 +32,11 @@ public class FileReader {
         Reader standardReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeStandardChipLibrary));
         Reader megaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeMegaChipLibrary));
         Reader gigaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeGigaChipLibrary));
-        chipList = gson.fromJson(standardReader, new TypeToken<List<Chip>>() {}.getType());
-        print("BN3 Chips read from file. " + chipList.size() + " regular chips loaded.");
+        standardChipList = gson.fromJson(standardReader, new TypeToken<List<Chip>>() {}.getType());
+        megaChipList = gson.fromJson(megaReader, new TypeToken<List<Chip>>() {}.getType());
+        gigaChipList = gson.fromJson(gigaReader, new TypeToken<List<Chip>>() {}.getType());
+        int chipCount = standardChipList.size() + megaChipList.size() + gigaChipList.size();
+        print("BN3 Chips read from files successfully, " + chipCount + " chips loaded.");
     }
 
     /**
@@ -42,6 +46,14 @@ public class FileReader {
      * @return A {@link List} of {@link Chip} that have a matching number.
      */
     public List<Chip> searchChipsByNumber(String number) {
+        List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForNumber(standardChipList, number));
+        foundChips.addAll(searchListForNumber(megaChipList, number));
+        foundChips.addAll(searchListForNumber(gigaChipList, number));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForNumber(List<Chip> chipList, String number) {
         List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
             if (StringUtils.equals(chip.getNumber(), number)) {
@@ -59,8 +71,16 @@ public class FileReader {
      */
     public List<Chip> searchChipsByName(String input) {
         List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForName(standardChipList, input));
+        foundChips.addAll(searchListForName(megaChipList, input));
+        foundChips.addAll(searchListForName(gigaChipList, input));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForName(List<Chip> chipList, String name) {
+        List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
-            if (StringUtils.equalsIgnoreCase(chip.getName(), input)) {
+            if (StringUtils.equalsIgnoreCase(chip.getName(), name)) {
                 foundChips.add(chip);
             }
         }
@@ -76,8 +96,16 @@ public class FileReader {
      */
     public List<Chip> searchChipsByDamage(int input) {
         List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForDamage(standardChipList, input));
+        foundChips.addAll(searchListForDamage(megaChipList, input));
+        foundChips.addAll(searchListForDamage(gigaChipList, input));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForDamage(List<Chip> chipList, int damage) {
+        List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
-            if (chip.getDamage() != null && input == chip.getDamage()) {
+            if (chip.getDamage() != null && damage == chip.getDamage()) {
                 foundChips.add(chip);
             }
         }
@@ -91,6 +119,14 @@ public class FileReader {
      * @return A {@link List} of {@link Chip} who can have the code given.
      */
     public List<Chip> searchChipsByCode(String input) {
+        List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForCode(standardChipList, input));
+        foundChips.addAll(searchListForCode(megaChipList, input));
+        foundChips.addAll(searchListForCode(gigaChipList, input));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForCode(List<Chip> chipList, String input) {
         List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
             if (StringUtils.contains(chip.getPossibleCodes(), input)) {
@@ -108,6 +144,14 @@ public class FileReader {
      * input.
      */
     public List<Chip> searchChipsByMemorySize(int input) {
+        List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForMemory(standardChipList, input));
+        foundChips.addAll(searchListForMemory(megaChipList, input));
+        foundChips.addAll(searchListForMemory(gigaChipList, input));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForMemory(List<Chip> chipList, int input) {
         List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
             if (chip.getMemory() == input) {
