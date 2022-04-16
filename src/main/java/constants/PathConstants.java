@@ -4,7 +4,13 @@ public class PathConstants {
     private static final String jsonFilePath = "src/main/resources/JSON/";
     private static final String battleNetworkThreePath = "bn3/BN3 ";
     private static final String battleNetworkSixPath = "bn6/BN6 ";
+    private static final String standardLibraryPrefix = "Standard ";
+    private static final String megaLibraryPrefix = "Mega ";
+    private static final String gigaLibraryPrefix = "Giga ";
     private static final String chipLibraryJson = "Chip Library.json";
+    private static final String standardChipLibraryJson = standardLibraryPrefix + chipLibraryJson;
+    private static final String megaChipLibraryJson = megaLibraryPrefix + chipLibraryJson;
+    private static final String gigaChipLibraryJson = gigaLibraryPrefix + chipLibraryJson;
     private static final String customizerPartLibraryJson = "Customizer Part Library.json";
     private static final String programAdvanceJson = "PA Combos.json";
     private static final String exCodeLibraryJson = "Extra Codes.json";
@@ -13,7 +19,9 @@ public class PathConstants {
 
     //Battle Network 3 Constants
     public static final String bnThreeJsonPath = jsonFilePath + battleNetworkThreePath;
-    public static final String bnThreeChipLibrary = bnThreeJsonPath + chipLibraryJson;
+    public static final String bnThreeStandardChipLibrary = bnThreeJsonPath + standardChipLibraryJson;
+    public static final String bnThreeMegaChipLibrary = bnThreeJsonPath + megaChipLibraryJson;
+    public static final String bnThreeGigaChipLibrary = bnThreeJsonPath + gigaChipLibraryJson;
     public static final String bnThreeCustomizerPartLibrary = bnThreeJsonPath + customizerPartLibraryJson;
     public static final String bnThreeProgramAdvanceLibrary = bnThreeJsonPath + programAdvanceJson;
     public static final String bnThreeExCodes = bnThreeJsonPath + exCodeLibraryJson;

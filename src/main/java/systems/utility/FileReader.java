@@ -28,8 +28,10 @@ public class FileReader {
     public FileReader() throws IOException {
         Gson gson = new Gson();
         //TODO Add support for other Battle Network Files
-        Reader reader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeChipLibrary));
-        chipList = gson.fromJson(reader, new TypeToken<List<ChipList>>() {}.getType());
+        Reader standardReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeStandardChipLibrary));
+        Reader megaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeMegaChipLibrary));
+        Reader gigaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeGigaChipLibrary));
+        chipList = gson.fromJson(standardReader, new TypeToken<List<Chip>>() {}.getType());
         print("BN3 Chips read from file. " + chipList.size() + " regular chips loaded.");
     }
 

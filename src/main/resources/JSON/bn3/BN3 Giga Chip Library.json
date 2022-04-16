@@ -1,238 +1,236 @@
-{
-  "Giga Chips": [
-    {
-      "number": "1",
-      "name": "FoldrBak",
-      "damage": 0,
-      "possibleCodes": "*",
-      "memory": 99,
-      "description": "Restores all chips & folders",
-      "locations": "BugFrag Trader in Undernet 2. (Blue Exclusive)"
-    },
-    {
-      "number": "2",
-      "name": "Bass+",
-      "damage": 550,
-      "possibleCodes": "X",
-      "memory": 98,
-      "description": "Dark chip smashes panels!",
-      "locations": "Defeat BassGS in Secret Area 3. (Blue Exclusive)"
-    },
-    {
-      "number": "3",
-      "name": "DarkAura",
-      "damage": 0,
-      "possibleCodes": "A",
-      "memory": 55,
-      "description": "Dark chip repels <300 atks",
-      "locations": "Complete Serenade's time trials. (Blue Exclusive)"
-    },
-    {
-      "number": "4",
-      "name": "DeltaRay",
-      "damage": 220,
-      "possibleCodes": "Z",
-      "memory": 92,
-      "description": "Use A btn for up to 3 attacks",
-      "locations": "NetBattle reward. (Blue Exclusive)"
-    },
-    {
-      "number": "5",
-      "name": "AlphArmΩ",
-      "damage": 500,
-      "possibleCodes": "V",
-      "memory": 97,
-      "description": "Launches a giant rocket!",
-      "locations": "Defeat AlphaΩ.  (Blue Exclusive)"
-    },
-    {
-      "number": "1",
-      "name": "NavRcycl",
-      "damage": 0,
-      "possibleCodes": "*",
-      "memory": 50,
-      "description": "Recalls last Navi used",
-      "locations": "BugFrag Trader in Undernet 2. (White Exclusive)"
-    },
-    {
-      "number": "2",
-      "name": "Bass",
-      "damage": 90,
-      "possibleCodes": "X",
-      "memory": 98,
-      "description": "Dark chip Explodes for 3 sq",
-      "locations": "Defeat BassGS in Secret Area 3. (White Exclusive)"
-    },
-    {
-      "number": "3",
-      "name": "Serenade",
-      "damage": 100,
-      "possibleCodes": "S",
-      "memory": 97,
-      "description": "Dark chip Holy pwr to front",
-      "locations": "Complete Serenade's time trials. (White Exclusive)"
-    },
-    {
-      "number": "4",
-      "name": "Balance",
-      "damage": 0,
-      "possibleCodes": "Y",
-      "memory": 60,
-      "description": "Both HP reduced by half!",
-      "locations": "NetBattle reward. (White Exclusive)"
-    },
-    {
-      "number": "5",
-      "name": "AlphArmΣ",
-      "damage": 50,
-      "possibleCodes": "V",
-      "memory": 97,
-      "description": "3-stage electric attack!",
-      "locations": "Defeat AlphaΩ. (White Exclusive)"
-    },
-    {
-      "number": "2",
-      "name": "BassGS",
-      "damage": 700,
-      "possibleCodes": "X",
-      "memory": 99,
-      "description": "Bass' secret weapon",
-      "locations": "Obtained only in Capcom special events in Japan. Replaces Bass/Bass+"
-    },
-    {
-      "number": "6",
-      "name": "GutsManV5",
-      "damage": 120,
-      "possibleCodes": "G",
-      "memory": 79,
-      "description": "Sneaks up to smash panel",
-      "locations": "Defeat GutsManΩ"
-    },
-    {
-      "number": "7",
-      "name": "ProtoManV5",
-      "damage": 240,
-      "possibleCodes": "B",
-      "memory": 98,
-      "description": "Moves in to slice the enemy",
-      "locations": "Defeat ProtoManΩ"
-    },
-    {
-      "number": "8",
-      "name": "FlashMnV5",
-      "damage": 150,
-      "possibleCodes": "F",
-      "memory": 89,
-      "description": "Flash atk paralyzes enemy",
-      "locations": "Defeat FlashManΩ"
-    },
-    {
-      "number": "9",
-      "name": "BeastMnV5",
-      "damage": 80,
-      "possibleCodes": "B",
-      "memory": 84,
-      "description": "Caw atk 3 squares ahead!",
-      "locations": "Defeat BeastManΩ"
-    },
-    {
-      "number": "10",
-      "name": "BubblMnV5",
-      "damage": 20,
-      "possibleCodes": "B",
-      "memory": 86,
-      "description": "Fires several AquaShots",
-      "locations": "Defeat BubbleManΩ"
-    },
-    {
-      "number": "11",
-      "name": "DesrtManV5",
-      "damage": 210,
-      "possibleCodes": "D",
-      "memory": 80,
-      "description": "Launches fists at enemies!",
-      "locations": "Defeat DesertManΩ"
-    },
-    {
-      "number": "12",
-      "name": "PlantMnV5",
-      "damage": 60,
-      "possibleCodes": "P",
-      "memory": 80,
-      "description": "Vines harm all enemies!",
-      "locations": "Defeat PlantManΩ"
-    },
-    {
-      "number": "13",
-      "name": "FlamManV5",
-      "damage": 240,
-      "possibleCodes": "F",
-      "memory": 82,
-      "description": "Flames burn all enemies!",
-      "locations": "Defeat FlamManΩ"
-    },
-    {
-      "number": "14",
-      "name": "DrillMnV5",
-      "damage": 150,
-      "possibleCodes": "D",
-      "memory": 82,
-      "description": "3 drills fly at enemies!",
-      "locations": "Defeat DrillManΩ"
-    },
-    {
-      "number": "15",
-      "name": "MetalMnV5",
-      "damage": 250,
-      "possibleCodes": "M",
-      "memory": 90,
-      "description": "Iron fist smashes 1 square!",
-      "locations": "Defeat MetalManΩ"
-    },
-    {
-      "number": "16",
-      "name": "KingManV5",
-      "damage": 280,
-      "possibleCodes": "K",
-      "memory": 84,
-      "description": "Move up 3 square & 4-way hit",
-      "locations": "Defeat KingManΩ"
-    },
-    {
-      "number": "17",
-      "name": "MistManV5",
-      "damage": 170,
-      "possibleCodes": "M",
-      "memory": 80,
-      "description": "Appears from mist & attacks",
-      "locations": "Defeat MistManΩ"
-    },
-    {
-      "number": "18",
-      "name": "BowlManV5",
-      "damage": 180,
-      "possibleCodes": "B",
-      "memory": 88,
-      "description": "Lines up pins for a strike!",
-      "locations": "Defeat BowlManΩ"
-    },
-    {
-      "number": "19",
-      "name": "DarkManV5",
-      "damage": 30,
-      "possibleCodes": "D",
-      "memory": 88,
-      "description": "Creates 3 caves in enemy area",
-      "locations": "Defeat DarkManΩ"
-    },
-    {
-      "number": "20",
-      "name": "JapanMnV5",
-      "damage": 60,
-      "possibleCodes": "Y",
-      "memory": 94,
-      "description": "Multiple attacks w/spear",
-      "locations": "Defeat JapanManΩ"
-    }
-  ]
-}
+[
+  {
+    "number": "1",
+    "name": "FoldrBak",
+    "damage": 0,
+    "possibleCodes": "*",
+    "memory": 99,
+    "description": "Restores all chips & folders",
+    "locations": "BugFrag Trader in Undernet 2. (Blue Exclusive)"
+  },
+  {
+    "number": "2",
+    "name": "Bass+",
+    "damage": 550,
+    "possibleCodes": "X",
+    "memory": 98,
+    "description": "Dark chip smashes panels!",
+    "locations": "Defeat BassGS in Secret Area 3. (Blue Exclusive)"
+  },
+  {
+    "number": "3",
+    "name": "DarkAura",
+    "damage": 0,
+    "possibleCodes": "A",
+    "memory": 55,
+    "description": "Dark chip repels <300 atks",
+    "locations": "Complete Serenade's time trials. (Blue Exclusive)"
+  },
+  {
+    "number": "4",
+    "name": "DeltaRay",
+    "damage": 220,
+    "possibleCodes": "Z",
+    "memory": 92,
+    "description": "Use A btn for up to 3 attacks",
+    "locations": "NetBattle reward. (Blue Exclusive)"
+  },
+  {
+    "number": "5",
+    "name": "AlphArmΩ",
+    "damage": 500,
+    "possibleCodes": "V",
+    "memory": 97,
+    "description": "Launches a giant rocket!",
+    "locations": "Defeat AlphaΩ.  (Blue Exclusive)"
+  },
+  {
+    "number": "1",
+    "name": "NavRcycl",
+    "damage": 0,
+    "possibleCodes": "*",
+    "memory": 50,
+    "description": "Recalls last Navi used",
+    "locations": "BugFrag Trader in Undernet 2. (White Exclusive)"
+  },
+  {
+    "number": "2",
+    "name": "Bass",
+    "damage": 90,
+    "possibleCodes": "X",
+    "memory": 98,
+    "description": "Dark chip Explodes for 3 sq",
+    "locations": "Defeat BassGS in Secret Area 3. (White Exclusive)"
+  },
+  {
+    "number": "3",
+    "name": "Serenade",
+    "damage": 100,
+    "possibleCodes": "S",
+    "memory": 97,
+    "description": "Dark chip Holy pwr to front",
+    "locations": "Complete Serenade's time trials. (White Exclusive)"
+  },
+  {
+    "number": "4",
+    "name": "Balance",
+    "damage": 0,
+    "possibleCodes": "Y",
+    "memory": 60,
+    "description": "Both HP reduced by half!",
+    "locations": "NetBattle reward. (White Exclusive)"
+  },
+  {
+    "number": "5",
+    "name": "AlphArmΣ",
+    "damage": 50,
+    "possibleCodes": "V",
+    "memory": 97,
+    "description": "3-stage electric attack!",
+    "locations": "Defeat AlphaΩ. (White Exclusive)"
+  },
+  {
+    "number": "2",
+    "name": "BassGS",
+    "damage": 700,
+    "possibleCodes": "X",
+    "memory": 99,
+    "description": "Bass' secret weapon",
+    "locations": "Obtained only in Capcom special events in Japan. Replaces Bass/Bass+"
+  },
+  {
+    "number": "6",
+    "name": "GutsManV5",
+    "damage": 120,
+    "possibleCodes": "G",
+    "memory": 79,
+    "description": "Sneaks up to smash panel",
+    "locations": "Defeat GutsManΩ"
+  },
+  {
+    "number": "7",
+    "name": "ProtoManV5",
+    "damage": 240,
+    "possibleCodes": "B",
+    "memory": 98,
+    "description": "Moves in to slice the enemy",
+    "locations": "Defeat ProtoManΩ"
+  },
+  {
+    "number": "8",
+    "name": "FlashMnV5",
+    "damage": 150,
+    "possibleCodes": "F",
+    "memory": 89,
+    "description": "Flash atk paralyzes enemy",
+    "locations": "Defeat FlashManΩ"
+  },
+  {
+    "number": "9",
+    "name": "BeastMnV5",
+    "damage": 80,
+    "possibleCodes": "B",
+    "memory": 84,
+    "description": "Caw atk 3 squares ahead!",
+    "locations": "Defeat BeastManΩ"
+  },
+  {
+    "number": "10",
+    "name": "BubblMnV5",
+    "damage": 20,
+    "possibleCodes": "B",
+    "memory": 86,
+    "description": "Fires several AquaShots",
+    "locations": "Defeat BubbleManΩ"
+  },
+  {
+    "number": "11",
+    "name": "DesrtManV5",
+    "damage": 210,
+    "possibleCodes": "D",
+    "memory": 80,
+    "description": "Launches fists at enemies!",
+    "locations": "Defeat DesertManΩ"
+  },
+  {
+    "number": "12",
+    "name": "PlantMnV5",
+    "damage": 60,
+    "possibleCodes": "P",
+    "memory": 80,
+    "description": "Vines harm all enemies!",
+    "locations": "Defeat PlantManΩ"
+  },
+  {
+    "number": "13",
+    "name": "FlamManV5",
+    "damage": 240,
+    "possibleCodes": "F",
+    "memory": 82,
+    "description": "Flames burn all enemies!",
+    "locations": "Defeat FlamManΩ"
+  },
+  {
+    "number": "14",
+    "name": "DrillMnV5",
+    "damage": 150,
+    "possibleCodes": "D",
+    "memory": 82,
+    "description": "3 drills fly at enemies!",
+    "locations": "Defeat DrillManΩ"
+  },
+  {
+    "number": "15",
+    "name": "MetalMnV5",
+    "damage": 250,
+    "possibleCodes": "M",
+    "memory": 90,
+    "description": "Iron fist smashes 1 square!",
+    "locations": "Defeat MetalManΩ"
+  },
+  {
+    "number": "16",
+    "name": "KingManV5",
+    "damage": 280,
+    "possibleCodes": "K",
+    "memory": 84,
+    "description": "Move up 3 square & 4-way hit",
+    "locations": "Defeat KingManΩ"
+  },
+  {
+    "number": "17",
+    "name": "MistManV5",
+    "damage": 170,
+    "possibleCodes": "M",
+    "memory": 80,
+    "description": "Appears from mist & attacks",
+    "locations": "Defeat MistManΩ"
+  },
+  {
+    "number": "18",
+    "name": "BowlManV5",
+    "damage": 180,
+    "possibleCodes": "B",
+    "memory": 88,
+    "description": "Lines up pins for a strike!",
+    "locations": "Defeat BowlManΩ"
+  },
+  {
+    "number": "19",
+    "name": "DarkManV5",
+    "damage": 30,
+    "possibleCodes": "D",
+    "memory": 88,
+    "description": "Creates 3 caves in enemy area",
+    "locations": "Defeat DarkManΩ"
+  },
+  {
+    "number": "20",
+    "name": "JapanMnV5",
+    "damage": 60,
+    "possibleCodes": "Y",
+    "memory": 94,
+    "description": "Multiple attacks w/spear",
+    "locations": "Defeat JapanManΩ"
+  }
+]
