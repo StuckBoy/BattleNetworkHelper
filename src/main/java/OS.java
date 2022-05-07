@@ -8,9 +8,11 @@ public class OS {
     private static Scanner keyboard;
 
     public static void main(String[] args) {
-        print("Greetings! What do you need?\n");
+        print(System.lineSeparator());
+        print("Greetings! What do you need?" + System.lineSeparator());
         keyboard = new Scanner(System.in);
-        while(true) {
+        boolean programInUse = true;
+        while(programInUse) {
             print(listCommands());
             int input = keyboard.nextInt();
             switch (input) {
@@ -24,7 +26,7 @@ public class OS {
                 case 4:
                     break;
                 case 5:
-                    exitHelper();
+                    programInUse = false;
                     break;
                 default:
             }
