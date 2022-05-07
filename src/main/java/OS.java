@@ -1,4 +1,5 @@
 import systems.lookups.ChipLookup;
+import systems.utility.Helpers;
 
 import java.util.Scanner;
 
@@ -7,8 +8,21 @@ import static systems.utility.Helpers.print;
 public class OS {
     private static Scanner keyboard;
 
+    /**
+     * The main process for the application. Input is read as simply as
+     * possible.
+     *
+     * @param args An array of {@link String} arguments to provide. In its
+     * current state, any arguments, if provided, will not be used.
+     * @see Helpers#print(String)
+     * @see #startupLogo()
+     * @see #listCommands()
+     * @see #bootChipLookup()
+     * @see #exitHelper()
+     */
     public static void main(String[] args) {
         print(System.lineSeparator());
+        print(startupLogo());
         print("Greetings! What do you need?" + System.lineSeparator());
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
@@ -31,6 +45,23 @@ public class OS {
                 default:
             }
         }
+        exitHelper();
+    }
+
+    /**
+     * Provides a logo in ASCII.
+     *
+     * @return a formatted {@link String} containing the program logo as ASCII.
+     */
+    private static String startupLogo() {
+        return """
+██████╗ ███╗   ██╗    ██╗  ██╗███████╗██╗     ██████╗ ███████╗██████╗ 
+██╔══██╗████╗  ██║    ██║  ██║██╔════╝██║     ██╔══██╗██╔════╝██╔══██╗
+██████╔╝██╔██╗ ██║    ███████║█████╗  ██║     ██████╔╝█████╗  ██████╔╝
+██╔══██╗██║╚██╗██║    ██╔══██║██╔══╝  ██║     ██╔═══╝ ██╔══╝  ██╔══██╗
+██████╔╝██║ ╚████║    ██║  ██║███████╗███████╗██║     ███████╗██║  ██║
+╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═╝
+        """;
     }
 
     /**
@@ -39,14 +70,16 @@ public class OS {
      */
     private static String listCommands() {
         return """
+        =========
         Main Menu
+        =========
         1) Chip Lookup
         2) P.A. Lookup
         3) Folder Builder
         4) Code Lookup
         5) Exit
         
-        Please select an option.
+        Please select an option...
         """;
     }
 

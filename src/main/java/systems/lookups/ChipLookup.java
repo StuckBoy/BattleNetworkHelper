@@ -5,9 +5,11 @@ import pojos.Chip;
 import systems.utility.FileReader;
 
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+import static systems.utility.Helpers.errorPrint;
 import static systems.utility.Helpers.prettyPrint;
 import static systems.utility.Helpers.print;
 
@@ -36,8 +38,9 @@ public class ChipLookup {
      * Prints the list of available options to the user.
      */
     public void printOptions() {
+        print(System.lineSeparator());
         print("""
-        \nPlease select an option \n
+        Please select an option
         1) Search by number
         2) Search by name
         3) Search by damage
@@ -78,8 +81,16 @@ public class ChipLookup {
      * @param keyboard The {@link Scanner} that is reading the user's input.
      */
     private void beginNumberSearch(Scanner keyboard) {
-        print("Please enter the number of the chip you wish to find.");
-        int input = keyboard.nextInt();
+        int input = -1;
+        while (input == -1) {
+            print("Please enter the number of the chip you wish to find.");
+            try {
+                input = keyboard.nextInt();
+            } catch (InputMismatchException ex) {
+                errorPrint("Invalid input, please only provide a number.");
+                keyboard.next();
+            }
+        }
         List<Chip> foundChips = reader.searchChipsByNumber(String.valueOf(input));
         printOutcome(foundChips);
     }
