@@ -1,6 +1,7 @@
 import systems.lookups.ChipLookup;
 import systems.utility.Helpers;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static systems.utility.Helpers.print;
@@ -34,15 +35,20 @@ public class OS {
                     bootChipLookup();
                     break;
                 case 2:
+                    //TODO Implement P.A. Lookup
                     break;
                 case 3:
+                    //TODO Implement Folder Building
                     break;
                 case 4:
+                    //TODO Implement Code Lookup
                     break;
                 case 5:
                     programInUse = false;
                     break;
                 default:
+                    //Input not valid, reset the scanner for next attempt.
+                    keyboard.next();
             }
         }
         exitHelper();
@@ -55,7 +61,7 @@ public class OS {
      */
     private static String startupLogo() {
         return """
-██████╗ ███╗   ██╗    ██╗  ██╗███████╗██╗     ██████╗ ███████╗██████╗ 
+██████╗ ███╗   ██╗    ██╗  ██╗███████╗██╗     ██████╗ ███████╗██████╗
 ██╔══██╗████╗  ██║    ██║  ██║██╔════╝██║     ██╔══██╗██╔════╝██╔══██╗
 ██████╔╝██╔██╗ ██║    ███████║█████╗  ██║     ██████╔╝█████╗  ██████╔╝
 ██╔══██╗██║╚██╗██║    ██╔══██║██╔══╝  ██║     ██╔═══╝ ██╔══╝  ██╔══██╗
@@ -66,7 +72,7 @@ public class OS {
 
     /**
      * The main options offered for the BNH.
-     * @return A string of the top-most menu's options.
+     * @return A {@link String} of the top-most menu's options.
      */
     private static String listCommands() {
         return """
@@ -83,14 +89,22 @@ public class OS {
         """;
     }
 
+    /**
+     * Initializes the {@link ChipLookup}.
+     */
     private static void bootChipLookup() {
         ChipLookup lookup = new ChipLookup();
-        while (true) {
+        boolean continueProcess = true;
+        while (continueProcess) {
             lookup.printOptions();
-            int input = keyboard.nextInt();
-            lookup.processInput(input, keyboard);
-            if (input == 6) {
-                return;
+            try {
+                int input = keyboard.nextInt();
+                lookup.processInput(input, keyboard);
+                if (input == 6) {
+                    continueProcess = false;
+                }
+            } catch (InputMismatchException ex) {
+                keyboard.next();
             }
         }
     }
@@ -100,7 +114,4 @@ public class OS {
         System.exit(0);
     }
 
-    public static Scanner getKeyboard() {
-        return keyboard;
-    }
 }
