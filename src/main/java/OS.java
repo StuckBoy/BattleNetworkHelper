@@ -15,16 +15,13 @@ public class OS {
      *
      * @param args An array of {@link String} arguments to provide. In its
      * current state, any arguments, if provided, will not be used.
-     * @see Helpers#print(String)
-     * @see #startupLogo()
+     * @see #bootSequence()
      * @see #listCommands()
      * @see #bootChipLookup()
      * @see #exitHelper()
      */
     public static void main(String[] args) {
-        print(System.lineSeparator());
-        print(startupLogo());
-        print("Greetings! What do you need?" + System.lineSeparator());
+        bootSequence();
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
         while(programInUse) {
@@ -52,6 +49,17 @@ public class OS {
             }
         }
         exitHelper();
+    }
+
+    /**
+     * Prints initial text on first launch.
+     * @see Helpers#print(String)
+     * @see #startupLogo()
+     */
+    private static void bootSequence() {
+        print(System.lineSeparator());
+        print(startupLogo());
+        print("Greetings! What do you need?" + System.lineSeparator());
     }
 
     /**
