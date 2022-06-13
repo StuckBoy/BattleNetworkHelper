@@ -109,6 +109,9 @@ public class OS {
         }
     }
 
+    /**
+     * Prints a goodbye and returns 0 to the system.
+     */
     private static void exitHelper() {
         print("See you later!");
         System.exit(0);
