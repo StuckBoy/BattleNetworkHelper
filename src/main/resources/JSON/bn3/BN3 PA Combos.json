@@ -1,250 +1,250 @@
 {
-	"Z-Canon1":{
-		"Description":"Unlimited Cannon for 5 sec",
-		"Combo":[
-			{"Chip 1": "Cannon A", "Chip 2": "Cannon B", "Chip 3": "Cannon C"},
-			{"Chip 1": "Cannon B", "Chip 2": "Cannon C", "Chip 3": "Cannon D"},
-			{"Chip 1": "Cannon C", "Chip 2": "Cannon D", "Chip 3": "Cannon E"}
-		]
-	},
-	"Z-Canon2":{
-		"Description":"Unlimited HiCannon for 5 sec",
-		"Combo":[
-			{"Chip 1": "HiCannon H", "Chip 2": "HiCannon I", "Chip 3": "HiCannon J"},
-			{"Chip 1": "HiCannon I", "Chip 2": "HiCannon J", "Chip 3": "HiCannon K"},
-			{"Chip 1": "HiCannon J", "Chip 2": "HiCannon K", "Chip 3": "HiCannon L"}
-		]
-	},
-	"Z-Canon3":{
-		"Description":"Unlimited M-Cannon for 5 sec",
-		"Combo":[
-			{"Chip 1": "M-Cannon O", "Chip 2": "M-Cannon P", "Chip 3": "M-Cannon Q"},
-			{"Chip 1": "M-Cannon P", "Chip 2": "M-Cannon Q", "Chip 3": "M-Cannon R"},
-			{"Chip 1": "M-Cannon Q", "Chip 2": "M-Cannon R", "Chip 3": "M-Cannon S"}
-		]
-	},
-	"Z-Punch":{
-		"Description":"Unlimited GutPunch for 5 sec",
-		"Combo":[
-			{"Chip 1": "GutsPnch B", "Chip 2": "GutsPnch C", "Chip 3": "GutsPnch D"},
-			{"Chip 1": "GutsPnch C", "Chip 2": "GutsPnch D", "Chip 3": "GutsPnch E"},
-			{"Chip 1": "GutsPnch D", "Chip 2": "GutsPnch E", "Chip 3": "GutsPnch F"}
-		]
-	},
-	"Z-Strght":{
-		"Description":"Unlimited GutStrgt for 5 sec",
-		"Combo":[
-			{"Chip 1": "GutStrgt O", "Chip 2": "GutStrgt P", "Chip 3": "GutStrgt Q"},
-			{"Chip 1": "GutStrgt P", "Chip 2": "GutStrgt Q", "Chip 3": "GutStrgt R"},
-			{"Chip 1": "GutStrgt Q", "Chip 2": "GutStrgt R", "Chip 3": "GutStrgt S"}
-		]
-	},
-	"Z-Impact":{
-		"Description":"Unlimited GutImpct for 5 sec",
-		"Combo":[
-			{"Chip 1": "GutImpct G", "Chip 2": "GutImpct H", "Chip 3": "GutImpct I"},
-			{"Chip 1": "GutImpct H", "Chip 2": "GutImpct I", "Chip 3": "GutImpct J"},
-			{"Chip 1": "GutImpct I", "Chip 2": "GutImpct J", "Chip 3": "GutImpct K"}
-		]
-	},
-	"Z-Varible":{
-		"Description":"Unlimited VarSwrd for 5 sec",
-		"Combo":[
-			{"Chip 1": "VarSwrd B", "Chip 2": "VarSwrd C", "Chip 3": "VarSwrd D"},
-			{"Chip 1": "VarSwrd C", "Chip 2": "VarSwrd D", "Chip 3": "VarSwrd E"},
-			{"Chip 1": "VarSwrd D", "Chip 2": "VarSwrd E", "Chip 3": "VarSwrd F"}
-		]
-	},
-	"Z-Yoyo1":{
-		"Description":"Unlimited Yo-Yo for 5 sec",
-		"Combo":[
-			{"Chip 1": "Yo-Yo1 C", "Chip 2": "Yo-Yo1 D", "Chip 3": "Yo-Yo1 E"},
-			{"Chip 1": "Yo-Yo1 D", "Chip 2": "Yo-Yo1 E", "Chip 3": "Yo-Yo1 F"},
-			{"Chip 1": "Yo-Yo1 E", "Chip 2": "Yo-Yo1 F", "Chip 3": "Yo-Yo1 G"}
-		]
-	},
-	"Z-Yoyo2":{
-		"Description":"Unlimited Yo-Yo2 for 5 sec",
-		"Combo":[
-			{"Chip 1": "Yo-Yo2 H", "Chip 2": "Yo-Yo2 I", "Chip 3": "Yo-Yo2 J"},
-			{"Chip 1": "Yo-Yo2 I", "Chip 2": "Yo-Yo2 J", "Chip 3": "Yo-Yo2 K"},
-			{"Chip 1": "Yo-Yo2 J", "Chip 2": "Yo-Yo2 K", "Chip 3": "Yo-Yo2 L"}
-		]
-	},
-	"Z-Yoyo3":{
-		"Description":"Unlimited Yo-Yo3 for 5 sec",
-		"Combo":[
-			{"Chip 1": "Yo-Yo3 M", "Chip 2": "Yo-Yo3 N", "Chip 3": "Yo-Yo3 O"},
-			{"Chip 1": "Yo-Yo3 N", "Chip 2": "Yo-Yo3 O", "Chip 3": "Yo-Yo3 P"},
-			{"Chip 1": "Yo-Yo3 N", "Chip 2": "Yo-Yo3 P", "Chip 3": "Yo-Yo3 Q"}
-		]
-	},
-	"Z-Step1":{
-		"Description":"Unlimited StepSwrd for 5 sec",
-		"Combo":[
-			{"Chip 1": "StepSwrd L", "Chip 2": "StepSwrd M", "Chip 3": "StepSwrd N"},
-			{"Chip 1": "StepSwrd M", "Chip 2": "StepSwrd N", "Chip 3": "StepSwrd O"},
-			{"Chip 1": "StepSwrd N", "Chip 2": "StepSwrd O", "Chip 3": "StepSwrd P"}
-		]
-	},
-	"Z-Step2":{
-		"Description":"Unlimited StepCros for 5 sec",
-		"Combo":[
-			{"Chip 1": "StepCros O", "Chip 2": "StepCros P", "Chip 3": "StepCros Q"},
-			{"Chip 1": "StepCros P", "Chip 2": "StepCros Q", "Chip 3": "StepCros R"},
-			{"Chip 1": "StepCros Q", "Chip 2": "StepCros R", "Chip 3": "StepCros S"}
-		]
-	},
-	"BubSprd":{
-		"Description":"Attks w/ spreading bubbles!",
-		"Combo":[
-			{"Chip 1": "Bubbler C", "Chip 2": "Bubbler D", "Chip 3": "Bubbler E"},
-			{"Chip 1": "Bub-V D", "Chip 2": "Bub-V E", "Chip 3": "Bub-V F"},
-			{"Chip 1": "BublSide E", "Chip 2": "BublSide F", "Chip 3": "BublSide G"},
-			{"Chip 1": "Bubbler E", "Chip 2": "Bub-V E", "Chip 3": "BublSide E"}
-		]
-	},
-	"HeatSprd":{
-		"Description":"Attacks w/ spreading fireball!",
-		"Combo":[
-			{"Chip 1": "HeatShot H", "Chip 2": "HeatShot I", "Chip 3": "HeatShot J"},
-			{"Chip 1": "Heat-V I", "Chip 2": "Heat-V J", "Chip 3": "Heat-V K"},
-			{"Chip 1": "HeatSide J", "Chip 2": "HeatSide K", "Chip 3": "HeatSide L"},
-			{"Chip 1": "HeatShot J", "Chip 2": "Heat-V J", "Chip 3": "HeatSide J"}
-		]
-	},
-	"H-Burst":{
-		"Description":"Creates a giant explosion",
-		"Combo":[
-			{"Chip 1": "Spreader M", "Chip 2": "Spreader N", "Chip 3": "Spreader O"},
-			{"Chip 1": "Spreader N", "Chip 2": "Spreader O", "Chip 3": "Spreader P"},
-			{"Chip 1": "Spreader O", "Chip 2": "Spreader P", "Chip 3": "Spreader Q"}
-		]
-	},
-	"LifeSwrd":{
-		"Description":"Swings a huge 2x3 sword!",
-		"Combo":[
-			{"Chip 1": "Sword E", "Chip 2": "WideSwrd E", "Chip 3": "LongSwrd E"},
-			{"Chip 1": "Sword L", "Chip 2": "WideSwrd L", "Chip 3": "LongSwrd L"},
-			{"Chip 1": "Sword Y", "Chip 2": "WideSwrd Y", "Chip 3": "LongSwrd Y"}
-		]
-	},
-	"ElemSwrd":{
-		"Description":"Wide swrd contains 4 elemnts",
-		"Combo":[
-			{"Chip 1": "FireSwrd N", "Chip 2": "AquaSwrd N", "Chip 3": "ElecSwrd N", "Chip 4": "BambSwrd N"},
-			{"Chip 1": "FireSwrd P", "Chip 2": "AquaSwrd P", "Chip 3": "ElecSwrd P", "Chip 4": "BambSwrd P"}
-		]
-	},
-	"EvilCut":{
-		"Description":"Step up 2 & make 4 attacks!",
-		"Combo":[
-			{"Chip 1": "StepSwrd P", "Chip 2": "HeroSwrd P", "Chip 3": "StepCros P"}
-		]
-	},
-	"HyperRat":{
-		"Description":"A giant Ratton charges!",
-		"Combo":[
-			{"Chip 1": "Ratton1 A", "Chip 2": "Ratton2 A", "Chip 3": "Ratton3 A"},
-			{"Chip 1": "Ratton1 C", "Chip 2": "Ratton2 C", "Chip 3": "Ratton3 C"},
-			{"Chip 1": "Ratton1 F", "Chip 2": "Ratton2 F", "Chip 3": "Ratton3 F"}
-		]
-	},
-	"TimeBom+":{
-		"Description":"Sets Time Bomb in enmy area",
-		"Combo":[
-			{"Chip 1": "TimeBomb J", "Chip 2": "TimeBomb K", "Chip 3": "TimeBomb L"},
-			{"Chip 1": "TimeBomb K", "Chip 2": "TimeBomb L", "Chip 3": "TimeBomb M"},
-			{"Chip 1": "TimeBomb L", "Chip 2": "TimeBomb M", "Chip 3": "TimeBomb N"}
-		]
-	},
-	"GelRain":{
-		"Description":"Gel steals squares",
-		"Combo":[
-			{"Chip 1": "MetaGel1 B", "Chip 2": "MetaGel1 C", "Chip 3": "MetaGel1 D"},
-			{"Chip 1": "MetaGel2 E", "Chip 2": "MetaGel2 F", "Chip 3": "MetaGel2 G"},
-			{"Chip 1": "MetaGel3 S", "Chip 2": "MetaGel3 T", "Chip 3": "MetaGel3 U"}
-		]
-	},
-	"EverCrse":{
-		"Description":"Shield chases enemies",
-		"Combo":[
-			{"Chip 1": "CrsShld1 C", "Chip 2": "CrsShld2 C", "Chip 3": "CrsShld3 C"},
-			{"Chip 1": "CrsShld1 L", "Chip 2": "CrsShld2 L", "Chip 3": "CrsShld3 L"}
-		]
-	},
-	"MomQuake":{
-		"Description":"Awakens Mother Earth!",
-		"Combo":[
-			{"Chip 1": "RockCube *", "Chip 2": "RockCube *", "Chip 3": "GodStone S"}
-		]
-	},
-	"PoisPhar":{
-		"Description":"Pharaoh generates poison",
-		"Combo":[
-			{"Chip 1": "PoisMask A", "Chip 2": "PoisFace A", "Chip 3": "Anubis A"}
-		]
-	},
-	"BodyGrd":{
-		"Description":"Bodyguard takes out enemies",
-		"Combo":[
-			{"Chip 1": "AntiDmg M", "Chip 2": "AntiNavi M", "Chip 3": "Muramasa M"}
-		]
-	},
-	"500Barr":{
-		"Description":"Barrier absorbs 500HP dmg",
-		"Combo":[
-			{"Chip 1": "Barrier E", "Chip 2": "Barr100 E", "Chip 3": "Barr200 E"},
-			{"Chip 1": "Barrier R", "Chip 2": "Barr100 R", "Chip 3": "Barr200 R"}
-		]
-	},
-	"BigHeart":{
-		"Description":"Attacks, then heals HP!",
-		"Combo":[
-			{"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "Roll R"},
-			{"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "RollV2 R"},
-			{"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "RollV3 R"}
-		]
-	},
-	"GtsShoot":{
-		"Description":"GustMan throws MegaMan!",
-		"Combo":[
-			{"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan G"},
-			{"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan2 G"},
-			{"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan3 G"},
-			{"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan4 G"}
-		]
-	},
-	"DeuxHero":{
-		"Description":"MegaMan & ProtoMan team up!",
-		"Combo":[
-			{"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan B"},
-			{"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan2 B"},
-			{"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan3 B"},
-			{"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan4 B"}
-		]
-	},
-	"2xHero":{
-		"Description":"MegaMan & ProtoMan dual atk",
-		"Combo":[
-			{"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan B"},
-			{"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan2 B"},
-			{"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan3 B"},
-			{"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan4 B"}
-		]
-	},
-	"PrixPowr":{
-		"Description":"3 Navis attack at once!",
-		"Combo":[
-			{"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "KingMan5 K"},
-			{"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "MistMan5 M"},
-			{"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "BowlMan5 B"}
-		]
-	},
-	"MstrStyl":{
-		"Description":"MegaMan unleashes his power",
-		"Combo":[
-			{"Chip 1": "Salamandr *", "Chip 2": "Fountain *", "Chip 3": "Bolt *", "Chip 4": "GaiaBlad *"}
-		]
-	}
+    "Z-Canon1":{
+        "Description":"Unlimited Cannon for 5 sec",
+        "Combo":[
+            {"Chip 1": "Cannon A", "Chip 2": "Cannon B", "Chip 3": "Cannon C"},
+            {"Chip 1": "Cannon B", "Chip 2": "Cannon C", "Chip 3": "Cannon D"},
+            {"Chip 1": "Cannon C", "Chip 2": "Cannon D", "Chip 3": "Cannon E"}
+        ]
+    },
+    "Z-Canon2":{
+        "Description":"Unlimited HiCannon for 5 sec",
+        "Combo":[
+            {"Chip 1": "HiCannon H", "Chip 2": "HiCannon I", "Chip 3": "HiCannon J"},
+            {"Chip 1": "HiCannon I", "Chip 2": "HiCannon J", "Chip 3": "HiCannon K"},
+            {"Chip 1": "HiCannon J", "Chip 2": "HiCannon K", "Chip 3": "HiCannon L"}
+        ]
+    },
+    "Z-Canon3":{
+        "Description":"Unlimited M-Cannon for 5 sec",
+        "Combo":[
+            {"Chip 1": "M-Cannon O", "Chip 2": "M-Cannon P", "Chip 3": "M-Cannon Q"},
+            {"Chip 1": "M-Cannon P", "Chip 2": "M-Cannon Q", "Chip 3": "M-Cannon R"},
+            {"Chip 1": "M-Cannon Q", "Chip 2": "M-Cannon R", "Chip 3": "M-Cannon S"}
+        ]
+    },
+    "Z-Punch":{
+        "Description":"Unlimited GutPunch for 5 sec",
+        "Combo":[
+            {"Chip 1": "GutsPnch B", "Chip 2": "GutsPnch C", "Chip 3": "GutsPnch D"},
+            {"Chip 1": "GutsPnch C", "Chip 2": "GutsPnch D", "Chip 3": "GutsPnch E"},
+            {"Chip 1": "GutsPnch D", "Chip 2": "GutsPnch E", "Chip 3": "GutsPnch F"}
+        ]
+    },
+    "Z-Strght":{
+        "Description":"Unlimited GutStrgt for 5 sec",
+        "Combo":[
+            {"Chip 1": "GutStrgt O", "Chip 2": "GutStrgt P", "Chip 3": "GutStrgt Q"},
+            {"Chip 1": "GutStrgt P", "Chip 2": "GutStrgt Q", "Chip 3": "GutStrgt R"},
+            {"Chip 1": "GutStrgt Q", "Chip 2": "GutStrgt R", "Chip 3": "GutStrgt S"}
+        ]
+    },
+    "Z-Impact":{
+        "Description":"Unlimited GutImpct for 5 sec",
+        "Combo":[
+            {"Chip 1": "GutImpct G", "Chip 2": "GutImpct H", "Chip 3": "GutImpct I"},
+            {"Chip 1": "GutImpct H", "Chip 2": "GutImpct I", "Chip 3": "GutImpct J"},
+            {"Chip 1": "GutImpct I", "Chip 2": "GutImpct J", "Chip 3": "GutImpct K"}
+        ]
+    },
+    "Z-Varible":{
+        "Description":"Unlimited VarSwrd for 5 sec",
+        "Combo":[
+            {"Chip 1": "VarSwrd B", "Chip 2": "VarSwrd C", "Chip 3": "VarSwrd D"},
+            {"Chip 1": "VarSwrd C", "Chip 2": "VarSwrd D", "Chip 3": "VarSwrd E"},
+            {"Chip 1": "VarSwrd D", "Chip 2": "VarSwrd E", "Chip 3": "VarSwrd F"}
+        ]
+    },
+    "Z-Yoyo1":{
+        "Description":"Unlimited Yo-Yo for 5 sec",
+        "Combo":[
+            {"Chip 1": "Yo-Yo1 C", "Chip 2": "Yo-Yo1 D", "Chip 3": "Yo-Yo1 E"},
+            {"Chip 1": "Yo-Yo1 D", "Chip 2": "Yo-Yo1 E", "Chip 3": "Yo-Yo1 F"},
+            {"Chip 1": "Yo-Yo1 E", "Chip 2": "Yo-Yo1 F", "Chip 3": "Yo-Yo1 G"}
+        ]
+    },
+    "Z-Yoyo2":{
+        "Description":"Unlimited Yo-Yo2 for 5 sec",
+        "Combo":[
+            {"Chip 1": "Yo-Yo2 H", "Chip 2": "Yo-Yo2 I", "Chip 3": "Yo-Yo2 J"},
+            {"Chip 1": "Yo-Yo2 I", "Chip 2": "Yo-Yo2 J", "Chip 3": "Yo-Yo2 K"},
+            {"Chip 1": "Yo-Yo2 J", "Chip 2": "Yo-Yo2 K", "Chip 3": "Yo-Yo2 L"}
+        ]
+    },
+    "Z-Yoyo3":{
+        "Description":"Unlimited Yo-Yo3 for 5 sec",
+        "Combo":[
+            {"Chip 1": "Yo-Yo3 M", "Chip 2": "Yo-Yo3 N", "Chip 3": "Yo-Yo3 O"},
+            {"Chip 1": "Yo-Yo3 N", "Chip 2": "Yo-Yo3 O", "Chip 3": "Yo-Yo3 P"},
+            {"Chip 1": "Yo-Yo3 N", "Chip 2": "Yo-Yo3 P", "Chip 3": "Yo-Yo3 Q"}
+        ]
+    },
+    "Z-Step1":{
+        "Description":"Unlimited StepSwrd for 5 sec",
+        "Combo":[
+            {"Chip 1": "StepSwrd L", "Chip 2": "StepSwrd M", "Chip 3": "StepSwrd N"},
+            {"Chip 1": "StepSwrd M", "Chip 2": "StepSwrd N", "Chip 3": "StepSwrd O"},
+            {"Chip 1": "StepSwrd N", "Chip 2": "StepSwrd O", "Chip 3": "StepSwrd P"}
+        ]
+    },
+    "Z-Step2":{
+        "Description":"Unlimited StepCros for 5 sec",
+        "Combo":[
+            {"Chip 1": "StepCros O", "Chip 2": "StepCros P", "Chip 3": "StepCros Q"},
+            {"Chip 1": "StepCros P", "Chip 2": "StepCros Q", "Chip 3": "StepCros R"},
+            {"Chip 1": "StepCros Q", "Chip 2": "StepCros R", "Chip 3": "StepCros S"}
+        ]
+    },
+    "BubSprd":{
+        "Description":"Attks w/ spreading bubbles!",
+        "Combo":[
+            {"Chip 1": "Bubbler C", "Chip 2": "Bubbler D", "Chip 3": "Bubbler E"},
+            {"Chip 1": "Bub-V D", "Chip 2": "Bub-V E", "Chip 3": "Bub-V F"},
+            {"Chip 1": "BublSide E", "Chip 2": "BublSide F", "Chip 3": "BublSide G"},
+            {"Chip 1": "Bubbler E", "Chip 2": "Bub-V E", "Chip 3": "BublSide E"}
+        ]
+    },
+    "HeatSprd":{
+        "Description":"Attacks w/ spreading fireball!",
+        "Combo":[
+            {"Chip 1": "HeatShot H", "Chip 2": "HeatShot I", "Chip 3": "HeatShot J"},
+            {"Chip 1": "Heat-V I", "Chip 2": "Heat-V J", "Chip 3": "Heat-V K"},
+            {"Chip 1": "HeatSide J", "Chip 2": "HeatSide K", "Chip 3": "HeatSide L"},
+            {"Chip 1": "HeatShot J", "Chip 2": "Heat-V J", "Chip 3": "HeatSide J"}
+        ]
+    },
+    "H-Burst":{
+        "Description":"Creates a giant explosion",
+        "Combo":[
+            {"Chip 1": "Spreader M", "Chip 2": "Spreader N", "Chip 3": "Spreader O"},
+            {"Chip 1": "Spreader N", "Chip 2": "Spreader O", "Chip 3": "Spreader P"},
+            {"Chip 1": "Spreader O", "Chip 2": "Spreader P", "Chip 3": "Spreader Q"}
+        ]
+    },
+    "LifeSwrd":{
+        "Description":"Swings a huge 2x3 sword!",
+        "Combo":[
+            {"Chip 1": "Sword E", "Chip 2": "WideSwrd E", "Chip 3": "LongSwrd E"},
+            {"Chip 1": "Sword L", "Chip 2": "WideSwrd L", "Chip 3": "LongSwrd L"},
+            {"Chip 1": "Sword Y", "Chip 2": "WideSwrd Y", "Chip 3": "LongSwrd Y"}
+        ]
+    },
+    "ElemSwrd":{
+        "Description":"Wide swrd contains 4 elemnts",
+        "Combo":[
+            {"Chip 1": "FireSwrd N", "Chip 2": "AquaSwrd N", "Chip 3": "ElecSwrd N", "Chip 4": "BambSwrd N"},
+            {"Chip 1": "FireSwrd P", "Chip 2": "AquaSwrd P", "Chip 3": "ElecSwrd P", "Chip 4": "BambSwrd P"}
+        ]
+    },
+    "EvilCut":{
+        "Description":"Step up 2 & make 4 attacks!",
+        "Combo":[
+            {"Chip 1": "StepSwrd P", "Chip 2": "HeroSwrd P", "Chip 3": "StepCros P"}
+        ]
+    },
+    "HyperRat":{
+        "Description":"A giant Ratton charges!",
+        "Combo":[
+            {"Chip 1": "Ratton1 A", "Chip 2": "Ratton2 A", "Chip 3": "Ratton3 A"},
+            {"Chip 1": "Ratton1 C", "Chip 2": "Ratton2 C", "Chip 3": "Ratton3 C"},
+            {"Chip 1": "Ratton1 F", "Chip 2": "Ratton2 F", "Chip 3": "Ratton3 F"}
+        ]
+    },
+    "TimeBom+":{
+        "Description":"Sets Time Bomb in enmy area",
+        "Combo":[
+            {"Chip 1": "TimeBomb J", "Chip 2": "TimeBomb K", "Chip 3": "TimeBomb L"},
+            {"Chip 1": "TimeBomb K", "Chip 2": "TimeBomb L", "Chip 3": "TimeBomb M"},
+            {"Chip 1": "TimeBomb L", "Chip 2": "TimeBomb M", "Chip 3": "TimeBomb N"}
+        ]
+    },
+    "GelRain":{
+        "Description":"Gel steals squares",
+        "Combo":[
+            {"Chip 1": "MetaGel1 B", "Chip 2": "MetaGel1 C", "Chip 3": "MetaGel1 D"},
+            {"Chip 1": "MetaGel2 E", "Chip 2": "MetaGel2 F", "Chip 3": "MetaGel2 G"},
+            {"Chip 1": "MetaGel3 S", "Chip 2": "MetaGel3 T", "Chip 3": "MetaGel3 U"}
+        ]
+    },
+    "EverCrse":{
+        "Description":"Shield chases enemies",
+        "Combo":[
+            {"Chip 1": "CrsShld1 C", "Chip 2": "CrsShld2 C", "Chip 3": "CrsShld3 C"},
+            {"Chip 1": "CrsShld1 L", "Chip 2": "CrsShld2 L", "Chip 3": "CrsShld3 L"}
+        ]
+    },
+    "MomQuake":{
+        "Description":"Awakens Mother Earth!",
+        "Combo":[
+            {"Chip 1": "RockCube *", "Chip 2": "RockCube *", "Chip 3": "GodStone S"}
+        ]
+    },
+    "PoisPhar":{
+        "Description":"Pharaoh generates poison",
+        "Combo":[
+            {"Chip 1": "PoisMask A", "Chip 2": "PoisFace A", "Chip 3": "Anubis A"}
+        ]
+    },
+    "BodyGrd":{
+        "Description":"Bodyguard takes out enemies",
+        "Combo":[
+            {"Chip 1": "AntiDmg M", "Chip 2": "AntiNavi M", "Chip 3": "Muramasa M"}
+        ]
+    },
+    "500Barr":{
+        "Description":"Barrier absorbs 500HP dmg",
+        "Combo":[
+            {"Chip 1": "Barrier E", "Chip 2": "Barr100 E", "Chip 3": "Barr200 E"},
+            {"Chip 1": "Barrier R", "Chip 2": "Barr100 R", "Chip 3": "Barr200 R"}
+        ]
+    },
+    "BigHeart":{
+        "Description":"Attacks, then heals HP!",
+        "Combo":[
+            {"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "Roll R"},
+            {"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "RollV2 R"},
+            {"Chip 1": "HolyPanl R", "Chip 2": "Recov300 R", "Chip 3": "RollV3 R"}
+        ]
+    },
+    "GtsShoot":{
+        "Description":"GustMan throws MegaMan!",
+        "Combo":[
+            {"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan G"},
+            {"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan2 G"},
+            {"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan3 G"},
+            {"Chip 1": "Guard *", "Chip 2": "DashAtk G", "Chip 3": "GutsMan4 G"}
+        ]
+    },
+    "DeuxHero":{
+        "Description":"MegaMan & ProtoMan team up!",
+        "Combo":[
+            {"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan B"},
+            {"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan2 B"},
+            {"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan3 B"},
+            {"Chip 1": "CustSwrd B", "Chip 2": "VarSwrd B", "Chip 3": "ProtoMan4 B"}
+        ]
+    },
+    "2xHero":{
+        "Description":"MegaMan & ProtoMan dual atk",
+        "Combo":[
+            {"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan B"},
+            {"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan2 B"},
+            {"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan3 B"},
+            {"Chip 1": "Slasher B", "Chip 2": "CustSwrd B", "Chip 3": "VarSwrd B", "Chip 4": "ProtoMan4 B"}
+        ]
+    },
+    "PrixPowr":{
+        "Description":"3 Navis attack at once!",
+        "Combo":[
+            {"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "KingMan5 K"},
+            {"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "MistMan5 M"},
+            {"Chip 1": "Team1 *", "Chip 2": "Team2 *", "Chip 3": "BowlMan5 B"}
+        ]
+    },
+    "MstrStyl":{
+        "Description":"MegaMan unleashes his power",
+        "Combo":[
+            {"Chip 1": "Salamandr *", "Chip 2": "Fountain *", "Chip 3": "Bolt *", "Chip 4": "GaiaBlad *"}
+        ]
+    }
 }
