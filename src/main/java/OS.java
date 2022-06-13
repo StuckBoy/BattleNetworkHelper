@@ -1,4 +1,5 @@
 import systems.lookups.ChipLookup;
+import systems.lookups.ProgramAdvanceLookup;
 import systems.utility.Helpers;
 
 import java.util.InputMismatchException;
@@ -40,6 +41,7 @@ public class OS {
                     break;
                 case 2:
                     //TODO Implement P.A. Lookup
+                    bootPALookup();
                     break;
                 case 3:
                     //TODO Implement Folder Building
@@ -124,6 +126,22 @@ public class OS {
         }
     }
 
+    private static void bootPALookup() {
+        ProgramAdvanceLookup lookup = new ProgramAdvanceLookup();
+        boolean continueProcess = true;
+        while (continueProcess) {
+            lookup.printOptions();
+            try {
+                int input = keyboard.nextInt();
+                lookup.processInput(input, keyboard);
+                if (input == 1) {
+                    continueProcess = false;
+                }
+            } catch (InputMismatchException ex) {
+                keyboard.next();
+            }
+        }
+    }
     /**
      * Prints a goodbye and returns 0 to the system.
      */
