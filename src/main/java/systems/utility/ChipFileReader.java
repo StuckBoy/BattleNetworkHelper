@@ -15,7 +15,7 @@ import java.util.List;
 
 import static systems.utility.Helpers.print;
 
-public class FileReader {
+public class ChipFileReader {
     private final List<Chip> standardChipList;
     private final List<Chip> megaChipList;
     private final List<Chip> gigaChipList;
@@ -26,7 +26,7 @@ public class FileReader {
      *
      * @throws IOException If the file it's attempting to read from is missing.
      */
-    public FileReader() throws IOException {
+    public ChipFileReader() throws IOException {
         Gson gson = new Gson();
         //TODO Add support for other Battle Network Files
         Reader standardReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeStandardChipLibrary));

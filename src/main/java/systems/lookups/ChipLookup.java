@@ -3,7 +3,7 @@ package systems.lookups;
 import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
-import systems.utility.FileReader;
+import systems.utility.ChipFileReader;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -14,18 +14,18 @@ import static systems.utility.Helpers.*;
 
 public class ChipLookup implements Subsystem {
 
-    private FileReader reader;
+    private ChipFileReader reader;
 
     public ChipLookup() {
         bootSequence();
     }
 
     /**
-     * Prepares the {@link FileReader} to parse the data necessary for searches.
+     * Prepares the {@link ChipFileReader} to parse the data necessary for searches.
      */
     private void bootSequence() {
         try {
-            reader = new FileReader();
+            reader = new ChipFileReader();
             print("Chip lookup booted.");
         } catch (IOException ex) {
             print("Error encountered while booting Chip Lookup.");
@@ -33,6 +33,7 @@ public class ChipLookup implements Subsystem {
         }
     }
 
+    @Override
     public void printOptions() {
         print(System.lineSeparator());
         print("""
@@ -55,6 +56,7 @@ public class ChipLookup implements Subsystem {
      * @see #beginCodeSearch(Scanner)
      * @see #beginMemorySizeSearch(Scanner)
      */
+    @Override
     public void processInput(int input, Scanner keyboard) {
         switch (input) {
             case 1 -> beginNumberSearch(keyboard);
