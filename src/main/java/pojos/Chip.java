@@ -12,7 +12,8 @@ public class Chip {
     private String name;
 
     /**
-     * The amount dealt to enemies hit by this chip, null if it doesn't inflict any damage..
+     * The amount dealt to enemies hit by this chip, null if it doesn't inflict
+     * any damage.
      */
     private Integer damage;
 
@@ -22,7 +23,8 @@ public class Chip {
     private String possibleCodes;
 
     /**
-     * The memory value for the chip. Restricts what chip can be in your starting hand.
+     * The memory value for the chip. Restricts what chip can be in your
+     * starting hand.
      */
     private Integer memory;
 
