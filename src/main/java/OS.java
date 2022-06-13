@@ -45,9 +45,11 @@ public class OS {
                     break;
                 case 3:
                     //TODO Implement Folder Building
+                    bootFolderBuilder();
                     break;
                 case 4:
                     //TODO Implement Code Lookup
+                    bootCodeLookup();
                     break;
                 case 5:
                     programInUse = false;
@@ -142,6 +144,15 @@ public class OS {
             }
         }
     }
+
+    private static void bootFolderBuilder() {
+        //TODO Implement
+    }
+
+    private static void bootCodeLookup() {
+        //TODO Implement
+    }
+
     /**
      * Prints a goodbye and returns 0 to the system.
      */
