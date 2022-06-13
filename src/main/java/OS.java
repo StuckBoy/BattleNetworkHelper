@@ -136,7 +136,7 @@ public class OS {
             try {
                 int input = keyboard.nextInt();
                 lookup.processInput(input, keyboard);
-                if (input == 1) {
+                if (input == 4) {
                     continueProcess = false;
                 }
             } catch (InputMismatchException ex) {

@@ -28,7 +28,14 @@ public class ProgramAdvanceLookup implements Subsystem {
 
     @Override
     public void printOptions() {
-
+        print(System.lineSeparator());
+        print("""
+        Please select an option
+        1) Search by name
+        2) Search by damage
+        3) Search by chip used
+        4) Return to main menu
+        """);
     }
 
     @Override
