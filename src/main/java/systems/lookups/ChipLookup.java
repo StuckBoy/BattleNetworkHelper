@@ -1,5 +1,6 @@
 package systems.lookups;
 
+import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
 import systems.utility.FileReader;
@@ -9,11 +10,9 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.errorPrint;
-import static systems.utility.Helpers.prettyPrint;
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.*;
 
-public class ChipLookup {
+public class ChipLookup implements Subsystem {
 
     private FileReader reader;
 
@@ -34,9 +33,6 @@ public class ChipLookup {
         }
     }
 
-    /**
-     * Prints the list of available options to the user.
-     */
     public void printOptions() {
         print(System.lineSeparator());
         print("""
@@ -51,11 +47,8 @@ public class ChipLookup {
     }
 
     /**
-     * Process the input from the user, and chooses the appropriate search to
-     * begin using.
+     * @inheritDoc
      *
-     * @param input The number inputted by the user.
-     * @param keyboard The {@link Scanner} that is reading the user's input.
      * @see #beginNumberSearch(Scanner)
      * @see #beginNameSearch(Scanner)
      * @see #beginDamageSearch(Scanner)
