@@ -26,7 +26,14 @@ public class OS {
         boolean programInUse = true;
         while(programInUse) {
             print(listCommands());
-            int input = keyboard.nextInt();
+            int input;
+            try {
+                input = keyboard.nextInt();
+            } catch (InputMismatchException ex) {
+                //TODO Implement specific error message.
+                print("Input not valid, please try again.");
+                input = -1;
+            }
             switch (input) {
                 case 1:
                     bootChipLookup();
