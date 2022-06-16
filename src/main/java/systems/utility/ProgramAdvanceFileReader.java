@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import static systems.utility.Helpers.print;
@@ -33,4 +34,8 @@ public class ProgramAdvanceFileReader {
         print("Loading finished. Total count: " + programAdvanceCount);
     }
 
+    public List<ProgramAdvance> searchPAsByName(String name) {
+        //TODO Implement
+        return new ArrayList<>();
+    }
 }

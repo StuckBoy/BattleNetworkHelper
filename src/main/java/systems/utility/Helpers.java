@@ -1,6 +1,9 @@
 package systems.utility;
 
 import pojos.Chip;
+import pojos.ProgramAdvance;
+
+import java.util.List;
 
 public class Helpers {
 
@@ -27,6 +30,16 @@ public class Helpers {
     }
 
     /**
+     * Method overload to allow multiple {@link Chip} to be printed at a time.
+     *
+     * @param chips The {@link List} of {@link Chip} to be printed.
+     * @see #prettyPrintProgramAdvanceList(Chip)
+     */
+    public static void prettyPrintChipList(List<Chip> chips) {
+        chips.forEach(Helpers::prettyPrintProgramAdvanceList);
+    }
+
+    /**
      * Prints the {@link Chip} provided in a way that is easy for users to
      * parse.
      * <p>
@@ -43,7 +56,7 @@ public class Helpers {
      * </pre>
      * @param chip The {@link Chip} whose information we wish to print.
      */
-    public static void prettyPrint(Chip chip) {
+    public static void prettyPrintProgramAdvanceList(Chip chip) {
         System.out.println();
         print("Number:      " + chip.getNumber());
         print("Name:        " + chip.getName());
@@ -56,5 +69,22 @@ public class Helpers {
         print("Memory Size: " + chip.getMemory() + " MB");
         print("Description: " + chip.getDescription());
         print("Location(s): " + chip.getLocations());
+    }
+
+    public static void prettyPrintProgramAdvanceList(List<ProgramAdvance> programAdvances) {
+        programAdvances.forEach(Helpers::prettyPrintProgramAdvanceList);
+    }
+
+    public static void prettyPrintProgramAdvanceList(ProgramAdvance programAdvance) {
+        System.out.println();
+        print("Name:      " + programAdvance.getName());
+        if (programAdvance.getDamage() != null) {
+            print("Damage:      " + programAdvance.getDamage());
+        } else {
+            print("Damage:      -");
+        }
+        //TODO Implement pretty print for chips used in Program Advance.
+        //print("Chips used:");
+        print("Description: " + programAdvance.getDescription());
     }
 }

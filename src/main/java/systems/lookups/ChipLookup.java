@@ -4,6 +4,7 @@ import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
 import systems.utility.ChipFileReader;
+import systems.utility.Helpers;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -111,13 +112,11 @@ public class ChipLookup implements Subsystem {
      * the user.
      *
      * @param foundChips The {@link List} of {@link Chip} to be printed.
-     * @see systems.utility.Helpers#prettyPrint(Chip)
+     * @see Helpers#prettyPrintChipList(List) 
      */
     private void printSuccessStrings(List<Chip> foundChips) {
         print("Here's your chip(s)!");
-        for (Chip chip : foundChips) {
-            prettyPrint(chip);
-        }
+        prettyPrintChipList(foundChips);
     }
 
     /**
@@ -183,6 +182,7 @@ public class ChipLookup implements Subsystem {
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
      * @param input The {@link String} inputted by the user.
+     * @see Helpers#prettyPrintChipList(List)
      */
     private void printCodeOutcome(List<Chip> foundChips, String input) {
         if (StringUtils.equals(input, "*")) {
@@ -190,9 +190,7 @@ public class ChipLookup implements Subsystem {
         } else {
             print("Here's the chips that can have that code!");
         }
-        for (Chip chip : foundChips) {
-            prettyPrint(chip);
-        }
+        prettyPrintChipList(foundChips);
     }
 
     /**
@@ -215,13 +213,12 @@ public class ChipLookup implements Subsystem {
      *
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
+     * @see Helpers#prettyPrintChipList(List)
      */
     private void printMemoryOutcome(List<Chip> foundChips) {
         if (!foundChips.isEmpty()) {
             print("Here are the chips that match that memory size!");
-            for (Chip chip : foundChips) {
-                prettyPrint(chip);
-            }
+            prettyPrintChipList(foundChips);
         } else {
             print(failedSearchString());
         }
