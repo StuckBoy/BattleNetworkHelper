@@ -1,4 +1,5 @@
 import systems.lookups.ChipLookup;
+import systems.lookups.CodeLookup;
 import systems.lookups.ProgramAdvanceLookup;
 import systems.utility.Helpers;
 
@@ -150,7 +151,20 @@ public class OS {
     }
 
     private static void bootCodeLookup() {
-        //TODO Implement
+        CodeLookup lookup = new CodeLookup();
+        boolean continueProcess = true;
+        while (continueProcess) {
+            lookup.printOptions();
+            try {
+                int input = keyboard.nextInt();
+                lookup.processInput(input, keyboard);
+                if (input == 7) {
+                    continueProcess = false;
+                }
+            } catch (InputMismatchException ex) {
+                keyboard.next();
+            }
+        }
     }
 
     /**

@@ -1,4 +1,4 @@
-package systems.utility;
+package systems.utility.readers;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

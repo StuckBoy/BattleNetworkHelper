@@ -3,7 +3,7 @@ package systems.lookups;
 import interfaces.Subsystem;
 import pojos.ProgramAdvance;
 import systems.utility.Helpers;
-import systems.utility.ProgramAdvanceFileReader;
+import systems.utility.readers.ProgramAdvanceFileReader;
 
 import java.io.IOException;
 import java.util.List;

@@ -25,12 +25,13 @@ public class PathConstants {
     public static final String bnThreeCustomizerPartLibrary = bnThreeJsonPath + customizerPartLibraryJson;
     public static final String bnThreeProgramAdvanceLibrary = bnThreeJsonPath + programAdvanceJson;
     public static final String bnThreeExCodes = bnThreeJsonPath + exCodeLibraryJson;
-    public static final String bnThreeCompressionCodeLibrary = bnThreeJsonPath + compressionCodeLibraryJson;
+    public static final String bnThreeErrorCodes = bnThreeJsonPath + errorCodeLibraryJson;
+    public static final String bnThreeCompressionCodes = bnThreeJsonPath + compressionCodeLibraryJson;
 
     //Battle Network 6 Constants
     public static final String bnSixJsonPath = jsonFilePath + battleNetworkSixPath;
     public static final String bnSixChipLibrary = bnSixJsonPath + chipLibraryJson;
     public static final String bnSixCustomizerPartLibrary = bnSixJsonPath + customizerPartLibraryJson;
     public static final String bnSixProgramAdvanceLibrary = bnSixJsonPath + programAdvanceJson;
-    public static final String bnSixCompressionCodeLibrary = bnSixJsonPath + compressionCodeLibraryJson;
+    public static final String bnSixCompressionCodes = bnSixJsonPath + compressionCodeLibraryJson;
 }

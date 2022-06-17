@@ -3,8 +3,8 @@ package systems.lookups;
 import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
-import systems.utility.ChipFileReader;
 import systems.utility.Helpers;
+import systems.utility.readers.ChipFileReader;
 
 import java.io.IOException;
 import java.util.InputMismatchException;

@@ -1,7 +1,6 @@
 package systems.utility;
 
-import pojos.Chip;
-import pojos.ProgramAdvance;
+import pojos.*;
 
 import java.util.List;
 
@@ -86,5 +85,17 @@ public class Helpers {
         //TODO Implement pretty print for chips used in Program Advance.
         //print("Chips used:");
         print("Description: " + programAdvance.getDescription());
+    }
+
+    public static void prettyPrintExtraCodes(List<ExCode> exCodes) {
+        //TODO Implement pretty printing for Ex Codes
+    }
+
+    public static void prettyPrintErrorCodes(List<ErrorCode> errorCodes) {
+        //TODO Implement pretty printing for Error Codes
+    }
+
+    public static void prettyPrintCompressionCodes(List<CompressionCode> compressionCodes) {
+        //TODO Implement pretty printing for Compresion Codes
     }
 }
