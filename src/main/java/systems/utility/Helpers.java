@@ -88,14 +88,35 @@ public class Helpers {
     }
 
     public static void prettyPrintExtraCodes(List<ExCode> exCodes) {
-        //TODO Implement pretty printing for Ex Codes
+        exCodes.forEach(Helpers::prettyPrintExtraCode);
+    }
+
+    public static void prettyPrintExtraCode(ExCode exCode) {
+        System.out.println();
+        print("Extra Code:  " + exCode.getCode());
+        print("Effect:      " + exCode.getEffect());
+        print("Glitch:      " + exCode.getGlitch());
     }
 
     public static void prettyPrintErrorCodes(List<ErrorCode> errorCodes) {
-        //TODO Implement pretty printing for Error Codes
+        errorCodes.forEach(Helpers::prettyPrintErrorCode);
+    }
+
+    public static void prettyPrintErrorCode(ErrorCode errorCode) {
+        System.out.println();
+        print("Error Code:    " + errorCode.getCode());
+        print("Program:       " + errorCode.getProgram());
+        print("Obtained From: " + errorCode.getObtainedFrom());
+        print("Error Number:  " + errorCode.getErrorNumber());
     }
 
     public static void prettyPrintCompressionCodes(List<CompressionCode> compressionCodes) {
-        //TODO Implement pretty printing for Compresion Codes
+        compressionCodes.forEach(Helpers::prettyPrintCompressionCode);
+    }
+
+    public static void prettyPrintCompressionCode(CompressionCode compressionCode) {
+        System.out.println();
+        print("Program:        " + compressionCode.getProgramName());
+        print("Input Sequence: " + compressionCode.getInputSequence());
     }
 }
