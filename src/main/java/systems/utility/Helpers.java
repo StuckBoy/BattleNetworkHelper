@@ -29,13 +29,13 @@ public class Helpers {
     }
 
     /**
-     * Method overload to allow multiple {@link Chip} to be printed at a time.
+     * Method to allow multiple {@link Chip} to be printed at a time.
      *
      * @param chips The {@link List} of {@link Chip} to be printed.
-     * @see #prettyPrintProgramAdvanceList(Chip)
+     * @see #prettyPrintChip(Chip)
      */
     public static void prettyPrintChipList(List<Chip> chips) {
-        chips.forEach(Helpers::prettyPrintProgramAdvanceList);
+        chips.forEach(Helpers::prettyPrintChip);
     }
 
     /**
@@ -54,8 +54,9 @@ public class Helpers {
      * Location(s): Where to find the chip in-game.
      * </pre>
      * @param chip The {@link Chip} whose information we wish to print.
+     * @see #print(String)
      */
-    public static void prettyPrintProgramAdvanceList(Chip chip) {
+    public static void prettyPrintChip(Chip chip) {
         System.out.println();
         print("Number:      " + chip.getNumber());
         print("Name:        " + chip.getName());
@@ -70,11 +71,33 @@ public class Helpers {
         print("Location(s): " + chip.getLocations());
     }
 
+    /**
+     * Method to allows multiple {@link ProgramAdvance} to be printed at a time.
+     * @param programAdvances The {@link List} of {@link ProgramAdvance} to be
+     *                        printed.
+     * @see #prettyPrintProgramAdvance(ProgramAdvance)
+     */
     public static void prettyPrintProgramAdvanceList(List<ProgramAdvance> programAdvances) {
-        programAdvances.forEach(Helpers::prettyPrintProgramAdvanceList);
+        programAdvances.forEach(Helpers::prettyPrintProgramAdvance);
     }
 
-    public static void prettyPrintProgramAdvanceList(ProgramAdvance programAdvance) {
+    /**
+     * Prints the {@link ProgramAdvance} provided in a way that is easy for
+     * users to parse.
+     * <p>
+     * The outputted message will be formatted as such:
+     * </p>
+     * <pre>
+     * Name:        Chip Name
+     * Damage:      ### / -
+     * Chips Used:  Chip 1 + Chip 2...
+     * Description: Program Advance Description
+     * </pre>
+     * @param programAdvance The {@link ProgramAdvance} whose information we
+     *                       wish to print.
+     * @see #print(String)
+     */
+    public static void prettyPrintProgramAdvance(ProgramAdvance programAdvance) {
         System.out.println();
         print("Name:      " + programAdvance.getName());
         if (programAdvance.getDamage() != null) {
@@ -91,6 +114,20 @@ public class Helpers {
         exCodes.forEach(Helpers::prettyPrintExtraCode);
     }
 
+    /**
+     * Prints the {@link ExCode} provided in a way that is easy for users to
+     * parse.
+     * <p>
+     * The outputted message will be formatted as such:
+     * </p>
+     * <pre>
+     * Extra Code:  The sequence to be inputted
+     * Effect:      Description of the effect.
+     * Glitch:      Side effects of using the code.
+     * </pre>
+     * @param exCode The {@link ExCode} whose information we wish to print.
+     * @see #print(String)
+     */
     public static void prettyPrintExtraCode(ExCode exCode) {
         System.out.println();
         print("Extra Code:  " + exCode.getCode());
@@ -98,10 +135,31 @@ public class Helpers {
         print("Glitch:      " + exCode.getGlitch());
     }
 
+    /**
+     * Method to allow multiple {@link ErrorCode} to be printed at a time.
+     * @param errorCodes The {@link List} of {@link ErrorCode} to be printed.
+     * @see #prettyPrintErrorCode(ErrorCode)
+     */
     public static void prettyPrintErrorCodes(List<ErrorCode> errorCodes) {
         errorCodes.forEach(Helpers::prettyPrintErrorCode);
     }
 
+    /**
+     * Prints the {@link ErrorCode} provided in a way that is easy for users to
+     * parse.
+     * <p>
+     * The outputted message will be formatted as such:
+     * </p>
+     * <pre>
+     * Error Code:    The sequence to be inputted
+     * Program:       The program triggering the code
+     * Obtained From: Which style the program originated from
+     * Error Number:  The error code displayed in-game.
+     * </pre>
+     * @param errorCode The {@link ErrorCode} whose information we wish to
+     *                  print.
+     * @see #print(String)
+     */
     public static void prettyPrintErrorCode(ErrorCode errorCode) {
         System.out.println();
         print("Error Code:    " + errorCode.getCode());
@@ -110,10 +168,30 @@ public class Helpers {
         print("Error Number:  " + errorCode.getErrorNumber());
     }
 
+    /**
+     * Method to allow multiple {@link CompressionCode} to be printed at a time.
+     * @param compressionCodes The {@link List} of {@link CompressionCode} to be
+     *                         printed.
+     * @see #prettyPrintCompressionCode(CompressionCode)
+     */
     public static void prettyPrintCompressionCodes(List<CompressionCode> compressionCodes) {
         compressionCodes.forEach(Helpers::prettyPrintCompressionCode);
     }
 
+    /**
+     * Prints the {@link CompressionCode} provided in a way that is easy for
+     * users to parse.
+     * <p>
+     * The outputted message will be formatted as such:
+     * </p>
+     * <pre>
+     * Program:        The program to be compressed
+     * Input Sequence: The inputs to compress the program
+     * </pre>
+     * @param compressionCode The {@link CompressionCode} whose information we
+     *                        wish to print.
+     * @see #print(String)
+     */
     public static void prettyPrintCompressionCode(CompressionCode compressionCode) {
         System.out.println();
         print("Program:        " + compressionCode.getProgramName());
