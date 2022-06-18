@@ -56,7 +56,7 @@ public class CodeLookup implements Subsystem {
     }
 
     private void beginListingExtraCodes() {
-        prettyPrintExtraCodes(reader.getExCodes());
+        printExtraCodes(reader.getExCodes());
     }
 
     private void beginExtraCodeSearch(Scanner keyboard) {
@@ -64,7 +64,7 @@ public class CodeLookup implements Subsystem {
     }
 
     private void beginListingErrorCodes() {
-        prettyPrintErrorCodes(reader.getErrorCodes());
+        printErrorCodes(reader.getErrorCodes());
     }
 
     private void beginErrorCodeSearch(Scanner keyboard) {
@@ -72,7 +72,7 @@ public class CodeLookup implements Subsystem {
     }
 
     private void beginListingCompressionCodes() {
-        prettyPrintCompressionCodes(reader.getCompressionCodes());
+        printCompressionCodes(reader.getCompressionCodes());
     }
 
     private void beginCompressionCodeSearch(Scanner keyboard) {

@@ -32,10 +32,10 @@ public class Helpers {
      * Method to allow multiple {@link Chip} to be printed at a time.
      *
      * @param chips The {@link List} of {@link Chip} to be printed.
-     * @see #prettyPrintChip(Chip)
+     * @see #printChip(Chip)
      */
-    public static void prettyPrintChipList(List<Chip> chips) {
-        chips.forEach(Helpers::prettyPrintChip);
+    public static void printChipList(List<Chip> chips) {
+        chips.forEach(Helpers::printChip);
     }
 
     /**
@@ -56,7 +56,7 @@ public class Helpers {
      * @param chip The {@link Chip} whose information we wish to print.
      * @see #print(String)
      */
-    public static void prettyPrintChip(Chip chip) {
+    public static void printChip(Chip chip) {
         System.out.println();
         print("Number:      " + chip.getNumber());
         print("Name:        " + chip.getName());
@@ -75,10 +75,10 @@ public class Helpers {
      * Method to allows multiple {@link ProgramAdvance} to be printed at a time.
      * @param programAdvances The {@link List} of {@link ProgramAdvance} to be
      *                        printed.
-     * @see #prettyPrintProgramAdvance(ProgramAdvance)
+     * @see #printProgramAdvance(ProgramAdvance)
      */
-    public static void prettyPrintProgramAdvanceList(List<ProgramAdvance> programAdvances) {
-        programAdvances.forEach(Helpers::prettyPrintProgramAdvance);
+    public static void printProgramAdvanceList(List<ProgramAdvance> programAdvances) {
+        programAdvances.forEach(Helpers::printProgramAdvance);
     }
 
     /**
@@ -97,7 +97,7 @@ public class Helpers {
      *                       wish to print.
      * @see #print(String)
      */
-    public static void prettyPrintProgramAdvance(ProgramAdvance programAdvance) {
+    public static void printProgramAdvance(ProgramAdvance programAdvance) {
         System.out.println();
         print("Name:      " + programAdvance.getName());
         if (programAdvance.getDamage() != null) {
@@ -110,8 +110,8 @@ public class Helpers {
         print("Description: " + programAdvance.getDescription());
     }
 
-    public static void prettyPrintExtraCodes(List<ExCode> exCodes) {
-        exCodes.forEach(Helpers::prettyPrintExtraCode);
+    public static void printExtraCodes(List<ExCode> exCodes) {
+        exCodes.forEach(Helpers::printExtraCode);
     }
 
     /**
@@ -128,7 +128,7 @@ public class Helpers {
      * @param exCode The {@link ExCode} whose information we wish to print.
      * @see #print(String)
      */
-    public static void prettyPrintExtraCode(ExCode exCode) {
+    public static void printExtraCode(ExCode exCode) {
         System.out.println();
         print("Extra Code:  " + exCode.getCode());
         print("Effect:      " + exCode.getEffect());
@@ -138,10 +138,10 @@ public class Helpers {
     /**
      * Method to allow multiple {@link ErrorCode} to be printed at a time.
      * @param errorCodes The {@link List} of {@link ErrorCode} to be printed.
-     * @see #prettyPrintErrorCode(ErrorCode)
+     * @see #printErrorCode(ErrorCode)
      */
-    public static void prettyPrintErrorCodes(List<ErrorCode> errorCodes) {
-        errorCodes.forEach(Helpers::prettyPrintErrorCode);
+    public static void printErrorCodes(List<ErrorCode> errorCodes) {
+        errorCodes.forEach(Helpers::printErrorCode);
     }
 
     /**
@@ -160,7 +160,7 @@ public class Helpers {
      *                  print.
      * @see #print(String)
      */
-    public static void prettyPrintErrorCode(ErrorCode errorCode) {
+    public static void printErrorCode(ErrorCode errorCode) {
         System.out.println();
         print("Error Code:    " + errorCode.getCode());
         print("Program:       " + errorCode.getProgram());
@@ -172,10 +172,10 @@ public class Helpers {
      * Method to allow multiple {@link CompressionCode} to be printed at a time.
      * @param compressionCodes The {@link List} of {@link CompressionCode} to be
      *                         printed.
-     * @see #prettyPrintCompressionCode(CompressionCode)
+     * @see #printCompressionCode(CompressionCode)
      */
-    public static void prettyPrintCompressionCodes(List<CompressionCode> compressionCodes) {
-        compressionCodes.forEach(Helpers::prettyPrintCompressionCode);
+    public static void printCompressionCodes(List<CompressionCode> compressionCodes) {
+        compressionCodes.forEach(Helpers::printCompressionCode);
     }
 
     /**
@@ -192,7 +192,7 @@ public class Helpers {
      *                        wish to print.
      * @see #print(String)
      */
-    public static void prettyPrintCompressionCode(CompressionCode compressionCode) {
+    public static void printCompressionCode(CompressionCode compressionCode) {
         System.out.println();
         print("Program:        " + compressionCode.getProgramName());
         print("Input Sequence: " + compressionCode.getInputSequence());

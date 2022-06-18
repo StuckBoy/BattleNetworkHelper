@@ -112,11 +112,11 @@ public class ChipLookup implements Subsystem {
      * the user.
      *
      * @param foundChips The {@link List} of {@link Chip} to be printed.
-     * @see Helpers#prettyPrintChipList(List) 
+     * @see Helpers#printChipList(List)
      */
     private void printSuccessStrings(List<Chip> foundChips) {
         print("Here's your chip(s)!");
-        prettyPrintChipList(foundChips);
+        printChipList(foundChips);
     }
 
     /**
@@ -182,7 +182,7 @@ public class ChipLookup implements Subsystem {
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
      * @param input The {@link String} inputted by the user.
-     * @see Helpers#prettyPrintChipList(List)
+     * @see Helpers#printChipList(List)
      */
     private void printCodeOutcome(List<Chip> foundChips, String input) {
         if (StringUtils.equals(input, "*")) {
@@ -190,7 +190,7 @@ public class ChipLookup implements Subsystem {
         } else {
             print("Here's the chips that can have that code!");
         }
-        prettyPrintChipList(foundChips);
+        printChipList(foundChips);
     }
 
     /**
@@ -213,12 +213,12 @@ public class ChipLookup implements Subsystem {
      *
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
-     * @see Helpers#prettyPrintChipList(List)
+     * @see Helpers#printChipList(List)
      */
     private void printMemoryOutcome(List<Chip> foundChips) {
         if (!foundChips.isEmpty()) {
             print("Here are the chips that match that memory size!");
-            prettyPrintChipList(foundChips);
+            printChipList(foundChips);
         } else {
             print(failedSearchString());
         }

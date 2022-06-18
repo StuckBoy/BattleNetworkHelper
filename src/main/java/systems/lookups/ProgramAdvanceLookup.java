@@ -69,7 +69,7 @@ public class ProgramAdvanceLookup implements Subsystem {
 
     private void printSuccessString(List<ProgramAdvance> matchingPAs) {
         print("Here's your P.A.(s)!");
-        Helpers.prettyPrintProgramAdvanceList(matchingPAs);
+        Helpers.printProgramAdvanceList(matchingPAs);
     }
 
     /**
