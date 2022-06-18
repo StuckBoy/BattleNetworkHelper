@@ -2,6 +2,7 @@ package systems.lookups;
 
 import interfaces.Subsystem;
 import systems.subroutines.CodeListSubroutine;
+import systems.subroutines.CodeSearchSubroutine;
 import systems.utility.readers.CodeFileReader;
 
 import java.io.IOException;
@@ -67,11 +68,13 @@ public class CodeLookup implements Subsystem {
     }
 
     private void beginSearchSubroutine(Scanner keyboard) {
-        printSearchOptions();
+        CodeSearchSubroutine subroutine = new CodeSearchSubroutine(reader);
         boolean continueSubRoutine = true;
         while (continueSubRoutine) {
             try {
+                subroutine.printOptions();
                 int input = keyboard.nextInt();
+                subroutine.processInput(input, keyboard);
                 //TODO Implement changeover to list subroutine
                 if (input == 5) {
                     continueSubRoutine = false;
@@ -81,29 +84,6 @@ public class CodeLookup implements Subsystem {
                 keyboard.next();
             }
         }
-    }
-
-    private void printSearchOptions() {
-        print(System.lineSeparator());
-        print("""
-        1) Search Extra Codes (ExCodes)
-        2) Search Error Codes
-        3) Search Compression Codes
-        4) Switch to list mode
-        5) Return to previous menu
-        """);
-    }
-
-    private void beginExtraCodeSearch(Scanner keyboard) {
-        //TODO Implement additional options and search
-    }
-
-    private void beginErrorCodeSearch(Scanner keyboard) {
-        //TODO Implement additional options and search
-    }
-
-    private void beginCompressionCodeSearch(Scanner keyboard) {
-        //TODO Implement additional options and search
     }
 
 }

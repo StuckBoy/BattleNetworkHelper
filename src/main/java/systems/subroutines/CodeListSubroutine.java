@@ -1,11 +1,11 @@
 package systems.subroutines;
 
-import interfaces.Subroutine;
+import interfaces.subroutines.ListSubroutine;
 import systems.utility.readers.CodeFileReader;
 
 import static systems.utility.Helpers.*;
 
-public class CodeListSubroutine implements Subroutine {
+public class CodeListSubroutine implements ListSubroutine {
 
     private final CodeFileReader reader;
 
