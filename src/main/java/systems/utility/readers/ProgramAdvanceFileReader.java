@@ -15,20 +15,31 @@ import java.util.List;
 import static systems.utility.Helpers.print;
 
 public class ProgramAdvanceFileReader {
-
-    private final List<ProgramAdvance> bnThreeProgramAdvancelist;
-    private final List<ProgramAdvance> bnSixProgramAdvancelist;
+    private final List<ProgramAdvance> bnThreeProgramAdvanceList;
+    private final List<ProgramAdvance> bnSixProgramAdvanceList;
 
     public ProgramAdvanceFileReader() throws IOException {
-        Gson gson = new Gson();
         //TODO Implement support for remaining BN games.
-        Reader bnThreeReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeProgramAdvanceLibrary));
-        Reader bnSixReader = Files.newBufferedReader(Paths.get(PathConstants.bnSixProgramAdvanceLibrary));
-        bnThreeProgramAdvancelist = gson.fromJson(bnThreeReader, new TypeToken<List<ProgramAdvance>>() {}.getType());
-        bnSixProgramAdvancelist = gson.fromJson(bnSixReader, new TypeToken<List<ProgramAdvance>>() {}.getType());
-        int bnThreeListSize = bnThreeProgramAdvancelist.size();
+        Reader bnThreeReader = prepareReader(PathConstants.bnThreeProgramAdvanceLibrary);
+        Reader bnSixReader = prepareReader(PathConstants.bnSixProgramAdvanceLibrary);
+        Gson gson = new Gson();
+        bnThreeProgramAdvanceList = prepareList(bnThreeReader, gson);
+        bnSixProgramAdvanceList = prepareList(bnSixReader, gson);
+        outputStats();
+    }
+
+    private Reader prepareReader(String filePath) throws IOException {
+        return Files.newBufferedReader(Paths.get(filePath));
+    }
+
+    private List<ProgramAdvance> prepareList(Reader reader, Gson gson) {
+        return gson.fromJson(reader, new TypeToken<List<ProgramAdvance>>() {}.getType());
+    }
+
+    private void outputStats() {
+        int bnThreeListSize = bnThreeProgramAdvanceList.size();
         print("Loaded " + bnThreeListSize + " BN3 Program Advances.");
-        int bnSixListSize = bnSixProgramAdvancelist.size();
+        int bnSixListSize = bnSixProgramAdvanceList.size();
         print("Loaded " + bnSixListSize + " BN6 Program Advances.");
         int programAdvanceCount = bnThreeListSize + bnSixListSize;
         print("Loading finished. Total count: " + programAdvanceCount);

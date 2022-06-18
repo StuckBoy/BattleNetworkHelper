@@ -22,15 +22,24 @@ public class CodeFileReader {
     private final List<CompressionCode> compressionCodeList;
 
     public CodeFileReader() throws IOException {
-        Gson gson = new Gson();
         //TODO Implement for remaining BN games.
-        Reader exReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeExCodes));
-        Reader errorReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeErrorCodes));
-        Reader compressionReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeCompressionCodes));
 
+        Reader exReader = prepareReader(PathConstants.bnThreeExCodes);
+        Reader errorReader = prepareReader(PathConstants.bnThreeErrorCodes);
+        Reader compressionReader = prepareReader(PathConstants.bnThreeCompressionCodes);
+
+        Gson gson = new Gson();
         extraCodeList = gson.fromJson(exReader, new TypeToken<List<ExCode>>() {}.getType());
         errorCodeList = gson.fromJson(errorReader, new TypeToken<List<ErrorCode>>() {}.getType());
         compressionCodeList = gson.fromJson(compressionReader, new TypeToken<List<CompressionCode>>() {}.getType());
+        outputStats();
+    }
+
+    private Reader prepareReader(String filePath) throws IOException {
+        return Files.newBufferedReader(Paths.get(filePath));
+    }
+
+    private void outputStats() {
         int extraCodeListSize = extraCodeList.size();
         print("Loaded " + extraCodeListSize + " Extra Codes");
         int errorCodeListSize = errorCodeList.size();

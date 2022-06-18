@@ -29,13 +29,27 @@ public class ChipFileReader {
     public ChipFileReader() throws IOException {
         Gson gson = new Gson();
         //TODO Add support for other Battle Network Files
-        Reader standardReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeStandardChipLibrary));
-        Reader megaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeMegaChipLibrary));
-        Reader gigaReader = Files.newBufferedReader(Paths.get(PathConstants.bnThreeGigaChipLibrary));
-        standardChipList = gson.fromJson(standardReader, new TypeToken<List<Chip>>() {}.getType());
-        megaChipList = gson.fromJson(megaReader, new TypeToken<List<Chip>>() {}.getType());
-        gigaChipList = gson.fromJson(gigaReader, new TypeToken<List<Chip>>() {}.getType());
-        int chipCount = standardChipList.size() + megaChipList.size() + gigaChipList.size();
+        Reader standardReader = prepareReader(PathConstants.bnThreeStandardChipLibrary);
+        Reader megaReader = prepareReader(PathConstants.bnThreeMegaChipLibrary);
+        Reader gigaReader = prepareReader(PathConstants.bnThreeGigaChipLibrary);
+        standardChipList = prepareList(standardReader, gson);
+        megaChipList = prepareList(megaReader, gson);
+        gigaChipList = prepareList(gigaReader, gson);
+        outputStats();
+    }
+
+    private Reader prepareReader(String filePath) throws IOException{
+        return Files.newBufferedReader(Paths.get(filePath));
+    }
+
+    private List<Chip> prepareList(Reader reader, Gson gson) {
+        return gson.fromJson(reader, new TypeToken<List<Chip>>() {}.getType());
+    }
+
+    private void outputStats() {
+        int chipCount = standardChipList.size();
+        chipCount += megaChipList.size();
+        chipCount += gigaChipList.size();
         print("BN3 Chips read from files successfully, " + chipCount + " chips loaded.");
     }
 
