@@ -12,19 +12,19 @@ public class Helpers {
      * then a System-dependent line separator.
      *
      * @param s The {@link String} we wish to print.
-     * @see #print(String)
+     * @see #simplePrint(String)
      * @see System#lineSeparator()
      */
     public static void errorPrint(String s) {
-        print(s);
-        print(System.lineSeparator());
+        simplePrint(s);
+        simplePrint(System.lineSeparator());
     }
 
     /**
      * Simplifies calls to {@link System} for printing.
      * @param s The complete {@link String} to be printed.
      */
-    public static void print(String s) {
+    public static void simplePrint(String s) {
         System.out.println(s);
     }
 

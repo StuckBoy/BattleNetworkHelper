@@ -6,7 +6,7 @@ import systems.utility.Helpers;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class OS {
     private static Scanner keyboard;
@@ -27,13 +27,13 @@ public class OS {
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
         while(programInUse) {
-            print(listCommands());
+            simplePrint(listCommands());
             int input;
             try {
                 input = keyboard.nextInt();
             } catch (InputMismatchException ex) {
                 //TODO Implement specific error message.
-                print("Input not valid, please try again.");
+                simplePrint("Input not valid, please try again.");
                 input = -1;
             }
             switch (input) {
@@ -65,13 +65,13 @@ public class OS {
 
     /**
      * Prints initial text on first launch.
-     * @see Helpers#print(String)
+     * @see Helpers#simplePrint(String)
      * @see #startupLogo()
      */
     private static void bootSequence() {
-        print(System.lineSeparator());
-        print(startupLogo());
-        print("Greetings! What do you need?" + System.lineSeparator());
+        simplePrint(System.lineSeparator());
+        simplePrint(startupLogo());
+        simplePrint("Greetings! What do you need?" + System.lineSeparator());
     }
 
     /**
@@ -171,7 +171,7 @@ public class OS {
      * Prints a goodbye and returns 0 to the system.
      */
     private static void exitHelper() {
-        print("See you later!");
+        simplePrint("See you later!");
         System.exit(0);
     }
 
