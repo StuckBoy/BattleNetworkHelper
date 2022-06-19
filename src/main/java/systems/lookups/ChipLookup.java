@@ -3,7 +3,6 @@ package systems.lookups;
 import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
-import systems.utility.Helpers;
 import systems.utility.readers.ChipFileReader;
 
 import java.io.IOException;
@@ -11,7 +10,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.*;
+import static systems.utility.Helpers.errorPrint;
+import static systems.utility.Helpers.simplePrint;
 
 public class ChipLookup implements Subsystem {
 
@@ -27,17 +27,17 @@ public class ChipLookup implements Subsystem {
     private void bootSequence() {
         try {
             reader = new ChipFileReader();
-            print("Chip lookup booted.");
+            simplePrint("Chip lookup booted.");
         } catch (IOException ex) {
-            print("Error encountered while booting Chip Lookup.");
-            print(ex.getMessage());
+            simplePrint("Error encountered while booting Chip Lookup.");
+            simplePrint(ex.getMessage());
         }
     }
 
     @Override
     public void printOptions() {
-        print(System.lineSeparator());
-        print("""
+        simplePrint(System.lineSeparator());
+        simplePrint("""
         Please select an option
         1) Search by number
         2) Search by name
@@ -65,8 +65,8 @@ public class ChipLookup implements Subsystem {
             case 3 -> beginDamageSearch(keyboard);
             case 4 -> beginCodeSearch(keyboard);
             case 5 -> beginMemorySizeSearch(keyboard);
-            case 6 -> print("Returning to main menu...\n");
-            default -> print("Unusable input, please try again.");
+            case 6 -> simplePrint("Returning to main menu...\n");
+            default -> simplePrint("Unusable input, please try again.");
         }
     }
 
@@ -79,7 +79,7 @@ public class ChipLookup implements Subsystem {
     private void beginNumberSearch(Scanner keyboard) {
         int input = -1;
         while (input == -1) {
-            print("Please enter the number of the chip you wish to find.");
+            simplePrint("Please enter the number of the chip you wish to find.");
             try {
                 input = keyboard.nextInt();
             } catch (InputMismatchException ex) {
@@ -103,7 +103,7 @@ public class ChipLookup implements Subsystem {
         if (!foundChips.isEmpty()) {
             printSuccessStrings(foundChips);
         } else {
-            print(failedSearchString());
+            simplePrint(failedSearchString());
         }
     }
 
@@ -112,11 +112,11 @@ public class ChipLookup implements Subsystem {
      * the user.
      *
      * @param foundChips The {@link List} of {@link Chip} to be printed.
-     * @see Helpers#printChipList(List)
+     * @see Chip#print()
      */
     private void printSuccessStrings(List<Chip> foundChips) {
-        print("Here's your chip(s)!");
-        printChipList(foundChips);
+        simplePrint("Here's your chip(s)!");
+        foundChips.forEach(Chip::print);
     }
 
     /**
@@ -137,7 +137,7 @@ public class ChipLookup implements Subsystem {
      * @see #printOutcome(List)
      */
     private void beginNameSearch(Scanner keyboard) {
-        print("Please enter the name of the chip as it appears in-game.");
+        simplePrint("Please enter the name of the chip as it appears in-game.");
         String input = keyboard.next();
         List<Chip> foundChips = reader.searchChipsByName(input);
         printOutcome(foundChips);
@@ -153,7 +153,7 @@ public class ChipLookup implements Subsystem {
      * @see #printOutcome(List) 
      */
     private void beginDamageSearch(Scanner keyboard) {
-        print("Please enter the damage dealt by the desired chip.");
+        simplePrint("Please enter the damage dealt by the desired chip.");
         int input = keyboard.nextInt();
         List<Chip> foundChip = reader.searchChipsByDamage(input);
         printOutcome(foundChip);
@@ -168,7 +168,7 @@ public class ChipLookup implements Subsystem {
      * @see #printCodeOutcome(List, String) 
      */
     private void beginCodeSearch(Scanner keyboard) {
-        print("Please enter the letter you wish the desired chip to be, or *.");
+        simplePrint("Please enter the letter you wish the desired chip to be, or *.");
         String input = keyboard.next();
         List<Chip> foundChips = reader.searchChipsByCode(input);
         printCodeOutcome(foundChips, input);
@@ -182,15 +182,15 @@ public class ChipLookup implements Subsystem {
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
      * @param input The {@link String} inputted by the user.
-     * @see Helpers#printChipList(List)
+     * @see Chip#print()
      */
     private void printCodeOutcome(List<Chip> foundChips, String input) {
         if (StringUtils.equals(input, "*")) {
-            print("Here's the chips that can be a * code!");
+            simplePrint("Here's the chips that can be a * code!");
         } else {
-            print("Here's the chips that can have that code!");
+            simplePrint("Here's the chips that can have that code!");
         }
-        printChipList(foundChips);
+        foundChips.forEach(Chip::print);
     }
 
     /**
@@ -202,7 +202,7 @@ public class ChipLookup implements Subsystem {
      * @see #printMemoryOutcome(List) 
      */
     private void beginMemorySizeSearch(Scanner keyboard) {
-        print("Please enter the memory size of the desired chip.");
+        simplePrint("Please enter the memory size of the desired chip.");
         int input = keyboard.nextInt();
         List<Chip> foundChip = reader.searchChipsByMemorySize(input);
         printMemoryOutcome(foundChip);
@@ -213,14 +213,14 @@ public class ChipLookup implements Subsystem {
      *
      * @param foundChips The resulting {@link List} of {@link Chip} entries that
      *                   matched the search criteria, if any were found.
-     * @see Helpers#printChipList(List)
+     * @see Chip#print()
      */
     private void printMemoryOutcome(List<Chip> foundChips) {
         if (!foundChips.isEmpty()) {
-            print("Here are the chips that match that memory size!");
-            printChipList(foundChips);
+            simplePrint("Here are the chips that match that memory size!");
+            foundChips.forEach(Chip::print);
         } else {
-            print(failedSearchString());
+            simplePrint(failedSearchString());
         }
     }
 

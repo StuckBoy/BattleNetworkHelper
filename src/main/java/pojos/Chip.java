@@ -1,6 +1,10 @@
 package pojos;
 
-public class Chip {
+import interfaces.Printable;
+
+import static systems.utility.Helpers.simplePrint;
+
+public class Chip implements Printable {
     /**
      * The number to represent the chip in-game.
      */
@@ -105,5 +109,38 @@ public class Chip {
 
     public void setRarity(String rarity) {
         this.rarity = rarity;
+    }
+
+    /**
+     * Prints the {@link Chip} provided in a way that is easy for users to
+     * parse.
+     * <p>
+     * The outputted message will be formatted as such:
+     * <p>
+     * <pre>
+     * Number:      ###
+     * Name:        Chip Name
+     * Damage:      ### / -
+     * Code(s):     A,B,C,D,E,*
+     * Memory Size: ## MB
+     * Description: Chip Description
+     * Location(s): Where to find the chip in-game.
+     * </pre>
+     * @see systems.utility.Helpers#simplePrint(String)
+     */
+    @Override
+    public void print() {
+        System.out.println();
+        simplePrint("Number:      " + getNumber());
+        simplePrint("Name:        " + getName());
+        if (getDamage() != null) {
+            simplePrint("Damage:      " + getDamage());
+        } else {
+            simplePrint("Damage:      -");
+        }
+        simplePrint("Code(s):     " + getPossibleCodes());
+        simplePrint("Memory Size: " + getMemory() + " MB");
+        simplePrint("Description: " + getDescription());
+        simplePrint("Location(s): " + getLocations());
     }
 }

@@ -15,7 +15,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class CodeFileReader {
 
@@ -45,11 +45,11 @@ public class CodeFileReader {
 
     private void outputStats() {
         int extraCodeListSize = extraCodeList.size();
-        print("Loaded " + extraCodeListSize + " Extra Codes");
+        simplePrint("Loaded " + extraCodeListSize + " Extra Codes");
         int errorCodeListSize = errorCodeList.size();
-        print("Loaded " + errorCodeListSize + " Error Codes");
+        simplePrint("Loaded " + errorCodeListSize + " Error Codes");
         int compressionCodeListSize = compressionCodeList.size();
-        print("Loaded " + compressionCodeListSize + " Compression Codes");
+        simplePrint("Loaded " + compressionCodeListSize + " Compression Codes");
     }
 
     public List<ExCode> getExCodes() {

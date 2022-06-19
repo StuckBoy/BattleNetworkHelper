@@ -2,14 +2,13 @@ package systems.lookups;
 
 import interfaces.Subsystem;
 import pojos.ProgramAdvance;
-import systems.utility.Helpers;
 import systems.utility.readers.ProgramAdvanceFileReader;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class ProgramAdvanceLookup implements Subsystem {
 
@@ -22,17 +21,17 @@ public class ProgramAdvanceLookup implements Subsystem {
     private void bootSequence() {
         try {
             reader = new ProgramAdvanceFileReader();
-            print("P.A. Lookup booted.");
+            simplePrint("P.A. Lookup booted.");
         } catch (IOException ex) {
-            print("Error encountered while booting P.A. Lookup");
-            print(ex.getMessage());
+            simplePrint("Error encountered while booting P.A. Lookup");
+            simplePrint(ex.getMessage());
         }
     }
 
     @Override
     public void printOptions() {
-        print(System.lineSeparator());
-        print("""
+        simplePrint(System.lineSeparator());
+        simplePrint("""
         Please select an option
         1) Search by name
         2) Search by damage
@@ -47,13 +46,13 @@ public class ProgramAdvanceLookup implements Subsystem {
             case 1 -> beginNameSearch(keyboard);
             case 2 -> beginDamageSearch(keyboard);
             case 3 -> beginChipUseSearch(keyboard);
-            case 4 -> print("Returning to main menu...\n");
-            default -> print("Unusable input, please try again.");
+            case 4 -> simplePrint("Returning to main menu...\n");
+            default -> simplePrint("Unusable input, please try again.");
         }
     }
 
     private void beginNameSearch(Scanner keyboard) {
-        print("Please enter the name of the Program Advance.");
+        simplePrint("Please enter the name of the Program Advance.");
         String input = keyboard.next();
         List<ProgramAdvance> matchingPAs = reader.searchPAsByName(input);
         printOutcome(matchingPAs);
@@ -63,13 +62,13 @@ public class ProgramAdvanceLookup implements Subsystem {
         if (!matchingPAs.isEmpty()) {
             printSuccessString(matchingPAs);
         } else {
-            print(failedSearchString());
+            simplePrint(failedSearchString());
         }
     }
 
     private void printSuccessString(List<ProgramAdvance> matchingPAs) {
-        print("Here's your P.A.(s)!");
-        Helpers.printProgramAdvanceList(matchingPAs);
+        simplePrint("Here's your P.A.(s)!");
+        matchingPAs.forEach(ProgramAdvance::print);
     }
 
     /**

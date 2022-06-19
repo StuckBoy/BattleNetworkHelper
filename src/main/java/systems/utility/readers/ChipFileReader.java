@@ -13,7 +13,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class ChipFileReader {
     private final List<Chip> standardChipList;
@@ -52,7 +52,7 @@ public class ChipFileReader {
         int chipCount = standardChipList.size();
         chipCount += megaChipList.size();
         chipCount += gigaChipList.size();
-        print("BN3 Chips read from files successfully, " + chipCount + " chips loaded.");
+        simplePrint("BN3 Chips read from files successfully, " + chipCount + " chips loaded.");
     }
 
     /**

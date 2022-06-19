@@ -12,7 +12,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class ProgramAdvanceFileReader {
     private final List<ProgramAdvance> bnThreeProgramAdvanceList;
@@ -40,11 +40,11 @@ public class ProgramAdvanceFileReader {
 
     private void outputStats() {
         int bnThreeListSize = bnThreeProgramAdvanceList.size();
-        print("Loaded " + bnThreeListSize + " BN3 Program Advances.");
+        simplePrint("Loaded " + bnThreeListSize + " BN3 Program Advances.");
         int bnSixListSize = bnSixProgramAdvanceList.size();
-        print("Loaded " + bnSixListSize + " BN6 Program Advances.");
+        simplePrint("Loaded " + bnSixListSize + " BN6 Program Advances.");
         int programAdvanceCount = bnThreeListSize + bnSixListSize;
-        print("Loading finished. Total count: " + programAdvanceCount);
+        simplePrint("Loading finished. Total count: " + programAdvanceCount);
     }
 
     public List<ProgramAdvance> searchPAsByName(String name) {

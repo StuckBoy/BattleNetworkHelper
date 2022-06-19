@@ -1,9 +1,12 @@
 package systems.subroutines;
 
 import interfaces.subroutines.ListSubroutine;
+import pojos.CompressionCode;
+import pojos.ErrorCode;
+import pojos.ExCode;
 import systems.utility.readers.CodeFileReader;
 
-import static systems.utility.Helpers.*;
+import static systems.utility.Helpers.simplePrint;
 
 public class CodeListSubroutine implements ListSubroutine {
 
@@ -11,13 +14,13 @@ public class CodeListSubroutine implements ListSubroutine {
 
     public CodeListSubroutine(CodeFileReader reader) {
         this.reader = reader;
-        print("Code list subroutine started.");
+        simplePrint("Code list subroutine started.");
     }
 
     @Override
     public void printOptions() {
-        print(System.lineSeparator());
-        print("""
+        simplePrint(System.lineSeparator());
+        simplePrint("""
         Please select a listing option
         1) List Extra Codes (ExCodes)
         2) List Error Codes
@@ -33,21 +36,21 @@ public class CodeListSubroutine implements ListSubroutine {
             case 1 -> listExtraCodes();
             case 2 -> listErrorCodes();
             case 3 -> listCompressionCodes();
-            case 4 -> print("Not currently supported. :(");
-            case 5 -> print("Returning to previous menu...");
+            case 4 -> simplePrint("Not currently supported. :(");
+            case 5 -> simplePrint("Returning to previous menu...");
         }
     }
 
     public void listExtraCodes() {
-        printExtraCodes(reader.getExCodes());
+        reader.getExCodes().forEach(ExCode::print);
     }
 
     private void listErrorCodes() {
-        printErrorCodes(reader.getErrorCodes());
+        reader.getErrorCodes().forEach(ErrorCode::print);
     }
 
     private void listCompressionCodes() {
-        printCompressionCodes(reader.getCompressionCodes());
+        reader.getCompressionCodes().forEach(CompressionCode::print);
     }
 
 }

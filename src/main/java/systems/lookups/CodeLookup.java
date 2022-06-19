@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.print;
+import static systems.utility.Helpers.simplePrint;
 
 public class CodeLookup implements Subsystem {
 
@@ -22,17 +22,17 @@ public class CodeLookup implements Subsystem {
     private void bootSequence() {
         try {
             reader = new CodeFileReader();
-            print("Code lookup booted.");
+            simplePrint("Code lookup booted.");
         } catch (IOException ex) {
-            print("Error encountered while booting Code Lookup.");
-            print(ex.getMessage());
+            simplePrint("Error encountered while booting Code Lookup.");
+            simplePrint(ex.getMessage());
         }
     }
 
     @Override
     public void printOptions() {
-        print(System.lineSeparator());
-        print("""
+        simplePrint(System.lineSeparator());
+        simplePrint("""
         Please select an option
         1) List Codes
         2) Search Codes
@@ -45,7 +45,7 @@ public class CodeLookup implements Subsystem {
         switch(input) {
             case 1 -> beginListingSubroutine(keyboard);
             case 2 -> beginSearchSubroutine(keyboard);
-            case 3 -> print("Returning to main menu...\n");
+            case 3 -> simplePrint("Returning to main menu...\n");
         }
     }
 
@@ -78,7 +78,7 @@ public class CodeLookup implements Subsystem {
                 //TODO Implement changeover to list subroutine
                 if (input == 5) {
                     continueSubRoutine = false;
-                    print("Returning to previous menu");
+                    simplePrint("Returning to previous menu");
                 }
             } catch (InputMismatchException ex) {
                 keyboard.next();

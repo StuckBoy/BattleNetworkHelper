@@ -1,8 +1,12 @@
 package pojos;
 
+import interfaces.Printable;
+
 import java.util.List;
 
-public class ProgramAdvance {
+import static systems.utility.Helpers.simplePrint;
+
+public class ProgramAdvance implements Printable {
 
     /**
      * The name of the Program Advance
@@ -58,5 +62,34 @@ public class ProgramAdvance {
 
     public void setChipsNeeded(List<List<Chip>> chipsNeeded) {
         this.chipsNeeded = chipsNeeded;
+    }
+
+    /**
+     * Prints the {@link ProgramAdvance} in a way that is easy for users to
+     * parse.
+     *
+     * <p>
+     * The outputted message will be formatted as such:
+     * </p>
+     * <pre>
+     * Name:        Chip Name
+     * Damage:      ### / -
+     * Chips Used:  Chip 1 + Chip 2...
+     * Description: Program Advance Description
+     * </pre>
+     * @see systems.utility.Helpers#simplePrint(String)
+     */
+    @Override
+    public void print() {
+        System.out.println();
+        simplePrint("Name:      " + getName());
+        if (getDamage() != null) {
+            simplePrint("Damage:      " + getDamage());
+        } else {
+            simplePrint("Damage:      -");
+        }
+        //TODO Implement pretty print for chips used in Program Advance.
+        //print("Chips used:");
+        simplePrint("Description: " + getDescription());
     }
 }
