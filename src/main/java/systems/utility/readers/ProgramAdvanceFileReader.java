@@ -6,9 +6,9 @@ import constants.PathConstants;
 import pojos.ProgramAdvance;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,8 +28,10 @@ public class ProgramAdvanceFileReader {
         outputStats();
     }
 
-    private Reader prepareReader(String filePath) throws IOException {
-        return Files.newBufferedReader(Paths.get(filePath));
+    private Reader prepareReader(String filePath) {
+        InputStream input = getClass().getResourceAsStream(filePath);
+        assert input != null;
+        return new InputStreamReader(input);
     }
 
     private List<ProgramAdvance> prepareList(Reader reader, Gson gson) {

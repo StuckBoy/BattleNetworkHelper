@@ -1,7 +1,7 @@
 package constants;
 
 public class PathConstants {
-    private static final String jsonFilePath = "src/main/resources/JSON/";
+    private static final String jsonFilePath = "/JSON/";
     private static final String battleNetworkThreePath = "bn3/BN3 ";
     private static final String battleNetworkSixPath = "bn6/BN6 ";
     private static final String standardLibraryPrefix = "Standard ";
