@@ -6,7 +6,7 @@
     "possibleCodes": "A, B, C, D, E, *",
     "memory": 12,
     "description": "Cannon to attack 1 enemy",
-    "locations": "Defeat Canodumb virus in ACDC areas A & B come in starting folder Buy C from net dealer in SciLab Square (MMBN3 White)."
+    "locations": "Defeat Canodumb virus in ACDC areas. A & B come in starting folder. Buy C from net dealer in SciLab Square (MMBN3 White)."
   },
   {
     "number": "2",
@@ -15,7 +15,7 @@
     "possibleCodes": "H, I, J, K, L, *",
     "memory": 24,
     "description": "Cannon to attack 1 enemy",
-    "locations": "Defeat Canodumb2 in Yoka 1 and other areas Get * in Numberman Machine Find K in GMD in Undernet 1."
+    "locations": "Defeat Canodumb2 in Yoka 1 and other areas. Get * in Numberman Machine. Find K in GMD in Undernet 1."
   },
   {
     "number": "3",
@@ -132,7 +132,7 @@
     "possibleCodes": "A, C, D, E, P, *",
     "memory": 14,
     "description": "Explodes 1 square behind",
-    "locations": "Defeat Shrimpy virus in Yoka 1 Buy from net dealer in ACDC 2 for 600z (MMBN3 Blue)."
+    "locations": "Defeat Shrimpy virus in Yoka 1. Buy from net dealer in ACDC 2 for 600z (MMBN3 Blue)."
   },
   {
     "number": "16",
@@ -159,7 +159,7 @@
     "possibleCodes": "B, H, I, J, P, *",
     "memory": 16,
     "description": "Explodes 1 square behind",
-    "locations": "Buy from net dealer in ACDC 2 for 500z (MMBN3 White); Defeat Spikey virus in ZooComp areas."
+    "locations": "Buy from net dealer in ACDC 2 for 500z (MMBN3 White). Defeat Spikey virus in ZooComp areas."
   },
   {
     "number": "19",
@@ -186,7 +186,7 @@
     "possibleCodes": "B, G, L, O, S, *",
     "memory": 6,
     "description": "Throws a bomb 3 squares",
-    "locations": "Get in starting folder; Green mystery data in ACDC 1."
+    "locations": "Get in starting folder. Green mystery data in ACDC 1."
   },
   {
     "number": "22",
