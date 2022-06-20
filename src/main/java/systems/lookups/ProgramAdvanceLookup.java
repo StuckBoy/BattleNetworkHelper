@@ -81,10 +81,16 @@ public class ProgramAdvanceLookup implements Subsystem {
     }
 
     private void beginDamageSearch(Scanner keyboard) {
-
+        simplePrint("Please input the damage of the Program Advance.");
+        int input = keyboard.nextInt();
+        List<ProgramAdvance> foundPAs = reader.searchPAsByDamage(input);
+        printOutcome(foundPAs);
     }
 
     private void beginChipUseSearch(Scanner keyboard) {
-
+        simplePrint("Please input the name of the chip used.");
+        String input = keyboard.next();
+        List<ProgramAdvance> foundPAs = reader.searchPAsByChipUsed(input);
+        printOutcome(foundPAs);
     }
 }

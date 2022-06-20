@@ -67,7 +67,7 @@ public class CodeFileReader {
     public List<ExCode> searchExCodesByEffect(String input) {
         List<ExCode> foundExCodes = new ArrayList<>();
         for (ExCode exCode : extraCodeList) {
-            if (StringUtils.contains(exCode.getEffect(), input)) {
+            if (StringUtils.containsIgnoreCase(exCode.getEffect(), input)) {
                 foundExCodes.add(exCode);
             }
         }
@@ -77,7 +77,7 @@ public class CodeFileReader {
     public List<ExCode> searchExCodesByGlitch(String input) {
         List<ExCode> foundExCodes = new ArrayList<>();
         for (ExCode exCode : extraCodeList) {
-            if (StringUtils.contains(exCode.getGlitch(), input)) {
+            if (StringUtils.containsIgnoreCase(exCode.getGlitch(), input)) {
                 foundExCodes.add(exCode);
             }
         }
@@ -87,7 +87,7 @@ public class CodeFileReader {
     public List<ErrorCode> searchErrorCodesByProgram(String input) {
         List<ErrorCode> foundErrorCodes = new ArrayList<>();
         for (ErrorCode errorCode : errorCodeList) {
-            if (StringUtils.contains(errorCode.getProgram(), input)) {
+            if (StringUtils.containsIgnoreCase(errorCode.getProgram(), input)) {
                 foundErrorCodes.add(errorCode);
             }
         }
@@ -97,7 +97,7 @@ public class CodeFileReader {
     public List<ErrorCode> searchErrorCodesByStyle(String input) {
         List<ErrorCode> foundErrorCodes = new ArrayList<>();
         for (ErrorCode errorCode : errorCodeList) {
-            if (StringUtils.contains(errorCode.getObtainedFrom(), input)) {
+            if (StringUtils.containsIgnoreCase(errorCode.getObtainedFrom(), input)) {
                 foundErrorCodes.add(errorCode);
             }
         }
@@ -107,7 +107,7 @@ public class CodeFileReader {
     public List<ErrorCode> searchErrorCodesByErrorNumber(String input) {
         List<ErrorCode> foundErrorCodes = new ArrayList<>();
         for (ErrorCode errorCode : errorCodeList) {
-            if (StringUtils.contains(errorCode.getErrorNumber(), input)) {
+            if (StringUtils.containsIgnoreCase(errorCode.getErrorNumber(), input)) {
                 foundErrorCodes.add(errorCode);
             }
         }
@@ -116,7 +116,7 @@ public class CodeFileReader {
     public List<CompressionCode> searchCompressionCodesByProgram(String input) {
         List<CompressionCode> foundCompressionCodes = new ArrayList<>();
         for (CompressionCode compressionCode : compressionCodeList) {
-            if (StringUtils.contains(compressionCode.getProgramName(), input)) {
+            if (StringUtils.containsIgnoreCase(compressionCode.getProgramName(), input)) {
                 foundCompressionCodes.add(compressionCode);
             }
         }

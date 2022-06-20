@@ -145,7 +145,7 @@ public class ChipFileReader {
     private List<Chip> searchListForCode(List<Chip> chipList, String input) {
         List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
-            if (StringUtils.contains(chip.getPossibleCodes(), input)) {
+            if (StringUtils.containsIgnoreCase(chip.getPossibleCodes(), input)) {
                 foundChips.add(chip);
             }
         }

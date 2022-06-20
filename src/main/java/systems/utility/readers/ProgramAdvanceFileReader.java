@@ -51,8 +51,32 @@ public class ProgramAdvanceFileReader {
     public List<ProgramAdvance> searchPAsByName(String name) {
         List<ProgramAdvance> foundPAs = new ArrayList<>();
         for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
-            if (StringUtils.contains(programAdvance.getName(), name)) {
+            if (StringUtils.containsIgnoreCase(programAdvance.getName(), name)) {
                 foundPAs.add(programAdvance);
+            }
+        }
+        return foundPAs;
+    }
+
+    public List<ProgramAdvance> searchPAsByDamage(int input) {
+        List<ProgramAdvance> foundPAs = new ArrayList<>();
+        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+            if (programAdvance.getDamage() == input) {
+                foundPAs.add(programAdvance);
+            }
+        }
+        return foundPAs;
+    }
+
+    public List<ProgramAdvance> searchPAsByChipUsed(String input) {
+        List<ProgramAdvance> foundPAs = new ArrayList<>();
+        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+            for (List<String> combo : programAdvance.getCombos()) {
+                for (String chip : combo) {
+                    if (StringUtils.containsIgnoreCase(chip, input)) {
+                        foundPAs.add(programAdvance);
+                    }
+                }
             }
         }
         return foundPAs;
