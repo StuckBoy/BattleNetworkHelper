@@ -3,6 +3,7 @@ package systems.utility.readers;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import constants.PathConstants;
+import org.apache.commons.lang3.StringUtils;
 import pojos.ProgramAdvance;
 
 import java.io.IOException;
@@ -48,7 +49,12 @@ public class ProgramAdvanceFileReader {
     }
 
     public List<ProgramAdvance> searchPAsByName(String name) {
-        //TODO Implement
-        return new ArrayList<>();
+        List<ProgramAdvance> foundPAs = new ArrayList<>();
+        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+            if (StringUtils.contains(programAdvance.getName(), name)) {
+                foundPAs.add(programAdvance);
+            }
+        }
+        return foundPAs;
     }
 }

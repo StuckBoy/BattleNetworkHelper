@@ -21,7 +21,7 @@ public class ProgramAdvance implements Printable {
     /**
      * The amount dealt to enemies hit by this chip, {@code null} if it doesn't
      * inflict any damage. In the rare case where this restores health instead,
-     * the numer represents the Hit Points recovered.
+     * the number represents the Hit Points recovered.
      */
     private Integer damage;
 
@@ -30,7 +30,7 @@ public class ProgramAdvance implements Printable {
      * in order to trigger the program advance. The order of each list dictates
      * the order in which the chips must be for the program advance.
      */
-    private List<List<Chip>> chipsNeeded;
+    private List<List<String>> combos;
 
     public String getName() {
         return name;
@@ -56,12 +56,12 @@ public class ProgramAdvance implements Printable {
         this.damage = damage;
     }
 
-    public List<List<Chip>> getChipsNeeded() {
-        return chipsNeeded;
+    public List<List<String>> getCombos() {
+        return combos;
     }
 
-    public void setChipsNeeded(List<List<Chip>> chipsNeeded) {
-        this.chipsNeeded = chipsNeeded;
+    public void setCombos(List<List<String>> combos) {
+        this.combos = combos;
     }
 
     /**
@@ -82,7 +82,7 @@ public class ProgramAdvance implements Printable {
     @Override
     public void print() {
         System.out.println();
-        simplePrint("Name:      " + getName());
+        simplePrint("Name:        " + getName());
         if (getDamage() != null) {
             simplePrint("Damage:      " + getDamage());
         } else {

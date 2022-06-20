@@ -1,7 +1,7 @@
 [
   {
     "name": "Z-Canon1",
-    "description": "Unlimited Cannon for 5 sec",
+    "description": "Unlimited Cannon for 5 sec. Once active, MegaMan is invincible, and each A press deals the listed damage 3 times.",
     "damage": 40,
     "combos": [
       [
@@ -23,7 +23,8 @@
   },
   {
     "name": "Z-Canon2",
-    "description": "Unlimited HiCannon for 5 sec",
+    "description": "Unlimited HiCannon for 5 sec. Once active, MegaMan is invincible, and each A press deals the listed damage 3 times.",
+    "damage": 60,
     "combos": [
       [
         "HiCannon H",
@@ -44,7 +45,8 @@
   },
   {
     "name": "Z-Canon3",
-    "description": "Unlimited M-Cannon for 5 sec",
+    "description": "Unlimited M-Cannon for 5 sec. Once active, MegaMan is invincible, and each A press deals the listed damage 3 times.",
+    "damage": 80,
     "combos": [
       [
         "M-Cannon O",
@@ -65,7 +67,8 @@
   },
   {
     "name": "Z-Punch",
-    "description": "Unlimited GutPunch for 5 sec",
+    "description": "Unlimited GutPunch for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will punch 1 square forward each time. To rocket punch, press Down then Right while holding A.",
+    "damage": 80,
     "combos": [
       [
         "GutsPnch B",
@@ -86,7 +89,8 @@
   },
   {
     "name": "Z-Strght",
-    "description": "Unlimited GutStrgt for 5 sec",
+    "description": "Unlimited GutStrgt for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will punch 2 squares forward each time.",
+    "damage": 100,
     "combos": [
       [
         "GutStrgt O",
@@ -107,7 +111,8 @@
   },
   {
     "name": "Z-Impact",
-    "description": "Unlimited GutImpct for 5 sec",
+    "description": "Unlimited GutImpct for 5 sec. Once active, MegaMan is invincible. When A is pressed MegaMan will punch 3 squares forward each time.",
+    "damage": 160,
     "combos": [
       [
         "GutImpct G",
@@ -128,7 +133,8 @@
   },
   {
     "name": "Z-Variable",
-    "description": "Unlimited VarSwrd for 5 sec",
+    "description": "Unlimited VarSwrd for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will use VarSwrd. VarSwrd codes still work.",
+    "damage": 160,
     "combos": [
       [
         "VarSwrd B",
@@ -149,7 +155,8 @@
   },
   {
     "name": "Z-Yoyo1",
-    "description": "Unlimited Yo-Yo for 5 sec",
+    "description": "Unlimited Yo-Yo1 for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will fire a Yo-Yo1 forward. The Yo-Yo hits the first 2 squares twice and the 3rd square three times. The Yo-Yo can be stopped by rock cubes, or if MegaMan is damaged while using it.",
+    "damage": 40,
     "combos": [
       [
         "Yo-Yo1 C",
@@ -170,7 +177,8 @@
   },
   {
     "name": "Z-Yoyo2",
-    "description": "Unlimited Yo-Yo2 for 5 sec",
+    "description": "Unlimited Yo-Yo2 for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will fire a Yo-Yo2 forward. The Yo-Yo hits the first 2 squares twice and the 3rd square three times. The Yo-Yo can be stopped by rock cubes, or if MegaMan is damaged while using it.",
+    "damage": 50,
     "combos": [
       [
         "Yo-Yo2 H",
@@ -191,7 +199,8 @@
   },
   {
     "name": "Z-Yoyo3",
-    "description": "Unlimited Yo-Yo3 for 5 sec",
+    "description": "Unlimited Yo-Yo3 for 5 sec. Once active, MegaMan is invincible. When A is pressed, MegaMan will fire a Yo-Yo3 forward. The Yo-Yo hits the first 2 squares twice and the 3rd square three times. The Yo-Yo can be stopped by rock cubes, or if MegaMan is damaged while using it.",
+    "damage": 60,
     "combos": [
       [
         "Yo-Yo3 M",
@@ -213,6 +222,7 @@
   {
     "name": "Z-Step1",
     "description": "Unlimited StepSwrd for 5 sec",
+    "damage": 130,
     "combos": [
       [
         "StepSwrd L",
@@ -234,6 +244,7 @@
   {
     "name": "Z-Step2",
     "description": "Unlimited StepCros for 5 sec",
+    "damage": 130,
     "combos": [
       [
         "StepCros O",
@@ -255,6 +266,7 @@
   {
     "name": "BubSprd",
     "description": "Attks w/ spreading bubbles!",
+    "damage": 300,
     "combos": [
       [
         "Bubbler C",
@@ -281,6 +293,7 @@
   {
     "name": "HeatSprd",
     "description": "Attacks w/ spreading fireball!",
+    "damage": 300,
     "combos": [
       [
         "HeatShot H",
@@ -305,8 +318,9 @@
     ]
   },
   {
-    "name": "H-Burts",
+    "name": "H-Burst",
     "description": "Creates a giant explosion",
+    "damage": 100,
     "combos": [
       [
         "Spreader M",
@@ -328,6 +342,7 @@
   {
     "name": "LifeSwrd",
     "description": "Swings a huge 2x3 sword!",
+    "damage": 400,
     "combos": [
       [
         "Sword E",
@@ -349,6 +364,7 @@
   {
     "name": "ElemSwrd",
     "description": "Wide swrd contains 4 elemnts",
+    "damage": 150,
     "combos": [
       [
         "FireSwrd N",
@@ -367,6 +383,7 @@
   {
     "name": "EvilCut",
     "description": "Step up 2 & make 4 attacks!",
+    "damage": 150,
     "combos": [
       [
         "StepSwrd P",
@@ -378,6 +395,7 @@
   {
     "name": "HyperRat",
     "description": "A giant Ratton charges!",
+    "damage": 500,
     "combos": [
       [
         "Ratton1 A",
@@ -399,6 +417,7 @@
   {
     "name": "TimeBom+",
     "description": "Sets Time Bomb in enmy area",
+    "damage": 500,
     "combos": [
       [
         "TimeBomb J",
@@ -420,6 +439,7 @@
   {
     "name": "GelRain",
     "description": "Gel steals squares",
+    "damage": 150,
     "combos": [
       [
         "MetaGel1 B",
@@ -439,8 +459,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "EverCrse",
     "description": "Shield chases enemies",
+    "damage": 100,
     "combos": [
       [
         "CrsShld1 C",
@@ -455,8 +476,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "MomQuake",
     "description": "Awakens Mother Earth!",
+    "damage": 200,
     "combos": [
       [
         "RockCube *",
@@ -466,8 +488,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "PoisPhar",
     "description": "Pharaoh generates poison",
+    "damage": 0,
     "combos": [
       [
         "PoisMask A",
@@ -477,8 +500,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "BodyGrd",
     "description": "Bodyguard takes out enemies",
+    "damage": 100,
     "combos": [
       [
         "AntiDmg M",
@@ -488,8 +512,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "500Barr",
     "description": "Barrier absorbs 500HP dmg",
+    "damage": 0,
     "combos": [
       [
         "Barrier E",
@@ -504,8 +529,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "BigHeart",
     "description": "Attacks, then heals HP!",
+    "damage": 50,
     "combos": [
       [
         "HolyPanl R",
@@ -525,8 +551,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "GtsShoot",
     "description": "GustMan throws MegaMan!",
+    "damage": 300,
     "combos": [
       [
         "Guard *",
@@ -551,8 +578,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "DeuxHero",
     "description": "MegaMan & ProtoMan team up!",
+    "damage": 70,
     "combos": [
       [
         "CustSwrd B",
@@ -577,8 +605,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "2xHero",
     "description": "MegaMan & ProtoMan dual atk",
+    "damage": 70,
     "combos": [
       [
         "Slasher B",
@@ -607,8 +636,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "PrixPowr",
     "description": "3 Navis attack at once!",
+    "damage": 600,
     "combos": [
       [
         "Team1 *",
@@ -628,8 +658,9 @@
     ]
   },
   {
-    "name": "Z-Canon1",
+    "name": "MstrStyl",
     "description": "MegaMan unleashes his power",
+    "damage": 100,
     "combos": [
       [
         "Salamandr *",
