@@ -1,9 +1,9 @@
 package systems.subroutines;
 
 import interfaces.subroutines.ListSubroutine;
-import pojos.CompressionCode;
-import pojos.ErrorCode;
-import pojos.ExCode;
+import pojos.navicust.CompressionCode;
+import pojos.navicust.ErrorCode;
+import pojos.navicust.ExCode;
 import systems.utility.readers.CodeFileReader;
 
 import static systems.utility.Helpers.simplePrint;

@@ -1,4 +1,4 @@
-package pojos;
+package pojos.navicust;
 
 import interfaces.Printable;
 

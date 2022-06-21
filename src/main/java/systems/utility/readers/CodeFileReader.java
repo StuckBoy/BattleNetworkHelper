@@ -4,9 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import constants.PathConstants;
 import org.apache.commons.lang3.StringUtils;
-import pojos.CompressionCode;
-import pojos.ErrorCode;
-import pojos.ExCode;
+import pojos.navicust.CompressionCode;
+import pojos.navicust.ErrorCode;
+import pojos.navicust.ExCode;
 
 import java.io.IOException;
 import java.io.InputStream;

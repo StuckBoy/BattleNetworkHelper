@@ -1,9 +1,9 @@
 package systems.subroutines;
 
 import interfaces.subroutines.SearchSubroutine;
-import pojos.CompressionCode;
-import pojos.ErrorCode;
-import pojos.ExCode;
+import pojos.navicust.CompressionCode;
+import pojos.navicust.ErrorCode;
+import pojos.navicust.ExCode;
 import systems.utility.readers.CodeFileReader;
 
 import java.util.InputMismatchException;
