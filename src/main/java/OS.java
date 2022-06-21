@@ -1,3 +1,5 @@
+import constants.Game;
+import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
 import systems.lookups.ProgramAdvanceLookup;
@@ -9,6 +11,12 @@ import java.util.Scanner;
 import static systems.utility.Helpers.simplePrint;
 
 public class OS {
+
+    private static UserConfig config;
+
+    /**
+     * The {@link Scanner} to allow input from the user.
+     */
     private static Scanner keyboard;
 
     /**
@@ -20,6 +28,9 @@ public class OS {
      * @see #bootSequence()
      * @see #listCommands()
      * @see #bootChipLookup()
+     * @see #bootPALookup()
+     * @see #bootFolderBuilder()
+     * @see #bootCodeLookup()
      * @see #exitHelper()
      */
     public static void main(String[] args) {
@@ -37,27 +48,13 @@ public class OS {
                 input = -1;
             }
             switch (input) {
-                case 1:
-                    bootChipLookup();
-                    break;
-                case 2:
-                    //TODO Implement P.A. Lookup
-                    bootPALookup();
-                    break;
-                case 3:
-                    //TODO Implement Folder Building
-                    bootFolderBuilder();
-                    break;
-                case 4:
-                    //TODO Implement Code Lookup
-                    bootCodeLookup();
-                    break;
-                case 5:
-                    programInUse = false;
-                    break;
-                default:
-                    //Input not valid, reset the scanner for next attempt.
-                    keyboard.next();
+                case 1 -> bootChipLookup();
+                case 2 -> bootPALookup();
+                case 3 -> bootFolderBuilder();
+                case 4 -> bootCodeLookup();
+                case 5 -> bootConfiguration();
+                case 6 -> programInUse = false;
+                default -> keyboard.next(); //Resets scanner for next input
             }
         }
         exitHelper();
@@ -103,7 +100,8 @@ public class OS {
         2) P.A. Lookup
         3) Folder Builder
         4) Code Lookup
-        5) Exit
+        5) Edit Config
+        6) Exit
         
         Please select an option...
         """;
@@ -129,6 +127,9 @@ public class OS {
         }
     }
 
+    /**
+     * Initializes the {@link ProgramAdvanceLookup}
+     */
     private static void bootPALookup() {
         ProgramAdvanceLookup lookup = new ProgramAdvanceLookup();
         boolean continueProcess = true;
@@ -146,10 +147,16 @@ public class OS {
         }
     }
 
+    /**
+     * TODO
+     */
     private static void bootFolderBuilder() {
         //TODO Implement
     }
 
+    /**
+     * Initializes the {@link CodeLookup}
+     */
     private static void bootCodeLookup() {
         CodeLookup lookup = new CodeLookup();
         boolean continueProcess = true;
@@ -168,6 +175,14 @@ public class OS {
     }
 
     /**
+     * Initializes the configuration menu to edit settings such as which game's
+     * data to load.
+     */
+    private static void bootConfiguration() {
+
+    }
+
+    /**
      * Prints a goodbye and returns 0 to the system.
      */
     private static void exitHelper() {
@@ -175,4 +190,7 @@ public class OS {
         System.exit(0);
     }
 
+    public Game getCurrentGame() {
+        return config.getCurrentGame();
+    }
 }
