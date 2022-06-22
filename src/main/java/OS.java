@@ -1,4 +1,3 @@
-import constants.Game;
 import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
@@ -188,9 +187,5 @@ public class OS {
     private static void exitHelper() {
         simplePrint("See you later!");
         System.exit(0);
-    }
-
-    public Game getCurrentGame() {
-        return config.getCurrentGame();
     }
 }

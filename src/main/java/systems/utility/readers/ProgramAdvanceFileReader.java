@@ -2,6 +2,7 @@ package systems.utility.readers;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import constants.Game;
 import constants.PathConstants;
 import org.apache.commons.lang3.StringUtils;
 import pojos.ProgramAdvance;
@@ -18,6 +19,7 @@ import static systems.utility.Helpers.simplePrint;
 public class ProgramAdvanceFileReader {
     private final List<ProgramAdvance> bnThreeProgramAdvanceList;
     private final List<ProgramAdvance> bnSixProgramAdvanceList;
+    private Game currentGame;
 
     public ProgramAdvanceFileReader() throws IOException {
         //TODO Implement support for remaining BN games.
