@@ -89,7 +89,7 @@ public class ProgramAdvance implements Printable {
             simplePrint("Damage:      -");
         }
         //TODO Implement pretty print for chips used in Program Advance.
-        //print("Chips used:");
+        simplePrint("Combos used:");
         simplePrint("Description: " + getDescription());
     }
 }

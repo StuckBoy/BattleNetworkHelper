@@ -2,7 +2,9 @@ package pojos;
 
 import java.util.List;
 
-public class Virus {
+import interfaces.Printable;
+
+public class Virus implements Printable {
 
     private String name;
 
@@ -11,6 +13,8 @@ public class Virus {
     private String damage;
 
     private String element;
+
+    private List<String> locations;
 
     public String getName() {
         return name;
@@ -52,5 +56,8 @@ public class Virus {
         this.locations = locations;
     }
 
-    private List<String> locations;
+    @Override
+    public void print() {
+        //TODO Implement
+    }
 }
