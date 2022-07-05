@@ -1,4 +1,5 @@
 import com.google.gson.Gson;
+import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
 import constants.PathConstants;
@@ -9,6 +10,7 @@ import systems.lookups.ProgramAdvanceLookup;
 import systems.utility.Helpers;
 
 import java.io.*;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.InputMismatchException;
@@ -84,14 +86,21 @@ public class OS {
         if (inputStream == null) {
             try {
                 //Make sure the directory exists
-                Files.createDirectory(Paths.get(PathConstants.userConfigPath));
+                Files.createDirectory(Paths.get(absoluteConfigDir));
                 //Make sure the default file exists.
                 FileWriter writer = new FileWriter(PathConstants.userConfigPath);
                 //Set default data to JSON file.
                 gson.toJson(config, writer);
                 writer.close();
+                inputStream = OS.class.getResourceAsStream(absoluteConfigPath);
+            } catch (SecurityException ex) {
+                errorPrint("Permission to write to path denied.");
+            } catch (FileAlreadyExistsException ex) {
+                errorPrint("An error occurred while creating the default config, one was already present?");
             } catch (IOException ex) {
                 errorPrint("An issue occurred while setting up the UserConfig.");
+            } catch (JsonIOException ex) {
+                errorPrint("An error occurred while creating the default JSON file.");
             }
         }
         assert inputStream != null;
