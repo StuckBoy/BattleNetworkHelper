@@ -1,5 +1,6 @@
 package pojos;
 
+import com.google.gson.annotations.SerializedName;
 import constants.Game;
 
 /**
@@ -15,7 +16,15 @@ public class UserConfig {
     /**
      * {@link Game} {@link Enum} whose data should be loaded.
      */
+    @SerializedName("currentGame")
     private Game currentGame;
+
+    public UserConfig() {}
+
+    public UserConfig(Game currentGame) {
+        username = "";
+        this.currentGame = currentGame;
+    }
 
     public String getUsername() {
         return username;

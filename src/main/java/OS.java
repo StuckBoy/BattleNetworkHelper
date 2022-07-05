@@ -1,12 +1,20 @@
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import constants.Game;
+import constants.PathConstants;
 import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
 import systems.lookups.ProgramAdvanceLookup;
 import systems.utility.Helpers;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import static systems.utility.Helpers.errorPrint;
 import static systems.utility.Helpers.simplePrint;
 
 public class OS {
@@ -24,6 +32,7 @@ public class OS {
      *
      * @param args An array of {@link String} arguments to provide. In its
      * current state, any arguments, if provided, will not be used.
+     * @see #loadUserConfig()
      * @see #bootSequence()
      * @see #listCommands()
      * @see #bootChipLookup()
@@ -33,6 +42,7 @@ public class OS {
      * @see #exitHelper()
      */
     public static void main(String[] args) {
+        config = loadUserConfig();
         bootSequence();
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
@@ -57,6 +67,37 @@ public class OS {
             }
         }
         exitHelper();
+    }
+
+    /**
+     * Loads the user config to reduce unnecessary loading in the app.
+     * @return The {@link UserConfig} with previous settings, or default if one
+     * did not already exist.
+     */
+    private static UserConfig loadUserConfig() {
+        UserConfig config = new UserConfig(Game.BN1);
+        String absolutePath = System.getProperty("user.dir");
+        String absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+        String absoluteConfigDir = absolutePath + "\\config\\";
+        InputStream inputStream = OS.class.getResourceAsStream(absoluteConfigPath);
+        Gson gson = new Gson();
+        if (inputStream == null) {
+            try {
+                //Make sure the directory exists
+                Files.createDirectory(Paths.get(PathConstants.userConfigPath));
+                //Make sure the default file exists.
+                FileWriter writer = new FileWriter(PathConstants.userConfigPath);
+                //Set default data to JSON file.
+                gson.toJson(config, writer);
+                writer.close();
+            } catch (IOException ex) {
+                errorPrint("An issue occurred while setting up the UserConfig.");
+            }
+        }
+        assert inputStream != null;
+        Reader reader = new InputStreamReader(inputStream);
+        config = gson.fromJson(reader, new TypeToken<UserConfig>() {}.getType());
+        return config;
     }
 
     /**
