@@ -2,9 +2,11 @@ package systems.lookups;
 
 import interfaces.Subsystem;
 import pojos.ProgramAdvance;
+import systems.utility.Helpers;
 import systems.utility.readers.ProgramAdvanceFileReader;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -31,13 +33,12 @@ public class ProgramAdvanceLookup implements Subsystem {
     @Override
     public void printOptions() {
         simplePrint(System.lineSeparator());
-        simplePrint("""
-        Please select an option
-        1) Search by name
-        2) Search by damage
-        3) Search by chip used
-        4) Return to main menu
-        """);
+        List<String> options = new ArrayList<>();
+        options.add("Search by name");
+        options.add("Search by damage");
+        options.add("Search by chip used");
+        options.add("Return to main menu");
+        Helpers.printOptions(options);
     }
 
     @Override

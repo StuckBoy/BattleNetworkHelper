@@ -4,9 +4,12 @@ import systems.lookups.CodeLookup;
 import systems.lookups.ProgramAdvanceLookup;
 import systems.utility.Helpers;
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
+import static systems.utility.Helpers.printOptions;
 import static systems.utility.Helpers.simplePrint;
 
 public class OS {
@@ -37,7 +40,7 @@ public class OS {
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
         while(programInUse) {
-            simplePrint(listCommands());
+            listCommands();
             int input;
             try {
                 input = keyboard.nextInt();
@@ -87,23 +90,17 @@ public class OS {
     }
 
     /**
-     * The main options offered for the BNH.
-     * @return A {@link String} of the top-most menu's options.
+     * Prints the main options offered for the BNH.
      */
-    private static String listCommands() {
-        return """
-        =========
-        Main Menu
-        =========
-        1) Chip Lookup
-        2) P.A. Lookup
-        3) Folder Builder
-        4) Code Lookup
-        5) Edit Config
-        6) Exit
-        
-        Please select an option...
-        """;
+    private static void listCommands() {
+        List<String> commandList = new ArrayList<>();
+        commandList.add("Chip Lookup");
+        commandList.add("P.A. Lookup");
+        commandList.add("Folder Builder");
+        commandList.add("Code Lookup");
+        commandList.add("Edit Config");
+        commandList.add("Exit");
+        printOptions(commandList);
     }
 
     /**

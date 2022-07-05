@@ -1,6 +1,9 @@
 package interfaces;
 
+import java.util.List;
 import java.util.Scanner;
+
+import systems.utility.Helpers;
 
 /**
  * Represents a system that performs a wide range of ways to perform a specific
@@ -10,6 +13,7 @@ public interface Subsystem {
 
     /**
      * Prints the list of available options to the user.
+     * @see Helpers#printOptions(List)
      */
     void printOptions();
 

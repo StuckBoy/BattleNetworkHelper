@@ -4,9 +4,13 @@ import interfaces.subroutines.ListSubroutine;
 import pojos.navicust.CompressionCode;
 import pojos.navicust.ErrorCode;
 import pojos.navicust.ExCode;
+import systems.utility.Helpers;
 import systems.utility.readers.CodeFileReader;
 
 import static systems.utility.Helpers.simplePrint;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CodeListSubroutine implements ListSubroutine {
 
@@ -20,14 +24,13 @@ public class CodeListSubroutine implements ListSubroutine {
     @Override
     public void printOptions() {
         simplePrint(System.lineSeparator());
-        simplePrint("""
-        Please select a listing option
-        1) List Extra Codes (ExCodes)
-        2) List Error Codes
-        3) List Compression Codes
-        4) Switch to search mode
-        5) Return to previous menu
-        """);
+        List<String> options = new ArrayList<>();
+        options.add("List Extra Codes (ExCodes)");
+        options.add("List Error Codes");
+        options.add("List Compression Codes");
+        options.add("Switch to search mode");
+        options.add("Return to previous menu");
+        Helpers.printOptions(options);
     }
 
     @Override

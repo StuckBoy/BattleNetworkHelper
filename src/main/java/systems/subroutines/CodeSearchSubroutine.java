@@ -4,8 +4,10 @@ import interfaces.subroutines.SearchSubroutine;
 import pojos.navicust.CompressionCode;
 import pojos.navicust.ErrorCode;
 import pojos.navicust.ExCode;
+import systems.utility.Helpers;
 import systems.utility.readers.CodeFileReader;
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -23,13 +25,13 @@ public class CodeSearchSubroutine implements SearchSubroutine {
     @Override
     public void printOptions() {
         simplePrint(System.lineSeparator());
-        simplePrint("""
-        1) Search Extra Codes (ExCodes)
-        2) Search Error Codes
-        3) Search Compression Codes
-        4) Switch to list mode
-        5) Return to previous menu
-        """);
+        List<String> options = new ArrayList<>();
+        options.add("Search Extra Codes (ExCodes)");
+        options.add("Search Error Codes");
+        options.add("Search Compression Codes");
+        options.add("Switch to list mode");
+        options.add("Return to previous menu");
+        Helpers.printOptions(options);
     }
 
     @Override
