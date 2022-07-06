@@ -12,6 +12,7 @@ import systems.utility.Helpers;
 import java.io.*;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -80,30 +81,42 @@ public class OS {
         UserConfig config = new UserConfig(Game.BN1);
         String absolutePath = System.getProperty("user.dir");
         String absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
-        String absoluteConfigDir = absolutePath + "\\config\\";
-        InputStream inputStream = OS.class.getResourceAsStream(absoluteConfigPath);
+        Path configPath = Paths.get(absoluteConfigPath);
+        InputStream inputStream = null;
+        try {
+            inputStream = Files.newInputStream(configPath);
+        } catch (IOException ex) {
+            //We'll need to create the directory, file, or both, that comes next
+        }
         Gson gson = new Gson();
         if (inputStream == null) {
             try {
                 //Make sure the directory exists
-                Files.createDirectory(Paths.get(absoluteConfigDir));
-                //Make sure the default file exists.
-                FileWriter writer = new FileWriter(PathConstants.userConfigPath);
-                //Set default data to JSON file.
-                gson.toJson(config, writer);
-                writer.close();
-                inputStream = OS.class.getResourceAsStream(absoluteConfigPath);
+                File file = new File(absoluteConfigPath);
+                if (file.getParentFile().mkdir()) {
+                    if (file.createNewFile()) {
+                        //Make sure the default file exists.
+                        FileWriter writer = new FileWriter(absoluteConfigPath);
+                        //Set default data to JSON file.
+                        gson.toJson(config, writer);
+                        writer.close();
+                        inputStream = Files.newInputStream(configPath);
+                    } else {
+                        throw new IOException("Unable to create config file.");
+                    }
+                } else {
+                    throw new IOException("Unable to create directory for config file.");
+                }
             } catch (SecurityException ex) {
                 errorPrint("Permission to write to path denied.");
             } catch (FileAlreadyExistsException ex) {
                 errorPrint("An error occurred while creating the default config, one was already present?");
             } catch (IOException ex) {
-                errorPrint("An issue occurred while setting up the UserConfig.");
+                errorPrint("An issue occurred while setting up the user config.");
             } catch (JsonIOException ex) {
                 errorPrint("An error occurred while creating the default JSON file.");
             }
         }
-        assert inputStream != null;
         Reader reader = new InputStreamReader(inputStream);
         config = gson.fromJson(reader, new TypeToken<UserConfig>() {}.getType());
         return config;
