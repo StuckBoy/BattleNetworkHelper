@@ -3,10 +3,13 @@ package systems.lookups;
 import interfaces.Subsystem;
 import systems.subroutines.CodeListSubroutine;
 import systems.subroutines.CodeSearchSubroutine;
+import systems.utility.Helpers;
 import systems.utility.readers.CodeFileReader;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 import static systems.utility.Helpers.simplePrint;
@@ -32,12 +35,11 @@ public class CodeLookup implements Subsystem {
     @Override
     public void printOptions() {
         simplePrint(System.lineSeparator());
-        simplePrint("""
-        Please select an option
-        1) List Codes
-        2) Search Codes
-        3) Return to main menu
-        """);
+        List<String> options = new ArrayList<>();
+        options.add("List Codes");
+        options.add("Search Codes");
+        options.add("Return to main menu");
+        Helpers.printOptions(options);
     }
 
     @Override

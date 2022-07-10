@@ -3,9 +3,11 @@ package systems.lookups;
 import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
+import systems.utility.Helpers;
 import systems.utility.readers.ChipFileReader;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -37,15 +39,14 @@ public class ChipLookup implements Subsystem {
     @Override
     public void printOptions() {
         simplePrint(System.lineSeparator());
-        simplePrint("""
-        Please select an option
-        1) Search by number
-        2) Search by name
-        3) Search by damage
-        4) Search by code
-        5) Search by memory size
-        6) Return to main menu
-        """);
+        List<String> options = new ArrayList<>();
+        options.add("Search by number");
+        options.add("Search by name");
+        options.add("Search by damage");
+        options.add("Search by code");
+        options.add("Search by memory size");
+        options.add("Return to main menu");
+        Helpers.printOptions(options);
     }
 
     /**
