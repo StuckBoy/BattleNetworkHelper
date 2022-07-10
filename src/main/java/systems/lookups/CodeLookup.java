@@ -1,5 +1,7 @@
 package systems.lookups;
 
+import constants.Game;
+import exceptions.UnsupportedGameException;
 import interfaces.Subsystem;
 import systems.subroutines.CodeListSubroutine;
 import systems.subroutines.CodeSearchSubroutine;
@@ -17,24 +19,26 @@ import static systems.utility.Helpers.simplePrint;
 public class CodeLookup implements Subsystem {
 
     private CodeFileReader reader;
+    private final Game currentGame;
 
-    public CodeLookup() {
+    public CodeLookup(Game currentGame) throws UnsupportedGameException, IOException {
+        this.currentGame = currentGame;
         bootSequence();
     }
 
-    private void bootSequence() {
+    private void bootSequence() throws UnsupportedGameException, IOException {
         try {
-            reader = new CodeFileReader();
+            reader = new CodeFileReader(currentGame);
             simplePrint("Code lookup booted.");
-        } catch (IOException ex) {
+        } catch (IOException | UnsupportedGameException ex) {
             simplePrint("Error encountered while booting Code Lookup.");
-            simplePrint(ex.getMessage());
+            simplePrint(ex.getMessage() + System.lineSeparator());
+            throw ex;
         }
     }
 
     @Override
     public void printOptions() {
-        simplePrint(System.lineSeparator());
         List<String> options = new ArrayList<>();
         options.add("List Codes");
         options.add("Search Codes");

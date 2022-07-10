@@ -25,9 +25,7 @@ public class ProgramAdvanceFileReader {
         switch (currentGame) {
             case BN3 -> gameReader = prepareReader(PathConstants.bnThreeProgramAdvanceLibrary);
             case BN6 -> gameReader = prepareReader(PathConstants.bnSixProgramAdvanceLibrary);
-            default -> {
-                throw new UnsupportedGameException("P.A. lookup not yet supported for current game.");
-            }
+            default -> throw new UnsupportedGameException("P.A. lookup not yet supported for current game.");
         }
         Gson gson = new Gson();
         programAdvanceList = prepareList(gameReader, gson);

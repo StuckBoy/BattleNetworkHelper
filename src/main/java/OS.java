@@ -227,19 +227,22 @@ public class OS {
      * Initializes the {@link CodeLookup}
      */
     private static void bootCodeLookup() {
-        CodeLookup lookup = new CodeLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 7) {
-                    continueProcess = false;
+        try {
+            CodeLookup lookup = new CodeLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 7) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 
