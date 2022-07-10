@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
 import constants.PathConstants;
+import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
 import pojos.ProgramAdvance;
 
@@ -17,17 +18,27 @@ import java.util.List;
 import static systems.utility.Helpers.simplePrint;
 
 public class ProgramAdvanceFileReader {
-    private final List<ProgramAdvance> bnThreeProgramAdvanceList;
-    private final List<ProgramAdvance> bnSixProgramAdvanceList;
-    private Game currentGame;
+    private final List<ProgramAdvance> programAdvanceList;
 
-    public ProgramAdvanceFileReader() throws IOException {
-        //TODO Implement support for remaining BN games.
-        Reader bnThreeReader = prepareReader(PathConstants.bnThreeProgramAdvanceLibrary);
-        Reader bnSixReader = prepareReader(PathConstants.bnSixProgramAdvanceLibrary);
+    /**
+     * Prepares necessary files for searching against a list of
+     * {@link ProgramAdvance}.
+     *
+     * @param currentGame The {@link Game} currently selected from the user
+     *                    config.
+     * @throws IOException If the file fails to load.
+     * @throws UnsupportedGameException If the currently selected {@link Game}
+     * is not yet supported.
+     */
+    public ProgramAdvanceFileReader(Game currentGame) throws IOException, UnsupportedGameException {
+        Reader gameReader;
+        switch (currentGame) {
+            case BN3 -> gameReader = prepareReader(PathConstants.bnThreeProgramAdvanceLibrary);
+            case BN6 -> gameReader = prepareReader(PathConstants.bnSixProgramAdvanceLibrary);
+            default -> throw new UnsupportedGameException("P.A. lookup not yet supported for current game.");
+        }
         Gson gson = new Gson();
-        bnThreeProgramAdvanceList = prepareList(bnThreeReader, gson);
-        bnSixProgramAdvanceList = prepareList(bnSixReader, gson);
+        programAdvanceList = prepareList(gameReader, gson);
         outputStats();
     }
 
@@ -42,17 +53,13 @@ public class ProgramAdvanceFileReader {
     }
 
     private void outputStats() {
-        int bnThreeListSize = bnThreeProgramAdvanceList.size();
-        simplePrint("Loaded " + bnThreeListSize + " BN3 Program Advances.");
-        int bnSixListSize = bnSixProgramAdvanceList.size();
-        simplePrint("Loaded " + bnSixListSize + " BN6 Program Advances.");
-        int programAdvanceCount = bnThreeListSize + bnSixListSize;
+        int programAdvanceCount = programAdvanceList.size();
         simplePrint("Loading finished. Total count: " + programAdvanceCount);
     }
 
     public List<ProgramAdvance> searchPAsByName(String name) {
         List<ProgramAdvance> foundPAs = new ArrayList<>();
-        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+        for (ProgramAdvance programAdvance : programAdvanceList) {
             if (StringUtils.containsIgnoreCase(programAdvance.getName(), name)) {
                 foundPAs.add(programAdvance);
             }
@@ -62,7 +69,7 @@ public class ProgramAdvanceFileReader {
 
     public List<ProgramAdvance> searchPAsByDamage(int input) {
         List<ProgramAdvance> foundPAs = new ArrayList<>();
-        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+        for (ProgramAdvance programAdvance : programAdvanceList) {
             if (programAdvance.getDamage() == input) {
                 foundPAs.add(programAdvance);
             }
@@ -72,7 +79,7 @@ public class ProgramAdvanceFileReader {
 
     public List<ProgramAdvance> searchPAsByChipUsed(String input) {
         List<ProgramAdvance> foundPAs = new ArrayList<>();
-        for (ProgramAdvance programAdvance : bnThreeProgramAdvanceList) {
+        for (ProgramAdvance programAdvance : programAdvanceList) {
             for (List<String> combo : programAdvance.getCombos()) {
                 for (String chip : combo) {
                     if (StringUtils.containsIgnoreCase(chip, input)) {

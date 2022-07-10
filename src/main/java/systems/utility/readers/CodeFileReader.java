@@ -2,7 +2,9 @@ package systems.utility.readers;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import constants.Game;
 import constants.PathConstants;
+import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
 import pojos.navicust.CompressionCode;
 import pojos.navicust.ErrorCode;
@@ -23,12 +25,29 @@ public class CodeFileReader {
     private final List<ErrorCode> errorCodeList;
     private final List<CompressionCode> compressionCodeList;
 
-    public CodeFileReader() throws IOException {
-        //TODO Implement for remaining BN games.
+    public CodeFileReader(Game currentGame) throws IOException, UnsupportedGameException {
+        String exPath = null;
+        String errorPath = null;
+        String compressionPath;
 
-        Reader exReader = prepareReader(PathConstants.bnThreeExCodes);
-        Reader errorReader = prepareReader(PathConstants.bnThreeErrorCodes);
-        Reader compressionReader = prepareReader(PathConstants.bnThreeCompressionCodes);
+        //TODO Implement for remaining BN games.
+        switch (currentGame) {
+            case BN1 -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+            case BN2 -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+            case BN3 -> {
+                exPath = PathConstants.bnThreeExCodes;
+                errorPath = PathConstants.bnThreeErrorCodes;
+                compressionPath = PathConstants.bnThreeCompressionCodes;
+            }
+            case BN4 -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+            case BN5 -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+            case BN6 -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+            default -> throw new UnsupportedGameException("Code lookup not yet supported for current game.");
+        }
+
+        Reader exReader = prepareReader(exPath);
+        Reader errorReader = prepareReader(errorPath);
+        Reader compressionReader = prepareReader(compressionPath);
 
         Gson gson = new Gson();
         extraCodeList = gson.fromJson(exReader, new TypeToken<List<ExCode>>() {}.getType());

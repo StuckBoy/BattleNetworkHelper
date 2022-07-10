@@ -3,6 +3,8 @@ import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
 import constants.PathConstants;
+import exceptions.UnsupportedGameException;
+import org.apache.commons.lang3.StringUtils;
 import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
@@ -52,6 +54,7 @@ public class OS {
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
         while(programInUse) {
+            simplePrint("Current game: " + config.getCurrentGame() + System.lineSeparator());
             listCommands();
             int input;
             try {
@@ -125,14 +128,19 @@ public class OS {
     }
 
     /**
-     * Prints initial text on first launch.
+     * Prints initial text on first launch. If the user has configured a
+     * username, a unique greeting using that name occurs instead.
      * @see Helpers#simplePrint(String)
      * @see #startupLogo()
      */
     private static void bootSequence() {
         simplePrint(System.lineSeparator());
         simplePrint(startupLogo());
-        simplePrint("Greetings! What do you need?" + System.lineSeparator());
+        String username = config.getUsername();
+        String greeting = (StringUtils.isNotBlank(username))
+                   ? "Greetings " + username + "! What do you need?"
+                   : "Greetings! What do you need?";
+        simplePrint(greeting);
     }
 
     /**
@@ -153,6 +161,7 @@ public class OS {
 
     /**
      * Prints the main options offered for the BNH.
+     * @see Helpers#printOptions(List) 
      */
     private static void listCommands() {
         List<String> commandList = new ArrayList<>();
@@ -166,42 +175,52 @@ public class OS {
     }
 
     /**
-     * Initializes the {@link ChipLookup}.
+     * Initializes the {@link ChipLookup}. If the currently selected game is not
+     * yet supported for the lookup, an error is printed and the user is 
+     * returned to the main menu.
      */
     private static void bootChipLookup() {
-        ChipLookup lookup = new ChipLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 6) {
-                    continueProcess = false;
+        try {
+            ChipLookup lookup = new ChipLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 6) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 
     /**
-     * Initializes the {@link ProgramAdvanceLookup}
+     * Initializes the {@link ProgramAdvanceLookup}. If the currently selected 
+     * game is not yet supported for the lookup, an error is printed and the 
+     * user is returned to the main menu.
      */
     private static void bootPALookup() {
-        ProgramAdvanceLookup lookup = new ProgramAdvanceLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 4) {
-                    continueProcess = false;
+        try {
+            ProgramAdvanceLookup lookup = new ProgramAdvanceLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 4) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 
@@ -213,22 +232,27 @@ public class OS {
     }
 
     /**
-     * Initializes the {@link CodeLookup}
+     * Initializes the {@link CodeLookup}. If the currently selected game is not
+     * yet supported for the lookup, an error is printed and the user is
+     * returned to the main menu.
      */
     private static void bootCodeLookup() {
-        CodeLookup lookup = new CodeLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 7) {
-                    continueProcess = false;
+        try {
+            CodeLookup lookup = new CodeLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 7) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 

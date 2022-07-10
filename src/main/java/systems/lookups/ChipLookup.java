@@ -1,5 +1,7 @@
 package systems.lookups;
 
+import constants.Game;
+import exceptions.UnsupportedGameException;
 import interfaces.Subsystem;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
@@ -18,21 +20,33 @@ import static systems.utility.Helpers.simplePrint;
 public class ChipLookup implements Subsystem {
 
     private ChipFileReader reader;
+    private final Game currentGame;
 
-    public ChipLookup() {
+    /**
+     * Prepares the necessary files to search for specific a {@link Chip}.
+     *
+     * @param currentGame The {@link Game} currently selected from the user
+     *                    config.
+     * @throws IOException If one or more of the files fail to load.
+     * @throws UnsupportedGameException If the currently selected {@link Game}
+     * is not yet supported.
+     */
+    public ChipLookup(Game currentGame) throws IOException, UnsupportedGameException {
+        this.currentGame = currentGame;
         bootSequence();
     }
 
     /**
      * Prepares the {@link ChipFileReader} to parse the data necessary for searches.
      */
-    private void bootSequence() {
+    private void bootSequence() throws IOException, UnsupportedGameException {
         try {
-            reader = new ChipFileReader();
+            reader = new ChipFileReader(currentGame);
             simplePrint("Chip lookup booted.");
-        } catch (IOException ex) {
+        } catch (IOException | UnsupportedGameException ex) {
             simplePrint("Error encountered while booting Chip Lookup.");
             simplePrint(ex.getMessage());
+            throw ex;
         }
     }
 
