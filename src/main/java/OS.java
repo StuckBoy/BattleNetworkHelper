@@ -3,6 +3,7 @@ import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
 import constants.PathConstants;
+import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
 import pojos.UserConfig;
 import systems.lookups.ChipLookup;
@@ -53,6 +54,7 @@ public class OS {
         keyboard = new Scanner(System.in);
         boolean programInUse = true;
         while(programInUse) {
+            simplePrint("Current game: " + config.getCurrentGame() + System.lineSeparator());
             listCommands();
             int input;
             try {
@@ -126,7 +128,8 @@ public class OS {
     }
 
     /**
-     * Prints initial text on first launch.
+     * Prints initial text on first launch. If the user has configured a
+     * username, a unique greeting using that name occurs instead.
      * @see Helpers#simplePrint(String)
      * @see #startupLogo()
      */
@@ -137,7 +140,6 @@ public class OS {
         String greeting = (StringUtils.isNotBlank(username))
                    ? "Greetings " + username + "! What do you need?"
                    : "Greetings! What do you need?";
-        greeting += System.lineSeparator();
         simplePrint(greeting);
     }
 
@@ -195,19 +197,22 @@ public class OS {
      * Initializes the {@link ProgramAdvanceLookup}
      */
     private static void bootPALookup() {
-        ProgramAdvanceLookup lookup = new ProgramAdvanceLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 4) {
-                    continueProcess = false;
+        try {
+            ProgramAdvanceLookup lookup = new ProgramAdvanceLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 4) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 

@@ -1,5 +1,7 @@
 package systems.lookups;
 
+import constants.Game;
+import exceptions.UnsupportedGameException;
 import interfaces.Subsystem;
 import pojos.ProgramAdvance;
 import systems.utility.Helpers;
@@ -15,24 +17,26 @@ import static systems.utility.Helpers.simplePrint;
 public class ProgramAdvanceLookup implements Subsystem {
 
     private ProgramAdvanceFileReader reader;
+    private final Game currentGame;
 
-    public ProgramAdvanceLookup() {
+    public ProgramAdvanceLookup(Game currentGame) throws UnsupportedGameException, IOException {
+        this.currentGame = currentGame;
         bootSequence();
     }
 
-    private void bootSequence() {
+    private void bootSequence() throws UnsupportedGameException, IOException {
         try {
-            reader = new ProgramAdvanceFileReader();
-            simplePrint("P.A. Lookup booted.");
-        } catch (IOException ex) {
+            reader = new ProgramAdvanceFileReader(currentGame);
+            simplePrint("P.A. Lookup booted." + System.lineSeparator());
+        } catch (IOException | UnsupportedGameException ex) {
             simplePrint("Error encountered while booting P.A. Lookup");
-            simplePrint(ex.getMessage());
+            simplePrint(ex.getMessage() + System.lineSeparator());
+            throw ex;
         }
     }
 
     @Override
     public void printOptions() {
-        simplePrint(System.lineSeparator());
         List<String> options = new ArrayList<>();
         options.add("Search by name");
         options.add("Search by damage");
