@@ -161,6 +161,7 @@ public class OS {
 
     /**
      * Prints the main options offered for the BNH.
+     * @see Helpers#printOptions(List) 
      */
     private static void listCommands() {
         List<String> commandList = new ArrayList<>();
@@ -174,7 +175,9 @@ public class OS {
     }
 
     /**
-     * Initializes the {@link ChipLookup}.
+     * Initializes the {@link ChipLookup}. If the currently selected game is not
+     * yet supported for the lookup, an error is printed and the user is 
+     * returned to the main menu.
      */
     private static void bootChipLookup() {
         try {
@@ -197,7 +200,9 @@ public class OS {
     }
 
     /**
-     * Initializes the {@link ProgramAdvanceLookup}
+     * Initializes the {@link ProgramAdvanceLookup}. If the currently selected 
+     * game is not yet supported for the lookup, an error is printed and the 
+     * user is returned to the main menu.
      */
     private static void bootPALookup() {
         try {
@@ -227,7 +232,9 @@ public class OS {
     }
 
     /**
-     * Initializes the {@link CodeLookup}
+     * Initializes the {@link CodeLookup}. If the currently selected game is not
+     * yet supported for the lookup, an error is printed and the user is
+     * returned to the main menu.
      */
     private static void bootCodeLookup() {
         try {

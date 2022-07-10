@@ -22,6 +22,15 @@ public class ChipLookup implements Subsystem {
     private ChipFileReader reader;
     private final Game currentGame;
 
+    /**
+     * Prepares the necessary files to search for specific a {@link Chip}.
+     *
+     * @param currentGame The {@link Game} currently selected from the user
+     *                    config.
+     * @throws IOException If one or more of the files fail to load.
+     * @throws UnsupportedGameException If the currently selected {@link Game}
+     * is not yet supported.
+     */
     public ChipLookup(Game currentGame) throws IOException, UnsupportedGameException {
         this.currentGame = currentGame;
         bootSequence();

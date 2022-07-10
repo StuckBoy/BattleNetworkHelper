@@ -26,7 +26,11 @@ public class ChipFileReader {
      * Automatically prepares the file for reading using a {@link Reader}, and
      * parsing of the JSON file using {@link Gson}.
      *
+     * @param currentGame The {@link Game} currently selected from the user
+     *                    config.
      * @throws IOException If the file it's attempting to read from is missing.
+     * @throws UnsupportedGameException If the currently selected game is not
+     * yet supported in this reader.
      */
     public ChipFileReader(Game currentGame) throws IOException, UnsupportedGameException {
         //TODO Add support for other Battle Network Files

@@ -20,6 +20,16 @@ import static systems.utility.Helpers.simplePrint;
 public class ProgramAdvanceFileReader {
     private final List<ProgramAdvance> programAdvanceList;
 
+    /**
+     * Prepares necessary files for searching against a list of
+     * {@link ProgramAdvance}.
+     *
+     * @param currentGame The {@link Game} currently selected from the user
+     *                    config.
+     * @throws IOException If the file fails to load.
+     * @throws UnsupportedGameException If the currently selected {@link Game}
+     * is not yet supported.
+     */
     public ProgramAdvanceFileReader(Game currentGame) throws IOException, UnsupportedGameException {
         Reader gameReader;
         switch (currentGame) {
