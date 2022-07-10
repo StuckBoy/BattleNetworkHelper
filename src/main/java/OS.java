@@ -7,6 +7,7 @@ import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
 import systems.lookups.ProgramAdvanceLookup;
+import systems.subroutines.ConfigEditSubroutine;
 import systems.utility.Helpers;
 
 import java.io.*;
@@ -19,9 +20,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import static systems.utility.Helpers.printOptions;
-import static systems.utility.Helpers.errorPrint;
-import static systems.utility.Helpers.simplePrint;
+import static systems.utility.Helpers.*;
 
 public class OS {
 
@@ -238,7 +237,20 @@ public class OS {
      * data to load.
      */
     private static void bootConfiguration() {
-
+        ConfigEditSubroutine editor = new ConfigEditSubroutine(keyboard, config);
+        boolean continueSubroutine = true;
+        while(continueSubroutine) {
+            editor.printOptions();
+            try {
+                int input = keyboard.nextInt();
+                editor.processInput(input);
+                if (input == 3) {
+                    continueSubroutine = false;
+                }
+            } catch (InputMismatchException ex) {
+                keyboard.next();
+            }
+        }
     }
 
     /**
