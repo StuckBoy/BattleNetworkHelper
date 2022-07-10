@@ -177,19 +177,22 @@ public class OS {
      * Initializes the {@link ChipLookup}.
      */
     private static void bootChipLookup() {
-        ChipLookup lookup = new ChipLookup();
-        boolean continueProcess = true;
-        while (continueProcess) {
-            lookup.printOptions();
-            try {
-                int input = keyboard.nextInt();
-                lookup.processInput(input, keyboard);
-                if (input == 6) {
-                    continueProcess = false;
+        try {
+            ChipLookup lookup = new ChipLookup(config.getCurrentGame());
+            boolean continueProcess = true;
+            while (continueProcess) {
+                lookup.printOptions();
+                try {
+                    int input = keyboard.nextInt();
+                    lookup.processInput(input, keyboard);
+                    if (input == 6) {
+                        continueProcess = false;
+                    }
+                } catch (InputMismatchException ex) {
+                    keyboard.next();
                 }
-            } catch (InputMismatchException ex) {
-                keyboard.next();
             }
+        } catch (IOException | UnsupportedGameException ignored) {
         }
     }
 

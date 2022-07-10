@@ -2,7 +2,9 @@ package systems.utility.readers;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import constants.Game;
 import constants.PathConstants;
+import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
 import pojos.Chip;
 
@@ -26,12 +28,28 @@ public class ChipFileReader {
      *
      * @throws IOException If the file it's attempting to read from is missing.
      */
-    public ChipFileReader() throws IOException {
-        Gson gson = new Gson();
+    public ChipFileReader(Game currentGame) throws IOException, UnsupportedGameException {
         //TODO Add support for other Battle Network Files
+        String standardChipPath = null;
+        String megaChipPath = null;
+        String gigaChipPath = null;
+        switch (currentGame) {
+            case BN1 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            case BN2 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            case BN3 -> {
+                standardChipPath = PathConstants.bnThreeStandardChipLibrary;
+                megaChipPath = PathConstants.bnThreeMegaChipLibrary;
+                gigaChipPath = PathConstants.bnThreeGigaChipLibrary;
+            }
+            case BN4 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            case BN5 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            case BN6 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            default -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+        }
         Reader standardReader = prepareReader(PathConstants.bnThreeStandardChipLibrary);
         Reader megaReader = prepareReader(PathConstants.bnThreeMegaChipLibrary);
         Reader gigaReader = prepareReader(PathConstants.bnThreeGigaChipLibrary);
+        Gson gson = new Gson();
         standardChipList = prepareList(standardReader, gson);
         megaChipList = prepareList(megaReader, gson);
         gigaChipList = prepareList(gigaReader, gson);
