@@ -3,6 +3,7 @@ import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
 import constants.PathConstants;
+import org.apache.commons.lang3.StringUtils;
 import pojos.UserConfig;
 import systems.lookups.ChipLookup;
 import systems.lookups.CodeLookup;
@@ -132,7 +133,12 @@ public class OS {
     private static void bootSequence() {
         simplePrint(System.lineSeparator());
         simplePrint(startupLogo());
-        simplePrint("Greetings! What do you need?" + System.lineSeparator());
+        String username = config.getUsername();
+        String greeting = (StringUtils.isNotBlank(username))
+                   ? "Greetings " + username + "! What do you need?"
+                   : "Greetings! What do you need?";
+        greeting += System.lineSeparator();
+        simplePrint(greeting);
     }
 
     /**
