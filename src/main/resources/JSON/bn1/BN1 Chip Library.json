@@ -1,0 +1,1490 @@
+[
+  {
+    "number": "001",
+    "name": "Cannon (キャノン)",
+    "damage": 40,
+    "possibleCodes": "A, B, C, D, E",
+    "memory": 0,
+    "description": "A nice, big cannon!",
+    "locations": "A Chip: Found in starting folder. Defeat the Canodumb virus with a 5-7 Busting LV. B Chip: Found in starting folder. Defeat the Canodumb virus with a 7-10 Busting LV. C Chip: Sold by NetDealer in Internet 1 (3000z). School Comp 5 BMD. Internet 2 GMD. D Chip: Defeat the Canodumb virus with a 9-S Busting LV. E Chip: Sold at Higsby's (). Internet 9 GMD."
+  },
+  {
+    "number": "002",
+    "name": "HiCannon (ハイキャノン)",
+    "damage": 80,
+    "possibleCodes": "F, G, H, I, J",
+    "memory": 0,
+    "description": "A nice, big cannon!",
+    "locations": "F Chip: Defeat the Canodumb2 virus with a 5-7 Busting LV. G Chip: Defeat the Canodumb2 virus with a 7-9 Busting LV. H Chip: Defeat the Canodumb2 virus with a 10-S Busting LV. I Chip: School Comp 2 BMD. Internet 6 GMD. J Chip: Dad's PC BMD. Internet 9 GMD."
+  },
+  {
+    "number": "003",
+    "name": "M-Cannon (メガキャノン)",
+    "damage": 120,
+    "possibleCodes": "K, L, M, N, O",
+    "memory": 0,
+    "description": "A nice, big cannon!",
+    "locations": "K Chip: Defeat the Canodumb3 virus with a 5-7 Busting LV. L Chip: Sold by NetDealer in Internet 3 (10000z). Sold by NetDealer in Internet 10 (). Waterworks Comp 4 BMD. Internet 12 GMD. M Chip: Defeat the Canodumb3 virus with a 10-S Busting LV. N Chip: Internet 10 GMD. Internet 14 GMD. O Chip: Defeat the Canodumb3 virus with a 7-9 Busting LV."
+  },
+  {
+    "number": "004",
+    "name": "Shotgun (ショットガン)",
+    "damage": 30,
+    "possibleCodes": "K, M, N, Q (MMBN), R, * (OSS)",
+    "memory": 0,
+    "description": "Hits enemy and keeps going 1pnl",
+    "locations": "K Chip: Doghouse Comp BMD. Internet 1 GMD. N Chip: Found in starting folder. Q Chip: Oven Comp 1 GMD. Oven Comp 2 BMD."
+  },
+  {
+    "number": "005",
+    "name": "CrossGun (クロスガン)",
+    "damage": 30,
+    "possibleCodes": "C (MMBN), E, F, J, K, * (OSS)",
+    "memory": 0,
+    "description": "4-panel diagonal blast",
+    "locations": "C Chip: Email from Dad - \"Sorry!\". F Chip: Internet 10 GMD. J Chip: Found in starting folder. K Chip: Internet 2 GMD."
+  },
+  {
+    "number": "006",
+    "name": "Spreader (スプレッドガン Spread Gun)",
+    "damage": 30,
+    "possibleCodes": "H, I, J, K, L",
+    "memory": 0,
+    "description": "Gun with a 1-panel blast",
+    "locations": "H Chip: School Comp 3 BMD. Internet 3 GMD. I Chip: Sold by NetDealer in Internet 1 (1000z). Talk to Glyde after finding Yai's lost program. Internet 6 GMD. J Chip: Waterworks Soda Machine Comp BMD. Internet 3 GMD.M K Chip: Sold at Higsby's (). Internet 7 GMD. L Chip: Internet 9 GMD."
+  },
+  {
+    "number": "007",
+    "name": "Bubbler (バブルスプレッド Bubble Spread)",
+    "damage": 50,
+    "possibleCodes": "A, K, L (MMBN), P, S, * (OSS)",
+    "memory": 0,
+    "description": "Bubbles w/ a 1-panel blast",
+    "locations": "A Chip: Defeat Puffy with a 7-9 Busting LV. K Chip: Traffic Light Comp 1 BMD. P Chip: Defeat the Puffy virus with a 5-7 Busting LV. S Chip: Defeat the Puffy virus with a 9-S Busting LV."
+  },
+  {
+    "number": "008",
+    "name": "Heater (ヒートスプレッド Heat Spread)",
+    "damage": 70,
+    "possibleCodes": "C (MMBN), F, G, K, O, * (OSS)",
+    "memory": 0,
+    "description": "Fire with a 1-panel blast",
+    "locations": "F Chip: Defeat the Puffy2 virus with a 5-7 Busting LV. G Chip: Defeat the Puffy2 virus with a 7-9 Busting LV. K Chip: Defeat the Puffy2 virus with a 9-S Busting LV. O Chip: Traffic Light Comp 3 BMD."
+  },
+  {
+    "number": "009",
+    "name": "MiniBomb (ミニボム)",
+    "damage": 50,
+    "possibleCodes": "C, E, J, L, P (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Throw a bomb! Depth=3",
+    "locations": "C Chip: Found in starting folder. L Chip: Found in starting folder. P Chip: Internet 2 GMD."
+  },
+  {
+    "number": "010",
+    "name": "LilBomb (スモールボム Small Bomb)",
+    "possibleCodes": "B, D, G, O, T",
+    "memory": 0,
+    "description": "Throw a bomb! Depth=3",
+    "locations": ""
+  },
+  {
+    "number": "011",
+    "name": "CrosBomb (クロスボム)",
+    "possibleCodes": "B, D, H, J, L",
+    "memory": 0,
+    "description": "Cross bomb Depth=3",
+    "locations": "Chip B, D H: Defeat the Beetank2 virus found in Internet Area 3."
+  },
+  {
+    "number": "012",
+    "name": "BigBomb (ビッグボム)",
+    "damage": 90,
+    "possibleCodes": "B, G, O, S, T",
+    "memory": 0,
+    "description": "Bomb with a big boom Depth=3",
+    "locations": "Chip B, O, T: Defeat the Beetank3 virus found in Internet Area 5, Internet Area 6, Internet Area 7, Internet Area 8, Internet Area 13"
+  },
+  {
+    "number": "013",
+    "name": "Sword (ソード)",
+    "damage": 80,
+    "possibleCodes": "B, K, L, P, S",
+    "memory": 0,
+    "description": "Cut down enemies Range=1",
+    "locations": ""
+  },
+  {
+    "number": "014",
+    "name": "WideSwrd (ワイドソード)",
+    "damage": 80,
+    "possibleCodes": "C, K, M, N, S",
+    "memory": 0,
+    "description": "Cut down column! Range=1",
+    "locations": ""
+  },
+  {
+    "number": "015",
+    "name": "LongSwrd (ロングソード)",
+    "possibleCodes": "D, E, N, O, S",
+    "memory": 0,
+    "description": "Cut down enemies! Range=2",
+    "locations": ""
+  },
+  {
+    "number": "016",
+    "name": "FtrSwrd (ファイターソード)",
+    "damage": 100,
+    "possibleCodes": "B, K, L, P, S",
+    "memory": 0,
+    "description": "Warrior's sword Range=3",
+    "locations": ""
+  },
+  {
+    "number": "017",
+    "name": "KngtSwrd (ナイトソード)",
+    "damage": 150,
+    "possibleCodes": "B, C, E, G, H",
+    "memory": 0,
+    "description": "Knight's sword Range=3",
+    "locations": ""
+  },
+  {
+    "number": "018",
+    "name": "HeroSwrd (パラディンソード Paladin Sword)",
+    "damage": 200,
+    "possibleCodes": "B, D, F, I, G, J",
+    "memory": 0,
+    "description": "Legendary sword Range=3",
+    "locations": "D Chip: Low Probability Drop via Super Exchanger at Higsby's."
+  },
+  {
+    "number": "019",
+    "name": "FireSwrd (フレイムソード Flame Sword)",
+    "possibleCodes": "B, F, G, N, P",
+    "memory": 0,
+    "description": "Cuts down column Range=1",
+    "locations": ""
+  },
+  {
+    "number": "020",
+    "name": "AquaSwrd (アクアソード)",
+    "damage": 150,
+    "possibleCodes": "A, M, N, O, P",
+    "memory": 0,
+    "description": "Cuts down column Range=1",
+    "locations": ""
+  },
+  {
+    "number": "021",
+    "name": "ElecSwrd (エレキソード)",
+    "possibleCodes": "E, G, L, O, S",
+    "memory": 0,
+    "description": "Cuts down column Range=1",
+    "locations": ""
+  },
+  {
+    "number": "022",
+    "name": "Muramasa (ムラマサ)",
+    "possibleCodes": "C, E, G, J, K",
+    "memory": 0,
+    "description": "Do damage = to your HP loss",
+    "locations": ""
+  },
+  {
+    "number": "023",
+    "name": "ShokWave (ショックウェーブ)",
+    "damage": 60,
+    "possibleCodes": "C, K, L, N, P",
+    "memory": 0,
+    "description": "Piercing ground wave",
+    "locations": ""
+  },
+  {
+    "number": "024",
+    "name": "SoniWave (ソニックウェーブ)",
+    "damage": 80,
+    "possibleCodes": "C, D, J, M, S",
+    "memory": 0,
+    "description": "Piercing ground wave",
+    "locations": ""
+  },
+  {
+    "number": "025",
+    "name": "DynaWave (ダイナウェーブ)",
+    "damage": 100,
+    "possibleCodes": "C, E, M, S, R",
+    "memory": 0,
+    "description": "Piercing ground wave",
+    "locations": ""
+  },
+  {
+    "number": "026",
+    "name": "FireTowr (フレイムタワー Flame Tower)",
+    "damage": 100,
+    "possibleCodes": "E, F, L, M, T",
+    "memory": 0,
+    "description": "Fire that can move up & down",
+    "locations": ""
+  },
+  {
+    "number": "027",
+    "name": "AquaTowr (アクアタワー)",
+    "damage": 120,
+    "possibleCodes": "A (MMBN), C, G, H, R, * (OSS)",
+    "memory": 0,
+    "description": "Water that can move up & down",
+    "locations": ""
+  },
+  {
+    "number": "028",
+    "name": "WoodTowr (ウッディタワー Woody Tower)",
+    "damage": 140,
+    "possibleCodes": "B, C, H (MMBN), K, N, * (OSS)",
+    "memory": 0,
+    "description": "Log that can move up & down",
+    "locations": "B, C, K Chips: Vs Popper Virus found in Sal's Register, Internet Area 5, Internet Area 6, Internet Area 7, Internet Area 8, Internet Area 9"
+  },
+  {
+    "number": "029",
+    "name": "Quake1 (アースクエイク１ Earthquake 1)",
+    "damage": 90,
+    "possibleCodes": "A, E, H, K, Q",
+    "memory": 0,
+    "description": "Cracks a panel Depth=3",
+    "locations": ""
+  },
+  {
+    "number": "030",
+    "name": "Quake2 (アースクエイク２ Earthquake 2)",
+    "damage": 120,
+    "possibleCodes": "B, C, I, K, Q",
+    "memory": 0,
+    "description": "Cracks a panel Depth=3",
+    "locations": ""
+  },
+  {
+    "number": "031",
+    "name": "Quake3 (アースクエイク３ Earthquake 3)",
+    "damage": 150,
+    "possibleCodes": "C, D, H, M, Q",
+    "memory": 0,
+    "description": "Cracks a panel Depth=3",
+    "locations": ""
+  },
+  {
+    "number": "032",
+    "name": "GutsPnch (ガッツパンチ)",
+    "possibleCodes": "B, H, M, N, T",
+    "memory": 0,
+    "description": "Knocks stuff over Range=1",
+    "locations": ""
+  },
+  {
+    "number": "033",
+    "name": "IcePunch (コールドパンチ Cold Punch)",
+    "possibleCodes": "B, H, M, N, T",
+    "memory": 0,
+    "description": "Knocks stuff over Range=1",
+    "locations": ""
+  },
+  {
+    "number": "034",
+    "name": "Dash (ダッシュアタック Dash Attack)",
+    "damage": 50,
+    "possibleCodes": "B, D, G, L, O",
+    "memory": 0,
+    "description": "Knock over all in your path!",
+    "locations": ""
+  },
+  {
+    "number": "035",
+    "name": "Howitzer (ホウガン Hougan)",
+    "possibleCodes": "A, C, G, H, O",
+    "memory": 0,
+    "description": "Breaks panels Depth=3",
+    "locations": ""
+  },
+  {
+    "number": "036",
+    "name": "TriArrow (トリプルアロー)",
+    "damage": 40,
+    "possibleCodes": "A, B, C, D, E",
+    "memory": 0,
+    "description": "Fires a 3-arrow burst",
+    "locations": ""
+  },
+  {
+    "number": "037",
+    "name": "TriSpear (トリプルスピア)",
+    "damage": 50,
+    "possibleCodes": "F, G, H, I, J",
+    "memory": 0,
+    "description": "Fires a 3-spear burst",
+    "locations": ""
+  },
+  {
+    "number": "038",
+    "name": "TriLance (トリプルランス)",
+    "damage": 60,
+    "possibleCodes": "K, L, M, N, O",
+    "memory": 0,
+    "description": "Fires a 3-lance burst",
+    "locations": ""
+  },
+  {
+    "number": "039",
+    "name": "Ratton1 (ラットン１)",
+    "possibleCodes": "A, B, C, D, E",
+    "memory": 0,
+    "description": "Missile that can turn once",
+    "locations": ""
+  },
+  {
+    "number": "040",
+    "name": "Ratton2 (ラットン２)",
+    "possibleCodes": "F, G, H, I, J",
+    "memory": 0,
+    "description": "Missile that can turn once",
+    "locations": ""
+  },
+  {
+    "number": "041",
+    "name": "Ratton3 (ラットン３)",
+    "possibleCodes": "K, L, M, N, O",
+    "memory": 0,
+    "description": "Missile that can turn once",
+    "locations": ""
+  },
+  {
+    "number": "042",
+    "name": "Wave (ツナミ Tsunami)",
+    "damage": 80,
+    "possibleCodes": "A, D, I, L, M",
+    "memory": 0,
+    "description": "3-row wave! [Aqua]",
+    "locations": ""
+  },
+  {
+    "number": "043",
+    "name": "RedWave (アカツナミ Aka Tsunami)",
+    "damage": 100,
+    "possibleCodes": "B, E, J, N, P",
+    "memory": 0,
+    "description": "3-row lava wave! [Fire]",
+    "locations": ""
+  },
+  {
+    "number": "044",
+    "name": "BigWave (オオツナミ Ō Tsunami)",
+    "damage": 160,
+    "possibleCodes": "C, H, K, L, Q",
+    "memory": 0,
+    "description": "3-row giant wave! [Aqua]",
+    "locations": ""
+  },
+  {
+    "number": "045",
+    "name": "Gaia1 (ガイアハンマー１ Gaia Hammer 1)",
+    "damage": 100,
+    "possibleCodes": "C, D, L, O, T",
+    "memory": 0,
+    "description": "Rolling 3-column explosion!",
+    "locations": ""
+  },
+  {
+    "number": "046",
+    "name": "Gaia2 (ガイアハンマー２ Gaia Hammer 2)",
+    "damage": 130,
+    "possibleCodes": "C, F, K, P, S",
+    "memory": 0,
+    "description": "Rolling 3-column explosion!",
+    "locations": ""
+  },
+  {
+    "number": "047",
+    "name": "Gaia3 (ガイアハンマー３ Gaia Hammer 3)",
+    "damage": 160,
+    "possibleCodes": "C, G, M, N, T",
+    "memory": 0,
+    "description": "Rolling 3-column explosion!",
+    "locations": ""
+  },
+  {
+    "number": "048",
+    "name": "Thunder1 (サンダーボール１ Thunder Ball 1)",
+    "damage": 90,
+    "possibleCodes": "A, E (MMBN), G, H, S, * (OSS)",
+    "memory": 0,
+    "description": "A rolling lightning attack",
+    "locations": ""
+  },
+  {
+    "number": "049",
+    "name": "Thunder2 (サンダーボール２ Thunder Ball 2)",
+    "damage": 120,
+    "possibleCodes": "B (MMBN), C, F, I, L, * (OSS)",
+    "memory": 0,
+    "description": "A rolling lightning attack",
+    "locations": ""
+  },
+  {
+    "number": "050",
+    "name": "Thunder3 (サンダーボール３ Thunder Ball 3)",
+    "damage": 150,
+    "possibleCodes": "D, F, G, K, N",
+    "memory": 0,
+    "description": "A rolling lightning attack",
+    "locations": ""
+  },
+  {
+    "number": "051",
+    "name": "RingZap1 (エレキサークル１ Elec Circle 1)",
+    "damage": 100,
+    "possibleCodes": "G, H, M (MMBN'), N, P, * (OSS)",
+    "memory": 0,
+    "description": "Lightning circles you once",
+    "locations": ""
+  },
+  {
+    "number": "052",
+    "name": "RingZap2 (エレキサークル２ Elec Circle 2)",
+    "damage": 100,
+    "possibleCodes": "C, E, G (MMBN), J, L, * (OSS)",
+    "memory": 0,
+    "description": "Lightning circles you twice",
+    "locations": ""
+  },
+  {
+    "number": "053",
+    "name": "RingZap3 (エレキサークル３ Elec Circle 3)",
+    "damage": 100,
+    "possibleCodes": "A, B, O, R, T",
+    "memory": 0,
+    "description": "Lightning circles you thrice",
+    "locations": ""
+  },
+  {
+    "number": "054",
+    "name": "Typhoon (タイフーン)",
+    "damage": 30,
+    "possibleCodes": "A, B, D, E, G",
+    "memory": 0,
+    "description": "Creates a twister w/ 3 hits",
+    "locations": ""
+  },
+  {
+    "number": "055",
+    "name": "Huricane (ハリケーン)",
+    "damage": 30,
+    "possibleCodes": "G, I, J, K, L",
+    "memory": 0,
+    "description": "Creates a twister w/ 5 hits",
+    "locations": ""
+  },
+  {
+    "number": "056",
+    "name": "Cyclone (サイクロン)",
+    "damage": 30,
+    "possibleCodes": "E, F, G, H, I",
+    "memory": 0,
+    "description": "Creates a twister w/ 8 hits",
+    "locations": ""
+  },
+  {
+    "number": "057",
+    "name": "Snakegg1 (エッグスネーク１ Egg Snake 1)",
+    "damage": 130,
+    "possibleCodes": "B, E, G (MMBN), M, N, * (OSS)",
+    "memory": 0,
+    "description": "Squirming snake attack!",
+    "locations": ""
+  },
+  {
+    "number": "058",
+    "name": "Snakegg2 (エッグスネーク２ Egg Snake 2)",
+    "damage": 140,
+    "possibleCodes": "C, E, H (MMBN), N, P, * (OSS)",
+    "memory": 0,
+    "description": "Shocking snake attack!",
+    "locations": ""
+  },
+  {
+    "number": "059",
+    "name": "Snakegg3 (エッグスネーク３ Egg Snake 3)",
+    "damage": 150,
+    "possibleCodes": "A, C, F, L, S",
+    "memory": 0,
+    "description": "Scorching snake attack!",
+    "locations": ""
+  },
+  {
+    "number": "060",
+    "name": "Drain1 (モスキート１ Mosquito 1)",
+    "damage": 50,
+    "possibleCodes": "A, B, D, K, O",
+    "memory": 0,
+    "description": "Charge to drain HP from enemy",
+    "locations": ""
+  },
+  {
+    "number": "061",
+    "name": "Drain2(モスキート２ Mosquito 2)",
+    "damage": 70,
+    "possibleCodes": "A, C, H, N, T",
+    "memory": 0,
+    "description": "Charge to drain HP from enemy",
+    "locations": ""
+  },
+  {
+    "number": "062",
+    "name": "Drain3 (モスキート３ Mosquito 3)",
+    "damage": 90,
+    "possibleCodes": "A, E, F, L, Q",
+    "memory": 0,
+    "description": "Charge to drain HP from enemy",
+    "locations": ""
+  },
+  {
+    "number": "063",
+    "name": "BodyBurn (バーニングボディ Burning Body)",
+    "possibleCodes": "E, F, K, M, N (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Engulf all around you in flames!",
+    "locations": ""
+  },
+  {
+    "number": "064",
+    "name": "X-Panel1 (パネルアウト１ Panel Out 1)",
+    "possibleCodes": "B, D (MMBN), G, L, S, * (OSS)",
+    "memory": 0,
+    "description": "Erase 1 panel Range=1",
+    "locations": ""
+  },
+  {
+    "number": "065",
+    "name": "X-Panel3 (パネルアウト３ Panel Out 3)",
+    "possibleCodes": "B, D (MMBN), G, L, S, * (OSS)",
+    "memory": 0,
+    "description": "Erase column Range=1",
+    "locations": ""
+  },
+  {
+    "number": "066",
+    "name": "Hammer (ブレイクハンマー Break Hammer)",
+    "possibleCodes": "A, F, I, M, Q (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Breaks cubes Range=1",
+    "locations": ""
+  },
+  {
+    "number": "067",
+    "name": "MetGuard (メットガード)",
+    "possibleCodes": "A, C, E, G, L",
+    "memory": 0,
+    "description": "Hold A Btn for 3 sec defense!",
+    "locations": ""
+  },
+  {
+    "number": "068",
+    "name": "IronShld (メタルシールド Metal Shield)",
+    "possibleCodes": "A, B, O, R, T",
+    "memory": 0,
+    "description": "Hold btn. to create shield!",
+    "locations": ""
+  },
+  {
+    "number": "069",
+    "name": "Recov10 (リカバリー１０)",
+    "possibleCodes": "A, C, E, G (MMBN), L, * (OSS)",
+    "memory": 0,
+    "description": "Recover 10HP",
+    "locations": ""
+  },
+  {
+    "number": "070",
+    "name": "Recov30 (リカバリー３０)",
+    "possibleCodes": "A (MMBN), B (OSS), C, D (OSS), E (MMBN), G (MMBN), L, * (OSS)",
+    "memory": 0,
+    "description": "Recover 30HP",
+    "locations": ""
+  },
+  {
+    "number": "071",
+    "name": "Recov50 (リカバリー５０)",
+    "possibleCodes": "A (MMBN), C, E (MMBN), G (MMBN), M (OSS), S (OSS), L, * (OSS)",
+    "memory": 0,
+    "description": "Recover 50HP",
+    "locations": ""
+  },
+  {
+    "number": "072",
+    "name": "Recov80 (リカバリー８０)",
+    "possibleCodes": "A (MMBN), C, E, G (MMBN), L, N (OSS), * (OSS)",
+    "memory": 0,
+    "description": "Recover 80HP",
+    "locations": ""
+  },
+  {
+    "number": "073",
+    "name": "Recov120 (リカバリー１２０)",
+    "possibleCodes": "A (MMBN), C (MMBN), E (MMBN), F (OSS), G (MMBN), H (OSS), L, R (OSS), * (OSS)",
+    "memory": 0,
+    "description": "Recover 120HP",
+    "locations": ""
+  },
+  {
+    "number": "074",
+    "name": "Recov150 (リカバリー１５０)",
+    "possibleCodes": "A (MMBN), C (MMBN), D (OSS), E (MMBN), G (MMBN), K (OSS), L, M (OSS), O (OSS)",
+    "memory": 0,
+    "description": "Recover 150HP",
+    "locations": ""
+  },
+  {
+    "number": "075",
+    "name": "Recov200 (リカバリー２００)",
+    "possibleCodes": "A (MMBN), C (MMBN), E (MMBN), G (MMBN), I (OSS), J (OSS), L, N (OSS), Q (OSS)",
+    "memory": 0,
+    "description": "Recover 200HP",
+    "locations": ""
+  },
+  {
+    "number": "076",
+    "name": "Recov300 (リカバリー３００)",
+    "possibleCodes": "A (MMBN), C (MMBN), E (MMBN), G, L, O (OSS), P (OSS), T (OSS)",
+    "memory": 0,
+    "description": "Recover 300HP",
+    "locations": ""
+  },
+  {
+    "number": "077",
+    "name": "Steal (エリアスチール Area Steal)",
+    "possibleCodes": "A, E, L, P (MMBN), S, * (OSS)",
+    "memory": 0,
+    "description": "Steal left column of enemy area",
+    "locations": ""
+  },
+  {
+    "number": "078",
+    "name": "Geddon1 (デスマッチ１ Deathmatch 1)",
+    "possibleCodes": "F (MMBN), H, J, L, N, * (OSS)",
+    "memory": 0,
+    "description": "All panels become cracked!",
+    "locations": ""
+  },
+  {
+    "number": "079",
+    "name": "Geddon2 (デスマッチ２ Deathmatch 2)",
+    "possibleCodes": "A, B, E, I (MMBN), K, Q (OSS)",
+    "memory": 0,
+    "description": "Erases all empty panels",
+    "locations": ""
+  },
+  {
+    "number": "080",
+    "name": "Escape (エスケープ)",
+    "possibleCodes": "F, H, J, L, N",
+    "memory": 0,
+    "description": "Escape from most enemies",
+    "locations": ""
+  },
+  {
+    "number": "081",
+    "name": "Interupt (インターラプト)",
+    "possibleCodes": "F, H, J, L, N",
+    "memory": 0,
+    "description": "Destroy enemy chip data",
+    "locations": ""
+  },
+  {
+    "number": "082",
+    "name": "Repair (パネルリターン Panel Return)",
+    "possibleCodes": "A, G, H, K (MMBN), S, * (OSS)",
+    "memory": 0,
+    "description": "Repair panels in your area",
+    "locations": ""
+  },
+  {
+    "number": "083",
+    "name": "TimeBom1 (カウントボム１ Count Bomb 1)",
+    "damage": 80,
+    "possibleCodes": "E, G, J, L, Q",
+    "memory": 0,
+    "description": "Sets time bomb in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "084",
+    "name": "TimeBom2 (カウントボム２ Count Bomb 2)",
+    "damage": 120,
+    "possibleCodes": "C, F, J, L, S",
+    "memory": 0,
+    "description": "Sets time bomb in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "085",
+    "name": "TimeBom3 (カウントボム３ Count Bomb 3)",
+    "damage": 160,
+    "possibleCodes": "A, B, G, O, P",
+    "memory": 0,
+    "description": "Sets time bomb in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "086",
+    "name": "Cloud (クラウド)",
+    "possibleCodes": "B, G (MMBN), H, O, R, * (OSS)",
+    "memory": 0,
+    "description": "Rains up & down on 1 column",
+    "locations": ""
+  },
+  {
+    "number": "087",
+    "name": "Cloudier (モアクラウド More Cloud)",
+    "possibleCodes": "A, D (MMBN), I, M, P, * (OSS)",
+    "memory": 0,
+    "description": "Rains up & down on 1 column",
+    "locations": ""
+  },
+  {
+    "number": "088",
+    "name": "Cloudest (モストクラウド Most Cloud)",
+    "damage": 100,
+    "possibleCodes": "C, F, J, K, O",
+    "memory": 0,
+    "description": "Rains up & down on 1 column",
+    "locations": ""
+  },
+  {
+    "number": "089",
+    "name": "Mine1 (ステルスマイン１ Stealth Mine 1)",
+    "damage": 160,
+    "possibleCodes": "G, H, M, N, P (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Hides a mine in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "090",
+    "name": "Mine2 (ステルスマイン２ Stealth Mine 2)",
+    "damage": 180,
+    "possibleCodes": "C, E, G (MMBN), J, L, * (OSS)",
+    "memory": 0,
+    "description": "Hides a mine in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "091",
+    "name": "Mine3 (ステルスマイン３ Stealth Mine 3)",
+    "damage": 200,
+    "possibleCodes": "A, B, O, R, T",
+    "memory": 0,
+    "description": "Hides a mine in enemy area",
+    "locations": ""
+  },
+  {
+    "number": "092",
+    "name": "Dynamyt1 (ダイナマイト１)",
+    "damage": 100,
+    "possibleCodes": "B, G, O, Q, S",
+    "memory": 0,
+    "description": "Looks right for enemy",
+    "locations": ""
+  },
+  {
+    "number": "093",
+    "name": "Dynamyt2 (ダイナマイト２)",
+    "damage": 120,
+    "possibleCodes": "A, C, K, M, N",
+    "memory": 0,
+    "description": "Looks diagonally for enemy",
+    "locations": ""
+  },
+  {
+    "number": "094",
+    "name": "Dynamyt3 (ダイナマイト３)",
+    "damage": 150,
+    "possibleCodes": "G, K, M, O, P",
+    "memory": 0,
+    "description": "Looks up & down for enemy",
+    "locations": ""
+  },
+  {
+    "number": "095",
+    "name": "Remobit1 (リモコゴロー１ Rimoko Goro 1)",
+    "damage": 80,
+    "possibleCodes": "A, C, F (MMBN), N, O, * (OSS)",
+    "memory": 0,
+    "description": "Remote control smasher!",
+    "locations": ""
+  },
+  {
+    "number": "096",
+    "name": "Remobit2 (リモコゴロー２ Rimoko Goro 2)",
+    "damage": 100,
+    "possibleCodes": "B, D, E, H (MMBN), I, * (OSS)",
+    "memory": 0,
+    "description": "Remote control smasher!",
+    "locations": ""
+  },
+  {
+    "number": "097",
+    "name": "Remobit3 (リモコゴロー３ Rimiko Goro 3)",
+    "damage": 120,
+    "possibleCodes": "G, J, K, P, Q",
+    "memory": 0,
+    "description": "Remote control smasher!",
+    "locations": ""
+  },
+  {
+    "number": "098",
+    "name": "Lockon1 (ロックオン1)",
+    "damage": 10,
+    "possibleCodes": "C, D, H, I, L",
+    "memory": 0,
+    "description": "Creates a lock on satellite!",
+    "locations": ""
+  },
+  {
+    "number": "099",
+    "name": "Lockon2 (ロックオン2)",
+    "damage": 15,
+    "possibleCodes": "B, E, G, H, M",
+    "memory": 0,
+    "description": "Creates a lock on satellite!",
+    "locations": ""
+  },
+  {
+    "number": "100",
+    "name": "Lockon3 (ロックオン３)",
+    "damage": 20,
+    "possibleCodes": "A, D, K, N, O",
+    "memory": 0,
+    "description": "Creates a lock on satellite!",
+    "locations": ""
+  },
+  {
+    "number": "101",
+    "name": "Candle1 (リモローソク１ Rimorō Soku 1)",
+    "possibleCodes": "C, F, I, P, S",
+    "memory": 0,
+    "description": "Set candle & recover some HP",
+    "locations": ""
+  },
+  {
+    "number": "102",
+    "name": "Candle2 (リモローソク２ Rimorō Soku 2)",
+    "possibleCodes": "B, E, G, J, L",
+    "memory": 0,
+    "description": "Set candle & recover some HP",
+    "locations": ""
+  },
+  {
+    "number": "103",
+    "name": "Candle3 (リモローソク３ Rimorō Soku 3)",
+    "possibleCodes": "A, D, H, K, M",
+    "memory": 0,
+    "description": "Set candle & recover some HP",
+    "locations": ""
+  },
+  {
+    "number": "104",
+    "name": "Anubis (ポイズンアヌビス Poison Anubis)",
+    "possibleCodes": "C, L, M, Q, T",
+    "memory": 0,
+    "description": "Set Anubis statue to reduce HP",
+    "locations": ""
+  },
+  {
+    "number": "105",
+    "name": "IceCube (アイスキューブ)",
+    "possibleCodes": "A, C, I, L (MMBN), M, * (OSS)",
+    "memory": 0,
+    "description": "Creates an ice cube Range=1",
+    "locations": ""
+  },
+  {
+    "number": "106",
+    "name": "RockCube (ストーンキューブ Stone Cube)",
+    "possibleCodes": "B, E (MMBN), G, M, O, * (OSS)",
+    "memory": 0,
+    "description": "Creates 3 rock cubes randomly",
+    "locations": ""
+  },
+  {
+    "number": "107",
+    "name": "BstrGard (バスターガード)",
+    "possibleCodes": "A, G, K, N, R",
+    "memory": 0,
+    "description": "1-turn of MetGuard w/ B Btn.",
+    "locations": ""
+  },
+  {
+    "number": "108",
+    "name": "BstrBomb (バスターボム)",
+    "possibleCodes": "D, H, J, O, T",
+    "memory": 0,
+    "description": "1-turn of MiniBomb w/ B Btn.",
+    "locations": ""
+  },
+  {
+    "number": "109",
+    "name": "BstrSwrd (バスターソード)",
+    "possibleCodes": "B, E, L, P, S",
+    "memory": 0,
+    "description": "1-turn use of Sword with B Btn",
+    "locations": ""
+  },
+  {
+    "number": "110",
+    "name": "BstrPnch (バスターパンチ)",
+    "possibleCodes": "C, F, I, M, Q",
+    "memory": 0,
+    "description": "1-turn of GutsPnch with B Btn",
+    "locations": ""
+  },
+  {
+    "number": "111",
+    "name": "SloGauge (ヘビーゲージ Heavy Gauge)",
+    "possibleCodes": "H (MMBN), K (MMBN), N (MMBN), O (MMBN), Q, * (OSS)",
+    "memory": 0,
+    "description": "Slows down custom gauge",
+    "locations": ""
+  },
+  {
+    "number": "112",
+    "name": "FstGauge (クイックゲージ Quick Gauge)",
+    "possibleCodes": "A, C (MMBN), E (MMBN), L (MMBN), N (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Speeds up custom gauge",
+    "locations": ""
+  },
+  {
+    "number": "113",
+    "name": "Invis1 (インビジブル１)",
+    "possibleCodes": "I, J, L, O (MMBN), Q, * (OSS)",
+    "memory": 0,
+    "description": "Temporary immunity",
+    "locations": ""
+  },
+  {
+    "number": "114",
+    "name": "Invis2 (インビジブル２)",
+    "possibleCodes": "A, C, F, J, M",
+    "memory": 0,
+    "description": "Temporary immunity",
+    "locations": ""
+  },
+  {
+    "number": "115",
+    "name": "Invis3 (インビジブル３)",
+    "possibleCodes": "B, D, H, K, N",
+    "memory": 0,
+    "description": "Temporary immunity",
+    "locations": ""
+  },
+  {
+    "number": "116",
+    "name": "Dropdown (テンジョウウラ Tenjou Ura)",
+    "possibleCodes": "A, B, O, R, T",
+    "memory": 0,
+    "description": "Invisible until you attack!",
+    "locations": "B Chip: Vs Popper2 Virus found in Internet Area 15 with a very high Busting LV."
+  },
+  {
+    "number": "117",
+    "name": "Popup (ユカシタ Yukashita)",
+    "possibleCodes": "C, D, H, K, N",
+    "memory": 0,
+    "description": "Invisible when not attacking!",
+    "locations": "C, D, H, K, N Chips: Defeat the Rush Virus Found in Internet Area 13, Internet Area 14, or Internet Area 15"
+  },
+  {
+    "number": "118",
+    "name": "IronBody (アイアンボディ)",
+    "possibleCodes": "C, D, L, Q, R",
+    "memory": 0,
+    "description": "30 seconds stoneshape Defense UP",
+    "locations": "R Chip: Defeat the Gaia1 Virus Found in Internet Area 5, Internet Area 7, Internet Area 8, or Internet Area 9 Q Chip: Defeat the Gaia2 Virus Found in Internet Area 12 C Chip: Defeat the Gaia3 Virus Found in Internet Area 16"
+  },
+  {
+    "number": "119",
+    "name": "Barrier (バリア)",
+    "possibleCodes": "D (MMBN), F (MMBN), M (MMBN), R (MMBN), S (MMBN), * (OSS)",
+    "memory": 0,
+    "description": "Nullify 1 enemy attack",
+    "locations": ""
+  },
+  {
+    "number": "120",
+    "name": "BblWrap1 (バブルラップ１)",
+    "possibleCodes": "C, E, G, I, M",
+    "memory": 0,
+    "description": "Aqua wall Comes back if damaged",
+    "locations": "E, G, I Chips: Vs Ammonicule virus found in DenTown Traffic Light 3 / Traffic Light 4 / Traffic Light 5 with a very high Busting LV."
+  },
+  {
+    "number": "121",
+    "name": "BblWrap2 (バブルラップ２)",
+    "possibleCodes": "D, F, H, K, N",
+    "memory": 0,
+    "description": "Aqua wall Comes back if damaged",
+    "locations": ""
+  },
+  {
+    "number": "122",
+    "name": "BblWrap3 (バブルラップ３)",
+    "possibleCodes": "A, B, L, Q, R",
+    "memory": 0,
+    "description": "Aqua wall Comes back if damaged",
+    "locations": ""
+  },
+  {
+    "number": "123",
+    "name": "LeafShld (リーフシールド)",
+    "possibleCodes": "C, D, F, K, Q",
+    "memory": 0,
+    "description": "Turns dmg from 1 hit into HP",
+    "locations": "C, Q Chips: Vs Popper3 virus found in Internet Area 14 or Internet Area 15 with a very high Busting LV."
+  },
+  {
+    "number": "124",
+    "name": "AquaAura (アクアオーラ)",
+    "possibleCodes": "D, E, L, R, S",
+    "memory": 0,
+    "description": "Null<10dmg Weak vs. [Elec]",
+    "locations": "L, R, S Chips: Vs the Megalion Virus found in Internet Area 9, Internet Area 16, WWW Area 3, WWW Area 4 with a very high Busting LV."
+  },
+  {
+    "number": "125",
+    "name": "FireAura (フレイムオーラ)",
+    "possibleCodes": "B, G, I, N, T",
+    "memory": 0,
+    "description": "Null<40dmg Weak vs. [Aqua]",
+    "locations": "B, I Chips: Vs Megalian2 Virus found in Internet Area 15/16 or WWW Area 2/4 with a very high Busting LV"
+  },
+  {
+    "number": "126",
+    "name": "WoodAura (ウッドオーラ)",
+    "possibleCodes": "C, F, J, O, Q",
+    "memory": 0,
+    "description": "Null<80dmg Weak vs. [Fire]",
+    "locations": "F Chip: Vs Megalian3 Virus found in Internet Area 16 or WWW Area 6 with a very high Busting LV C Chip: Traded at GvtComplex Restaurant for Invis2 J, a Cloudest K and a Ratton3 L (Source)"
+  },
+  {
+    "number": "127",
+    "name": "LifeAura (ドリームオーラ Dream Aura)",
+    "possibleCodes": "A, H, K, M, P",
+    "memory": 0,
+    "description": "Negate all attacks w/ damage<100",
+    "locations": "H Chip: Defeat Bass with a 4-5 Busting LV. K Chip: Defeat Bass with a 6-7 Busting LV. M Chip: Defeat Bass with a 7-9 Busting LV. P Chip: Defeat Bass with a 9-S Busting LV. (Defeat Navi Bass.EXE found in Internet Area 16 as a random encounter only after obtaining 174/175 Chip Library in Postgame with Megaman Level +70)"
+  },
+  {
+    "number": "128",
+    "name": "Roll (ロール)",
+    "damage": 60,
+    "possibleCodes": "R",
+    "memory": 0,
+    "description": "Hit enemy and heal some HP",
+    "locations": "R Chip: Talk to Mayl before entering School Network. (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)"
+  },
+  {
+    "number": "129",
+    "name": "Roll2 (ロールＶ２)",
+    "possibleCodes": "R",
+    "memory": 0,
+    "description": "Hit enemy and heal some HP",
+    "locations": "R Chip: Email from Mayl - \"Meeting Place\". (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)"
+  },
+  {
+    "number": "130",
+    "name": "Roll3 (ロールＶ３)",
+    "possibleCodes": "R",
+    "memory": 0,
+    "description": "Hit enemy and heal some HP",
+    "locations": "R Chip: Talk to Yai at the WWW Base. (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)"
+  },
+  {
+    "number": "131",
+    "name": "GutsMan (ガッツマン)",
+    "damage": 40,
+    "possibleCodes": "G, * (OSS)",
+    "memory": 0,
+    "description": "Shock foe and crack enemy area",
+    "locations": "G Chip: Defeat GutsManV 2 when battling for Dex's link. Defeat GutsManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)"
+  },
+  {
+    "number": "132",
+    "name": "GutsMan2 (ガッツマンＶ２)",
+    "damage": 70,
+    "possibleCodes": "G",
+    "memory": 0,
+    "description": "Shock foe and crack enemy area",
+    "locations": "G Chip: Defeat GutsManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)"
+  },
+  {
+    "number": "133",
+    "name": "GutsMan3 (ガッツマンＶ３)",
+    "damage": 100,
+    "possibleCodes": "G",
+    "memory": 0,
+    "description": "Shock foe and crack enemy area",
+    "locations": "G Chip: Defeat GutsManV 3 with a 10-S Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)"
+  },
+  {
+    "number": "134",
+    "name": "ProtoMan (ブルース Blues)",
+    "damage": 140,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Hit column w/ nearest enemy",
+    "locations": "B Chip: Defeat ProtoManV 2 with any Busting LV. Defeat ProtoManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)"
+  },
+  {
+    "number": "135",
+    "name": "ProtoMn2 (ブルースＶ２ Blues V2)",
+    "damage": 160,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Hit column w/ nearest enemy",
+    "locations": "B Chip: Defeat ProtoManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)"
+  },
+  {
+    "number": "136",
+    "name": "ProtoMn3 (ブルースＶ３ Blues V3)",
+    "damage": 180,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Hit column w/ nearest enemy",
+    "locations": "B Chip: Defeat ProtoManV 3 with a 10-S Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)"
+  },
+  {
+    "number": "137",
+    "name": "FireMan (ファイアマン)",
+    "possibleCodes": "F",
+    "memory": 0,
+    "description": "1 row fire arm",
+    "locations": "F Chip: Defeat FireManV 2 with any rank. Defeat FireManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)"
+  },
+  {
+    "number": "138",
+    "name": "FireMan2 (ファイアマンＶ２)",
+    "possibleCodes": "F",
+    "memory": 0,
+    "description": "1 row fire arm",
+    "locations": "F Chip: Defeat FireManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)"
+  },
+  {
+    "number": "139",
+    "name": "FireMan3 (ファイアマンＶ３)",
+    "possibleCodes": "F",
+    "memory": 0,
+    "description": "1 row fire arm",
+    "locations": "F Chip: Defeat FireManV 3 with a 10-S Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)"
+  },
+  {
+    "number": "140",
+    "name": "NumbrMan (ナンバーマン)",
+    "possibleCodes": "N",
+    "memory": 0,
+    "description": "DieRollx10 damage to enemy area",
+    "locations": "N Chip: Defeat NumberManV 2 with any Busting LV. Defeat NumberManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)"
+  },
+  {
+    "number": "141",
+    "name": "NumbrMn2 (ナンバーマンＶ２)",
+    "possibleCodes": "N",
+    "memory": 0,
+    "description": "DieRollx20 damage to enemy area",
+    "locations": "N Chip: Defeat NumberManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)"
+  },
+  {
+    "number": "142",
+    "name": "NumbrMn3 (ナンバーマンＶ３)",
+    "possibleCodes": "N",
+    "memory": 0,
+    "description": "DieRollx30 damage to enemy area",
+    "locations": "N Chip: Defeat NumberManV 3 with a 10-S Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)"
+  },
+  {
+    "number": "143",
+    "name": "StoneMan (ストーンマン)",
+    "damage": 100,
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "Drops 3x3 stones on enemy area",
+    "locations": "S Chip: Defeat StoneManV 2 with any Busting LV. Defeat StoneManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)"
+  },
+  {
+    "number": "144",
+    "name": "StoneMn2 (ストーンマンＶ２)",
+    "damage": 100,
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "Drops 4x3 stones on enemy area",
+    "locations": "S Chip: Defeat StoneManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)"
+  },
+  {
+    "number": "145",
+    "name": "StoneMn3 (ストーンマンＶ３)",
+    "damage": 100,
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "Drops 5x3 stones on enemy area",
+    "locations": "S Chip: Defeat StoneManV 3 with a 10-S Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)"
+  },
+  {
+    "number": "146",
+    "name": "IceMan (アイスマン)",
+    "possibleCodes": "I",
+    "memory": 0,
+    "description": "Blizzard attack on enemy area",
+    "locations": "I Chip: Defeat IceManV 2 with any rank. Defeat IceManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)"
+  },
+  {
+    "number": "147",
+    "name": "IceMan2 (アイスマンＶ２)",
+    "possibleCodes": "I",
+    "memory": 0,
+    "description": "Blizzard attack on enemy area",
+    "locations": "I Chip: Defeat IceManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)"
+  },
+  {
+    "number": "148",
+    "name": "IceMan3 (アイスマンＶ３)",
+    "possibleCodes": "I",
+    "memory": 0,
+    "description": "Blizzard attack on enemy area",
+    "locations": "I Chip: Defeat IceManV 3 with a 10-S Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)"
+  },
+  {
+    "number": "149",
+    "name": "ColorMan (カラードマン ColoredMan)",
+    "possibleCodes": "C",
+    "memory": 0,
+    "description": "Towers of [Aqua] & [Fire]!",
+    "locations": "C Chip: Defeat ColorManV 2 with any Busting LV. Defeat ColorManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)"
+  },
+  {
+    "number": "150",
+    "name": "ColorMn2 (カラードマンＶ２ ColoredMan V2)",
+    "possibleCodes": "C",
+    "memory": 0,
+    "description": "Towers of [Aqua] & [Fire]!",
+    "locations": "C Chip: Defeat ColorManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)"
+  },
+  {
+    "number": "151",
+    "name": "ColorMn3 (カラードマンＶ３ ColoredMan V3)",
+    "possibleCodes": "C",
+    "memory": 0,
+    "description": "Towers of [Aqua] & [Fire]!",
+    "locations": "C Chip: Defeat ColorManV 3 with a 10-S Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)"
+  },
+  {
+    "number": "152",
+    "name": "ElecMan (エレキマン)",
+    "damage": 90,
+    "possibleCodes": "E",
+    "memory": 0,
+    "description": "Lightning hits enemy panel!",
+    "locations": "E Chip: Defeat ElecManV 2 with any Busting LV. Defeat ElecManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)"
+  },
+  {
+    "number": "153",
+    "name": "ElecMan2 (エレキマンＶ２)",
+    "damage": 120,
+    "possibleCodes": "E",
+    "memory": 0,
+    "description": "Lightning hits enemy panel!",
+    "locations": "E Chip: Defeat ElecManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)"
+  },
+  {
+    "number": "154",
+    "name": "ElecMan3 (エレキマンＶ３)",
+    "damage": 150,
+    "possibleCodes": "E",
+    "memory": 0,
+    "description": "Lightning hits enemy panel!",
+    "locations": "E Chip: Defeat ElecManV 3 with a 10-S Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)"
+  },
+  {
+    "number": "155",
+    "name": "BombMan (ボンバーマン)",
+    "damage": 120,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Enemy area CrossBomb Depth=3",
+    "locations": "B Chip: Defeat BombManV 2 with any Busting LV. Defeat BombManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)"
+  },
+  {
+    "number": "156",
+    "name": "BombMan2 (ボンバーマンＶ２)",
+    "damage": 140,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Enemy area CrossBomb Depth=3",
+    "locations": "B Chip: Defeat BombManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)"
+  },
+  {
+    "number": "157",
+    "name": "BombMan3 (ボンバーマンＶ３)",
+    "damage": 160,
+    "possibleCodes": "B",
+    "memory": 0,
+    "description": "Enemy area CrossBomb Depth=3",
+    "locations": "B Chip: Defeat BombManV 3 with a 10-S Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)"
+  },
+  {
+    "number": "158",
+    "name": "MagicMan (マジックマン)",
+    "damage": 100,
+    "possibleCodes": "M",
+    "memory": 0,
+    "description": "Magic fire = instant delete!?",
+    "locations": "M Chip: Defeat MagicManV 2 with any Busting LV. Defeat MagicManV 3 with a 6-7 Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)"
+  },
+  {
+    "number": "159",
+    "name": "MagicMn2 (マジックマンＶ２)",
+    "damage": 120,
+    "possibleCodes": "M",
+    "memory": 0,
+    "description": "Magic fire = instant delete!?",
+    "locations": "M Chip: Defeat MagicManV 3 with a 7-10 Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)"
+  },
+  {
+    "number": "160",
+    "name": "MagicMn3 (マジックマンＶ３)",
+    "damage": 140,
+    "possibleCodes": "M",
+    "memory": 0,
+    "description": "Magic fire = instant delete!?",
+    "locations": "M Chip: Defeat MagicManV 3 with a 10-S Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)"
+  },
+  {
+    "number": "161",
+    "name": "WoodMan (ウッドマン)",
+    "possibleCodes": "W",
+    "memory": 0,
+    "description": "Skewer entire enemy area",
+    "locations": "W Chip: Defeat WoodManV 2 with any rank. Defeat WoodManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)"
+  },
+  {
+    "number": "162",
+    "name": "WoodMan2 (ウッドマンＶ２)",
+    "possibleCodes": "W",
+    "memory": 0,
+    "description": "Skewer entire enemy area",
+    "locations": "W Chip: Defeat WoodManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)"
+  },
+  {
+    "number": "163",
+    "name": "WoodMan3 (ウッドマンＶ３)",
+    "possibleCodes": "W",
+    "memory": 0,
+    "description": "Skewer entire enemy area",
+    "locations": "W Chip: Defeat WoodManV 3 with a 10-S Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)"
+  },
+  {
+    "number": "164",
+    "name": "SkullMan (スカルマン)",
+    "damage": 150,
+    "possibleCodes": "S (MMBN), D (OSS)",
+    "memory": 0,
+    "description": "Big skull attack on one enemy",
+    "locations": "S Chip: Defeat SkullManV 2 with any Busting LV. Defeat SkullManV 3 with a 6-7 Busting LV. D Chip: Defeat SkullManV 2 with any Busting LV. Defeat SkullManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)"
+  },
+  {
+    "number": "165",
+    "name": "SkullMn2 (スカルマンＶ２)",
+    "damage": 180,
+    "possibleCodes": "S (MMBN), D (OSS)",
+    "memory": 0,
+    "description": "Big skull attack on one enemy",
+    "locations": "S Chip: Defeat SkullManV 3 with a 7-10 Busting LV. D Chip: Defeat SkullManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)"
+  },
+  {
+    "number": "166",
+    "name": "SkullMn3 (スカルマンＶ３)",
+    "damage": 210,
+    "possibleCodes": "S (MMBN), D (OSS)",
+    "memory": 0,
+    "description": "Big skull attack on one enemy",
+    "locations": "S Chip: Defeat SkullManV 3 with a 10-S Busting LV. D Chip: Defeat SkullManV 3 with a 10-S Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)"
+  },
+  {
+    "number": "167",
+    "name": "SharkMan (シャークマン)",
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "3-row shark fin attack",
+    "locations": "S Chip: Defeat SharkManV 2 with any Busting LV. Defeat SharkManV 3 with a 6-7 Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)"
+  },
+  {
+    "number": "168",
+    "name": "SharkMn2 (シャークマンＶ２)",
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "3-row shark fin attack",
+    "locations": "S Chip: Defeat SharkManV 3 with a 7-10 Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)"
+  },
+  {
+    "number": "169",
+    "name": "SharkMn3 (シャークマンＶ３)",
+    "possibleCodes": "S",
+    "memory": 0,
+    "description": "3-row shark fin attack",
+    "locations": "S Chip: Defeat SharkManV 3 with a 10-S Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)"
+  },
+  {
+    "number": "170",
+    "name": "PharoMan (ファラオマン)",
+    "possibleCodes": "P",
+    "memory": 0,
+    "description": "3-row coffin laser!",
+    "locations": "P Chip: Defeat PharaohMan with any Busting LV. Defeat PharaohManS P with a 6-7 Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)"
+  },
+  {
+    "number": "171",
+    "name": "PharoMn2 (ファラオマンＶ２)",
+    "possibleCodes": "P",
+    "memory": 0,
+    "description": "3-row coffin laser!",
+    "locations": "P Chip: Defeat PharaohManS P with a 7-10 Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)"
+  },
+  {
+    "number": "172",
+    "name": "PharoMn3 (ファラオマンＶ３)",
+    "possibleCodes": "P",
+    "memory": 0,
+    "description": "3-row coffin laser!",
+    "locations": "P Chip: Defeat PharaohManS P with a 9-S Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)"
+  },
+  {
+    "number": "173",
+    "name": "ShadoMan (シャドーマン)",
+    "possibleCodes": "S (MMBN), T (OSS)",
+    "memory": 0,
+    "description": "Split into 3 for star attack",
+    "locations": "S Chip: Defeat ShadowMan with any Busting LV. Defeat ShadowManS P with a 6-7 Busting LV. T Chip: Defeat ShadowMan with any Busting LV. Defeat ShadowManS P with a 6-7 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)"
+  },
+  {
+    "number": "174",
+    "name": "ShadoMn2 (シャドーマンＶ２)",
+    "possibleCodes": "S (MMBN), T (OSS)",
+    "memory": 0,
+    "description": "Split into 3 for star attack",
+    "locations": "S Chip: Defeat ShadowManS P with a 7-10 Busting LV. T Chip: Defeat ShadowManS P with a 7-10 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)"
+  },
+  {
+    "number": "175",
+    "name": "ShadoMn3 (シャドーマンＶ３)",
+    "possibleCodes": "S (MMBN), T (OSS)",
+    "memory": 0,
+    "description": "Split into 3 for star attack",
+    "locations": "S Chip: Defeat ShadowManS P with a 9-S Busting LV. T Chip: Defeat ShadowManS P with a 7-10 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)"
+  }
+]
