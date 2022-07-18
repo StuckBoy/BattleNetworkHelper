@@ -84,8 +84,17 @@ public class OS {
      */
     private static UserConfig loadUserConfig() {
         UserConfig config = new UserConfig(Game.BN1);
+        String operatingSystem = Helpers.getOperatingSystem();
         String absolutePath = System.getProperty("user.dir");
-        String absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+        String absoluteConfigPath = "";
+        switch (operatingSystem) {
+            case "Linux" -> {
+                absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
+            }
+            case "Windows" -> {
+                absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+            }
+        }
         Path configPath = Paths.get(absoluteConfigPath);
         InputStream inputStream = null;
         try {
@@ -114,12 +123,16 @@ public class OS {
                 }
             } catch (SecurityException ex) {
                 errorPrint("Permission to write to path denied.");
+                errorPrint(ex.getMessage());
             } catch (FileAlreadyExistsException ex) {
                 errorPrint("An error occurred while creating the default config, one was already present?");
+                errorPrint(ex.getMessage());
             } catch (IOException ex) {
                 errorPrint("An issue occurred while setting up the user config.");
+                errorPrint(ex.getMessage());
             } catch (JsonIOException ex) {
                 errorPrint("An error occurred while creating the default JSON file.");
+                errorPrint(ex.getMessage());
             }
         }
         Reader reader = new InputStreamReader(inputStream);
