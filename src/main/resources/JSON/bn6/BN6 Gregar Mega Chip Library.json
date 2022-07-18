@@ -1,0 +1,132 @@
+[
+  {
+    "number": "7",
+    "name": "HeatMan (ヒートマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan v1/EX/SP Lotto Number 12404002"
+  },
+  {
+    "number": "8",
+    "name": "HeatManEX (ヒートマンＥＸ)",
+    "damage": 130,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan EX/SP"
+  },
+  {
+    "number": "9",
+    "name": "HeatManSP (ヒートマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan SP"
+  },
+  {
+    "number": "10",
+    "name": "ElecMan (エレキマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan v1/EX/SP Lotto Number30424514"
+  },
+  {
+    "number": "11",
+    "name": "ElecManEX (エレキマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan EX/SP"
+  },
+  {
+    "number": "12",
+    "name": "ElecManSP (エレキマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan SP"
+  },
+  {
+    "number": "13",
+    "name": "SlashMan (スラッシュマン)",
+    "damage": 80,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan v1/EX/SP Lotto Number 55910601"
+  },
+  {
+    "number": "14",
+    "name": "SlashMnEX (スラッシュマンＥＸ)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan EX/SP"
+  },
+  {
+    "number": "15",
+    "name": "SlashMnSP (スラッシュマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan SP"
+  },
+  {
+    "number": "16",
+    "name": "EraseMan (キラーマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan v1/EX/SP Lotto Number 84387543"
+  },
+  {
+    "number": "17",
+    "name": "EraseMnEX (キラーマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan EX/SP"
+  },
+  {
+    "number": "18",
+    "name": "EraseMnSP (キラーマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan SP"
+  },
+  {
+    "number": "19",
+    "name": "ChrgeMan (チャージマン)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan v1/EX/SP Lotto Number 92070765"
+  },
+  {
+    "number": "20",
+    "name": "ChrgeMnEX (チャージマンＥＸ)",
+    "damage": 70,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan EX/SP"
+  },
+  {
+    "number": "21",
+    "name": "ChrgeMnSP (チャージマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan SP"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "number": "1",
+    "name": "Roll (ロール)",
+    "damage": 20,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Obtained in email from Mayl Sakurai during the story. Reward from request \"Track the Criminal\"."
+  },
+  {
+    "number": "2",
+    "name": "Roll2 (ロール２)",
+    "damage": 40,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Obtained in email from Mayl during the story."
+  },
+  {
+    "number": "3",
+    "name": "Roll3 (ロール３)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Talk to Mayl in Lan\u0027s house during the final chapter of the game."
+  },
+  {
+    "number": "4",
+    "name": "ProtoMan (ブルース)",
+    "damage": 150,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan v1/EX/SP Reward from request \"Track the Criminal\""
+  },
+  {
+    "number": "5",
+    "name": "ProtoMnEX (ブルースＥＸ)",
+    "damage": 170,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan EX/SP"
+  },
+  {
+    "number": "6",
+    "name": "ProtoMnSP (ブルースＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan SP"
+  },
+  {
+    "number": "22",
+    "name": "BlastMan (ブラストマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan EX/SP Lotto Number 24616497"
+  },
+  {
+    "number": "23",
+    "name": "BlastMnEX (ブラストマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan EX/SP"
+  },
+  {
+    "number": "24",
+    "name": "BlastMnSP (ブラストマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan SP"
+  },
+  {
+    "number": "25",
+    "name": "DiveMan (ダイブマン)",
+    "damage": 130,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan EX/SP Lotto Number 32310827"
+  },
+  {
+    "number": "26",
+    "name": "DiveManEX (ダイブマンＥＸ)",
+    "damage": 150,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan EX/SP"
+  },
+  {
+    "number": "27",
+    "name": "DiveManSP (ダイブマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan SP"
+  },
+  {
+    "number": "28",
+    "name": "CrcusMan (サーカスマン)",
+    "damage": 20,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "29",
+    "name": "CrcusMnEX (サーカスマンＥＸ)",
+    "damage": 25,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan EX/SP"
+  },
+  {
+    "number": "30",
+    "name": "CrcusMnSP (サーカスマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan SP"
+  },
+  {
+    "number": "31",
+    "name": "JudgeMan (ジャッジマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "32",
+    "name": "JudgeMnEX (ジャッジマンＥＸ)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan EX/SP"
+  },
+  {
+    "number": "33",
+    "name": "JudgeMnSP (ジャッジマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan SP"
+  },
+  {
+    "number": "34",
+    "name": "ElmntMan (エレメントマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "35",
+    "name": "ElmntMnEX (エレメントマンＥＸ)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan EX/SP"
+  },
+  {
+    "number": "36",
+    "name": "ElmntMnSP (エレメントマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan SP"
+  },
+  {
+    "number": "37",
+    "name": "Colonel (カーネル)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Cut enmy lines in Z shape",
+    "locations": "Colonel EX/SP Reward from request \"Track the criminal\""
+  },
+  {
+    "number": "38",
+    "name": "ColonelEX (カーネルＥＸ)",
+    "damage": 180,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Cut enmy lines in Z shape",
+    "locations": "Colonel EX/SP"
+  }
+]
