@@ -27,7 +27,7 @@ public class ProgramAdvanceLookup implements Subsystem {
     private void bootSequence() throws UnsupportedGameException, IOException {
         try {
             reader = new ProgramAdvanceFileReader(currentGame);
-            simplePrint("P.A. Lookup booted." + System.lineSeparator());
+            simplePrint("P.A. Lookup booted.");
         } catch (IOException | UnsupportedGameException ex) {
             simplePrint("Error encountered while booting P.A. Lookup");
             simplePrint(ex.getMessage() + System.lineSeparator());
@@ -37,6 +37,7 @@ public class ProgramAdvanceLookup implements Subsystem {
 
     @Override
     public void printOptions() {
+        simplePrint(System.lineSeparator());
         List<String> options = new ArrayList<>();
         options.add("Search by name");
         options.add("Search by damage");
