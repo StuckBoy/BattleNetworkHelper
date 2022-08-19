@@ -27,6 +27,14 @@ public class Helpers {
     }
 
     /**
+     * Obtains the current operating system to determine file system semantics.
+     * @return a {@link String} representing the current operating system.
+     */
+    public static String getOperatingSystem() {
+        return System.getProperty("os.name");
+    }
+
+    /**
      * Constructs a list of selectable options.
      * <p>
      * For a list of three options, they are displayed as follows:

@@ -18,6 +18,7 @@ public class PathConstants {
     private static final String compressionCodeLibraryJson = "Compression Codes.json";
 
     public static final String userConfigPath = "\\config\\UserConfig.json";
+    public static final String unixUserConfigPath = "/config/UserConfig.json";
 
 
     //Battle Network 3 Constants
