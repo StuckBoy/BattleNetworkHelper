@@ -58,7 +58,12 @@ public class ConfigEditSubroutine implements Subroutine {
 
     private void outputChangeToFile() {
         String absolutePath = System.getProperty("user.dir");
-        String absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+        String operatingSystem = Helpers.getOperatingSystem();
+        String absoluteConfigPath = "";
+        switch (operatingSystem) {
+            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
+            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+        }
         Gson gson = new Gson();
         try {
             FileWriter writer = new FileWriter(absoluteConfigPath);
@@ -67,6 +72,7 @@ public class ConfigEditSubroutine implements Subroutine {
         } catch (IOException e) {
             errorPrint("An error occurred while trying to update the user config. Please check it was properly created.");
         }
+        //Reload the config to ensure it's up-to-date.
         try {
             Path configPath = Paths.get(absoluteConfigPath);
             InputStream inputStream = Files.newInputStream(configPath);
