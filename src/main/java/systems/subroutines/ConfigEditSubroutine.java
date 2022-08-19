@@ -3,7 +3,6 @@ package systems.subroutines;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
-import constants.PathConstants;
 import interfaces.subroutines.Subroutine;
 import pojos.UserConfig;
 import systems.utility.Helpers;
@@ -18,12 +17,13 @@ import java.util.List;
 import java.util.Scanner;
 
 import static systems.utility.Helpers.errorPrint;
+import static systems.utility.Helpers.getAbsoluteConfigPath;
 import static systems.utility.Helpers.simplePrint;
 
 public class ConfigEditSubroutine implements Subroutine {
 
     private UserConfig config;
-    private Scanner keyboard;
+    private final Scanner keyboard;
 
     public ConfigEditSubroutine(Scanner keyboard, UserConfig config) {
         this.keyboard = keyboard;
@@ -57,13 +57,7 @@ public class ConfigEditSubroutine implements Subroutine {
     }
 
     private void outputChangeToFile() {
-        String absolutePath = System.getProperty("user.dir");
-        String operatingSystem = Helpers.getOperatingSystem();
-        String absoluteConfigPath = "";
-        switch (operatingSystem) {
-            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
-            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
-        }
+        String absoluteConfigPath = getAbsoluteConfigPath();
         Gson gson = new Gson();
         try {
             FileWriter writer = new FileWriter(absoluteConfigPath);

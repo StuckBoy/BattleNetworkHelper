@@ -2,7 +2,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 import constants.Game;
-import constants.PathConstants;
 import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
 import pojos.UserConfig;
@@ -84,13 +83,7 @@ public class OS {
      */
     private static UserConfig loadUserConfig() {
         UserConfig config = new UserConfig(Game.BN1);
-        String operatingSystem = Helpers.getOperatingSystem();
-        String absolutePath = System.getProperty("user.dir");
-        String absoluteConfigPath = "";
-        switch (operatingSystem) {
-            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
-            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
-        }
+        String absoluteConfigPath = getAbsoluteConfigPath();
         Path configPath = Paths.get(absoluteConfigPath);
         InputStream inputStream = null;
         try {
