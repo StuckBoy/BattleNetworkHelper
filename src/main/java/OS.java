@@ -88,12 +88,8 @@ public class OS {
         String absolutePath = System.getProperty("user.dir");
         String absoluteConfigPath = "";
         switch (operatingSystem) {
-            case "Linux" -> {
-                absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
-            }
-            case "Windows" -> {
-                absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
-            }
+            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
+            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
         }
         Path configPath = Paths.get(absoluteConfigPath);
         InputStream inputStream = null;
