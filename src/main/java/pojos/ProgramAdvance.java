@@ -1,10 +1,12 @@
 package pojos;
 
-import interfaces.Printable;
-
-import java.util.List;
-
 import static systems.utility.Helpers.simplePrint;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+import interfaces.Printable;
 
 public class ProgramAdvance implements Printable {
 
@@ -69,12 +71,15 @@ public class ProgramAdvance implements Printable {
      * parse.
      *
      * <p>
-     * The outputted message will be formatted as such:
+     * The outputted message will be formatted as such, assuming the Program
+     * Advance has more than one combination of chips:
      * </p>
      * <pre>
      * Name:        Chip Name
      * Damage:      ### / -
-     * Chips Used:  Chip 1 + Chip 2...
+     * Combos:      Chip 1 + Chip 2 + Chip 3
+     *              Chip 2 + Chip 3 + Chip 4
+     *              Chip 3 + Chip 4 + Chip 5
      * Description: Program Advance Description
      * </pre>
      * @see systems.utility.Helpers#simplePrint(String)
@@ -88,8 +93,52 @@ public class ProgramAdvance implements Printable {
         } else {
             simplePrint("Damage:      -");
         }
-        //TODO Implement pretty print for chips used in Program Advance.
-        simplePrint("Combos used:");
+        List<String> comboList = new ArrayList<>();
+        combos.forEach(combo -> comboList.add(buildComboString(combo)));
+        if (comboList.size() == 1) {
+            simplePrint("Combo:       " + comboList.get(0));
+        } else {
+            simplePrint("Combos:      " + comboList.get(0) + ",");
+            ListIterator<String> itr = comboList.listIterator(1);
+            while (itr.hasNext()) {
+                String line = "             " + itr.next();
+                if (itr.hasNext()) {
+                    line += ",";
+                }
+                simplePrint(line);
+            }
+        }
         simplePrint("Description: " + getDescription());
+    }
+
+    /**
+     * Constructs a formatted combination of Chips to activate a
+     * {@link ProgramAdvance}
+     *
+     * @param combo The {@link List} of {@link String} containing the names of
+     * each {@link Chip} used to activate the {@link ProgramAdvance}.
+     * @return a {@link String} representing a combination of Chips needed to
+     * activate the {@link ProgramAdvance}.
+     */
+    private String buildComboString(List<String> combo) {
+        String chipOne = combo.get(0);
+        String chipTwo = combo.get(1);
+        String chipThree = combo.get(2);
+        String comboString = "%s + %s + %s";
+        switch (combo.size()) {
+            case 3 -> comboString = String.format(comboString, chipOne, chipTwo, chipThree);
+            case 4 -> {
+                comboString += " + %s";
+                String chipFour = combo.get(3);
+                comboString = String.format(comboString, chipOne, chipTwo, chipThree, chipFour);
+            }
+            case 5 -> {
+                comboString += " + %s + %s";
+                String chipFour = combo.get(3);
+                String chipFive = combo.get(4);
+                comboString = String.format(comboString, chipOne, chipTwo, chipThree, chipFour, chipFive);
+            }
+        }
+        return comboString;
     }
 }
