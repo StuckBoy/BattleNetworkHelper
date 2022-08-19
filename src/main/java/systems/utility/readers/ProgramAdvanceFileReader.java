@@ -82,7 +82,7 @@ public class ProgramAdvanceFileReader {
         for (ProgramAdvance programAdvance : programAdvanceList) {
             for (List<String> combo : programAdvance.getCombos()) {
                 for (String chip : combo) {
-                    if (StringUtils.containsIgnoreCase(chip, input)) {
+                    if (!foundPAs.contains(programAdvance) && StringUtils.containsIgnoreCase(chip, input)) {
                         foundPAs.add(programAdvance);
                     }
                 }

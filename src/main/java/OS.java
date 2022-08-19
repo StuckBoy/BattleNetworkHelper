@@ -247,7 +247,7 @@ public class OS {
                 try {
                     int input = keyboard.nextInt();
                     lookup.processInput(input, keyboard);
-                    if (input == 7) {
+                    if (input == 3) {
                         continueProcess = false;
                     }
                 } catch (InputMismatchException ex) {
