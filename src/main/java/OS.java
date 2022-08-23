@@ -283,7 +283,7 @@ public class OS {
      * Prints a goodbye and returns 0 to the system.
      */
     private static void exitHelper() {
-        simplePrint("See you later!");
+        simplePrint(String.format("See you later %s!", config.getUsername()));
         System.exit(0);
     }
 }
