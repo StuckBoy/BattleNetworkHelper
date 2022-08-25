@@ -2,6 +2,8 @@ package systems.utility;
 
 import java.util.List;
 
+import constants.PathConstants;
+
 public class Helpers {
 
     /**
@@ -27,11 +29,22 @@ public class Helpers {
     }
 
     /**
-     * Obtains the current operating system to determine file system semantics.
-     * @return a {@link String} representing the current operating system.
+     * Obtains the absolute path to where the User Config should be stored.
+     * Depending on the user's operating system the character for the
+     * directories may either be / or \.
+     *
+     * @return a {@link String} containing the absolute path to the user config
+     * location.
      */
-    public static String getOperatingSystem() {
-        return System.getProperty("os.name");
+    public static String getAbsoluteConfigPath() {
+        String absolutePath = System.getProperty("user.dir");
+        String os = System.getProperty("os.name");
+        String absoluteConfigPath = "";
+        switch (os) {
+            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
+            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
+        }
+        return absoluteConfigPath;
     }
 
     /**
