@@ -1,0 +1,91 @@
+[
+  {
+    "number": "1",
+    "name": "Bass (フォルテ)",
+    "damage": 60,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Buster rake wide enemy area.",
+    "locations": "Defeat Bass SP in Graveyard Area. (Gregar exclusive)"
+  },
+  {
+    "number": "2",
+    "name": "BigHook (ギガントフック)",
+    "damage": 240,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Hook attack 2 squares wide.",
+    "locations": "Obtain from email when you enter the Graveyard Area. (Gregar exclusive)"
+  },
+  {
+    "number": "3",
+    "name": "DeltaRay (デルタレイエッジ)",
+    "damage": 260,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "A button power up by 3 sword.",
+    "locations": "Purchase from NetDealer in Graveyard Area for 30,000 Z. (Gregar exclusive)"
+  },
+  {
+    "number": "4",
+    "name": "ColForce (カーネルフォース)",
+    "damage": 30,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Summon Colonel army in open panels.",
+    "locations": "Defeat Bass BX in Underground Area 2. (Gregar exclusive)"
+  },
+  {
+    "number": "5",
+    "name": "BugRSwrd (バグライズソード)",
+    "damage": 0,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Use Bug Frag with DrkSword! (Sword; if 0 Bug Frags remained)",
+    "locations": "Purchase from BugFrag Trader in Sky Area 1 for 100 BugFrags. (Gregar exclusive)"
+  },{
+    "number": "1",
+    "name": "BassAnly (フォルテアナザー)",
+    "damage": 160,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "A ring that hits 4 times.",
+    "locations": "Defeat Bass SP in Graveyard Area. (Falzar exclusive)"
+  },
+  {
+    "number": "2",
+    "name": "MetrKnuk (メテオナックル)",
+    "damage": 100,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Meteors bombard from sky.",
+    "locations": "Obtain from email when you enter the Graveyard Area. (Falzar exclusive)"
+  },
+  {
+    "number": "3",
+    "name": "CrossDiv (クロスディバイド)",
+    "damage": 250,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Cross-slice!",
+    "locations": "Purchase from NetDealer in Graveyard Area for 30,000 Z. (Falzar exclusive)"
+  },
+  {
+    "number": "4",
+    "name": "HubBatc (サイトバッチ)",
+    "damage": 0,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Blend Hub DNA Data w/MegaMan.",
+    "locations": "Defeat Bass BX in Underground Area 2. (Falzar exclusive)"
+  },
+  {
+    "number": "5",
+    "name": "BgDthThd (バグデスサンダー)",
+    "damage": 0,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Use Bug Frag with DrkThnd! (Thunder; if 0 Bug Frags remained)",
+    "locations": "Purchase from BugFrag Trader in Sky Area 1 for 100 BugFrags. (Falzar exclusive)"
+  }
+]

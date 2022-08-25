@@ -20,6 +20,7 @@
   {
     "number": "9",
     "name": "HeatManSP (ヒートマンＳＰ)",
+    "damage": 160,
     "possibleCodes": "",
     "memory": 0,
     "description": "Burn with a radial fire attk",
@@ -46,6 +47,7 @@
   {
     "number": "12",
     "name": "ElecManSP (エレキマンＳＰ)",
+    "damage": 160,
     "possibleCodes": "",
     "memory": 0,
     "description": "Attk your surrndns with thdr",
@@ -72,6 +74,7 @@
   {
     "number": "15",
     "name": "SlashMnSP (スラッシュマンＳＰ)",
+    "damage": 120,
     "possibleCodes": "",
     "memory": 0,
     "description": "Slash an enmy w/ flyn knfe",
@@ -98,6 +101,7 @@
   {
     "number": "18",
     "name": "EraseMnSP (キラーマンＳＰ)",
+    "damage": 160,
     "possibleCodes": "",
     "memory": 0,
     "description": "Press (A) for 3panl beam attk",
@@ -124,6 +128,7 @@
   {
     "number": "21",
     "name": "ChrgeMnSP (チャージマンＳＰ)",
+    "damage": 80,
     "possibleCodes": "",
     "memory": 0,
     "description": "Rush fwd! Open panl hit TrCar",

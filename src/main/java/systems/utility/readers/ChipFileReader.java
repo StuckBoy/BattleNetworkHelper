@@ -18,6 +18,7 @@ import java.util.List;
 import static systems.utility.Helpers.simplePrint;
 
 public class ChipFileReader {
+    private final Game currentGame;
     private final List<Chip> standardChipList;
     private final List<Chip> megaChipList;
     private final List<Chip> gigaChipList;
@@ -33,26 +34,32 @@ public class ChipFileReader {
      * yet supported in this reader.
      */
     public ChipFileReader(Game currentGame) throws IOException, UnsupportedGameException {
-        //TODO Add support for other Battle Network Files
-        String standardChipPath = null;
-        String megaChipPath = null;
-        String gigaChipPath = null;
+        this.currentGame = currentGame;
+        String standardChipPath;
+        String megaChipPath;
+        String gigaChipPath;
         switch (currentGame) {
             case BN1 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
             case BN2 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
             case BN3 -> {
+                //TODO Implement version split for more granular details
                 standardChipPath = PathConstants.bnThreeStandardChipLibrary;
                 megaChipPath = PathConstants.bnThreeMegaChipLibrary;
                 gigaChipPath = PathConstants.bnThreeGigaChipLibrary;
             }
             case BN4 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
             case BN5 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
-            case BN6 -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
+            case BN6 -> {
+                //TODO Implement version split for more granular details
+                standardChipPath = PathConstants.bnSixStandardChipLibrary;
+                megaChipPath = PathConstants.bnSixMegaChipLibrary;
+                gigaChipPath = PathConstants.bnSixGigaChipLibrary;
+            }
             default -> throw new UnsupportedGameException("Chip lookup not yet supported for current game.");
         }
-        Reader standardReader = prepareReader(PathConstants.bnThreeStandardChipLibrary);
-        Reader megaReader = prepareReader(PathConstants.bnThreeMegaChipLibrary);
-        Reader gigaReader = prepareReader(PathConstants.bnThreeGigaChipLibrary);
+        Reader standardReader = prepareReader(standardChipPath);
+        Reader megaReader = prepareReader(megaChipPath);
+        Reader gigaReader = prepareReader(gigaChipPath);
         Gson gson = new Gson();
         standardChipList = prepareList(standardReader, gson);
         megaChipList = prepareList(megaReader, gson);
@@ -74,7 +81,7 @@ public class ChipFileReader {
         int chipCount = standardChipList.size();
         chipCount += megaChipList.size();
         chipCount += gigaChipList.size();
-        simplePrint("BN3 Chips read from files successfully, " + chipCount + " chips loaded.");
+        simplePrint(currentGame.name() + " Chips read from files successfully, " + chipCount + " chips loaded.");
     }
 
     /**
@@ -118,7 +125,7 @@ public class ChipFileReader {
     private List<Chip> searchListForName(List<Chip> chipList, String name) {
         List<Chip> foundChips = new ArrayList<>();
         for (Chip chip : chipList) {
-            if (StringUtils.equalsIgnoreCase(chip.getName(), name)) {
+            if (StringUtils.containsIgnoreCase(chip.getName(), name)) {
                 foundChips.add(chip);
             }
         }

@@ -1,6 +1,6 @@
 [
   {
-    "number": "001",
+    "number": "1",
     "name": "Cannon (キャノン)",
     "damage": 40,
     "possibleCodes": "",
@@ -9,7 +9,7 @@
     "locations": "A: Folder1 x2 B: Folder1 x2 C: RobCtrlComp1 GMD *: RobCtrlComp2 GMD"
   },
   {
-    "number": "002",
+    "number": "2",
     "name": "HiCannon (ハイキャノン)",
     "damage": 100,
     "possibleCodes": "",
@@ -18,7 +18,7 @@
     "locations": "L: Central Area 3 BMD, AquarumComp1 GMD M: AquarumComp3 BMD, Green Area 1 GMD N: Seaside Area 1 GMD *: JdgTreeComp1 GMD"
   },
   {
-    "number": "003",
+    "number": "3",
     "name": "M-Cannon (メガキャノン)",
     "damage": 180,
     "possibleCodes": "",
@@ -27,7 +27,7 @@
     "locations": "R: MrWeatherComp 3 GMD S: Sky Area 2 BMD T: AquarumComp3 GMD *: MascotComp BMD"
   },
   {
-    "number": "004",
+    "number": "4",
     "name": "AirShot (エアシュート)",
     "damage": 20,
     "possibleCodes": "",
@@ -36,7 +36,7 @@
     "locations": "*: Folder1 x2"
   },
   {
-    "number": "005",
+    "number": "5",
     "name": "Vulcan1 (バルカン１)",
     "damage": 10,
     "possibleCodes": "",
@@ -45,7 +45,7 @@
     "locations": "B: Central Area 1 GMD D: Folder1 x3, Central Area 3 GMD S: ? *: RobCtrlComp2 GMD"
   },
   {
-    "number": "006",
+    "number": "6",
     "name": "Vulcan2 (バルカン２)",
     "damage": 15,
     "possibleCodes": "",
@@ -54,7 +54,7 @@
     "locations": "D: JdgTreeComp1 GMD F: AquarumComp2 GMD L: Green Area 1 GMD"
   },
   {
-    "number": "007",
+    "number": "7",
     "name": "Vulcan3 (バルカン３)",
     "damage": 20,
     "possibleCodes": "",
@@ -63,7 +63,7 @@
     "locations": "G: Sky Area 2 GMD (need Untrap?)"
   },
   {
-    "number": "008",
+    "number": "8",
     "name": "SuprVulc (スーパーバルカン)",
     "damage": 20,
     "possibleCodes": "",
@@ -72,7 +72,7 @@
     "locations": "V: PMD in Underground 2 (JP) Beat the 5th Virus Battler in Central Area 1 for the first time (INT)"
   },
   {
-    "number": "009",
+    "number": "9",
     "name": "Spreadr1 (スプレッドガン１)",
     "damage": 30,
     "possibleCodes": "",
@@ -81,7 +81,7 @@
     "locations": "L: Central Area 2 NetDealer (600 Z) M: RobCtrlComp1 BMD N: Central Area 3 GMD *: Seaside Area 1 GMD"
   },
   {
-    "number": "010",
+    "number": "10",
     "name": "Spreadr2 (スプレッドガン２)",
     "damage": 60,
     "possibleCodes": "",
@@ -90,7 +90,7 @@
     "locations": "A: AquarumComp3 GMD B: Green Area 2 GMD (need Untrap?) C: Green Area 1 BMD *: JdgTreeComp 3 GMD"
   },
   {
-    "number": "011",
+    "number": "11",
     "name": "Spreadr3 (スプレッドガン３)",
     "damage": 90,
     "possibleCodes": "",
@@ -99,7 +99,7 @@
     "locations": "Q: MrWeatherComp 2 GMD"
   },
   {
-    "number": "012",
+    "number": "12",
     "name": "TankCan1 (センシャホウ１)",
     "damage": 120,
     "possibleCodes": "",
@@ -108,7 +108,7 @@
     "locations": "Catack A: Catack Rank 10-S G: Catack Rank 7-9 (Gregar) R: Central Area 2 NetDealer (2400 Z)"
   },
   {
-    "number": "013",
+    "number": "13",
     "name": "TankCan2 (センシャホウ２)",
     "damage": 160,
     "possibleCodes": "",
@@ -117,7 +117,7 @@
     "locations": "Cateen, RareCatack"
   },
   {
-    "number": "014",
+    "number": "14",
     "name": "TankCan3 (センシャホウ３)",
     "damage": 200,
     "possibleCodes": "",
@@ -126,31 +126,34 @@
     "locations": "Catpult, RareCatack2"
   },
   {
-    "number": "015",
+    "number": "15",
     "name": "GunDelS1 (ガンデルソル１)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Hits row 2pnl ahd w/sunshne",
     "locations": "C: Aster Land normal stock (1000 Z) M: Undernet Zero GMD T: Underground Area 1 GMD *:"
   },
   {
-    "number": "016",
+    "number": "16",
     "name": "GunDelS2 (ガンデルソル２)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Hits row 2pnl ahd w/sunshne",
     "locations": "E: Pavillion Comp 2 BMD R: Graveyard (JP: Graveyard 2) GMD"
   },
   {
-    "number": "017",
+    "number": "17",
     "name": "GunDelS3 (ガンデルソル３)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Hits row 2pnl ahd w/sunshne",
     "locations": "N: Purchase from NetDealer in Undernet Zero for 12000 Z. In-battle GMD in Immortal Area (JP)"
   },
   {
-    "number": "018",
+    "number": "18",
     "name": "YoYo (ヨーヨー)",
     "damage": 50,
     "possibleCodes": "",
@@ -159,7 +162,7 @@
     "locations": "L: Central Area 2 NetDealer (4600 Z) M: AquarumComp1 GMD N: JdgTreeComp2 BMD *: BookComp BMD"
   },
   {
-    "number": "019",
+    "number": "19",
     "name": "FireBrn1 (ヘルズバーナー１)",
     "damage": 70,
     "possibleCodes": "",
@@ -168,7 +171,7 @@
     "locations": "OldStov, RareOldStov H: Seaside Area 3 GMD"
   },
   {
-    "number": "020",
+    "number": "20",
     "name": "FireBrn2 (ヘルズバーナー２)",
     "damage": 110,
     "possibleCodes": "",
@@ -177,7 +180,7 @@
     "locations": "OldHeatr, RareOldStov, RareOldStov2 S: OldHeatr Rank 10-S"
   },
   {
-    "number": "021",
+    "number": "21",
     "name": "FireBrn3 (ヘルズバーナー３)",
     "damage": 150,
     "possibleCodes": "",
@@ -186,7 +189,7 @@
     "locations": "OldBurnr, RareOldStov2"
   },
   {
-    "number": "022",
+    "number": "22",
     "name": "WideSht (ワイドショット)",
     "damage": 100,
     "possibleCodes": "",
@@ -195,7 +198,7 @@
     "locations": "P: Aster Land normal stock (7000 Z) Q: Underground Area 1 GMD R: Underground Area 2 GMD (need Untrap)"
   },
   {
-    "number": "023",
+    "number": "23",
     "name": "TrnArrw1 (トレインアロー１)",
     "damage": 30,
     "possibleCodes": "",
@@ -204,7 +207,7 @@
     "locations": "Piranha, RarePiranha A: Piranha Rank 10-S, Sky Area 1 GMD F: Piranha Rank 6+ (Falzar) K: Piranha Rank 6+ (Gregar)"
   },
   {
-    "number": "024",
+    "number": "24",
     "name": "TrnArrw2 (トレインアロー２)",
     "damage": 40,
     "possibleCodes": "",
@@ -213,7 +216,7 @@
     "locations": "Piranha2, RarePiranha, RarePiranha2"
   },
   {
-    "number": "025",
+    "number": "25",
     "name": "TrnArrw3 (トレインアロー３)",
     "damage": 50,
     "possibleCodes": "",
@@ -222,7 +225,7 @@
     "locations": "Piranha3, RarePiranha2"
   },
   {
-    "number": "026",
+    "number": "26",
     "name": "BblStar1 (バブルスター１)",
     "damage": 60,
     "possibleCodes": "",
@@ -231,7 +234,7 @@
     "locations": "Starfish, RareStarfish E: Underground Area 1 GMD"
   },
   {
-    "number": "027",
+    "number": "27",
     "name": "BblStar2 (バブルスター２)",
     "damage": 80,
     "possibleCodes": "",
@@ -240,7 +243,7 @@
     "locations": "Starfsh2, RareStarfish, RareStarfish2"
   },
   {
-    "number": "028",
+    "number": "28",
     "name": "BblStar3 (バブルスター３)",
     "damage": 100,
     "possibleCodes": "",
@@ -249,7 +252,7 @@
     "locations": "Starfsh3"
   },
   {
-    "number": "029",
+    "number": "29",
     "name": "Thunder (サンダーボール)",
     "damage": 40,
     "possibleCodes": "",
@@ -258,7 +261,7 @@
     "locations": "B: Central Area 2 GMD S: AquarumComp1 GMD *: Class6-1Comp BMD"
   },
   {
-    "number": "030",
+    "number": "30",
     "name": "DolThdr1 (ドールサンダー１)",
     "damage": 120,
     "possibleCodes": "",
@@ -267,7 +270,7 @@
     "locations": "ScarCrow, RareCrow E: Sky Area 2 GMD (need Untrap?)"
   },
   {
-    "number": "031",
+    "number": "31",
     "name": "DolThdr2 (ドールサンダー２)",
     "damage": 150,
     "possibleCodes": "",
@@ -276,7 +279,7 @@
     "locations": "ScrCrow2, RareCrow, RareCrw2"
   },
   {
-    "number": "032",
+    "number": "32",
     "name": "DolThdr3 (ドールサンダー３)",
     "damage": 180,
     "possibleCodes": "",
@@ -285,7 +288,7 @@
     "locations": "ScrCrow3, RareCrw2"
   },
   {
-    "number": "033",
+    "number": "33",
     "name": "ElcPuls1 (エレキパルス１)",
     "damage": 100,
     "possibleCodes": "",
@@ -294,7 +297,7 @@
     "locations": "PulsBulb, RarePulsBulb"
   },
   {
-    "number": "034",
+    "number": "34",
     "name": "ElcPuls2 (エレキパルス２)",
     "damage": 120,
     "possibleCodes": "",
@@ -303,7 +306,7 @@
     "locations": "PulsBulb2, RarePulsBulb, RarePulsBulb2"
   },
   {
-    "number": "035",
+    "number": "35",
     "name": "ElcPuls3 (エレキパルス３)",
     "damage": 140,
     "possibleCodes": "",
@@ -312,7 +315,7 @@
     "locations": "PulsBulb3, RarePulsBulb2"
   },
   {
-    "number": "036",
+    "number": "36",
     "name": "CornSht1 (コーンショット１)",
     "damage": 50,
     "possibleCodes": "",
@@ -321,7 +324,7 @@
     "locations": "L: Underground Area 2 GMD (need Untrap?)"
   },
   {
-    "number": "037",
+    "number": "37",
     "name": "CornSht2 (コーンショット２)",
     "damage": 60,
     "possibleCodes": "",
@@ -330,7 +333,7 @@
     "locations": ""
   },
   {
-    "number": "038",
+    "number": "38",
     "name": "CornSht3 (コーンショット３)",
     "damage": 70,
     "possibleCodes": "",
@@ -339,7 +342,7 @@
     "locations": ""
   },
   {
-    "number": "039",
+    "number": "39",
     "name": "RskyHny1 (リスキーハニー１)",
     "damage": 10,
     "possibleCodes": "",
@@ -348,7 +351,7 @@
     "locations": ""
   },
   {
-    "number": "040",
+    "number": "40",
     "name": "RskyHny2 (リスキーハニー２)",
     "damage": 15,
     "possibleCodes": "",
@@ -357,7 +360,7 @@
     "locations": ""
   },
   {
-    "number": "041",
+    "number": "41",
     "name": "RskyHny3 (リスキーハニー３)",
     "damage": 20,
     "possibleCodes": "",
@@ -366,7 +369,7 @@
     "locations": ""
   },
   {
-    "number": "042",
+    "number": "42",
     "name": "RlngLog1 (ローリングログ１)",
     "damage": 50,
     "possibleCodes": "",
@@ -375,7 +378,7 @@
     "locations": ""
   },
   {
-    "number": "043",
+    "number": "43",
     "name": "RlngLog2 (ローリングログ２)",
     "damage": 70,
     "possibleCodes": "",
@@ -384,7 +387,7 @@
     "locations": ""
   },
   {
-    "number": "044",
+    "number": "44",
     "name": "RlngLog3 (ローリングログ３)",
     "damage": 90,
     "possibleCodes": "",
@@ -393,7 +396,7 @@
     "locations": ""
   },
   {
-    "number": "045",
+    "number": "45",
     "name": "IronShl1 (アイアンシェル１)",
     "damage": 70,
     "possibleCodes": "",
@@ -402,7 +405,7 @@
     "locations": ""
   },
   {
-    "number": "046",
+    "number": "46",
     "name": "IronShl2 (アイアンシェル２)",
     "damage": 100,
     "possibleCodes": "",
@@ -411,7 +414,7 @@
     "locations": "Armadil2 GMD in Immortal Area (JP)"
   },
   {
-    "number": "047",
+    "number": "47",
     "name": "IronShl3 (アイアンシェル３)",
     "damage": 130,
     "possibleCodes": "",
@@ -420,7 +423,7 @@
     "locations": ""
   },
   {
-    "number": "048",
+    "number": "48",
     "name": "AuraHed1 (オーラヘッド１)",
     "damage": 130,
     "possibleCodes": "",
@@ -429,7 +432,7 @@
     "locations": ""
   },
   {
-    "number": "049",
+    "number": "49",
     "name": "AuraHed2 (オーラヘッド２)",
     "damage": 150,
     "possibleCodes": "",
@@ -438,7 +441,7 @@
     "locations": "HeadyH GMD in Immortal Area (JP)"
   },
   {
-    "number": "050",
+    "number": "50",
     "name": "AuraHed3 (オーラヘッド３)",
     "damage": 170,
     "possibleCodes": "",
@@ -447,7 +450,7 @@
     "locations": ""
   },
   {
-    "number": "051",
+    "number": "51",
     "name": "AirHocky (エアホッケー)",
     "damage": 60,
     "possibleCodes": "",
@@ -456,7 +459,7 @@
     "locations": "L: Sky Area 2 GMD N: Aster Land normal stock (3800 Z)"
   },
   {
-    "number": "052",
+    "number": "52",
     "name": "DrilArm (ドリルアーム)",
     "damage": 70,
     "possibleCodes": "",
@@ -465,7 +468,7 @@
     "locations": "G: Aster Land normal stock (5000 Z) W: PavillionComp 1 GMD"
   },
   {
-    "number": "053",
+    "number": "53",
     "name": "Tornado (トルネード)",
     "damage": 20,
     "possibleCodes": "",
@@ -474,7 +477,7 @@
     "locations": "T: Central Area 1/2/3 in-battle GMD"
   },
   {
-    "number": "054",
+    "number": "54",
     "name": "Static (ノイズストーム)",
     "damage": 20,
     "possibleCodes": "",
@@ -483,7 +486,7 @@
     "locations": "V: Purchase from NetDealer in Graveyard Area for 14600z"
   },
   {
-    "number": "055",
+    "number": "55",
     "name": "MachGun1 (マシンガン１)",
     "damage": 30,
     "possibleCodes": "",
@@ -492,7 +495,7 @@
     "locations": "A: Gunner Rank 10-S T: Gunner Rank 6+ (Gregar), Seaside Area 3 GMD R: Gunner Rank 6+ (Falzar) *: JdgTreeComp 2 GMD"
   },
   {
-    "number": "056",
+    "number": "56",
     "name": "MachGun2 (マシンガン２)",
     "damage": 50,
     "possibleCodes": "",
@@ -501,7 +504,7 @@
     "locations": "S:"
   },
   {
-    "number": "057",
+    "number": "57",
     "name": "MachGun3 (マシンガン３)",
     "damage": 70,
     "possibleCodes": "",
@@ -510,7 +513,7 @@
     "locations": ""
   },
   {
-    "number": "058",
+    "number": "58",
     "name": "MiniBomb (ミニボム)",
     "damage": 50,
     "possibleCodes": "",
@@ -519,7 +522,7 @@
     "locations": "B: Folder1 x2 L: Folder1 x2 R: Central Area 2 GMD *: RobCtrlComp1 GMD"
   },
   {
-    "number": "059",
+    "number": "59",
     "name": "BigBomb (ビッグボム)",
     "damage": 140,
     "possibleCodes": "",
@@ -528,7 +531,7 @@
     "locations": "V: Aster Land normal stock (9000 Z)"
   },
   {
-    "number": "060",
+    "number": "60",
     "name": "EnergBom (エナジーボム)",
     "damage": 40,
     "possibleCodes": "",
@@ -537,7 +540,7 @@
     "locations": "C: RobCtrlComp2 GMD V: Seaside Area 2 GMD *: JdgTreeComp 2 GMD"
   },
   {
-    "number": "061",
+    "number": "61",
     "name": "MegEnBom (メガエナジーボム)",
     "damage": 60,
     "possibleCodes": "",
@@ -546,7 +549,7 @@
     "locations": "G: Sky Area 1 GMD M: Seaside Area in-battle GMD O: Green Area 2 GMD, AquarumComp3 GMD *: MrWeatherComp 3 GMD"
   },
   {
-    "number": "062",
+    "number": "62",
     "name": "FlshBom1 (フラッシュボム１)",
     "damage": 40,
     "possibleCodes": "",
@@ -555,7 +558,7 @@
     "locations": "Q:"
   },
   {
-    "number": "063",
+    "number": "63",
     "name": "FlshBom2 (フラッシュボム２)",
     "damage": 70,
     "possibleCodes": "",
@@ -564,7 +567,7 @@
     "locations": ""
   },
   {
-    "number": "064",
+    "number": "64",
     "name": "FlshBom3 (フラッシュボム３)",
     "damage": 100,
     "possibleCodes": "",
@@ -573,7 +576,7 @@
     "locations": ""
   },
   {
-    "number": "065",
+    "number": "65",
     "name": "BlkBomb (ブラックボム)",
     "damage": 250,
     "possibleCodes": "",
@@ -582,39 +585,43 @@
     "locations": "B: PavillionComp 1 GMD"
   },
   {
-    "number": "066",
+    "number": "66",
     "name": "BugBomb (バグボム)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Throws a BugBomb 3sq ahead",
     "locations": "Purchase from Mr. Famous in Aster Land for 8000 Z."
   },
   {
-    "number": "067",
+    "number": "67",
     "name": "GrasSeed (クサムラシード)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Makes 9sq meadow 3sq ahead",
     "locations": "S: Green Area 1 GMD *: JdgTreeComp 3 GMD"
   },
   {
-    "number": "068",
+    "number": "68",
     "name": "IceSeed (アイスシード)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Makes 9sq ice field 3sq ahead",
     "locations": "*: ACDC HP BMD"
   },
   {
-    "number": "069",
+    "number": "69",
     "name": "PoisSeed (ポイズンシード)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Makes 9sq poisn swp 3sq ahead",
     "locations": "P: Purchase from BugFrag Trader in Sky Area 1 for 48 BugFrags."
   },
   {
-    "number": "070",
+    "number": "70",
     "name": "Sword (ソード)",
     "damage": 80,
     "possibleCodes": "",
@@ -623,7 +630,7 @@
     "locations": "L: Central Area 1 GMD S: Folder1 x4 *: AquarumComp1 GMD"
   },
   {
-    "number": "071",
+    "number": "71",
     "name": "WideSwrd (ワイドソード)",
     "damage": 80,
     "possibleCodes": "",
@@ -632,7 +639,7 @@
     "locations": "S: Folder1 x2, Central Area 2 GMD *: Green Area 2 GMD (need Untrap?), AquarumComp2 GMD"
   },
   {
-    "number": "072",
+    "number": "72",
     "name": "LongSwrd (ロングソード)",
     "damage": 100,
     "possibleCodes": "",
@@ -641,7 +648,7 @@
     "locations": "H: Central Area 3 GMD, RobCtrlComp2 GMD *: Underground Area 2 GMD"
   },
   {
-    "number": "073",
+    "number": "73",
     "name": "WideBlde (ワイドブレード)",
     "damage": 150,
     "possibleCodes": "",
@@ -650,7 +657,7 @@
     "locations": ""
   },
   {
-    "number": "074",
+    "number": "74",
     "name": "LongBlde (ロングブレード)",
     "damage": 150,
     "possibleCodes": "",
@@ -659,7 +666,7 @@
     "locations": "BMD in Pavilion Comp 4 M: Aster Land normal stock (6200 Z) GMD in Undernet 3 (JP)"
   },
   {
-    "number": "075",
+    "number": "75",
     "name": "FireSwrd (フレイムソード)",
     "damage": 140,
     "possibleCodes": "",
@@ -668,7 +675,7 @@
     "locations": "F: Swordy2 Rank 10-S O: Swordy2 Rank 6+ (Falzar) Z: Swordy2 Rank 6+ (Gregar)"
   },
   {
-    "number": "076",
+    "number": "76",
     "name": "AquaSwrd (アクアソード)",
     "damage": 160,
     "possibleCodes": "",
@@ -677,7 +684,7 @@
     "locations": ""
   },
   {
-    "number": "077",
+    "number": "77",
     "name": "ElecSwrd (エレキソード)",
     "damage": 120,
     "possibleCodes": "",
@@ -686,7 +693,7 @@
     "locations": "E: Central Area 3 PMD GMD in Undernet 3 (JP)"
   },
   {
-    "number": "078",
+    "number": "78",
     "name": "BambSwrd (バンブーソード)",
     "damage": 150,
     "possibleCodes": "",
@@ -695,7 +702,7 @@
     "locations": "W: Purchase from NetDealer in Seaside Area 3 for 4200z."
   },
   {
-    "number": "079",
+    "number": "79",
     "name": "WindRack (フウジンラケット)",
     "damage": 140,
     "possibleCodes": "",
@@ -704,7 +711,7 @@
     "locations": "Purchase from NetDealer in ACDC Area for 7200 Z. GMD in Graveyard (Graveyard 2 for JP) Defeat the 4th Virus Battler in the Air Tank Comp for the first time. (JP)"
   },
   {
-    "number": "080",
+    "number": "80",
     "name": "StepSwrd (フミコミザン)",
     "damage": 160,
     "possibleCodes": "",
@@ -713,7 +720,7 @@
     "locations": ""
   },
   {
-    "number": "081",
+    "number": "81",
     "name": "VarSwrd (バリアブルソード)",
     "damage": 160,
     "possibleCodes": "",
@@ -722,7 +729,7 @@
     "locations": "PMD in ACDC HP GMD in Immortal Area (JP)"
   },
   {
-    "number": "082",
+    "number": "82",
     "name": "NeoVari (ネオバリアブル)",
     "damage": 220,
     "possibleCodes": "",
@@ -731,7 +738,7 @@
     "locations": "N Purchase from BugFrag Trader in Sky Area 1 for 80 BugFrags. 80 BugFrags. (JP)"
   },
   {
-    "number": "083",
+    "number": "83",
     "name": "MoonBld (エンゲツクナイ)",
     "damage": 130,
     "possibleCodes": "",
@@ -740,15 +747,16 @@
     "locations": "M: Undernet in-battle GMD"
   },
   {
-    "number": "084",
+    "number": "84",
     "name": "Muramasa (ムラマサブレード)",
+    "damage": 0,
     "possibleCodes": "",
     "memory": 0,
     "description": "Atk power equals amt of lostHP",
     "locations": "M: Undernet 1 PMD"
   },
   {
-    "number": "085",
+    "number": "85",
     "name": "MchnSwrd (マシーンソード)",
     "damage": 200,
     "possibleCodes": "",
@@ -757,7 +765,7 @@
     "locations": "L: DarkMech Rank 10-S Q: DarkMech Rank 6+"
   },
   {
-    "number": "086",
+    "number": "86",
     "name": "ElemSwrd (エレメントソード)",
     "damage": 220,
     "possibleCodes": "",
@@ -766,7 +774,7 @@
     "locations": ""
   },
   {
-    "number": "087",
+    "number": "87",
     "name": "AssnSwrd (アサシンソード)",
     "damage": 240,
     "possibleCodes": "",
@@ -775,7 +783,7 @@
     "locations": ""
   },
   {
-    "number": "088",
+    "number": "88",
     "name": "CrakShot (クラックシュート)",
     "damage": 60,
     "possibleCodes": "",
@@ -784,7 +792,7 @@
     "locations": "*: Folder1 x2"
   },
   {
-    "number": "089",
+    "number": "89",
     "name": "DublShot (ダブルシュート)",
     "damage": 60,
     "possibleCodes": "",
@@ -793,7 +801,7 @@
     "locations": "R: Sky Area 1 GMD U: PavillionComp 3 GMD *:"
   },
   {
-    "number": "090",
+    "number": "90",
     "name": "TrplShot (トリプルシュート)",
     "damage": 100,
     "possibleCodes": "",
@@ -802,7 +810,7 @@
     "locations": "L: Seaside Area 3 GMD *: Seaside Area 3 GMD"
   },
   {
-    "number": "091",
+    "number": "91",
     "name": "Rflectr1 (リフレクメット１)",
     "damage": 60,
     "possibleCodes": "",
@@ -811,7 +819,7 @@
     "locations": "A: Mettaur Rank 10-S. Seaside Area 1 GMD C: Mettaur Rank 6+ (Gregar) P: Mettaur Rank 6+ (Falzar)"
   },
   {
-    "number": "092",
+    "number": "92",
     "name": "Rflectr2 (リフレクメット２)",
     "damage": 120,
     "possibleCodes": "",
@@ -820,7 +828,7 @@
     "locations": "B: Mettaur2 Rank 6+ (Gregar) G: Mettaur2 Rank 6+ (Falzar) Y: Mettaur2 Rank 10-S"
   },
   {
-    "number": "093",
+    "number": "93",
     "name": "Rflectr3 (リフレクメット３)",
     "damage": 200,
     "possibleCodes": "",
@@ -829,7 +837,7 @@
     "locations": "E: Mettaur3 Rank 10-S (Gregar) F: Mettaur3 Rank 10-S (Falzar) O: Mettaur 3 Rank 6+"
   },
   {
-    "number": "094",
+    "number": "94",
     "name": "WaveArm1 (ウェーブアーム１)",
     "damage": 80,
     "possibleCodes": "",
@@ -838,7 +846,7 @@
     "locations": "F: Underground Area 1 GMD"
   },
   {
-    "number": "095",
+    "number": "95",
     "name": "WaveArm2 (ウェーブアーム２)",
     "damage": 120,
     "possibleCodes": "",
@@ -847,7 +855,7 @@
     "locations": ""
   },
   {
-    "number": "096",
+    "number": "96",
     "name": "WaveArm3 (ウェーブアーム３)",
     "damage": 160,
     "possibleCodes": "",
@@ -856,7 +864,7 @@
     "locations": ""
   },
   {
-    "number": "097",
+    "number": "97",
     "name": "SandWrm1 (サンドワーム１)",
     "damage": 130,
     "possibleCodes": "",
@@ -865,7 +873,7 @@
     "locations": ""
   },
   {
-    "number": "098",
+    "number": "98",
     "name": "SandWrm2 (サンドワーム２)",
     "damage": 150,
     "possibleCodes": "",
@@ -874,7 +882,7 @@
     "locations": ""
   },
   {
-    "number": "099",
+    "number": "99",
     "name": "SandWrm3 (サンドワーム３)",
     "damage": 170,
     "possibleCodes": "",

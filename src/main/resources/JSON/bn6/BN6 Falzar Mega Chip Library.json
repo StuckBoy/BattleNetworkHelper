@@ -20,6 +20,7 @@
   {
     "number": "9",
     "name": "SpoutMnSP (アクアマンＳＰ)",
+    "damage": 70,
     "possibleCodes": "",
     "memory": 0,
     "description": "Watr atk! Bhnd 2row power-up",
@@ -46,6 +47,7 @@
   {
     "number": "12",
     "name": "TmhkManSP (トマホークマンＳＰ)",
+    "damage": 180,
     "possibleCodes": "",
     "memory": 0,
     "description": "Slice 2sq side, 3sq vertical",
@@ -72,6 +74,7 @@
   {
     "number": "15",
     "name": "TenguMnSP (テングマンＳＰ)",
+    "damage": 110,
     "possibleCodes": "",
     "memory": 0,
     "description": "Attk 2row from air, then side",
@@ -98,6 +101,7 @@
   {
     "number": "18",
     "name": "GrndManSP (グランドマンＳＰ)",
+    "damage": 80,
     "possibleCodes": "",
     "memory": 0,
     "description": "Move fwrd then attk w/ drill",
@@ -124,6 +128,7 @@
   {
     "number": "21",
     "name": "DustManSP (ダストマンＳＰ)",
+    "damage": 150,
     "possibleCodes": "",
     "memory": 0,
     "description": "Attk ahd. Suck in \u0026 shoot out",

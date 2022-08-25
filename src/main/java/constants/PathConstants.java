@@ -4,6 +4,8 @@ public class PathConstants {
     private static final String jsonFilePath = "/JSON/";
     private static final String battleNetworkThreePath = "bn3/BN3 ";
     private static final String battleNetworkSixPath = "bn6/BN6 ";
+    private static final String gregar = "Gregar ";
+    private static final String falzar = "Falzar ";
     private static final String standardLibraryPrefix = "Standard ";
     private static final String megaLibraryPrefix = "Mega ";
     private static final String gigaLibraryPrefix = "Giga ";
@@ -34,7 +36,13 @@ public class PathConstants {
 
     //Battle Network 6 Constants
     public static final String bnSixJsonPath = jsonFilePath + battleNetworkSixPath;
-    public static final String bnSixChipLibrary = bnSixJsonPath + chipLibraryJson;
+    public static final String bnSixStandardChipLibrary = bnSixJsonPath + standardChipLibraryJson;
+    public static final String bnSixMegaChipLibrary = bnSixJsonPath + megaChipLibraryJson;
+    public static final String bnSixGigaChipLibrary = bnSixJsonPath + gigaChipLibraryJson;
+    public static final String bnSixFalzarMegaChipLibrary = bnSixJsonPath + falzar + megaChipLibraryJson;
+    public static final String bnSixGregarMegaChipLibrary = bnSixJsonPath + gregar + megaChipLibraryJson;
+    public static final String bnSixFalzarGigaChipLibrary = bnSixJsonPath + falzar + gigaChipLibraryJson;
+    public static final String bnSixGregarGigaChipLibrary = bnSixJsonPath + gregar + gigaChipLibraryJson;
     public static final String bnSixCustomizerPartLibrary = bnSixJsonPath + customizerPartLibraryJson;
     public static final String bnSixProgramAdvanceLibrary = bnSixJsonPath + programAdvanceJson;
     public static final String bnSixCompressionCodes = bnSixJsonPath + compressionCodeLibraryJson;
