@@ -39,6 +39,7 @@ public class CodeLookup implements Subsystem {
 
     @Override
     public void printOptions() {
+        simplePrint(System.lineSeparator());
         List<String> options = new ArrayList<>();
         options.add("List Codes");
         options.add("Search Codes");
