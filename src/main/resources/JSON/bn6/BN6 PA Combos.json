@@ -1,1 +1,430 @@
-[]
+[
+  {
+    "name": "Giga Cannon 1 (ギガキャノン1)",
+    "description": "MegaMan pulls out a large cannon and fires it. Explosion blasts 3x3 area around where the cannon hits.",
+    "damage": 300,
+    "combos": [
+      [
+        "Cannon A",
+        "Cannon B",
+        "Cannon C"
+      ]
+    ]
+  },
+  {
+    "name": "Giga Cannon 2 (ギガキャノン2)",
+    "description": "MegaMan pulls out a large cannon and fires it. Explosion blasts 3x3 area around where the cannon hits.",
+    "damage": 400,
+    "combos": [
+      [
+        "Hi-Cannon L",
+        "Hi-Cannon M",
+        "Hi-Cannon N"
+      ]
+    ]
+  },
+  {
+    "name": "Giga Cannon 3 (ギガキャノン3)",
+    "description": "MegaMan pulls out a large cannon and fires it. Explosion blasts 3x3 area around where the cannon hits.",
+    "damage": 500,
+    "combos": [
+      [
+        "Mega Cannon R",
+        "Mega Cannon S",
+        "Mega Cannon T"
+      ]
+    ]
+  },
+  {
+    "name": "Wide Burner 1 (ワイドバーナー1)",
+    "description": "Uses a large FireBrn in a radial range.",
+    "damage": 300,
+    "combos": [
+      [
+        "FireBrn1 F",
+        "FireBrn1 G",
+        "FireBrn1 H"
+      ]
+    ]
+  },
+  {
+    "name": "Wide Burner 2 (ワイドバーナー2)",
+    "description": "Uses a large FireBrn in a radial range.",
+    "damage": 350,
+    "combos": [
+      [
+        "FireBrn2 S",
+        "FireBrn2 T",
+        "FireBrn2 U"
+      ]
+    ]
+  },
+  {
+    "name": "Wide Burner 3 (ワイドバーナー3)",
+    "description": "Uses a large FireBrn in a radial range.",
+    "damage": 400,
+    "combos": [
+      [
+        "FireBrn3 C",
+        "FireBrn3 D",
+        "FireBrn3 E"
+      ]
+    ]
+  },
+  {
+    "name": "Flame Hook 1 (フレイムフック1)",
+    "description": "Two giant flaming punches hit enemies.",
+    "damage": 300,
+    "combos": [
+      [
+        "FireHit1 D",
+        "FireHit1 E",
+        "FireHit1 F"
+      ]
+    ]
+  },
+  {
+    "name": "Flame Hook 2 (フレイムフック2)",
+    "description": "Two giant flaming punches hit enemies.",
+    "damage": 350,
+    "combos": [
+      [
+        "FireHit2 R",
+        "FireHit2 S",
+        "FireHit2 T"
+      ]
+    ]
+  },
+  {
+    "name": "Flame Hook 3 (フレイムフック3)",
+    "description": "Two giant flaming punches hit enemies.",
+    "damage": 400,
+    "combos": [
+      [
+        "FireHit3 A",
+        "FireHit3 B",
+        "FireHit3 C"
+      ]
+    ]
+  },
+  {
+    "name": "Power Wave 1 (パワーウェイブ1)",
+    "description": "Powerful shockwaves travel down the rows in V formation.",
+    "damage": 400,
+    "combos": [
+      [
+        "WaveArm1 E",
+        "WaveArm1 F",
+        "WaveArm1 G"
+      ]
+    ]
+  },
+  {
+    "name": "Power Wave 2 (パワーウェイブ2)",
+    "description": "Powerful shockwaves travel down the rows in V formation.",
+    "damage": 500,
+    "combos": [
+      [
+        "WaveArm2 L",
+        "WaveArm2 M",
+        "WaveArm2 N"
+      ]
+    ]
+  },
+  {
+    "name": "Power Wave 3 (パワーウェイブ3)",
+    "description": "Power shockwaves travel down the rows in V formation.",
+    "damage": 600,
+    "combos": [
+      [
+        "WaveArm3 R",
+        "WaveArm3 S",
+        "WaveArm3 T"
+      ]
+    ]
+  },
+  {
+    "name": "Corn Fiesta (Corn Party コーンパーティ)",
+    "description": "Random shots are fired in a 3x3 area next to user. Also creates Grass Panels.",
+    "damage": 600,
+    "combos": [
+      [
+        "CornSht1 J",
+        "CornSht1 K",
+        "CornSht1 L"
+      ],
+      [
+        "CornSht2 C",
+        "CornSht2 D",
+        "CornSht2 E"
+      ],
+      [
+        "CornSht3 P",
+        "CornSht3 Q",
+        "CornSht3 R"
+      ]
+    ]
+  },
+  {
+    "name": "Parallel Shell (パラレルシェル)",
+    "description": "3 IronShells, one on each row, appear from back column. They go up to fifth column from left then return back.",
+    "damage": 350,
+    "combos": [
+      [
+        "IronShl1 J",
+        "IronShl1 K",
+        "IronShl1 L"
+      ],
+      [
+        "IronShl2 C",
+        "IronShl2 D",
+        "IronShl2 E"
+      ],
+      [
+        "IronShl3 L",
+        "IronShl3 M",
+        "IronShl3 N"
+      ]
+    ]
+  },
+  {
+    "name": "Destroy Pulse (デストロイパルス)",
+    "description": "Fires off a red ElcPuls in a T-shape ahead of MegaMan, dealing Elec damage and pierces Invincibility. Causes paralysis, blind, and HP Drain Bug.",
+    "damage": 400,
+    "combos": [
+      [
+        "ElcPuls1 J",
+        "ElcPuls2 J",
+        "ElcPuls3 J"
+      ]
+    ]
+  },
+  {
+    "name": "Time Bomb + (Giga Count Bomb ギガカウントボム)",
+    "description": "MegaMan creates a count bomb that has a very high durability.",
+    "damage": 700,
+    "combos": [
+      [
+        "TimeBom1 F",
+        "TimeBom1 G",
+        "TimeBom1 H"
+      ],
+      [
+        "TimeBom2 C",
+        "TimeBom2 D",
+        "TimeBom2 E"
+      ],
+      [
+        "TimeBom3 L",
+        "TimeBom3 M",
+        "TimeBom3 N"
+      ]
+    ]
+  },
+  {
+    "name": "Stream Head (ストリームヘッド)",
+    "description": "Fires off 5 AuraHeds in a straight line and pierces through enemies, dealing Breaking damage.",
+    "damage": 150,
+    "combos": [
+      [
+        "AuraHed1 B",
+        "AuraHed1 D",
+        "AuraHed1 D"
+      ],
+      [
+        "AuraHed2 D",
+        "AuraHed2 E",
+        "AuraHed2 F"
+      ],
+      [
+        "AuraHed3 F",
+        "AuraHed3 G",
+        "AuraHed3 H"
+      ]
+    ]
+  },
+  {
+    "name": "Super Spread (Super Wide スーパーワイド)",
+    "description": "Fires off 3 WideShts that pierces through anything, dealing Aqua damage.",
+    "damage": 150,
+    "combos": [
+      [
+        "WideSht P",
+        "WideSht Q",
+        "WideSht R"
+      ]
+    ]
+  },
+  {
+    "name": "Hyper Burst (ハイパーバースト)",
+    "description": "Acts like a 10-hit Spreadr.",
+    "damage": 60,
+    "combos": [
+      [
+        "Spreadr1 L",
+        "Spreadr1 M",
+        "Spreadr1 N"
+      ],
+      [
+        "Spreadr2 A",
+        "Spreadr2 B",
+        "Spreadr2 C"
+      ],
+      [
+        "Spreadr3 Q",
+        "Spreadr3 R",
+        "Spreadr3 S"
+      ]
+    ]
+  },
+  {
+    "name": "Life Sword (Dream Sword ドリームソード)",
+    "description": "MegaMan creates a giant energy sword that hit 2 columns in front of him.",
+    "damage": 400,
+    "combos": [
+      [
+        "Sword (Matching Code)",
+        "WideSwrd (Matching Code)",
+        "LongSwrd (Matching Code)"
+      ],
+      [
+        "Sword *",
+        "WideBlde B",
+        "LongBlde B"
+      ]
+    ]
+  },
+  {
+    "name": "Great Yo-Yo (Yo-Yo Great ヨーヨーグレート)",
+    "description": "MegaMan launches 3 Yo-Yos on all three rows. Each Yo-Yo goes all the way back to the enemy's back column before traveling back. The last column takes 3 hits while the other panels take 2 hits.",
+    "damage": 100,
+    "combos": [
+      [
+        "YoYo L",
+        "YoYo M",
+        "YoYo N"
+      ]
+    ]
+  },
+  {
+    "name": "Pit Hockey (Jigoku Hockey ジゴクホッケー)",
+    "description": "Fires an AirPuck that bounces in the enemy area 18 times before disappearing.",
+    "damage": 100,
+    "combos": [
+      [
+        "AirHocky L",
+        "AirHocky M",
+        "AirHocky N"
+      ]
+    ]
+  },
+  {
+    "name": "Poison Pharaoh (ポイズンファラオ)",
+    "description": "A purple PharaohMan appears and uses poison in the opponent's area. It goes on until either the statue is destroyed or the enemies are all destroyed. Poison is twice as fast as PoisonAnubis.",
+    "damage": 0,
+    "combos": [
+      "PoisSeed P",
+      "PoisSeed P",
+      "Anubis P"
+    ]
+  },
+  {
+    "name": "Body Guard (ボディーガード)",
+    "description": "Sets up a trap. When an enemy attack hits MegaMan, MegaMan will disappear in a puff of smoke and then reappear. Shurikens (10 hits) then rain down on the enemies, homing in on them.",
+    "damage": 100,
+    "combos": [
+      [
+        "AntiNavi *",
+        "AntiSword *",
+        "AntiDmg *"
+      ]
+    ]
+  },
+  {
+    "name": "Double Hero (ダブルヒーロー)",
+    "description": "Attack based on the \"Double Hero\" PA which originated from Mega Man Battle Network. MegaMan and ProtoMan charge up side by side, and both unleash attacks on the entire enemy side of the field. Hits 10 times.",
+    "damage": 60,
+    "combos": [
+      [
+        "WideBlde B",
+        "LongBlde B",
+        "ProtoMnSP B"
+      ]
+    ]
+  },
+  {
+    "name": "Darkness (Dark Messiah ダークメシア)",
+    "description": "Attack based on the secret \"Darkness\" PA from Mega Man Battle Network 2. A shadow of MegaMan appears, holding out a Gospel Head and shoots out a FLame Breath, which deals Fire damage. Bass then appears and unleashes a sword slash.",
+    "damage": 300,
+    "combos": [
+      [
+        "VDoll F",
+        "VDoll F",
+        "Bass F (Gregar)"
+      ],
+      [
+        "VDoll F",
+        "VDoll F",
+        "BassAnly F (Falzar)"
+      ]
+    ]
+  },
+  {
+    "name": "Master Cross (マスタークロス)",
+    "description": "Attack based on the \"MasterStyle\" PA from Mega Man Battle Network 3. MegaMan splits into 3, then launches a hit with each cross (depends on version of game what crosses are used). Deals 100 damage each hit for each cross (5 crosses total). Then the 3 MegaMans combine the last attack for an additional 100 damage.",
+    "damage": 100,
+    "combos": [
+      [
+        "FireHit3 A",
+        "AquaNdl3 A",
+        "ElcPuls3 A",
+        "RskyHny33 A"
+      ]
+    ]
+  },
+  {
+    "name": "Sun and Moon (サンアンドムーン)",
+    "description": "Attack based on the \"Red Sun Meteor\" and \"Blue Moon Ray\" signature Giga Chips in Mega Man Battle Network 4. A MeteorRedSun appears, firing 5 small meteors 3 panels ahead, dealing 40 damage per hit. Then it switches to BlueMoonRay, firing a laser 3 panels ahead that pierces Invincibility, wrecks the NaviCustomizer enhancements for the rest of the battle, and deals 200 damage. Finally, it switches back to MeteorRedSun, who then crashes 3 panels ahead to deal 200 damage to 3x3 area around the panel it drops and cracks all panels.",
+    "damage": 40,
+    "combos": [
+      [
+        "Meteors R",
+        "Atk+30 *",
+        "Uninstll R"
+      ]
+    ]
+  },
+  {
+    "name": "Twin Leaders (ツインリーダーズ)",
+    "description": "Attack based on Mega Man Battle Network 5's \"LeaderRaid\" Battle Chip. ProtoMan and Colonel appear side-by-side and charge up. ProtoMan strikes first by doing a WideSwrd attack in front of the closest enemy. Colonel then does a X-shaped Screen Divider centered on the closest panel on the middle row where an enemy could be struck with the center of the X taking two hits.",
+    "damage": 200,
+    "combos": [
+      [
+        "ColonelSP C",
+        "AntiNavi *",
+        "ProtoMan *",
+        "AntiNavi *",
+        "Colonel *"
+      ],
+      [
+        "ColonelSP C",
+        "AntiNavi *",
+        "ProtoManSP B",
+        "AntiNavi *",
+        "Colonel *"
+      ]
+    ]
+  },
+  {
+    "name": "Cross Over (クロスオーバー)",
+    "description": "Django appears where MegaMan was standing, while MegaMan appears at the back of the enemy area in the same row. Django uses his Gun del Sol, hitting the second column from the player's position, while MegaMan fires Buster shots down the row from behind. Then, both Django and MegaMan move up as far as they can and perform a cross slash.",
+    "damage": 0,
+    "combos": [
+      [
+        "Django D",
+        "DjangoV2 D",
+        "DjangoV3 D"
+      ]
+    ]
+  }
+]
