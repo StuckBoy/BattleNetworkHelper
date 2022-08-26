@@ -1,0 +1,47 @@
+[
+  {
+    "number": "1",
+    "name": "Bass (フォルテ)",
+    "damage": 60,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Buster rake wide enemy area.",
+    "locations": "Defeat Bass SP in Graveyard Area."
+  },
+  {
+    "number": "2",
+    "name": "BigHook (ギガントフック)",
+    "damage": 240,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Hook attack 2 squares wide.",
+    "locations": "Obtain from email when you enter the Graveyard Area."
+  },
+  {
+    "number": "3",
+    "name": "DeltaRay (デルタレイエッジ)",
+    "damage": 260,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "A button power up by 3 sword.",
+    "locations": "Purchase from NetDealer in Graveyard Area for 30,000 Z."
+  },
+  {
+    "number": "4",
+    "name": "ColForce (カーネルフォース)",
+    "damage": 30,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Summon Colonel army in open panels.",
+    "locations": "Defeat Bass BX in Underground Area 2."
+  },
+  {
+    "number": "5",
+    "name": "BugRSwrd (バグライズソード)",
+    "damage": 0,
+    "possibleCodes": "?",
+    "memory": 0,
+    "description": "Use Bug Frag with DrkSword! (Sword; if 0 Bug Frags remained)",
+    "locations": "Purchase from BugFrag Trader in Sky Area 1 for 100 BugFrags."
+  }
+]

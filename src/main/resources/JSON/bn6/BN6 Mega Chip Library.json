@@ -1,0 +1,473 @@
+[
+  {
+    "number": "1",
+    "name": "Roll (ロール)",
+    "damage": 20,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Obtained in email from Mayl Sakurai during the story. Reward from request \"Track the Criminal\"."
+  },
+  {
+    "number": "2",
+    "name": "Roll2 (ロール２)",
+    "damage": 40,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Obtained in email from Mayl during the story."
+  },
+  {
+    "number": "3",
+    "name": "Roll3 (ロール３)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attacks enmy, then heals you",
+    "locations": "Talk to Mayl in Lan\u0027s house during the final chapter of the game."
+  },
+  {
+    "number": "4",
+    "name": "ProtoMan (ブルース)",
+    "damage": 150,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan v1/EX/SP Reward from request \"Track the Criminal\""
+  },
+  {
+    "number": "5",
+    "name": "ProtoMnEX (ブルースＥＸ)",
+    "damage": 170,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan EX/SP"
+  },
+  {
+    "number": "6",
+    "name": "ProtoMnSP (ブルースＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move in and slice the enemy",
+    "locations": "ProtoMan SP"
+  },
+  {
+    "number": "22",
+    "name": "BlastMan (ブラストマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan EX/SP Lotto Number 24616497"
+  },
+  {
+    "number": "23",
+    "name": "BlastMnEX (ブラストマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan EX/SP"
+  },
+  {
+    "number": "24",
+    "name": "BlastMnSP (ブラストマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Head fwd \u0026 launch blst attk",
+    "locations": "BlastMan SP"
+  },
+  {
+    "number": "25",
+    "name": "DiveMan (ダイブマン)",
+    "damage": 130,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan EX/SP Lotto Number 32310827"
+  },
+  {
+    "number": "26",
+    "name": "DiveManEX (ダイブマンＥＸ)",
+    "damage": 150,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan EX/SP"
+  },
+  {
+    "number": "27",
+    "name": "DiveManSP (ダイブマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Snd giant wave acrs area 2pnl",
+    "locations": "DiveMan SP"
+  },
+  {
+    "number": "28",
+    "name": "CrcusMan (サーカスマン)",
+    "damage": 20,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "29",
+    "name": "CrcusMnEX (サーカスマンＥＸ)",
+    "damage": 25,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan EX/SP"
+  },
+  {
+    "number": "30",
+    "name": "CrcusMnSP (サーカスマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Capture enmy in a ash attck",
+    "locations": "CircusMan SP"
+  },
+  {
+    "number": "31",
+    "name": "JudgeMan (ジャッジマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "32",
+    "name": "JudgeMnEX (ジャッジマンＥＸ)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan EX/SP"
+  },
+  {
+    "number": "33",
+    "name": "JudgeMnSP (ジャッジマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Whip 3 panels forward",
+    "locations": "JudgeMan SP"
+  },
+  {
+    "number": "34",
+    "name": "ElmntMan (エレメントマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan EX/SP Reward from request \"An Experiment!\""
+  },
+  {
+    "number": "35",
+    "name": "ElmntMnEX (エレメントマンＥＸ)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan EX/SP"
+  },
+  {
+    "number": "36",
+    "name": "ElmntMnSP (エレメントマンＳＰ)",
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Hit (A) whn col chges elem attk",
+    "locations": "ElementMan SP"
+  },
+  {
+    "number": "37",
+    "name": "Colonel (カーネル)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Cut enmy lines in Z shape",
+    "locations": "Colonel EX/SP Reward from request \"Track the criminal\""
+  },
+  {
+    "number": "38",
+    "name": "ColonelEX (カーネルＥＸ)",
+    "damage": 180,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Cut enmy lines in Z shape",
+    "locations": "Colonel EX/SP"
+  },
+  {
+    "number": "7",
+    "name": "SpoutMan (アクアマン)",
+    "damage": 50,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Watr atk! Bhnd 2row power-up",
+    "locations": "SpoutMan v1/EX/SP Lotto Number 51702791. (Falzar exclusive)"
+  },
+  {
+    "number": "8",
+    "name": "SpoutMnEX (アクアマンＥＸ)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Watr atk! Bhnd 2row power-up",
+    "locations": "SpoutMan EX/SP. (Falzar exclusive)"
+  },
+  {
+    "number": "9",
+    "name": "SpoutMnSP (アクアマンＳＰ)",
+    "damage": 70,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Watr atk! Bhnd 2row power-up",
+    "locations": "SpoutMan SP. (Falzar exclusive)"
+  },
+  {
+    "number": "10",
+    "name": "TmhkMan (トマホークマン)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slice 2sq side, 3sq vertical",
+    "locations": "TomahawkMan v1/EX/SP Lotto Number 67520179. (Falzar exclusive)"
+  },
+  {
+    "number": "11",
+    "name": "TmhkManEX (トマホークマンＥＸ)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slice 2sq side, 3sq vertical",
+    "locations": "TomahawkMan EX/SP. (Falzar exclusive)"
+  },
+  {
+    "number": "12",
+    "name": "TmhkManSP (トマホークマンＳＰ)",
+    "damage": 180,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slice 2sq side, 3sq vertical",
+    "locations": "TomahawkMan SP. (Falzar exclusive)"
+  },
+  {
+    "number": "13",
+    "name": "TenguMan (テングマン)",
+    "damage": 70,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk 2row from air, then side",
+    "locations": "TenguMan v1/EX/SP Lotto Number 00297421. (Falzar exclusive)"
+  },
+  {
+    "number": "14",
+    "name": "TenguMnEX (テングマンＥＸ)",
+    "damage": 90,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk 2row from air, then side",
+    "locations": "TenguMan EX/SP. (Falzar exclusive)"
+  },
+  {
+    "number": "15",
+    "name": "TenguMnSP (テングマンＳＰ)",
+    "damage": 110,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk 2row from air, then side",
+    "locations": "TenguMan SP. (Falzar exclusive)"
+  },
+  {
+    "number": "16",
+    "name": "GrndMan (グランドマン)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move fwrd then attk w/ drill",
+    "locations": "GroundMan v1/EX/SP Lotto Number 10414878. (Falzar exclusive)"
+  },
+  {
+    "number": "17",
+    "name": "GrndManEX (グランドマンＥＸ)",
+    "damage": 70,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move fwrd then attk w/ drill",
+    "locations": "GroundMan EX/SP. (Falzar exclusive)"
+  },
+  {
+    "number": "18",
+    "name": "GrndManSP (グランドマンＳＰ)",
+    "damage": 80,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Move fwrd then attk w/ drill",
+    "locations": "GroundMan SP. (Falzar exclusive)"
+  },
+  {
+    "number": "19",
+    "name": "DustMan (ダストマン)",
+    "damage": 110,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk ahd. Suck in \u0026 shoot out",
+    "locations": "DustMan v1/EX/SP Lotto Number 79814666. (Falzar exclusive)"
+  },
+  {
+    "number": "20",
+    "name": "DustManEX (ダストマンＥＸ)",
+    "damage": 130,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk ahd. Suck in \u0026 shoot out",
+    "locations": "DustMan EX/SP. (Falzar exclusive)"
+  },
+  {
+    "number": "21",
+    "name": "DustManSP (ダストマンＳＰ)",
+    "damage": 150,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk ahd. Suck in \u0026 shoot out",
+    "locations": "DustMan SP. (Falzar exclusive)"
+  },
+  {
+    "number": "7",
+    "name": "HeatMan (ヒートマン)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan v1/EX/SP Lotto Number 12404002. (Gregar exclusive)"
+  },
+  {
+    "number": "8",
+    "name": "HeatManEX (ヒートマンＥＸ)",
+    "damage": 130,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan EX/SP. (Gregar exclusive)"
+  },
+  {
+    "number": "9",
+    "name": "HeatManSP (ヒートマンＳＰ)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Burn with a radial fire attk",
+    "locations": "HeatMan SP. (Gregar exclusive)"
+  },
+  {
+    "number": "10",
+    "name": "ElecMan (エレキマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan v1/EX/SP Lotto Number 30424514. (Gregar exclusive)"
+  },
+  {
+    "number": "11",
+    "name": "ElecManEX (エレキマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan EX/SP. (Gregar exclusive)"
+  },
+  {
+    "number": "12",
+    "name": "ElecManSP (エレキマンＳＰ)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Attk your surrndns with thdr",
+    "locations": "ElecMan SP. (Gregar exclusive)"
+  },
+  {
+    "number": "13",
+    "name": "SlashMan (スラッシュマン)",
+    "damage": 80,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan v1/EX/SP Lotto Number 55910601. (Gregar exclusive)"
+  },
+  {
+    "number": "14",
+    "name": "SlashMnEX (スラッシュマンＥＸ)",
+    "damage": 100,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan EX/SP. (Gregar exclusive)"
+  },
+  {
+    "number": "15",
+    "name": "SlashMnSP (スラッシュマンＳＰ)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Slash an enmy w/ flyn knfe",
+    "locations": "SlashMan SP. (Gregar exclusive)"
+  },
+  {
+    "number": "16",
+    "name": "EraseMan (キラーマン)",
+    "damage": 120,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan v1/EX/SP Lotto Number 84387543. (Gregar exclusive)"
+  },
+  {
+    "number": "17",
+    "name": "EraseMnEX (キラーマンＥＸ)",
+    "damage": 140,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan EX/SP. (Gregar exclusive)"
+  },
+  {
+    "number": "18",
+    "name": "EraseMnSP (キラーマンＳＰ)",
+    "damage": 160,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Press (A) for 3panl beam attk",
+    "locations": "EraseMan SP. (Gregar exclusive)"
+  },
+  {
+    "number": "19",
+    "name": "ChrgeMan (チャージマン)",
+    "damage": 60,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan v1/EX/SP Lotto Number 92070765. (Gregar exclusive)"
+  },
+  {
+    "number": "20",
+    "name": "ChrgeMnEX (チャージマンＥＸ)",
+    "damage": 70,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan EX/SP. (Gregar exclusive)"
+  },
+  {
+    "number": "21",
+    "name": "ChrgeMnSP (チャージマンＳＰ)",
+    "damage": 80,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Rush fwd! Open panl hit TrCar",
+    "locations": "ChargeMan SP. (Gregar exclusive)"
+  }
+]
