@@ -1,0 +1,2314 @@
+[
+  {
+    "number": "001",
+    "name": "Cannon",
+    "damage": 40,
+    "possibleCodes": "A, B, C, D, E, *",
+    "memory": 16,
+    "description": "Cannon for attacking 1 enemy",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Canodumb A: Rank 5-7, HP 75% or higher Fldr1 (x3) B: Rank 5-7, HP 25%-75% Fldr1 (x2) C: Rank 9-S, any HP Fldr2 (x1) D: Rank 7-10, HP above 75% or below 25% E: Rank 7-10, HP 25%-75% or Rank 5-7, HP below 25% Fldr2 (x1)"
+  },
+  {
+    "number": "002",
+    "name": "HiCannon",
+    "damage": 60,
+    "possibleCodes": "C, D, E, F, G, *",
+    "memory": 24,
+    "description": "Cannon for attacking 1 enemy",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Canodumb2 C: Rank 7-10 Undernet 2 GMD D: Rank 9-S Undernet 2 GMD E: Rank 9-S Yumland 2 GMD Fldr2 (x1) F: Rank 5-7 Undernet 2 GMD Fldr2 (x1) G: Rank 7-10 Netopia 3 GMD Undernet 2 GMD Fldr2 (x1)"
+  },
+  {
+    "number": "003",
+    "name": "M-Cannon",
+    "damage": 80,
+    "possibleCodes": "E, F, G, H, I, *",
+    "memory": 32,
+    "description": "Cannon for attacking 1 enemy",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Canodumb3 E: Rank 9-S Yumland 2 GMD F: Rank 7-10 G: Rank 9-S H: Rank 7-10 I: Rank 5-7 Undernet 3 GMD"
+  },
+  {
+    "number": "004",
+    "name": "Shotgun",
+    "damage": 30,
+    "possibleCodes": "B, F, H, J, N, *",
+    "memory": 4,
+    "description": "Explodes 1 square behind",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader B: Den Area 1 NetDealer (200z) J: Fldr1 (x3) *: Mother Comp 3 BMD"
+  },
+  {
+    "number": "005",
+    "name": "V-Gun",
+    "damage": 30,
+    "possibleCodes": "A, F, G, L, P, *",
+    "memory": 4,
+    "description": "Explodes 2 diagonal squares",
+    "locations": "Center Chip Trader ACDC Station Chip Trader L: Fldr1 (x3) P: Den Area 2 GMD"
+  },
+  {
+    "number": "006",
+    "name": "CrossGun",
+    "damage": 30,
+    "possibleCodes": "H, J, M, Q, S, *",
+    "memory": 8,
+    "description": "Explodes 4 diagonal squares",
+    "locations": "Center Chip Trader ACDC Station Chip Trader J: Square NetDealer (600z) M: Fldr2 (x2) Q: Fldr2 (x2) *: KotoSquare BugFrag Trader (1 BugFrag)"
+  },
+  {
+    "number": "007",
+    "name": "Spreader",
+    "damage": 30,
+    "possibleCodes": "M, N, O, P, Q, *",
+    "memory": 20,
+    "description": "Creates a large explosion",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader M: KotoSquare BugFrag Trader (1 BugFrag) N: Koto Area GMD Yumland Area 2 NetDealer (800z) O: Den Area 3 GMD Den Area 3 NetDealer (800z) P: Yumland 1 GMD Mother Comp 2 BMD Q: Den Area 1 NetDealer (1000z) *: Trade for DashAtk J in ACDC Town after QuickMan\u0027s scenario"
+  },
+  {
+    "number": "008",
+    "name": "Bubbler",
+    "damage": 40,
+    "possibleCodes": "B, G, H, P, R, *",
+    "memory": 12,
+    "description": "Explodes 1 square behind",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Shrimpy B: Rank 9-S, HP above 25% G: Rank 9-S, HP below 25% H: Rank 9-S, HP 25%-75% P: Rank 9-S, HP above 75% R: Rank 5-7, any HP"
+  },
+  {
+    "number": "009",
+    "name": "Bub-V",
+    "damage": 40,
+    "possibleCodes": "C, D, J, N, S, *",
+    "memory": 16,
+    "description": "Explodes 2 diagonal squares",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Shrimpy2 C: Rank 9-S, HP above 75% Rank 5-7, HP below 25% D: Rank 9-S, HP above 75% J: Rank 5-7, HP 25%-75% N: Netopia 1 GMD Rank 5-7, HP above 75% Rank 9-S, HP 25%-75% S: Rank 9-S, HP below 75%"
+  },
+  {
+    "number": "010",
+    "name": "BubCross",
+    "damage": 40,
+    "possibleCodes": "K, O, P, T, V, *",
+    "memory": 20,
+    "description": "Explodes 4 diagonal squares",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Shrimpy3 K: Netopia 1 GMD"
+  },
+  {
+    "number": "011",
+    "name": "BubSprd",
+    "damage": 40,
+    "possibleCodes": "E, F, I, L, M, *",
+    "memory": 32,
+    "description": "Creates a large explosion",
+    "locations": "Marine Harbor Chip Trader Puffy"
+  },
+  {
+    "number": "012",
+    "name": "HeatShot",
+    "damage": 50,
+    "possibleCodes": "B, G, H, P, R, *",
+    "memory": 14,
+    "description": "Explodes 1 square behind",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Spikey B: Rank 9-S, HP above 25% G: Rank 7-10, HP above 25% H: Rank 5-7, HP 25%-75% P: Rank 5-7, HP above 75%"
+  },
+  {
+    "number": "013",
+    "name": "Heat-V",
+    "damage": 50,
+    "possibleCodes": "C, D, J, N, S, *",
+    "memory": 18,
+    "description": "Explodes 2 diagonal squares",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Spikey2 C: Netopia 2 GMD N: Yumland 1 GMD"
+  },
+  {
+    "number": "014",
+    "name": "HeatCros",
+    "damage": 50,
+    "possibleCodes": "K, O, P, T, V, *",
+    "memory": 22,
+    "description": "Explodes 4 diagonal squares",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Spikey3 O: Undernet 3 GMD"
+  },
+  {
+    "number": "015",
+    "name": "HeatSprd",
+    "damage": 50,
+    "possibleCodes": "E, F, I, L, M, *",
+    "memory": 36,
+    "description": "Creates a large explosion",
+    "locations": "Marine Harbor Chip Trader Buffy"
+  },
+  {
+    "number": "016",
+    "name": "MiniBomb",
+    "damage": 50,
+    "possibleCodes": "B, E, G, L, O, *",
+    "memory": 8,
+    "description": "Throws a bomb 3 squares",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Beetank B: Fldr1 (x3) Den Area 2 GMD E: Rank 5-7, HP above 75%"
+  },
+  {
+    "number": "017",
+    "name": "LilBomb",
+    "damage": 50,
+    "possibleCodes": "F, J, O, Q, T, *",
+    "memory": 12,
+    "description": "Bomb that explodes vertically",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Beetank F: Rank 7-10, 25%-75% J: Rank 7-10, HP below 25% Den Area 1 NetDealer (500z) O: Rank 9-S, HP above 25% Q: Koto Area GMD Rank 9-S, HP below 25% T: Rank 7-10, HP above 75% Rank 5-7, HP below 75%"
+  },
+  {
+    "number": "018",
+    "name": "CrosBomb",
+    "damage": 60,
+    "possibleCodes": "D, J, O, Q, T, *",
+    "memory": 16,
+    "description": "Bomb that explodes in a cross",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Beetank2 T: Yumland 2 GMD"
+  },
+  {
+    "number": "019",
+    "name": "BigBomb",
+    "damage": 70,
+    "possibleCodes": "O, Q, T, V, Y, *",
+    "memory": 32,
+    "description": "Bomb with a 9-square explosion",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Beetank3 O: WWW Area 1 GMD"
+  },
+  {
+    "number": "020",
+    "name": "TreeBom1",
+    "damage": 100,
+    "possibleCodes": "B, G, H, P, R, *",
+    "memory": 10,
+    "description": "Tree seed! Water for a PowerUp!",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Killplant R: Netopia 1 GMD"
+  },
+  {
+    "number": "021",
+    "name": "TreeBom2",
+    "damage": 120,
+    "possibleCodes": "C, D, J, N, S, *",
+    "memory": 15,
+    "description": "Tree seed! Water for a PowerUp!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Killweed"
+  },
+  {
+    "number": "022",
+    "name": "TreeBom3",
+    "damage": 150,
+    "possibleCodes": "K, O, P, T, V, *",
+    "memory": 20,
+    "description": "Tree seed! Water for a PowerUp!",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Killfleur"
+  },
+  {
+    "number": "023",
+    "name": "Sword",
+    "damage": 80,
+    "possibleCodes": "A, K, L, S, Y, *",
+    "memory": 12,
+    "description": "Cut enemy in front! Range is 1",
+    "locations": "Center Chip Trader ACDC Station Chip Trader A: Undernet 1 GMD Fldr2 (x1) L: Fldr2 (x1) S: Den Area 2 GMD Fldr1 (x4) Y: Fldr2 (x1)"
+  },
+  {
+    "number": "024",
+    "name": "WideSwrd",
+    "damage": 80,
+    "possibleCodes": "A, C, L, Q, Y, *",
+    "memory": 16,
+    "description": "Cut enemy in front! Range is 3",
+    "locations": "Center Chip Trader ACDC Station Chip Trader A: Fldr2 (x1) Undernet 1 GMD L: Fldr1 (x1) Square NetDealer (800z) Y: Fldr2 (x1) Den Area 3 GMD *: NetSquare NetDealer (3000z)"
+  },
+  {
+    "number": "025",
+    "name": "LongSwrd",
+    "damage": 80,
+    "possibleCodes": "A, I, L, O, Y, *",
+    "memory": 22,
+    "description": "Cut enemy in front! Range is 2",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Swordy A: Undernet 1 GMD Y: Den Area 3 GMD"
+  },
+  {
+    "number": "026",
+    "name": "FireSwrd",
+    "damage": 100,
+    "possibleCodes": "F, H, N, R, U, *",
+    "memory": 24,
+    "description": "Flame sword cuts 3 vertical",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Swordy2"
+  },
+  {
+    "number": "027",
+    "name": "AquaSwrd",
+    "damage": 100,
+    "possibleCodes": "A, H, N, R, W, *",
+    "memory": 26,
+    "description": "Water sword cuts 3 vertical",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Swordy3 N: KotoSquare NetDealer (5000z)"
+  },
+  {
+    "number": "028",
+    "name": "ElecSwrd",
+    "damage": 100,
+    "possibleCodes": "E, H, N, R, V, *",
+    "memory": 28,
+    "description": "Electric sword cuts 3 vertical",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader N: UnderKoto GMD"
+  },
+  {
+    "number": "029",
+    "name": "FireBlde",
+    "damage": 90,
+    "possibleCodes": "F, H, P, R, Z, *",
+    "memory": 32,
+    "description": "Flame sword cuts 2 horiz.",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader R: KotoSquare NetDealer (3800z) Gift from an NPC near the host computer in the Center during ShadowMan\u0027s scenario *: WWW Area 1 GMD"
+  },
+  {
+    "number": "030",
+    "name": "AquaBlde",
+    "damage": 90,
+    "possibleCodes": "A, F, J, R, Z, *",
+    "memory": 32,
+    "description": "Water sword cuts 2 horiz.",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader R: UnderKoto NetDealer (8000z) *: WWW Area 1 GMD"
+  },
+  {
+    "number": "031",
+    "name": "ElecBlde",
+    "damage": 90,
+    "possibleCodes": "E, F, M, N, R, *",
+    "memory": 32,
+    "description": "Electric sword cuts 2 horiz.",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader N: UnderKoto GMD R: Undernet 1 NetDealer (9000z) *: WWW Area 1 GMD"
+  },
+  {
+    "number": "032",
+    "name": "StepSwrd",
+    "damage": 150,
+    "possibleCodes": "D, H, M, Q, U, *",
+    "memory": 54,
+    "description": "Two steps, then use a wide sword",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader Q: Undernet 1 GMD"
+  },
+  {
+    "number": "033",
+    "name": "Kunai1",
+    "damage": 40,
+    "possibleCodes": "E, I, L, P, S, *",
+    "memory": 48,
+    "description": "Kunais up and down 1 square",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader Snapper"
+  },
+  {
+    "number": "034",
+    "name": "Kunai2",
+    "damage": 40,
+    "possibleCodes": "D, F, J, Q, R, *",
+    "memory": 64,
+    "description": "Kunais up and down 2 squares",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Snapper2"
+  },
+  {
+    "number": "035",
+    "name": "Kunai3",
+    "damage": 40,
+    "possibleCodes": "C, G, H, K, N, *",
+    "memory": 78,
+    "description": "Kunais up and down 3 squares",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Snapper3"
+  },
+  {
+    "number": "036",
+    "name": "CustSwrd",
+    "possibleCodes": "B, G, K, Q, T, *",
+    "memory": 68,
+    "description": "Cust Gauge \u003d Attack Strength",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader B: NumberMan (7500z)"
+  },
+  {
+    "number": "037",
+    "name": "Muramasa",
+    "possibleCodes": "N, O, T, U, W, *",
+    "memory": 88,
+    "description": "Sword that uses HPs to attack",
+    "locations": "Marine Harbor Chip Trader ShadowMnV3"
+  },
+  {
+    "number": "038",
+    "name": "VarSwrd",
+    "damage": 160,
+    "possibleCodes": "B, L, N, T, Z, *",
+    "memory": 40,
+    "description": "A magical, shifting sword",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader Mole2 B: Undernet 7 GMD L: Rank 4-S, HP below 25% N: Rank 4-S, HP above 75% T: Rank 4-S, HP 25%-75%"
+  },
+  {
+    "number": "039",
+    "name": "Slasher",
+    "damage": 180,
+    "possibleCodes": "A, D, H, L, Q, *",
+    "memory": 24,
+    "description": "Cuts while A Button is held!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader"
+  },
+  {
+    "number": "040",
+    "name": "Shockwav",
+    "damage": 40,
+    "possibleCodes": "H, J, L, R, U, *",
+    "memory": 10,
+    "description": "Shock goes through enemies",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Mettaur H: Rank 9-S, HP 25%-75% J: Rank 9-S, HP above 75% Rank 7-10, HP 25%-75% L: Rank 9-S, HP below 25% R: Rank 7-10, HP above 75% U: Rank 7-10, HP below 25% Den Area 2 GMD"
+  },
+  {
+    "number": "041",
+    "name": "Sonicwav",
+    "damage": 60,
+    "possibleCodes": "E, I, M, S, W, *",
+    "memory": 30,
+    "description": "Shock goes through enemies",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Mettaur2 I: Yumland 2 GMD W: Netopia 3 GMD"
+  },
+  {
+    "number": "042",
+    "name": "Dynawave",
+    "damage": 90,
+    "possibleCodes": "G, N, Q, T, V, *",
+    "memory": 50,
+    "description": "Shock goes through enemies",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Mettaur3 G: UnderKoto GMD V: Undernet 4 GMD"
+  },
+  {
+    "number": "043",
+    "name": "Quake1",
+    "damage": 90,
+    "possibleCodes": "A, M, P, Q, W, *",
+    "memory": 16,
+    "description": "Attack cracks the floor",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Flappy"
+  },
+  {
+    "number": "044",
+    "name": "Quake2",
+    "damage": 110,
+    "possibleCodes": "B, G, N, Q, W, *",
+    "memory": 32,
+    "description": "Attack cracks the floor",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Flappy2 W: UnderKoto GMD"
+  },
+  {
+    "number": "045",
+    "name": "Quake3",
+    "damage": 130,
+    "possibleCodes": "C, E, O, Q, W, *",
+    "memory": 64,
+    "description": "Attack cracks the floor",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Flappy3"
+  },
+  {
+    "number": "046",
+    "name": "GutPunch",
+    "damage": 70,
+    "possibleCodes": "B, D, H, K, N, *",
+    "memory": 8,
+    "description": "Punch that pushes 1 square",
+    "locations": "Center Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader GutsManV3"
+  },
+  {
+    "number": "047",
+    "name": "ColdPnch",
+    "damage": 70,
+    "possibleCodes": "B, D, L, P, S, *",
+    "memory": 8,
+    "description": "Ice punch pushes 1 square",
+    "locations": "Center Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader B: Yumland Area 2 NetDealer (800z) D: Den Area 3 GMD"
+  },
+  {
+    "number": "048",
+    "name": "DashAtk",
+    "damage": 90,
+    "possibleCodes": "B, D, G, J, L, *",
+    "memory": 12,
+    "description": "Dash right through enemies!",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Fishy"
+  },
+  {
+    "number": "049",
+    "name": "Wrecker",
+    "damage": 80,
+    "possibleCodes": "O, Q, S, U, W, *",
+    "memory": 16,
+    "description": "Can break 3rd square ahead",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader O: Yumland 1 GMD Q: Mother Comp 2 BMD S: Fldr2 (x1) W: Fldr2 (x1)"
+  },
+  {
+    "number": "050",
+    "name": "CannBall",
+    "damage": 150,
+    "possibleCodes": "O, P, Q, R, S, *",
+    "memory": 22,
+    "description": "Can break 3rd square ahead",
+    "locations": "HardHead Marine Harbor Chip Trader ACDC Station Chip Trader P: Undernet 7 GMD Q: Netopia 3 GMD R: Undernet 7 GMD S: Undernet 7 GMD"
+  },
+  {
+    "number": "051",
+    "name": "DoubNdl",
+    "damage": 50,
+    "possibleCodes": "A, C, F, I, J, *",
+    "memory": 18,
+    "description": "2 volleys of needles",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Shellgeek A: Undernet 4 GMD C: Fldr2 (x2) I: Fldr2 (x2)"
+  },
+  {
+    "number": "052",
+    "name": "TripNdl",
+    "damage": 50,
+    "possibleCodes": "C, I, M, T, V, *",
+    "memory": 24,
+    "description": "3 volleys of needles",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Shellnerd"
+  },
+  {
+    "number": "053",
+    "name": "QuadNdl",
+    "damage": 50,
+    "possibleCodes": "C, H, I, P, U, *",
+    "memory": 30,
+    "description": "4 volleys of needles",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Shellman"
+  },
+  {
+    "number": "054",
+    "name": "Trident",
+    "damage": 60,
+    "possibleCodes": "E, I, K, O, T, *",
+    "memory": 30,
+    "description": "3 volleys of spears",
+    "locations": "RetroChip Trader (random code) E: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "055",
+    "name": "Ratton1",
+    "damage": 70,
+    "possibleCodes": "H, I, J, K, L, *",
+    "memory": 26,
+    "description": "A crawling rat that turns once",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Ratty *: WWW Area 2 GMD"
+  },
+  {
+    "number": "056",
+    "name": "Ratton2",
+    "damage": 80,
+    "possibleCodes": "J, K, L, M, N, *",
+    "memory": 32,
+    "description": "A crawling rat that turns once",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Ratty2 *: WWW Area 2 GMD"
+  },
+  {
+    "number": "057",
+    "name": "Ratton3",
+    "damage": 90,
+    "possibleCodes": "L, M, N, O, P, *",
+    "memory": 38,
+    "description": "A crawling rat that turns once",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Ratty3 *: WWW Area 2 GMD"
+  },
+  {
+    "number": "058",
+    "name": "FireRat",
+    "damage": 200,
+    "possibleCodes": "B, F, G, H, R, *",
+    "memory": 30,
+    "description": "Amazing when lit with fire",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader F: WWW Area 2 GMD"
+  },
+  {
+    "number": "059",
+    "name": "Tornado",
+    "damage": 20,
+    "possibleCodes": "E, J, L, M, Q, *",
+    "memory": 22,
+    "description": "8-hit tornado 2 ahead",
+    "locations": "RetroChip Trader (random code) E: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "060",
+    "name": "Twister",
+    "damage": 20,
+    "possibleCodes": "N, O, T, U, Y, *",
+    "memory": 22,
+    "description": "8-hit tornado 2 ahead",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader N: Undernet 3 GMD"
+  },
+  {
+    "number": "061",
+    "name": "Blower",
+    "damage": 20,
+    "possibleCodes": "P, R, T, W, Z, *",
+    "memory": 22,
+    "description": "8-hit tornado 2 ahead",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader"
+  },
+  {
+    "number": "062",
+    "name": "Burner",
+    "damage": 150,
+    "possibleCodes": "A, B, F, L, S, *",
+    "memory": 28,
+    "description": "Envelopes you with flames!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Fishy2"
+  },
+  {
+    "number": "063",
+    "name": "ZapRing1",
+    "damage": 20,
+    "possibleCodes": "A, M, P, Q, W, *",
+    "memory": 12,
+    "description": "Paralyzing electric rings!",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Bunny P: Koto Area GMD *: Netopia Area 2 NetDealer (5000z)"
+  },
+  {
+    "number": "064",
+    "name": "ZapRing2",
+    "damage": 30,
+    "possibleCodes": "B, G, N, R, S, *",
+    "memory": 16,
+    "description": "Paralyzing electric rings!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader TuffBunny"
+  },
+  {
+    "number": "065",
+    "name": "ZapRing3",
+    "damage": 40,
+    "possibleCodes": "C, E, O, T, Z, *",
+    "memory": 20,
+    "description": "Paralyzing electric rings!",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader MegaBunny"
+  },
+  {
+    "number": "066",
+    "name": "Satelit1",
+    "damage": 60,
+    "possibleCodes": "G, O, Q, U, W, *",
+    "memory": 20,
+    "description": "A floating \u0026 spinning satellite",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Sparky"
+  },
+  {
+    "number": "067",
+    "name": "Satelit2",
+    "damage": 80,
+    "possibleCodes": "H, J, K, P, R, *",
+    "memory": 24,
+    "description": "A floating \u0026 spinning satellite",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Sparkler"
+  },
+  {
+    "number": "068",
+    "name": "Satelit3",
+    "damage": 100,
+    "possibleCodes": "L, S, T, Y, Z, *",
+    "memory": 28,
+    "description": "A floating \u0026 spinning satellite",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Sparknoid"
+  },
+  {
+    "number": "069",
+    "name": "Spice1",
+    "damage": 100,
+    "possibleCodes": "A, C, G, Q, T, *",
+    "memory": 14,
+    "description": "Unhealthy powder on all grass",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Mushy"
+  },
+  {
+    "number": "070",
+    "name": "Spice2",
+    "damage": 120,
+    "possibleCodes": "B, E, H, J, N, *",
+    "memory": 28,
+    "description": "Unhealthy powder on all grass",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Mashy"
+  },
+  {
+    "number": "071",
+    "name": "Spice3",
+    "damage": 140,
+    "possibleCodes": "D, K, M, P, Q, *",
+    "memory": 42,
+    "description": "Unhealthy powder on all grass",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Moshy"
+  },
+  {
+    "number": "072",
+    "name": "MagBomb1",
+    "damage": 80,
+    "possibleCodes": "F, G, J, M, N, *",
+    "memory": 10,
+    "description": "Stops the enemy in its tracks",
+    "locations": "Netopia Chip Trader Magneaker"
+  },
+  {
+    "number": "073",
+    "name": "MagBomb2",
+    "damage": 100,
+    "possibleCodes": "B, D, I, R, T, *",
+    "memory": 14,
+    "description": "Stops the enemy in its tracks",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader Magmacker"
+  },
+  {
+    "number": "074",
+    "name": "MagBomb3",
+    "damage": 120,
+    "possibleCodes": "H, K, O, Q, S, *",
+    "memory": 18,
+    "description": "Stops the enemy in its tracks",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Magnoid"
+  },
+  {
+    "number": "075",
+    "name": "Yo-Yo1",
+    "damage": 40,
+    "possibleCodes": "C, E, R, T, V, *",
+    "memory": 36,
+    "description": "A 3-square yo-yo attack!",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader Yort"
+  },
+  {
+    "number": "076",
+    "name": "Yo-Yo2",
+    "damage": 50,
+    "possibleCodes": "A, G, J, K, N, *",
+    "memory": 40,
+    "description": "A 3-square yo-yo attack!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Yurt"
+  },
+  {
+    "number": "077",
+    "name": "Yo-Yo3",
+    "damage": 60,
+    "possibleCodes": "D, I, M, S, Y, *",
+    "memory": 44,
+    "description": "A 3-square yo-yo attack!",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Yart"
+  },
+  {
+    "number": "078",
+    "name": "CrsShld1",
+    "damage": 130,
+    "possibleCodes": "A, O, P, S, Z, *",
+    "memory": 18,
+    "description": "Guard then bite into the enemy",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader Dominerd"
+  },
+  {
+    "number": "079",
+    "name": "CrsShld2",
+    "damage": 170,
+    "possibleCodes": "A, O, P, T, V, *",
+    "memory": 24,
+    "description": "Guard then bite into the enemy",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Dominerd2"
+  },
+  {
+    "number": "080",
+    "name": "CrsShld3",
+    "damage": 210,
+    "possibleCodes": "A, O, P, U, W, *",
+    "memory": 32,
+    "description": "Guard then bite into the enemy",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Dominerd3"
+  },
+  {
+    "number": "081",
+    "name": "Hammer",
+    "damage": 100,
+    "possibleCodes": "R, T, U, V, Z, *",
+    "memory": 24,
+    "description": "Hammer for smashing things!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader T: Mother Comp 4 BMD U: NetSquare NetDealer (4800z)"
+  },
+  {
+    "number": "082",
+    "name": "ZeusHamr",
+    "damage": 200,
+    "possibleCodes": "J, K, O, V, Z, *",
+    "memory": 70,
+    "description": "Damage all if panel",
+    "locations": "Marine Harbor Chip Trader Z: KotoSquare BugFrag Trader (16 BugFrags)"
+  },
+  {
+    "number": "083",
+    "name": "Lance",
+    "damage": 90,
+    "possibleCodes": "O, P, T, V, Y, *",
+    "memory": 20,
+    "description": "A lance through back line",
+    "locations": "Marine Harbor Chip Trader Y: WWW Area 3 GMD"
+  },
+  {
+    "number": "084",
+    "name": "BrnzFist",
+    "damage": 100,
+    "possibleCodes": "B, N, O, R, S, *",
+    "memory": 18,
+    "description": "Fist of death!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader N: Netopia 2 GMD Fldr2 (x1) S: Fldr2 (x1)"
+  },
+  {
+    "number": "085",
+    "name": "SilvFist",
+    "damage": 140,
+    "possibleCodes": "E, I, L, S, V, *",
+    "memory": 30,
+    "description": "Fist of death!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader"
+  },
+  {
+    "number": "086",
+    "name": "GoldFist",
+    "damage": 180,
+    "possibleCodes": "D, G, L, O, Z, *",
+    "memory": 60,
+    "description": "Fist of death!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "087",
+    "name": "PoisMask",
+    "possibleCodes": "D, S, U, W, Z, *",
+    "memory": 24,
+    "description": "Poison 1 panel with A Button!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Puffball"
+  },
+  {
+    "number": "088",
+    "name": "PoisFace",
+    "possibleCodes": "P, Q, U, W, Y, *",
+    "memory": 30,
+    "description": "Spread poison w/ A Button!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Poofball"
+  },
+  {
+    "number": "089",
+    "name": "Whirlpl",
+    "possibleCodes": "A, C, E, G, I, *",
+    "memory": 20,
+    "description": "Whirlpool kills weak enemies!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Null"
+  },
+  {
+    "number": "090",
+    "name": "Blckhole",
+    "possibleCodes": "B, D, F, H, J, *",
+    "memory": 30,
+    "description": "Black hole kills weak enemies!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Void"
+  },
+  {
+    "number": "091",
+    "name": "Meteor9",
+    "damage": 60,
+    "possibleCodes": "C, E, L, S, V, *",
+    "memory": 12,
+    "description": "Magic wand shoots 9 meteors",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader MettFire"
+  },
+  {
+    "number": "092",
+    "name": "Meteor12",
+    "damage": 80,
+    "possibleCodes": "A, C, F, J, W, *",
+    "memory": 24,
+    "description": "Magic wand shoots 12 meteors",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader FullFire"
+  },
+  {
+    "number": "093",
+    "name": "Meteor15",
+    "damage": 100,
+    "possibleCodes": "D, G, H, R, Z, *",
+    "memory": 48,
+    "description": "Magic wand shoots 15 meteors",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader DeathFire"
+  },
+  {
+    "number": "094",
+    "name": "Meteor18",
+    "damage": 150,
+    "possibleCodes": "B, G, I, K, O, *",
+    "memory": 60,
+    "description": "Magic wand shoots 18 meteors",
+    "locations": "Marine Harbor Chip Trader Mole2"
+  },
+  {
+    "number": "095",
+    "name": "TimeBom1",
+    "damage": 70,
+    "possibleCodes": "C, G, K, M, Z, *",
+    "memory": 32,
+    "description": "An area-wide time bomb!",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Handy"
+  },
+  {
+    "number": "096",
+    "name": "TimeBom2",
+    "damage": 120,
+    "possibleCodes": "F, G, K, O, Z, *",
+    "memory": 48,
+    "description": "An area-wide time bomb!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Handy2"
+  },
+  {
+    "number": "097",
+    "name": "TimeBom3",
+    "damage": 200,
+    "possibleCodes": "E, G, K, P, Z, *",
+    "memory": 64,
+    "description": "An area-wide time bomb!",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Handy3"
+  },
+  {
+    "number": "098",
+    "name": "LilCloud",
+    "damage": 70,
+    "possibleCodes": "C, G, I, K, N, *",
+    "memory": 16,
+    "description": "Rain cloud goes back and forth",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Cloudy"
+  },
+  {
+    "number": "099",
+    "name": "MedCloud",
+    "damage": 90,
+    "possibleCodes": "D, H, J, L, O, *",
+    "memory": 24,
+    "description": "Rain cloud goes back and forth",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Cloudy2 D: Undernet 3 GMD"
+  },
+  {
+    "number": "100",
+    "name": "BigCloud",
+    "damage": 110,
+    "possibleCodes": "Q, R, T, U, W, *",
+    "memory": 32,
+    "description": "Rain cloud goes back and forth",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Cloudy3"
+  },
+  {
+    "number": "101",
+    "name": "Mine",
+    "damage": 300,
+    "possibleCodes": "L, N, R, S, V, *",
+    "memory": 12,
+    "description": "Place mine in enemy area",
+    "locations": "RetroChip Trader (random code) S: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "102",
+    "name": "FrntSnsr",
+    "damage": 100,
+    "possibleCodes": "H, M, Q, R, T, *",
+    "memory": 14,
+    "description": "Automatic dynamite device",
+    "locations": "RetroChip Trader (random code) R: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "103",
+    "name": "DblSnsr",
+    "damage": 100,
+    "possibleCodes": "E, J, P, W, Y, *",
+    "memory": 24,
+    "description": "Diagonal dynamite device",
+    "locations": "RetroChip Trader (random code) E: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "104",
+    "name": "Remobit1",
+    "damage": 80,
+    "possibleCodes": "E, G, J, K, N, *",
+    "memory": 8,
+    "description": "Generates remobit in enemy area",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Twisty E: Rank 9-S, HP below 75% G: Rank 9-S, HP above 75% J: Rank 7-10, 25%-75% K: Rank 7-10, HP above 75% N: Rank 7-10, HP below 25%"
+  },
+  {
+    "number": "105",
+    "name": "Remobit2",
+    "damage": 80,
+    "possibleCodes": "B, F, I, R, U, *",
+    "memory": 16,
+    "description": "Generates remobit in enemy area",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Twisty2"
+  },
+  {
+    "number": "106",
+    "name": "Remobit3",
+    "damage": 80,
+    "possibleCodes": "A, L, M, T, Y, *",
+    "memory": 32,
+    "description": "Generates remobit in enemy area",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Twisty3"
+  },
+  {
+    "number": "107",
+    "name": "AquaBall",
+    "damage": 10,
+    "possibleCodes": "A, B, Q, T, W, *",
+    "memory": 20,
+    "description": "Pops when it hits something",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Octon"
+  },
+  {
+    "number": "108",
+    "name": "ElecBall",
+    "damage": 10,
+    "possibleCodes": "E, H, J, K, V, *",
+    "memory": 20,
+    "description": "Pops when it hits something",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Octor"
+  },
+  {
+    "number": "109",
+    "name": "HeatBall",
+    "damage": 10,
+    "possibleCodes": "C, F, R, S, U, *",
+    "memory": 20,
+    "description": "Pops when it hits something",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Octovian"
+  },
+  {
+    "number": "110",
+    "name": "Geyser",
+    "damage": 200,
+    "possibleCodes": "A, B, D, L, S, *",
+    "memory": 40,
+    "description": "Geyser if there is no panel",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader"
+  },
+  {
+    "number": "111",
+    "name": "LavaDrag",
+    "damage": 200,
+    "possibleCodes": "F, G, O, R, Y, *",
+    "memory": 60,
+    "description": "Summons a nasty lava dragon!",
+    "locations": "Marine Harbor Chip Trader Lavagon"
+  },
+  {
+    "number": "112",
+    "name": "GodStone",
+    "damage": 150,
+    "possibleCodes": "E, I, L, Q, U, *",
+    "memory": 60,
+    "description": "Summons a God Stone!",
+    "locations": "Marine Harbor Chip Trader RetroChip Trader (random code) Q: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "113",
+    "name": "OldWood",
+    "damage": 100,
+    "possibleCodes": "C, M, S, T, W, *",
+    "memory": 60,
+    "description": "Summons Old Wood!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "114",
+    "name": "Guard",
+    "possibleCodes": "*",
+    "memory": 2,
+    "description": "Repel the enemy\u0027s attack",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Mettaur/Mettaur2 *: Netopia 3 GMD"
+  },
+  {
+    "number": "115",
+    "name": "PanlOut1",
+    "possibleCodes": "A, B, D, L, S, *",
+    "memory": 4,
+    "description": "Destroy 1 panel in front",
+    "locations": "Center Chip Trader ACDC Station Chip Trader B: Fldr1 (x2)"
+  },
+  {
+    "number": "116",
+    "name": "PanlOut3",
+    "possibleCodes": "C, E, N, R, Y, *",
+    "memory": 8,
+    "description": "Destroy 3 panels in front",
+    "locations": "Center Chip Trader ACDC Station Chip Trader *: Mother Comp 3 BMD Fldr2 (x1) Netopia 2 GMD"
+  },
+  {
+    "number": "117",
+    "name": "LineOut",
+    "damage": 40,
+    "possibleCodes": "F, H, J, Q, T, *",
+    "memory": 24,
+    "description": "Destroy 1 line of panels!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Flamey"
+  },
+  {
+    "number": "118",
+    "name": "Catcher",
+    "possibleCodes": "F, I, J, N, T, *",
+    "memory": 12,
+    "description": "Sends UFO to steal a chip",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader RedUFO N: Rank 7-S T: Yumland Area 2 NetDealer (2000z)"
+  },
+  {
+    "number": "119",
+    "name": "Mindbndr",
+    "possibleCodes": "D, I, M, N, T, *",
+    "memory": 38,
+    "description": "Enemy loses control",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader D: UnderKoto NetDealer (10000z) I: Undernet 4 GMD"
+  },
+  {
+    "number": "120",
+    "name": "Recov10",
+    "possibleCodes": "A, C, E, G, L, *",
+    "memory": 2,
+    "description": "Recovers 10HP",
+    "locations": "Center Chip Trader ACDC Station Chip Trader A: Fldr1 (x2) L: Fldr1 (x3) *: Den Area 1 NetDealer (500z)"
+  },
+  {
+    "number": "121",
+    "name": "Recov30",
+    "possibleCodes": "B, D, F, H, M, *",
+    "memory": 4,
+    "description": "Recovers 30HP",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Spooky B: Den Area 3 NetDealer (1000z) F: Koto Area GMD H: Square NetDealer (1000z)"
+  },
+  {
+    "number": "122",
+    "name": "Recov50",
+    "possibleCodes": "C, E, G, I, N, *",
+    "memory": 8,
+    "description": "Recovers 50HP",
+    "locations": "Center Chip Trader ACDC Station Chip Trader Spooky/Spooky2 C: Fldr2 (x1) I: Yumland 2 GMD *: Fldr2 (x1)"
+  },
+  {
+    "number": "123",
+    "name": "Recov80",
+    "possibleCodes": "D, F, H, J, O, *",
+    "memory": 16,
+    "description": "Recovers 80HP",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Spooky2/Spooky3 D: Netopia 2 GMD F: Mother Comp 3 BMD *: KotoSquare BugFrag Trader (2 BugFrags)"
+  },
+  {
+    "number": "124",
+    "name": "Recov120",
+    "possibleCodes": "O, Q, S, U, W, *",
+    "memory": 32,
+    "description": "Recovers 120HP",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Spooky3 O: NumberMan (4000z)"
+  },
+  {
+    "number": "125",
+    "name": "Recov150",
+    "possibleCodes": "N, P, R, T, V, *",
+    "memory": 48,
+    "description": "Recovers 150HP",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Netopia Chip Trader"
+  },
+  {
+    "number": "126",
+    "name": "Recov200",
+    "possibleCodes": "M, N, U, V, W, *",
+    "memory": 64,
+    "description": "Recovers 200HP",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader W: Undernet 6 GMD"
+  },
+  {
+    "number": "127",
+    "name": "Recov300",
+    "possibleCodes": "O, R, V, W, Z, *",
+    "memory": 80,
+    "description": "Recovers 300HP",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader"
+  },
+  {
+    "number": "128",
+    "name": "PanlGrab",
+    "possibleCodes": "B, H, K, L, P, *",
+    "memory": 4,
+    "description": "Steals 1 enemy square!",
+    "locations": "Center Chip Trader ACDC Station Chip Trader *: KotoSquare NetDealer (1000z)"
+  },
+  {
+    "number": "129",
+    "name": "AreaGrab",
+    "possibleCodes": "E, L, R, S, Z, *",
+    "memory": 8,
+    "description": "Steals left edge from enemy",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader E: Den Area 3 NetDealer (2000z) S: Fldr1 (x1) Fldr2 (x1)"
+  },
+  {
+    "number": "130",
+    "name": "GrabRvng",
+    "possibleCodes": "A, L, P, S, W, *",
+    "memory": 24,
+    "description": "Punishes for stolen panels!",
+    "locations": "Center Chip Trader Marine Harbor Chip Trader W: Undernet 1 NetDealer (10000z)"
+  },
+  {
+    "number": "131",
+    "name": "Geddon1",
+    "possibleCodes": "C, K, L, Q, S, *",
+    "memory": 16,
+    "description": "Cracks all panels!",
+    "locations": "Center Chip Trader S: NumberMan (Den Area 1, 10000z)"
+  },
+  {
+    "number": "132",
+    "name": "Geddon2",
+    "possibleCodes": "J, M, R, T, Z, *",
+    "memory": 32,
+    "description": "Breaks all empty squares!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader Z: NumberMan (Den Area 1, 14000z)"
+  },
+  {
+    "number": "133",
+    "name": "Geddon3",
+    "possibleCodes": "E, J, N, P, Y, *",
+    "memory": 48,
+    "description": "Turns all panels to swamp!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "134",
+    "name": "Escape",
+    "possibleCodes": "F, H, J, L, N, *",
+    "memory": 64,
+    "description": "Escapes from some enemies",
+    "locations": "Center Chip Trader ACDC Station Chip Trader F: Fldr1 (x1) H: Fldr2 (x1)"
+  },
+  {
+    "number": "135",
+    "name": "AirShoes",
+    "possibleCodes": "A, J, O, V, Z, *",
+    "memory": 12,
+    "description": "Stand on empty square",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Mole2 A: KotoSquare BugFrag Trader (4 BugFrags)"
+  },
+  {
+    "number": "136",
+    "name": "Repair",
+    "possibleCodes": "A, C, E, L, P, *",
+    "memory": 8,
+    "description": "Fixes your side\u0027s panels",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader L: Netopia 1 GMD *: NetSquare NetDealer (2400z)"
+  },
+  {
+    "number": "137",
+    "name": "Candle1",
+    "possibleCodes": "C, F, I, M, V, *",
+    "memory": 50,
+    "description": "Places a healing candle",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader CanDevil"
+  },
+  {
+    "number": "138",
+    "name": "Candle2",
+    "possibleCodes": "A, G, J, L, T, *",
+    "memory": 60,
+    "description": "Places a healing candle",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader CanDevil2"
+  },
+  {
+    "number": "139",
+    "name": "Candle3",
+    "possibleCodes": "B, E, H, N, W, *",
+    "memory": 70,
+    "description": "Places a healing candle",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader CanDevil3"
+  },
+  {
+    "number": "140",
+    "name": "RockCube",
+    "possibleCodes": "B, D, G, M, V, *",
+    "memory": 16,
+    "description": "Places a stone cube in front",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader B: Yumland 1 GMD *: Undernet 6 GMD Fldr2 (x1) Yumland Area 2 NetDealer (500z)"
+  },
+  {
+    "number": "141",
+    "name": "Prism",
+    "possibleCodes": "B, C, L, N, Q, *",
+    "memory": 24,
+    "description": "Shoots all over after it hits",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader"
+  },
+  {
+    "number": "142",
+    "name": "Guardian",
+    "possibleCodes": "O, P, U, V, Z, *",
+    "memory": 54,
+    "description": "Statue punishes when hit",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "143",
+    "name": "Wind",
+    "possibleCodes": "G, J, O, Q, T, *",
+    "memory": 10,
+    "description": "WindBox blows at enemy area",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader WindBox G: Undernet 6 GMD Rank 7-10, HP above 25% J: Rank 9-S, HP above 75% or below 25% O: Rank 9-S, HP 25%-75% Q: Rank 7-10, HP below 25% T: Rank 5-7, any HP *: Netopia Area 2 NetDealer (2000z)"
+  },
+  {
+    "number": "144",
+    "name": "Fan",
+    "possibleCodes": "A, G, L, N, Y, *",
+    "memory": 10,
+    "description": "VacuumFan sucks from enemy area",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader VacuumFan A: Rank 9-S, HP above 75% or below 25% G: Undernet 4 GMD Rank 7-10, HP above 75% L: Rank 9-S, HP 25%-75% N: Q: Rank 7-10, HP below 75% Y: Rank 5-7, any HP *: Netopia Area 2 NetDealer (2000z)"
+  },
+  {
+    "number": "145",
+    "name": "Anubis",
+    "possibleCodes": "H, K, M, U, W, *",
+    "memory": 90,
+    "description": "Anubis poisons enemy area",
+    "locations": "Marine Harbor Chip Trader PharoManV3"
+  },
+  {
+    "number": "146",
+    "name": "SloGauge",
+    "possibleCodes": "*",
+    "memory": 10,
+    "description": "Cust Gauge slows down for battle",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: UnderKoto NetDealer (5000z)"
+  },
+  {
+    "number": "147",
+    "name": "FstGauge",
+    "possibleCodes": "*",
+    "memory": 10,
+    "description": "Cust Gauge speeds up for battle",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: UnderKoto NetDealer (5000z)"
+  },
+  {
+    "number": "148",
+    "name": "FullCust",
+    "possibleCodes": "*",
+    "memory": 10,
+    "description": "Cust Gauge is always full!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: WWW Area 3 GMD Undernet 1 NetDealer (5000z)"
+  },
+  {
+    "number": "149",
+    "name": "Invis1",
+    "possibleCodes": "A, F, L, R, U, *",
+    "memory": 12,
+    "description": "Invisible for a while",
+    "locations": "Center Chip Trader Netopia Chip Trader ACDC Station Chip Trader Spooky"
+  },
+  {
+    "number": "150",
+    "name": "Invis2",
+    "possibleCodes": "B, H, M, Q, V, *",
+    "memory": 24,
+    "description": "Invisible for a while",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Spooky2"
+  },
+  {
+    "number": "151",
+    "name": "Invis3",
+    "possibleCodes": "C, G, K, P, W, *",
+    "memory": 48,
+    "description": "Invisible for a while",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader Spooky3 K: Undernet 6 GMD"
+  },
+  {
+    "number": "152",
+    "name": "DropDown",
+    "possibleCodes": "A, C, F, Q, S, *",
+    "memory": 64,
+    "description": "Invisible until you attack!",
+    "locations": "Marine Harbor Chip Trader Popper3"
+  },
+  {
+    "number": "153",
+    "name": "PopUp",
+    "possibleCodes": "D, I, J, T, W, *",
+    "memory": 84,
+    "description": "Invisible except for attack!",
+    "locations": "Marine Harbor Chip Trader Mole"
+  },
+  {
+    "number": "154",
+    "name": "StoneBod",
+    "possibleCodes": "C, E, S, T, W, *",
+    "memory": 64,
+    "description": "Stone body takes only 1HP damage",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader KnightMnV3"
+  },
+  {
+    "number": "155",
+    "name": "Shadow1",
+    "possibleCodes": "B, G, H, L, R, *",
+    "memory": 32,
+    "description": "Only sword attacks hurt you",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader Shadow"
+  },
+  {
+    "number": "156",
+    "name": "Shadow2",
+    "possibleCodes": "D, E, J, M, T, *",
+    "memory": 48,
+    "description": "Only sword attacks hurt you",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader RedDevil"
+  },
+  {
+    "number": "157",
+    "name": "Shadow3",
+    "possibleCodes": "C, F, K, N, V, *",
+    "memory": 64,
+    "description": "Only sword attacks hurt you",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader BlueDemon"
+  },
+  {
+    "number": "158",
+    "name": "UnderSht",
+    "possibleCodes": "H, J, N, R, W, *",
+    "memory": 18,
+    "description": "Lethal hit reduced to just 1HP!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "159",
+    "name": "Barrier",
+    "possibleCodes": "B, E, L, S, T, *",
+    "memory": 8,
+    "description": "Nullify damage one time!",
+    "locations": "Center Chip Trader Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader B: Square NetDealer (1200z) *: WWW Area 3 GMD Netopia Area 2 NetDealer (4000z)"
+  },
+  {
+    "number": "160",
+    "name": "BblWrap",
+    "possibleCodes": "I, J, Q, R, W, *",
+    "memory": 36,
+    "description": "Water barrier reforms",
+    "locations": "RetroChip Trader (random code) R: WWW Area 1 NetDealer (20000z)"
+  },
+  {
+    "number": "161",
+    "name": "LeafShld",
+    "possibleCodes": "A, D, R, S, W, *",
+    "memory": 26,
+    "description": "Next attack heals you",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader Popper2"
+  },
+  {
+    "number": "162",
+    "name": "AquaAura",
+    "possibleCodes": "A, E, I, M, Q, *",
+    "memory": 30,
+    "description": "Repels attacks under 10",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader MegalianA M: WWW Area 3 GMD"
+  },
+  {
+    "number": "163",
+    "name": "FireAura",
+    "possibleCodes": "B, F, J, N, R, *",
+    "memory": 36,
+    "description": "Repels attacks under 40",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader MegalianH"
+  },
+  {
+    "number": "164",
+    "name": "WoodAura",
+    "possibleCodes": "C, G, K, O, S, *",
+    "memory": 42,
+    "description": "Repels attacks under 80",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader MegalianW"
+  },
+  {
+    "number": "165",
+    "name": "ElecAura",
+    "possibleCodes": "D, H, L, P, T, *",
+    "memory": 48,
+    "description": "Repels non wd attacks under 100",
+    "locations": "Marine Harbor Chip Trader ACDC Station Chip Trader MegalianE"
+  },
+  {
+    "number": "166",
+    "name": "LifeAur1",
+    "possibleCodes": "B, G, I, O, Q, *",
+    "memory": 60,
+    "description": "Repels all attacks under 100",
+    "locations": "ACDC Station Chip Trader Scutz/Scuttle/Scuttler/Scuttzer"
+  },
+  {
+    "number": "167",
+    "name": "LifeAur2",
+    "possibleCodes": "D, F, J, N, R, *",
+    "memory": 70,
+    "description": "Repels all attacks under 150",
+    "locations": "ACDC Station Chip Trader Scuttlest"
+  },
+  {
+    "number": "168",
+    "name": "LifeAur3",
+    "possibleCodes": "E, H, K, M, T, *",
+    "memory": 80,
+    "description": "Repels all attacks under 200",
+    "locations": "BassDelux"
+  },
+  {
+    "number": "169",
+    "name": "MagLine",
+    "possibleCodes": "A, E, I, M, Q, *",
+    "memory": 24,
+    "description": "Changes your line to magnet",
+    "locations": "Marine Harbor Chip Trader Q: UnderSquare NetDealer (8000z)"
+  },
+  {
+    "number": "170",
+    "name": "LavaLine",
+    "possibleCodes": "A, F, J, M, R, *",
+    "memory": 24,
+    "description": "Changes your line to lava",
+    "locations": "Marine Harbor Chip Trader A: UnderSquare NetDealer (8000z)"
+  },
+  {
+    "number": "171",
+    "name": "IceLine",
+    "possibleCodes": "B, E, J, N, Q, *",
+    "memory": 24,
+    "description": "Changes your line to ice",
+    "locations": "Marine Harbor Chip Trader A: UnderSquare NetDealer (8000z)"
+  },
+  {
+    "number": "172",
+    "name": "GrassLne",
+    "possibleCodes": "B, F, I, N, R, *",
+    "memory": 24,
+    "description": "Changes your line to grass",
+    "locations": "Marine Harbor Chip Trader R: UnderSquare NetDealer (8000z)"
+  },
+  {
+    "number": "173",
+    "name": "LavaStge",
+    "possibleCodes": "D, H, M, U, V, *",
+    "memory": 64,
+    "description": "Changes all panels to lava",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "174",
+    "name": "IceStage",
+    "possibleCodes": "A, C, E, I, S, *",
+    "memory": 64,
+    "description": "Changes all panels to ice",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "175",
+    "name": "GrassStg",
+    "possibleCodes": "B, D, H, P, R, *",
+    "memory": 64,
+    "description": "Changes all panels to grass",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "176",
+    "name": "HolyPanl",
+    "possibleCodes": "C, E, H, L, R, *",
+    "memory": 64,
+    "description": "Makes all panels holy",
+    "locations": "Marine Harbor Chip Trader BrushMan"
+  },
+  {
+    "number": "177",
+    "name": "Jealosy",
+    "possibleCodes": "E, J, O, R, U, *",
+    "memory": 22,
+    "description": "More chips means more damage",
+    "locations": "Marine Harbor Chip Trader J: NetSquare NetDealer (10000z)"
+  },
+  {
+    "number": "178",
+    "name": "AntiFire",
+    "damage": 200,
+    "possibleCodes": "F, K, L, P, T, *",
+    "memory": 32,
+    "description": "Punishes enemy for using fire",
+    "locations": "Marine Harbor Chip Trader T: NumberMan (Undernet 5/Den Area 1, 8000z)"
+  },
+  {
+    "number": "179",
+    "name": "AntiElec",
+    "damage": 200,
+    "possibleCodes": "E, H, N, U, Y, *",
+    "memory": 32,
+    "description": "Punishes enemy for using elec",
+    "locations": "Marine Harbor Chip Trader NumberMan (Undernet 5/Den Area 1, 9000z)"
+  },
+  {
+    "number": "180",
+    "name": "AntiWatr",
+    "damage": 200,
+    "possibleCodes": "A, D, Q, W, Z, *",
+    "memory": 32,
+    "description": "Punishes enemy for using aqua",
+    "locations": "Marine Harbor Chip Trader NumberMan (Undernet 5/Den Area 1, 10000z)"
+  },
+  {
+    "number": "181",
+    "name": "AntiDmg",
+    "damage": 100,
+    "possibleCodes": "C, J, M, R, S, *",
+    "memory": 32,
+    "description": "Fake pain and throw shurikens!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "182",
+    "name": "AntiSwrd",
+    "damage": 100,
+    "possibleCodes": "D, H, I, M, T, *",
+    "memory": 32,
+    "description": "Punishes use of swords",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "183",
+    "name": "AntiNavi",
+    "possibleCodes": "K, L, O, T, X, *",
+    "memory": 32,
+    "description": "Take the enemy\u0027s Navi away",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "184",
+    "name": "AntiRecv",
+    "possibleCodes": "B, D, M, P, W, *",
+    "memory": 32,
+    "description": "Punish the recovery of HPs!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "185",
+    "name": "Atk+10",
+    "possibleCodes": "*",
+    "memory": 4,
+    "description": "+10 to selected AtkChip!",
+    "locations": "Center Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: Bomb Comp 4 BMD Fldr1 (x2) Fldr2 (x1) Den Area 3 NetDealer (600z)"
+  },
+  {
+    "number": "186",
+    "name": "Atk+20",
+    "possibleCodes": "*",
+    "memory": 20,
+    "description": "+20 to selected AtkChip!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: Undernet 1 NetDealer (8000z)"
+  },
+  {
+    "number": "187",
+    "name": "Atk+30",
+    "possibleCodes": "*",
+    "memory": 38,
+    "description": "+30 to selected AtkChip!",
+    "locations": "*: KotoSquare BugFrag Trader (8 BugFrags)"
+  },
+  {
+    "number": "188",
+    "name": "Fire+40",
+    "possibleCodes": "*",
+    "memory": 12,
+    "description": "Adds 40 to Fire AttackChip",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: KotoSquare NetDealer (3000z)"
+  },
+  {
+    "number": "189",
+    "name": "Aqua+40",
+    "possibleCodes": "*",
+    "memory": 12,
+    "description": "Adds 40 to Aqua AttackChip",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader"
+  },
+  {
+    "number": "190",
+    "name": "Wood+40",
+    "possibleCodes": "*",
+    "memory": 12,
+    "description": "Adds 40 to Wood AttackChip",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader"
+  },
+  {
+    "number": "191",
+    "name": "Elec+40",
+    "possibleCodes": "*",
+    "memory": 12,
+    "description": "Adds 40 to Elec AttackChip",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: NumberMan (8000z)"
+  },
+  {
+    "number": "192",
+    "name": "Navi+20",
+    "possibleCodes": "*",
+    "memory": 24,
+    "description": "+20 to selected NaviChip!",
+    "locations": "Netopia Chip Trader Marine Harbor Chip Trader ACDC Station Chip Trader *: Fldr2 (x1)"
+  },
+  {
+    "number": "193",
+    "name": "Navi+40",
+    "possibleCodes": "*",
+    "memory": 42,
+    "description": "+40 to selected NaviChip!",
+    "locations": "Marine Harbor Chip Trader"
+  },
+  {
+    "number": "194",
+    "name": "Roll",
+    "damage": 60,
+    "possibleCodes": "R, *",
+    "memory": 8,
+    "description": "Attacks 1 enemy then heals you",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader R: Email from Mayl during AirMan\u0027s scenario"
+  },
+  {
+    "number": "195",
+    "name": "RollV2",
+    "damage": 80,
+    "possibleCodes": "R, *",
+    "memory": 24,
+    "description": "Attacks 1 enemy then heals you",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader R: Gift from Mayl before going to Netopia for the first time"
+  },
+  {
+    "number": "196",
+    "name": "RollV3",
+    "damage": 100,
+    "possibleCodes": "R, *",
+    "memory": 48,
+    "description": "Attacks 1 enemy then heals you",
+    "locations": "ACDC Station Chip Trader R: Email from Mayl after rescuing Roll during FreezeMan\u0027s scenario"
+  },
+  {
+    "number": "197",
+    "name": "GutsMan",
+    "damage": 50,
+    "possibleCodes": "G, *",
+    "memory": 32,
+    "description": "Creeps and smashes panels!",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader GutsMan/GutsManV3"
+  },
+  {
+    "number": "198",
+    "name": "GutsManV2",
+    "damage": 70,
+    "possibleCodes": "G, *",
+    "memory": 48,
+    "description": "Creeps and smashes panels!",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader GutsManV2/GutsManV3"
+  },
+  {
+    "number": "199",
+    "name": "GutsManV3",
+    "damage": 90,
+    "possibleCodes": "G, *",
+    "memory": 64,
+    "description": "Creeps and smashes panels!",
+    "locations": "ACDC Station Chip Trader GutsManV3"
+  },
+  {
+    "number": "200",
+    "name": "ProtoMan",
+    "damage": 120,
+    "possibleCodes": "B, *",
+    "memory": 52,
+    "description": "Swings sword at enemy face",
+    "locations": "ACDC Station Chip Trader ProtoManV2/ProtoManV3"
+  },
+  {
+    "number": "201",
+    "name": "ProtoMnV2",
+    "damage": 160,
+    "possibleCodes": "B, *",
+    "memory": 64,
+    "description": "Swings sword at enemy face",
+    "locations": "ACDC Station Chip Trader ProtoManV3"
+  },
+  {
+    "number": "202",
+    "name": "ProtoMnV3",
+    "damage": 200,
+    "possibleCodes": "B, *",
+    "memory": 76,
+    "description": "Swings sword at enemy face",
+    "locations": "ACDC Station Chip Trader ProtoManV3"
+  },
+  {
+    "number": "203",
+    "name": "AirMan",
+    "damage": 40,
+    "possibleCodes": "A, *",
+    "memory": 16,
+    "description": "Shoots air twisters in a line",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader AirManV2/AirManV3"
+  },
+  {
+    "number": "204",
+    "name": "AirManV2",
+    "damage": 70,
+    "possibleCodes": "A, *",
+    "memory": 34,
+    "description": "Shoots air twisters in a line",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader AirManV3"
+  },
+  {
+    "number": "205",
+    "name": "AirManV3",
+    "damage": 100,
+    "possibleCodes": "A, *",
+    "memory": 72,
+    "description": "Shoots air twisters in a line",
+    "locations": "ACDC Station Chip Trader AirManV3"
+  },
+  {
+    "number": "206",
+    "name": "QuickMan",
+    "damage": 50,
+    "possibleCodes": "Q, *",
+    "memory": 32,
+    "description": "Boomerang attacks whole row",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader QuickManV2/QuickManV3"
+  },
+  {
+    "number": "207",
+    "name": "QuickMnV2",
+    "damage": 70,
+    "possibleCodes": "Q, *",
+    "memory": 56,
+    "description": "Boomerang attacks whole row",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader QuickManV3"
+  },
+  {
+    "number": "208",
+    "name": "QuickMnV3",
+    "damage": 100,
+    "possibleCodes": "Q, *",
+    "memory": 80,
+    "description": "Boomerang attacks whole row",
+    "locations": "ACDC Station Chip Trader QuickManV3"
+  },
+  {
+    "number": "209",
+    "name": "CutMan",
+    "damage": 150,
+    "possibleCodes": "C, *",
+    "memory": 20,
+    "description": "Scissor attacks one square",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader CutManV2/CutManV3"
+  },
+  {
+    "number": "210",
+    "name": "CutManV2",
+    "damage": 200,
+    "possibleCodes": "C, *",
+    "memory": 50,
+    "description": "Scissor attacks one square",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader CutManV3"
+  },
+  {
+    "number": "211",
+    "name": "CutManV3",
+    "damage": 300,
+    "possibleCodes": "C, *",
+    "memory": 80,
+    "description": "Scissor attacks one square",
+    "locations": "ACDC Station Chip Trader CutManV3"
+  },
+  {
+    "number": "212",
+    "name": "ShadoMan",
+    "damage": 60,
+    "possibleCodes": "S, *",
+    "memory": 64,
+    "description": "Splits and shoots 3 shurikens!",
+    "locations": "ACDC Station Chip Trader ShadowMnV2/ShadowMnV3"
+  },
+  {
+    "number": "213",
+    "name": "ShadoMnV2",
+    "damage": 70,
+    "possibleCodes": "S, *",
+    "memory": 80,
+    "description": "Splits and shoots 3 shurikens!",
+    "locations": "ACDC Station Chip Trader ShadowMnV3"
+  },
+  {
+    "number": "214",
+    "name": "ShadoMnV3",
+    "damage": 80,
+    "possibleCodes": "S, *",
+    "memory": 96,
+    "description": "Splits and shoots 3 shurikens!",
+    "locations": "ACDC Station Chip Trader ShadowMnV3"
+  },
+  {
+    "number": "215",
+    "name": "KnightMn",
+    "damage": 160,
+    "possibleCodes": "K, *",
+    "memory": 64,
+    "description": "Smashes enemies in circle!",
+    "locations": "ACDC Station Chip Trader KnightMnV2/KnightMnV3"
+  },
+  {
+    "number": "216",
+    "name": "KnghtMnV2",
+    "damage": 210,
+    "possibleCodes": "K, *",
+    "memory": 80,
+    "description": "Smashes enemies in circle!",
+    "locations": "ACDC Station Chip Trader KnightMnV3"
+  },
+  {
+    "number": "217",
+    "name": "KnghtMnV3",
+    "damage": 260,
+    "possibleCodes": "K, *",
+    "memory": 96,
+    "description": "Smashes enemies in circle!",
+    "locations": "ACDC Station Chip Trader KnightMnV3"
+  },
+  {
+    "number": "218",
+    "name": "MagnetMn",
+    "damage": 130,
+    "possibleCodes": "M, *",
+    "memory": 48,
+    "description": "Bipolar tackle on 1 enemy",
+    "locations": "ACDC Station Chip Trader MagnetMnV2/MagnetMnV3"
+  },
+  {
+    "number": "219",
+    "name": "MagntMnV2",
+    "damage": 140,
+    "possibleCodes": "M, *",
+    "memory": 64,
+    "description": "Bipolar tackle on 1 enemy",
+    "locations": "ACDC Station Chip Trader MagnetMnV3"
+  },
+  {
+    "number": "220",
+    "name": "MagntMnV3",
+    "damage": 150,
+    "possibleCodes": "M, *",
+    "memory": 80,
+    "description": "Bipolar tackle on 1 enemy",
+    "locations": "ACDC Station Chip Trader MagnetMnV3"
+  },
+  {
+    "number": "221",
+    "name": "FreezeMn",
+    "damage": 50,
+    "possibleCodes": "F, *",
+    "memory": 64,
+    "description": "Rains icicles on enemies",
+    "locations": "ACDC Station Chip Trader FreezeMnV2/FreezeMnV3"
+  },
+  {
+    "number": "222",
+    "name": "FrzManV2",
+    "damage": 60,
+    "possibleCodes": "F, *",
+    "memory": 80,
+    "description": "Rains icicles on enemies",
+    "locations": "ACDC Station Chip Trader FreezeMnV3"
+  },
+  {
+    "number": "223",
+    "name": "FrzManV3",
+    "damage": 70,
+    "possibleCodes": "F, *",
+    "memory": 96,
+    "description": "Rains icicles on enemies",
+    "locations": "ACDC Station Chip Trader FreezeMnV3"
+  },
+  {
+    "number": "224",
+    "name": "HeatMan",
+    "damage": 100,
+    "possibleCodes": "H, *",
+    "memory": 64,
+    "description": "Flame attack! Range is 3",
+    "locations": "ACDC Station Chip Trader HeatManV2/HeatManV3"
+  },
+  {
+    "number": "225",
+    "name": "HeatManV2",
+    "damage": 130,
+    "possibleCodes": "H, *",
+    "memory": 80,
+    "description": "Flame attack! Range is 3",
+    "locations": "ACDC Station Chip Trader HeatManV3"
+  },
+  {
+    "number": "226",
+    "name": "HeatManV3",
+    "damage": 160,
+    "possibleCodes": "H, *",
+    "memory": 96,
+    "description": "Flame attack! Range is 3",
+    "locations": "ACDC Station Chip Trader HeatManV3"
+  },
+  {
+    "number": "227",
+    "name": "ToadMan",
+    "damage": 100,
+    "possibleCodes": "T, *",
+    "memory": 28,
+    "description": "Shocking melody paralyzes!",
+    "locations": "ACDC Station Chip Trader ToadManV2/ToadManV3"
+  },
+  {
+    "number": "228",
+    "name": "ToadManV2",
+    "damage": 140,
+    "possibleCodes": "T, *",
+    "memory": 48,
+    "description": "Shocking melody paralyzes!",
+    "locations": "ACDC Station Chip Trader ToadManV3"
+  },
+  {
+    "number": "229",
+    "name": "ToadManV3",
+    "damage": 180,
+    "possibleCodes": "T, *",
+    "memory": 68,
+    "description": "Shocking melody paralyzes!",
+    "locations": "ACDC Station Chip Trader ToadManV3"
+  },
+  {
+    "number": "230",
+    "name": "ThunMan",
+    "damage": 80,
+    "possibleCodes": "T, *",
+    "memory": 30,
+    "description": "Thunder attacks 3rd line",
+    "locations": "ACDC Station Chip Trader ThunManV2/ThunManV3"
+  },
+  {
+    "number": "231",
+    "name": "ThunManV2",
+    "damage": 130,
+    "possibleCodes": "T, *",
+    "memory": 60,
+    "description": "Thunder attacks 3rd line",
+    "locations": "ACDC Station Chip Trader ThunManV3"
+  },
+  {
+    "number": "232",
+    "name": "ThunManV3",
+    "damage": 180,
+    "possibleCodes": "T, *",
+    "memory": 90,
+    "description": "Thunder attacks 3rd line",
+    "locations": "ACDC Station Chip Trader ThunManV3"
+  },
+  {
+    "number": "233",
+    "name": "SnakeMan",
+    "damage": 30,
+    "possibleCodes": "S, *",
+    "memory": 25,
+    "description": "Main attack and snakes!",
+    "locations": "ACDC Station Chip Trader SnakeManV2/SnakeManV3"
+  },
+  {
+    "number": "234",
+    "name": "SnakeMnV2",
+    "damage": 40,
+    "possibleCodes": "S, *",
+    "memory": 50,
+    "description": "Main attack and snakes!",
+    "locations": "ACDC Station Chip Trader SnakeManV3"
+  },
+  {
+    "number": "235",
+    "name": "SnakeMnV3",
+    "damage": 50,
+    "possibleCodes": "S, *",
+    "memory": 75,
+    "description": "Main attack and snakes!",
+    "locations": "ACDC Station Chip Trader SnakeManV3"
+  },
+  {
+    "number": "236",
+    "name": "GateMan",
+    "damage": 40,
+    "possibleCodes": "G, *",
+    "memory": 24,
+    "description": "3 soldiers charge forward!",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader GateManV2/GateManV3"
+  },
+  {
+    "number": "237",
+    "name": "GateManV2",
+    "damage": 40,
+    "possibleCodes": "G, *",
+    "memory": 40,
+    "description": "4 soldiers charge forward!",
+    "locations": "Netopia Chip Trader ACDC Station Chip Trader GateManV3"
+  },
+  {
+    "number": "238",
+    "name": "GateManV3",
+    "damage": 40,
+    "possibleCodes": "G, *",
+    "memory": 56,
+    "description": "5 soldiers charge forward!",
+    "locations": "ACDC Station Chip Trader GateManV3"
+  },
+  {
+    "number": "239",
+    "name": "PharoMan",
+    "damage": 240,
+    "possibleCodes": "P, *",
+    "memory": 32,
+    "description": "Laser-shooting coffin etc.",
+    "locations": "ACDC Station Chip Trader PharoManV2/PharoManV3"
+  },
+  {
+    "number": "240",
+    "name": "PharoMnV2",
+    "damage": 270,
+    "possibleCodes": "P, *",
+    "memory": 48,
+    "description": "Laser-shooting coffin etc.",
+    "locations": "ACDC Station Chip Trader PharoManV3"
+  },
+  {
+    "number": "241",
+    "name": "PharoMnV3",
+    "damage": 300,
+    "possibleCodes": "P, *",
+    "memory": 64,
+    "description": "Laser-shooting coffin etc.",
+    "locations": "ACDC Station Chip Trader PharoManV3"
+  },
+  {
+    "number": "242",
+    "name": "NapalmMn",
+    "damage": 220,
+    "possibleCodes": "N, *",
+    "memory": 48,
+    "description": "Bombs that even break panels!",
+    "locations": "ACDC Station Chip Trader NapalmMnV2/NapalmMnV3"
+  },
+  {
+    "number": "243",
+    "name": "NaplmMnV2",
+    "damage": 240,
+    "possibleCodes": "N, *",
+    "memory": 64,
+    "description": "Bombs that even break panels!",
+    "locations": "ACDC Station Chip Trader NapalmMnV3"
+  },
+  {
+    "number": "244",
+    "name": "NaplmMnV3",
+    "damage": 260,
+    "possibleCodes": "N, *",
+    "memory": 80,
+    "description": "Bombs that even break panels!",
+    "locations": "ACDC Station Chip Trader NapalmMnV3"
+  },
+  {
+    "number": "245",
+    "name": "PlanetMn",
+    "damage": 70,
+    "possibleCodes": "P, *",
+    "memory": 64,
+    "description": "Planet smashes 1 enemy!",
+    "locations": "ACDC Station Chip Trader PlanetMnV2/PlanetMnV3"
+  },
+  {
+    "number": "246",
+    "name": "PlnetMnV2",
+    "damage": 80,
+    "possibleCodes": "P, *",
+    "memory": 80,
+    "description": "Planet smashes 1 enemy!",
+    "locations": "ACDC Station Chip Trader PlanetMnV3"
+  },
+  {
+    "number": "247",
+    "name": "PlnetMnV3",
+    "damage": 90,
+    "possibleCodes": "P, *",
+    "memory": 96,
+    "description": "Planet smashes 1 enemy!",
+    "locations": "ACDC Station Chip Trader PlanetMnV3"
+  },
+  {
+    "number": "248",
+    "name": "Bass",
+    "damage": 50,
+    "possibleCodes": "F, *",
+    "memory": 96,
+    "description": "Air-burst attack on all lines!",
+    "locations": "Bass (WWW Area 1 field)/BassDelux"
+  },
+  {
+    "number": "249",
+    "name": "BassV2",
+    "damage": 60,
+    "possibleCodes": "F, *",
+    "memory": 96,
+    "description": "Air-burst attack on all lines!",
+    "locations": "BassDelux"
+  },
+  {
+    "number": "250",
+    "name": "BassV3",
+    "damage": 70,
+    "possibleCodes": "X, *",
+    "memory": 96,
+    "description": "Air-burst attack on all lines!",
+    "locations": "BassDelux"
+  },
+  {
+    "number": "251",
+    "name": "BgRedWav",
+    "damage": 220,
+    "possibleCodes": "F, H, P, R, S, *",
+    "memory": 64,
+    "description": "Heat chip Creates a lava wave!",
+    "locations": "*"
+  },
+  {
+    "number": "252",
+    "name": "FreezBom",
+    "damage": 180,
+    "possibleCodes": "A, I, J, Q, U, *",
+    "memory": 56,
+    "description": "Aqua chip Tosses ice bomb!",
+    "locations": "*"
+  },
+  {
+    "number": "253",
+    "name": "Sparker",
+    "damage": 100,
+    "possibleCodes": "C, E, G, K, V, *",
+    "memory": 48,
+    "description": "Elec chip A Button to spark!",
+    "locations": "*"
+  },
+  {
+    "number": "254",
+    "name": "GaiaSwrd",
+    "damage": 200,
+    "possibleCodes": "D, L, N, W, Y, *",
+    "memory": 72,
+    "description": "Wood chip Steals atk from chip!",
+    "locations": "*"
+  },
+  {
+    "number": "255",
+    "name": "BlkBomb",
+    "damage": 200,
+    "possibleCodes": "B, F, G, P, R, *",
+    "memory": 64,
+    "description": "Exploding firebomb attack!",
+    "locations": "*"
+  },
+  {
+    "number": "256",
+    "name": "FtrSword",
+    "damage": 100,
+    "possibleCodes": "A, I, L, S, Y, *",
+    "memory": 50,
+    "description": "Normal sword. 3 spaces fwd",
+    "locations": "*"
+  },
+  {
+    "number": "257",
+    "name": "KngtSwrd",
+    "damage": 150,
+    "possibleCodes": "F, J, K, M, Q, *",
+    "memory": 64,
+    "description": "Normal sword. 3 spaces fwd",
+    "locations": "*"
+  },
+  {
+    "number": "258",
+    "name": "HeroSwrd",
+    "damage": 200,
+    "possibleCodes": "E, N, O, T, Z, *",
+    "memory": 90,
+    "description": "Normal sword. 3 spaces fwd",
+    "locations": "*"
+  },
+  {
+    "number": "259",
+    "name": "Meteors",
+    "damage": 40,
+    "possibleCodes": "B, H, O, R, V, *",
+    "memory": 68,
+    "description": "Shooting stars shot at enemy!",
+    "locations": "*"
+  },
+  {
+    "number": "260",
+    "name": "Poltrgst",
+    "possibleCodes": "E, P, R, U, W, *",
+    "memory": 50,
+    "description": "Items are thrown at the enemy!",
+    "locations": "*"
+  },
+  {
+    "number": "261",
+    "name": "GateSP",
+    "damage": 300,
+    "possibleCodes": "G, *",
+    "memory": 50,
+    "description": "Cannon of another dimension!",
+    "locations": "Obtained only in Capcom events in Japan. (In the Wii U Virtual Console release, this is put in the Pack upon accessing the Network screen.)"
+  },
+  {
+    "number": "262",
+    "name": "FireGspl",
+    "damage": 600,
+    "possibleCodes": "X, *",
+    "memory": 96,
+    "description": "Gospel\u0027s breath of fire!",
+    "locations": "Obtained only in Capcom events in Japan. (In the Wii U Virtual Console release, this is put in the Pack upon accessing the Network screen.)"
+  },
+  {
+    "number": "263",
+    "name": "AquaGspl",
+    "damage": 600,
+    "possibleCodes": "X, *",
+    "memory": 96,
+    "description": "Gospel\u0027s breath of water!",
+    "locations": "Obtained only in Capcom events in Japan. (In the Wii U Virtual Console release, this is put in the Pack upon accessing the Network screen.)"
+  },
+  {
+    "number": "264",
+    "name": "ElecGspl",
+    "damage": 600,
+    "possibleCodes": "X, *",
+    "memory": 96,
+    "description": "Gospel\u0027s electric breath!",
+    "locations": "Obtained only in Capcom events in Japan. (In the Wii U Virtual Console release, this is put in the Pack upon accessing the Network screen.)"
+  },
+  {
+    "number": "265",
+    "name": "WoodGspl",
+    "damage": 600,
+    "possibleCodes": "X, *",
+    "memory": 96,
+    "description": "Breath of wood that slices!",
+    "locations": "Obtained only in Capcom events in Japan. (In the Wii U Virtual Console release, this is put in the Pack upon accessing the Network screen.)"
+  },
+  {
+    "number": "266",
+    "name": "Snctuary",
+    "possibleCodes": "A, C, E, L, S, *",
+    "memory": 99,
+    "description": "Turns your panels holy!",
+    "locations": "Defeat Gospel in Hard Mode."
+  }
+]
