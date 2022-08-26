@@ -2,6 +2,7 @@
   {
     "number": "001",
     "name": "Cannon",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "A, B, C, D, E, *",
     "memory": 16,
@@ -11,6 +12,7 @@
   {
     "number": "002",
     "name": "HiCannon",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "C, D, E, F, G, *",
     "memory": 24,
@@ -20,6 +22,7 @@
   {
     "number": "003",
     "name": "M-Cannon",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "E, F, G, H, I, *",
     "memory": 32,
@@ -29,6 +32,7 @@
   {
     "number": "004",
     "name": "Shotgun",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "B, F, H, J, N, *",
     "memory": 4,
@@ -38,6 +42,7 @@
   {
     "number": "005",
     "name": "V-Gun",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "A, F, G, L, P, *",
     "memory": 4,
@@ -47,6 +52,7 @@
   {
     "number": "006",
     "name": "CrossGun",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "H, J, M, Q, S, *",
     "memory": 8,
@@ -56,6 +62,7 @@
   {
     "number": "007",
     "name": "Spreader",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "M, N, O, P, Q, *",
     "memory": 20,
@@ -65,6 +72,7 @@
   {
     "number": "008",
     "name": "Bubbler",
+    "type": "Aqua",
     "damage": 40,
     "possibleCodes": "B, G, H, P, R, *",
     "memory": 12,
@@ -74,6 +82,7 @@
   {
     "number": "009",
     "name": "Bub-V",
+    "type": "Aqua",
     "damage": 40,
     "possibleCodes": "C, D, J, N, S, *",
     "memory": 16,
@@ -83,6 +92,7 @@
   {
     "number": "010",
     "name": "BubCross",
+    "type": "Aqua",
     "damage": 40,
     "possibleCodes": "K, O, P, T, V, *",
     "memory": 20,
@@ -92,6 +102,7 @@
   {
     "number": "011",
     "name": "BubSprd",
+    "type": "Aqua",
     "damage": 40,
     "possibleCodes": "E, F, I, L, M, *",
     "memory": 32,
@@ -101,6 +112,7 @@
   {
     "number": "012",
     "name": "HeatShot",
+    "type": "Heat",
     "damage": 50,
     "possibleCodes": "B, G, H, P, R, *",
     "memory": 14,
@@ -110,6 +122,7 @@
   {
     "number": "013",
     "name": "Heat-V",
+    "type": "Heat",
     "damage": 50,
     "possibleCodes": "C, D, J, N, S, *",
     "memory": 18,
@@ -119,6 +132,7 @@
   {
     "number": "014",
     "name": "HeatCros",
+    "type": "Heat",
     "damage": 50,
     "possibleCodes": "K, O, P, T, V, *",
     "memory": 22,
@@ -128,6 +142,7 @@
   {
     "number": "015",
     "name": "HeatSprd",
+    "type": "Heat",
     "damage": 50,
     "possibleCodes": "E, F, I, L, M, *",
     "memory": 36,
@@ -137,6 +152,7 @@
   {
     "number": "016",
     "name": "MiniBomb",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "B, E, G, L, O, *",
     "memory": 8,
@@ -146,6 +162,7 @@
   {
     "number": "017",
     "name": "LilBomb",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "F, J, O, Q, T, *",
     "memory": 12,
@@ -155,6 +172,7 @@
   {
     "number": "018",
     "name": "CrosBomb",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "D, J, O, Q, T, *",
     "memory": 16,
@@ -164,6 +182,7 @@
   {
     "number": "019",
     "name": "BigBomb",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "O, Q, T, V, Y, *",
     "memory": 32,
@@ -173,6 +192,7 @@
   {
     "number": "020",
     "name": "TreeBom1",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "B, G, H, P, R, *",
     "memory": 10,
@@ -182,6 +202,7 @@
   {
     "number": "021",
     "name": "TreeBom2",
+    "type": "Wood",
     "damage": 120,
     "possibleCodes": "C, D, J, N, S, *",
     "memory": 15,
@@ -191,6 +212,7 @@
   {
     "number": "022",
     "name": "TreeBom3",
+    "type": "Wood",
     "damage": 150,
     "possibleCodes": "K, O, P, T, V, *",
     "memory": 20,
@@ -200,6 +222,7 @@
   {
     "number": "023",
     "name": "Sword",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "A, K, L, S, Y, *",
     "memory": 12,
@@ -209,6 +232,7 @@
   {
     "number": "024",
     "name": "WideSwrd",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "A, C, L, Q, Y, *",
     "memory": 16,
@@ -218,6 +242,7 @@
   {
     "number": "025",
     "name": "LongSwrd",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "A, I, L, O, Y, *",
     "memory": 22,
@@ -227,6 +252,7 @@
   {
     "number": "026",
     "name": "FireSwrd",
+    "type": "Heat",
     "damage": 100,
     "possibleCodes": "F, H, N, R, U, *",
     "memory": 24,
@@ -236,6 +262,7 @@
   {
     "number": "027",
     "name": "AquaSwrd",
+    "type": "Aqua",
     "damage": 100,
     "possibleCodes": "A, H, N, R, W, *",
     "memory": 26,
@@ -245,6 +272,7 @@
   {
     "number": "028",
     "name": "ElecSwrd",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "E, H, N, R, V, *",
     "memory": 28,
@@ -254,6 +282,7 @@
   {
     "number": "029",
     "name": "FireBlde",
+    "type": "Heat",
     "damage": 90,
     "possibleCodes": "F, H, P, R, Z, *",
     "memory": 32,
@@ -263,6 +292,7 @@
   {
     "number": "030",
     "name": "AquaBlde",
+    "type": "Aqua",
     "damage": 90,
     "possibleCodes": "A, F, J, R, Z, *",
     "memory": 32,
@@ -272,6 +302,7 @@
   {
     "number": "031",
     "name": "ElecBlde",
+    "type": "Elec",
     "damage": 90,
     "possibleCodes": "E, F, M, N, R, *",
     "memory": 32,
@@ -281,6 +312,7 @@
   {
     "number": "032",
     "name": "StepSwrd",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "D, H, M, Q, U, *",
     "memory": 54,
@@ -290,6 +322,7 @@
   {
     "number": "033",
     "name": "Kunai1",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "E, I, L, P, S, *",
     "memory": 48,
@@ -299,6 +332,7 @@
   {
     "number": "034",
     "name": "Kunai2",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "D, F, J, Q, R, *",
     "memory": 64,
@@ -308,6 +342,7 @@
   {
     "number": "035",
     "name": "Kunai3",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "C, G, H, K, N, *",
     "memory": 78,
@@ -317,6 +352,7 @@
   {
     "number": "036",
     "name": "CustSwrd",
+    "type": "None",
     "possibleCodes": "B, G, K, Q, T, *",
     "memory": 68,
     "description": "Cust Gauge \u003d Attack Strength",
@@ -325,6 +361,7 @@
   {
     "number": "037",
     "name": "Muramasa",
+    "type": "None",
     "possibleCodes": "N, O, T, U, W, *",
     "memory": 88,
     "description": "Sword that uses HPs to attack",
@@ -333,6 +370,7 @@
   {
     "number": "038",
     "name": "VarSwrd",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "B, L, N, T, Z, *",
     "memory": 40,
@@ -342,6 +380,7 @@
   {
     "number": "039",
     "name": "Slasher",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "A, D, H, L, Q, *",
     "memory": 24,
@@ -351,6 +390,7 @@
   {
     "number": "040",
     "name": "Shockwav",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "H, J, L, R, U, *",
     "memory": 10,
@@ -360,6 +400,7 @@
   {
     "number": "041",
     "name": "Sonicwav",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "E, I, M, S, W, *",
     "memory": 30,
@@ -369,6 +410,7 @@
   {
     "number": "042",
     "name": "Dynawave",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "G, N, Q, T, V, *",
     "memory": 50,
@@ -378,6 +420,7 @@
   {
     "number": "043",
     "name": "Quake1",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "A, M, P, Q, W, *",
     "memory": 16,
@@ -387,6 +430,7 @@
   {
     "number": "044",
     "name": "Quake2",
+    "type": "None",
     "damage": 110,
     "possibleCodes": "B, G, N, Q, W, *",
     "memory": 32,
@@ -396,6 +440,7 @@
   {
     "number": "045",
     "name": "Quake3",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "C, E, O, Q, W, *",
     "memory": 64,
@@ -405,6 +450,7 @@
   {
     "number": "046",
     "name": "GutPunch",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "B, D, H, K, N, *",
     "memory": 8,
@@ -414,6 +460,7 @@
   {
     "number": "047",
     "name": "ColdPnch",
+    "type": "Aqua",
     "damage": 70,
     "possibleCodes": "B, D, L, P, S, *",
     "memory": 8,
@@ -423,6 +470,7 @@
   {
     "number": "048",
     "name": "DashAtk",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "B, D, G, J, L, *",
     "memory": 12,
@@ -432,6 +480,7 @@
   {
     "number": "049",
     "name": "Wrecker",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "O, Q, S, U, W, *",
     "memory": 16,
@@ -441,6 +490,7 @@
   {
     "number": "050",
     "name": "CannBall",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "O, P, Q, R, S, *",
     "memory": 22,
@@ -450,6 +500,7 @@
   {
     "number": "051",
     "name": "DoubNdl",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "A, C, F, I, J, *",
     "memory": 18,
@@ -459,6 +510,7 @@
   {
     "number": "052",
     "name": "TripNdl",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "C, I, M, T, V, *",
     "memory": 24,
@@ -468,6 +520,7 @@
   {
     "number": "053",
     "name": "QuadNdl",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "C, H, I, P, U, *",
     "memory": 30,
@@ -477,6 +530,7 @@
   {
     "number": "054",
     "name": "Trident",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "E, I, K, O, T, *",
     "memory": 30,
@@ -486,6 +540,7 @@
   {
     "number": "055",
     "name": "Ratton1",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "H, I, J, K, L, *",
     "memory": 26,
@@ -495,6 +550,7 @@
   {
     "number": "056",
     "name": "Ratton2",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "J, K, L, M, N, *",
     "memory": 32,
@@ -504,6 +560,7 @@
   {
     "number": "057",
     "name": "Ratton3",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "L, M, N, O, P, *",
     "memory": 38,
@@ -513,6 +570,7 @@
   {
     "number": "058",
     "name": "FireRat",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "B, F, G, H, R, *",
     "memory": 30,
@@ -522,6 +580,7 @@
   {
     "number": "059",
     "name": "Tornado",
+    "type": "None",
     "damage": 20,
     "possibleCodes": "E, J, L, M, Q, *",
     "memory": 22,
@@ -531,6 +590,7 @@
   {
     "number": "060",
     "name": "Twister",
+    "type": "Wood",
     "damage": 20,
     "possibleCodes": "N, O, T, U, Y, *",
     "memory": 22,
@@ -540,6 +600,7 @@
   {
     "number": "061",
     "name": "Blower",
+    "type": "Heat",
     "damage": 20,
     "possibleCodes": "P, R, T, W, Z, *",
     "memory": 22,
@@ -549,6 +610,7 @@
   {
     "number": "062",
     "name": "Burner",
+    "type": "Heat",
     "damage": 150,
     "possibleCodes": "A, B, F, L, S, *",
     "memory": 28,
@@ -558,6 +620,7 @@
   {
     "number": "063",
     "name": "ZapRing1",
+    "type": "Elec",
     "damage": 20,
     "possibleCodes": "A, M, P, Q, W, *",
     "memory": 12,
@@ -567,6 +630,7 @@
   {
     "number": "064",
     "name": "ZapRing2",
+    "type": "Elec",
     "damage": 30,
     "possibleCodes": "B, G, N, R, S, *",
     "memory": 16,
@@ -576,6 +640,7 @@
   {
     "number": "065",
     "name": "ZapRing3",
+    "type": "Elec",
     "damage": 40,
     "possibleCodes": "C, E, O, T, Z, *",
     "memory": 20,
@@ -585,6 +650,7 @@
   {
     "number": "066",
     "name": "Satelit1",
+    "type": "Elec",
     "damage": 60,
     "possibleCodes": "G, O, Q, U, W, *",
     "memory": 20,
@@ -594,6 +660,7 @@
   {
     "number": "067",
     "name": "Satelit2",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "H, J, K, P, R, *",
     "memory": 24,
@@ -603,6 +670,7 @@
   {
     "number": "068",
     "name": "Satelit3",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "L, S, T, Y, Z, *",
     "memory": 28,
@@ -612,6 +680,7 @@
   {
     "number": "069",
     "name": "Spice1",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "A, C, G, Q, T, *",
     "memory": 14,
@@ -621,6 +690,7 @@
   {
     "number": "070",
     "name": "Spice2",
+    "type": "Wood",
     "damage": 120,
     "possibleCodes": "B, E, H, J, N, *",
     "memory": 28,
@@ -630,6 +700,7 @@
   {
     "number": "071",
     "name": "Spice3",
+    "type": "Wood",
     "damage": 140,
     "possibleCodes": "D, K, M, P, Q, *",
     "memory": 42,
@@ -639,6 +710,7 @@
   {
     "number": "072",
     "name": "MagBomb1",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "F, G, J, M, N, *",
     "memory": 10,
@@ -648,6 +720,7 @@
   {
     "number": "073",
     "name": "MagBomb2",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "B, D, I, R, T, *",
     "memory": 14,
@@ -657,6 +730,7 @@
   {
     "number": "074",
     "name": "MagBomb3",
+    "type": "Elec",
     "damage": 120,
     "possibleCodes": "H, K, O, Q, S, *",
     "memory": 18,
@@ -666,6 +740,7 @@
   {
     "number": "075",
     "name": "Yo-Yo1",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "C, E, R, T, V, *",
     "memory": 36,
@@ -675,6 +750,7 @@
   {
     "number": "076",
     "name": "Yo-Yo2",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "A, G, J, K, N, *",
     "memory": 40,
@@ -684,6 +760,7 @@
   {
     "number": "077",
     "name": "Yo-Yo3",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "D, I, M, S, Y, *",
     "memory": 44,
@@ -693,6 +770,7 @@
   {
     "number": "078",
     "name": "CrsShld1",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "A, O, P, S, Z, *",
     "memory": 18,
@@ -702,6 +780,7 @@
   {
     "number": "079",
     "name": "CrsShld2",
+    "type": "None",
     "damage": 170,
     "possibleCodes": "A, O, P, T, V, *",
     "memory": 24,
@@ -711,6 +790,7 @@
   {
     "number": "080",
     "name": "CrsShld3",
+    "type": "None",
     "damage": 210,
     "possibleCodes": "A, O, P, U, W, *",
     "memory": 32,
@@ -720,6 +800,7 @@
   {
     "number": "081",
     "name": "Hammer",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "R, T, U, V, Z, *",
     "memory": 24,
@@ -729,6 +810,7 @@
   {
     "number": "082",
     "name": "ZeusHamr",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "J, K, O, V, Z, *",
     "memory": 70,
@@ -738,6 +820,7 @@
   {
     "number": "083",
     "name": "Lance",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "O, P, T, V, Y, *",
     "memory": 20,
@@ -747,6 +830,7 @@
   {
     "number": "084",
     "name": "BrnzFist",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "B, N, O, R, S, *",
     "memory": 18,
@@ -756,6 +840,7 @@
   {
     "number": "085",
     "name": "SilvFist",
+    "type": "None",
     "damage": 140,
     "possibleCodes": "E, I, L, S, V, *",
     "memory": 30,
@@ -765,6 +850,7 @@
   {
     "number": "086",
     "name": "GoldFist",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "D, G, L, O, Z, *",
     "memory": 60,
@@ -774,6 +860,7 @@
   {
     "number": "087",
     "name": "PoisMask",
+    "type": "None",
     "possibleCodes": "D, S, U, W, Z, *",
     "memory": 24,
     "description": "Poison 1 panel with A Button!",
@@ -782,6 +869,7 @@
   {
     "number": "088",
     "name": "PoisFace",
+    "type": "None",
     "possibleCodes": "P, Q, U, W, Y, *",
     "memory": 30,
     "description": "Spread poison w/ A Button!",
@@ -790,6 +878,7 @@
   {
     "number": "089",
     "name": "Whirlpl",
+    "type": "None",
     "possibleCodes": "A, C, E, G, I, *",
     "memory": 20,
     "description": "Whirlpool kills weak enemies!",
@@ -798,6 +887,7 @@
   {
     "number": "090",
     "name": "Blckhole",
+    "type": "None",
     "possibleCodes": "B, D, F, H, J, *",
     "memory": 30,
     "description": "Black hole kills weak enemies!",
@@ -806,6 +896,7 @@
   {
     "number": "091",
     "name": "Meteor9",
+    "type": "Heat",
     "damage": 60,
     "possibleCodes": "C, E, L, S, V, *",
     "memory": 12,
@@ -815,6 +906,7 @@
   {
     "number": "092",
     "name": "Meteor12",
+    "type": "Heat",
     "damage": 80,
     "possibleCodes": "A, C, F, J, W, *",
     "memory": 24,
@@ -824,6 +916,7 @@
   {
     "number": "093",
     "name": "Meteor15",
+    "type": "Heat",
     "damage": 100,
     "possibleCodes": "D, G, H, R, Z, *",
     "memory": 48,
@@ -833,6 +926,7 @@
   {
     "number": "094",
     "name": "Meteor18",
+    "type": "Heat",
     "damage": 150,
     "possibleCodes": "B, G, I, K, O, *",
     "memory": 60,
@@ -842,6 +936,7 @@
   {
     "number": "095",
     "name": "TimeBom1",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "C, G, K, M, Z, *",
     "memory": 32,
@@ -851,6 +946,7 @@
   {
     "number": "096",
     "name": "TimeBom2",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "F, G, K, O, Z, *",
     "memory": 48,
@@ -860,6 +956,7 @@
   {
     "number": "097",
     "name": "TimeBom3",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "E, G, K, P, Z, *",
     "memory": 64,
@@ -869,6 +966,7 @@
   {
     "number": "098",
     "name": "LilCloud",
+    "type": "Aqua",
     "damage": 70,
     "possibleCodes": "C, G, I, K, N, *",
     "memory": 16,
@@ -878,6 +976,7 @@
   {
     "number": "099",
     "name": "MedCloud",
+    "type": "Aqua",
     "damage": 90,
     "possibleCodes": "D, H, J, L, O, *",
     "memory": 24,
@@ -887,6 +986,7 @@
   {
     "number": "100",
     "name": "BigCloud",
+    "type": "Aqua",
     "damage": 110,
     "possibleCodes": "Q, R, T, U, W, *",
     "memory": 32,
@@ -896,6 +996,7 @@
   {
     "number": "101",
     "name": "Mine",
+    "type": "None",
     "damage": 300,
     "possibleCodes": "L, N, R, S, V, *",
     "memory": 12,
@@ -905,6 +1006,7 @@
   {
     "number": "102",
     "name": "FrntSnsr",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "H, M, Q, R, T, *",
     "memory": 14,
@@ -914,6 +1016,7 @@
   {
     "number": "103",
     "name": "DblSnsr",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "E, J, P, W, Y, *",
     "memory": 24,
@@ -923,6 +1026,7 @@
   {
     "number": "104",
     "name": "Remobit1",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "E, G, J, K, N, *",
     "memory": 8,
@@ -932,6 +1036,7 @@
   {
     "number": "105",
     "name": "Remobit2",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "B, F, I, R, U, *",
     "memory": 16,
@@ -941,6 +1046,7 @@
   {
     "number": "106",
     "name": "Remobit3",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "A, L, M, T, Y, *",
     "memory": 32,
@@ -950,6 +1056,7 @@
   {
     "number": "107",
     "name": "AquaBall",
+    "type": "Aqua",
     "damage": 10,
     "possibleCodes": "A, B, Q, T, W, *",
     "memory": 20,
@@ -959,6 +1066,7 @@
   {
     "number": "108",
     "name": "ElecBall",
+    "type": "Elec",
     "damage": 10,
     "possibleCodes": "E, H, J, K, V, *",
     "memory": 20,
@@ -968,6 +1076,7 @@
   {
     "number": "109",
     "name": "HeatBall",
+    "type": "Heat",
     "damage": 10,
     "possibleCodes": "C, F, R, S, U, *",
     "memory": 20,
@@ -977,6 +1086,7 @@
   {
     "number": "110",
     "name": "Geyser",
+    "type": "Aqua",
     "damage": 200,
     "possibleCodes": "A, B, D, L, S, *",
     "memory": 40,
@@ -986,6 +1096,7 @@
   {
     "number": "111",
     "name": "LavaDrag",
+    "type": "Heat",
     "damage": 200,
     "possibleCodes": "F, G, O, R, Y, *",
     "memory": 60,
@@ -995,6 +1106,7 @@
   {
     "number": "112",
     "name": "GodStone",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "E, I, L, Q, U, *",
     "memory": 60,
@@ -1004,6 +1116,7 @@
   {
     "number": "113",
     "name": "OldWood",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "C, M, S, T, W, *",
     "memory": 60,
@@ -1013,6 +1126,7 @@
   {
     "number": "114",
     "name": "Guard",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 2,
     "description": "Repel the enemy\u0027s attack",
@@ -1021,6 +1135,7 @@
   {
     "number": "115",
     "name": "PanlOut1",
+    "type": "None",
     "possibleCodes": "A, B, D, L, S, *",
     "memory": 4,
     "description": "Destroy 1 panel in front",
@@ -1029,6 +1144,7 @@
   {
     "number": "116",
     "name": "PanlOut3",
+    "type": "None",
     "possibleCodes": "C, E, N, R, Y, *",
     "memory": 8,
     "description": "Destroy 3 panels in front",
@@ -1037,6 +1153,7 @@
   {
     "number": "117",
     "name": "LineOut",
+    "type": "Heat",
     "damage": 40,
     "possibleCodes": "F, H, J, Q, T, *",
     "memory": 24,
@@ -1046,6 +1163,7 @@
   {
     "number": "118",
     "name": "Catcher",
+    "type": "None",
     "possibleCodes": "F, I, J, N, T, *",
     "memory": 12,
     "description": "Sends UFO to steal a chip",
@@ -1054,6 +1172,7 @@
   {
     "number": "119",
     "name": "Mindbndr",
+    "type": "None",
     "possibleCodes": "D, I, M, N, T, *",
     "memory": 38,
     "description": "Enemy loses control",
@@ -1062,6 +1181,7 @@
   {
     "number": "120",
     "name": "Recov10",
+    "type": "None",
     "possibleCodes": "A, C, E, G, L, *",
     "memory": 2,
     "description": "Recovers 10HP",
@@ -1070,6 +1190,7 @@
   {
     "number": "121",
     "name": "Recov30",
+    "type": "None",
     "possibleCodes": "B, D, F, H, M, *",
     "memory": 4,
     "description": "Recovers 30HP",
@@ -1078,6 +1199,7 @@
   {
     "number": "122",
     "name": "Recov50",
+    "type": "None",
     "possibleCodes": "C, E, G, I, N, *",
     "memory": 8,
     "description": "Recovers 50HP",
@@ -1086,6 +1208,7 @@
   {
     "number": "123",
     "name": "Recov80",
+    "type": "None",
     "possibleCodes": "D, F, H, J, O, *",
     "memory": 16,
     "description": "Recovers 80HP",
@@ -1094,6 +1217,7 @@
   {
     "number": "124",
     "name": "Recov120",
+    "type": "None",
     "possibleCodes": "O, Q, S, U, W, *",
     "memory": 32,
     "description": "Recovers 120HP",
@@ -1102,6 +1226,7 @@
   {
     "number": "125",
     "name": "Recov150",
+    "type": "None",
     "possibleCodes": "N, P, R, T, V, *",
     "memory": 48,
     "description": "Recovers 150HP",
@@ -1110,6 +1235,7 @@
   {
     "number": "126",
     "name": "Recov200",
+    "type": "None",
     "possibleCodes": "M, N, U, V, W, *",
     "memory": 64,
     "description": "Recovers 200HP",
@@ -1118,6 +1244,7 @@
   {
     "number": "127",
     "name": "Recov300",
+    "type": "None",
     "possibleCodes": "O, R, V, W, Z, *",
     "memory": 80,
     "description": "Recovers 300HP",
@@ -1126,6 +1253,7 @@
   {
     "number": "128",
     "name": "PanlGrab",
+    "type": "None",
     "possibleCodes": "B, H, K, L, P, *",
     "memory": 4,
     "description": "Steals 1 enemy square!",
@@ -1134,6 +1262,7 @@
   {
     "number": "129",
     "name": "AreaGrab",
+    "type": "None",
     "possibleCodes": "E, L, R, S, Z, *",
     "memory": 8,
     "description": "Steals left edge from enemy",
@@ -1142,6 +1271,7 @@
   {
     "number": "130",
     "name": "GrabRvng",
+    "type": "None",
     "possibleCodes": "A, L, P, S, W, *",
     "memory": 24,
     "description": "Punishes for stolen panels!",
@@ -1150,6 +1280,7 @@
   {
     "number": "131",
     "name": "Geddon1",
+    "type": "None",
     "possibleCodes": "C, K, L, Q, S, *",
     "memory": 16,
     "description": "Cracks all panels!",
@@ -1158,6 +1289,7 @@
   {
     "number": "132",
     "name": "Geddon2",
+    "type": "None",
     "possibleCodes": "J, M, R, T, Z, *",
     "memory": 32,
     "description": "Breaks all empty squares!",
@@ -1166,6 +1298,7 @@
   {
     "number": "133",
     "name": "Geddon3",
+    "type": "None",
     "possibleCodes": "E, J, N, P, Y, *",
     "memory": 48,
     "description": "Turns all panels to swamp!",
@@ -1174,6 +1307,7 @@
   {
     "number": "134",
     "name": "Escape",
+    "type": "None",
     "possibleCodes": "F, H, J, L, N, *",
     "memory": 64,
     "description": "Escapes from some enemies",
@@ -1182,6 +1316,7 @@
   {
     "number": "135",
     "name": "AirShoes",
+    "type": "None",
     "possibleCodes": "A, J, O, V, Z, *",
     "memory": 12,
     "description": "Stand on empty square",
@@ -1190,6 +1325,7 @@
   {
     "number": "136",
     "name": "Repair",
+    "type": "None",
     "possibleCodes": "A, C, E, L, P, *",
     "memory": 8,
     "description": "Fixes your side\u0027s panels",
@@ -1198,6 +1334,7 @@
   {
     "number": "137",
     "name": "Candle1",
+    "type": "None",
     "possibleCodes": "C, F, I, M, V, *",
     "memory": 50,
     "description": "Places a healing candle",
@@ -1206,6 +1343,7 @@
   {
     "number": "138",
     "name": "Candle2",
+    "type": "None",
     "possibleCodes": "A, G, J, L, T, *",
     "memory": 60,
     "description": "Places a healing candle",
@@ -1214,6 +1352,7 @@
   {
     "number": "139",
     "name": "Candle3",
+    "type": "None",
     "possibleCodes": "B, E, H, N, W, *",
     "memory": 70,
     "description": "Places a healing candle",
@@ -1222,6 +1361,7 @@
   {
     "number": "140",
     "name": "RockCube",
+    "type": "None",
     "possibleCodes": "B, D, G, M, V, *",
     "memory": 16,
     "description": "Places a stone cube in front",
@@ -1230,6 +1370,7 @@
   {
     "number": "141",
     "name": "Prism",
+    "type": "None",
     "possibleCodes": "B, C, L, N, Q, *",
     "memory": 24,
     "description": "Shoots all over after it hits",
@@ -1238,6 +1379,7 @@
   {
     "number": "142",
     "name": "Guardian",
+    "type": "None",
     "possibleCodes": "O, P, U, V, Z, *",
     "memory": 54,
     "description": "Statue punishes when hit",
@@ -1246,6 +1388,7 @@
   {
     "number": "143",
     "name": "Wind",
+    "type": "None",
     "possibleCodes": "G, J, O, Q, T, *",
     "memory": 10,
     "description": "WindBox blows at enemy area",
@@ -1254,6 +1397,7 @@
   {
     "number": "144",
     "name": "Fan",
+    "type": "None",
     "possibleCodes": "A, G, L, N, Y, *",
     "memory": 10,
     "description": "VacuumFan sucks from enemy area",
@@ -1262,6 +1406,7 @@
   {
     "number": "145",
     "name": "Anubis",
+    "type": "None",
     "possibleCodes": "H, K, M, U, W, *",
     "memory": 90,
     "description": "Anubis poisons enemy area",
@@ -1270,6 +1415,7 @@
   {
     "number": "146",
     "name": "SloGauge",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 10,
     "description": "Cust Gauge slows down for battle",
@@ -1278,6 +1424,7 @@
   {
     "number": "147",
     "name": "FstGauge",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 10,
     "description": "Cust Gauge speeds up for battle",
@@ -1286,6 +1433,7 @@
   {
     "number": "148",
     "name": "FullCust",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 10,
     "description": "Cust Gauge is always full!",
@@ -1294,6 +1442,7 @@
   {
     "number": "149",
     "name": "Invis1",
+    "type": "None",
     "possibleCodes": "A, F, L, R, U, *",
     "memory": 12,
     "description": "Invisible for a while",
@@ -1302,6 +1451,7 @@
   {
     "number": "150",
     "name": "Invis2",
+    "type": "None",
     "possibleCodes": "B, H, M, Q, V, *",
     "memory": 24,
     "description": "Invisible for a while",
@@ -1310,6 +1460,7 @@
   {
     "number": "151",
     "name": "Invis3",
+    "type": "None",
     "possibleCodes": "C, G, K, P, W, *",
     "memory": 48,
     "description": "Invisible for a while",
@@ -1318,6 +1469,7 @@
   {
     "number": "152",
     "name": "DropDown",
+    "type": "None",
     "possibleCodes": "A, C, F, Q, S, *",
     "memory": 64,
     "description": "Invisible until you attack!",
@@ -1326,6 +1478,7 @@
   {
     "number": "153",
     "name": "PopUp",
+    "type": "None",
     "possibleCodes": "D, I, J, T, W, *",
     "memory": 84,
     "description": "Invisible except for attack!",
@@ -1334,6 +1487,7 @@
   {
     "number": "154",
     "name": "StoneBod",
+    "type": "None",
     "possibleCodes": "C, E, S, T, W, *",
     "memory": 64,
     "description": "Stone body takes only 1HP damage",
@@ -1342,6 +1496,7 @@
   {
     "number": "155",
     "name": "Shadow1",
+    "type": "None",
     "possibleCodes": "B, G, H, L, R, *",
     "memory": 32,
     "description": "Only sword attacks hurt you",
@@ -1350,6 +1505,7 @@
   {
     "number": "156",
     "name": "Shadow2",
+    "type": "None",
     "possibleCodes": "D, E, J, M, T, *",
     "memory": 48,
     "description": "Only sword attacks hurt you",
@@ -1358,6 +1514,7 @@
   {
     "number": "157",
     "name": "Shadow3",
+    "type": "None",
     "possibleCodes": "C, F, K, N, V, *",
     "memory": 64,
     "description": "Only sword attacks hurt you",
@@ -1366,6 +1523,7 @@
   {
     "number": "158",
     "name": "UnderSht",
+    "type": "None",
     "possibleCodes": "H, J, N, R, W, *",
     "memory": 18,
     "description": "Lethal hit reduced to just 1HP!",
@@ -1374,6 +1532,7 @@
   {
     "number": "159",
     "name": "Barrier",
+    "type": "None",
     "possibleCodes": "B, E, L, S, T, *",
     "memory": 8,
     "description": "Nullify damage one time!",
@@ -1382,6 +1541,7 @@
   {
     "number": "160",
     "name": "BblWrap",
+    "type": "Aqua",
     "possibleCodes": "I, J, Q, R, W, *",
     "memory": 36,
     "description": "Water barrier reforms",
@@ -1390,6 +1550,7 @@
   {
     "number": "161",
     "name": "LeafShld",
+    "type": "Wood",
     "possibleCodes": "A, D, R, S, W, *",
     "memory": 26,
     "description": "Next attack heals you",
@@ -1398,6 +1559,7 @@
   {
     "number": "162",
     "name": "AquaAura",
+    "type": "Aqua",
     "possibleCodes": "A, E, I, M, Q, *",
     "memory": 30,
     "description": "Repels attacks under 10",
@@ -1406,6 +1568,7 @@
   {
     "number": "163",
     "name": "FireAura",
+    "type": "Heat",
     "possibleCodes": "B, F, J, N, R, *",
     "memory": 36,
     "description": "Repels attacks under 40",
@@ -1414,6 +1577,7 @@
   {
     "number": "164",
     "name": "WoodAura",
+    "type": "Wood",
     "possibleCodes": "C, G, K, O, S, *",
     "memory": 42,
     "description": "Repels attacks under 80",
@@ -1422,6 +1586,7 @@
   {
     "number": "165",
     "name": "ElecAura",
+    "type": "Elec",
     "possibleCodes": "D, H, L, P, T, *",
     "memory": 48,
     "description": "Repels non wd attacks under 100",
@@ -1430,6 +1595,7 @@
   {
     "number": "166",
     "name": "LifeAur1",
+    "type": "None",
     "possibleCodes": "B, G, I, O, Q, *",
     "memory": 60,
     "description": "Repels all attacks under 100",
@@ -1438,6 +1604,7 @@
   {
     "number": "167",
     "name": "LifeAur2",
+    "type": "None",
     "possibleCodes": "D, F, J, N, R, *",
     "memory": 70,
     "description": "Repels all attacks under 150",
@@ -1446,6 +1613,7 @@
   {
     "number": "168",
     "name": "LifeAur3",
+    "type": "None",
     "possibleCodes": "E, H, K, M, T, *",
     "memory": 80,
     "description": "Repels all attacks under 200",
@@ -1454,6 +1622,7 @@
   {
     "number": "169",
     "name": "MagLine",
+    "type": "None",
     "possibleCodes": "A, E, I, M, Q, *",
     "memory": 24,
     "description": "Changes your line to magnet",
@@ -1462,6 +1631,7 @@
   {
     "number": "170",
     "name": "LavaLine",
+    "type": "None",
     "possibleCodes": "A, F, J, M, R, *",
     "memory": 24,
     "description": "Changes your line to lava",
@@ -1470,6 +1640,7 @@
   {
     "number": "171",
     "name": "IceLine",
+    "type": "None",
     "possibleCodes": "B, E, J, N, Q, *",
     "memory": 24,
     "description": "Changes your line to ice",
@@ -1478,6 +1649,7 @@
   {
     "number": "172",
     "name": "GrassLne",
+    "type": "None",
     "possibleCodes": "B, F, I, N, R, *",
     "memory": 24,
     "description": "Changes your line to grass",
@@ -1486,6 +1658,7 @@
   {
     "number": "173",
     "name": "LavaStge",
+    "type": "None",
     "possibleCodes": "D, H, M, U, V, *",
     "memory": 64,
     "description": "Changes all panels to lava",
@@ -1494,6 +1667,7 @@
   {
     "number": "174",
     "name": "IceStage",
+    "type": "None",
     "possibleCodes": "A, C, E, I, S, *",
     "memory": 64,
     "description": "Changes all panels to ice",
@@ -1502,6 +1676,7 @@
   {
     "number": "175",
     "name": "GrassStg",
+    "type": "None",
     "possibleCodes": "B, D, H, P, R, *",
     "memory": 64,
     "description": "Changes all panels to grass",
@@ -1510,6 +1685,7 @@
   {
     "number": "176",
     "name": "HolyPanl",
+    "type": "None",
     "possibleCodes": "C, E, H, L, R, *",
     "memory": 64,
     "description": "Makes all panels holy",
@@ -1518,6 +1694,7 @@
   {
     "number": "177",
     "name": "Jealosy",
+    "type": "None",
     "possibleCodes": "E, J, O, R, U, *",
     "memory": 22,
     "description": "More chips means more damage",
@@ -1526,6 +1703,7 @@
   {
     "number": "178",
     "name": "AntiFire",
+    "type": "Heat",
     "damage": 200,
     "possibleCodes": "F, K, L, P, T, *",
     "memory": 32,
@@ -1535,6 +1713,7 @@
   {
     "number": "179",
     "name": "AntiElec",
+    "type": "Elec",
     "damage": 200,
     "possibleCodes": "E, H, N, U, Y, *",
     "memory": 32,
@@ -1544,6 +1723,7 @@
   {
     "number": "180",
     "name": "AntiWatr",
+    "type": "Aqua",
     "damage": 200,
     "possibleCodes": "A, D, Q, W, Z, *",
     "memory": 32,
@@ -1553,6 +1733,7 @@
   {
     "number": "181",
     "name": "AntiDmg",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "C, J, M, R, S, *",
     "memory": 32,
@@ -1562,6 +1743,7 @@
   {
     "number": "182",
     "name": "AntiSwrd",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "D, H, I, M, T, *",
     "memory": 32,
@@ -1571,6 +1753,7 @@
   {
     "number": "183",
     "name": "AntiNavi",
+    "type": "None",
     "possibleCodes": "K, L, O, T, X, *",
     "memory": 32,
     "description": "Take the enemy\u0027s Navi away",
@@ -1579,6 +1762,7 @@
   {
     "number": "184",
     "name": "AntiRecv",
+    "type": "None",
     "possibleCodes": "B, D, M, P, W, *",
     "memory": 32,
     "description": "Punish the recovery of HPs!",
@@ -1587,6 +1771,7 @@
   {
     "number": "185",
     "name": "Atk+10",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 4,
     "description": "+10 to selected AtkChip!",
@@ -1595,6 +1780,7 @@
   {
     "number": "186",
     "name": "Atk+20",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 20,
     "description": "+20 to selected AtkChip!",
@@ -1603,6 +1789,7 @@
   {
     "number": "187",
     "name": "Atk+30",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 38,
     "description": "+30 to selected AtkChip!",
@@ -1611,6 +1798,7 @@
   {
     "number": "188",
     "name": "Fire+40",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 12,
     "description": "Adds 40 to Fire AttackChip",
@@ -1619,6 +1807,7 @@
   {
     "number": "189",
     "name": "Aqua+40",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 12,
     "description": "Adds 40 to Aqua AttackChip",
@@ -1627,6 +1816,7 @@
   {
     "number": "190",
     "name": "Wood+40",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 12,
     "description": "Adds 40 to Wood AttackChip",
@@ -1635,6 +1825,7 @@
   {
     "number": "191",
     "name": "Elec+40",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 12,
     "description": "Adds 40 to Elec AttackChip",
@@ -1643,6 +1834,7 @@
   {
     "number": "192",
     "name": "Navi+20",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 24,
     "description": "+20 to selected NaviChip!",
@@ -1651,6 +1843,7 @@
   {
     "number": "193",
     "name": "Navi+40",
+    "type": "None",
     "possibleCodes": "*",
     "memory": 42,
     "description": "+40 to selected NaviChip!",
@@ -1659,6 +1852,7 @@
   {
     "number": "194",
     "name": "Roll",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "R, *",
     "memory": 8,
@@ -1668,6 +1862,7 @@
   {
     "number": "195",
     "name": "RollV2",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "R, *",
     "memory": 24,
@@ -1677,6 +1872,7 @@
   {
     "number": "196",
     "name": "RollV3",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "R, *",
     "memory": 48,
@@ -1686,6 +1882,7 @@
   {
     "number": "197",
     "name": "GutsMan",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "G, *",
     "memory": 32,
@@ -1695,6 +1892,7 @@
   {
     "number": "198",
     "name": "GutsManV2",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "G, *",
     "memory": 48,
@@ -1704,6 +1902,7 @@
   {
     "number": "199",
     "name": "GutsManV3",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "G, *",
     "memory": 64,
@@ -1713,6 +1912,7 @@
   {
     "number": "200",
     "name": "ProtoMan",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "B, *",
     "memory": 52,
@@ -1722,6 +1922,7 @@
   {
     "number": "201",
     "name": "ProtoMnV2",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "B, *",
     "memory": 64,
@@ -1731,6 +1932,7 @@
   {
     "number": "202",
     "name": "ProtoMnV3",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "B, *",
     "memory": 76,
@@ -1740,6 +1942,7 @@
   {
     "number": "203",
     "name": "AirMan",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "A, *",
     "memory": 16,
@@ -1749,6 +1952,7 @@
   {
     "number": "204",
     "name": "AirManV2",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "A, *",
     "memory": 34,
@@ -1758,6 +1962,7 @@
   {
     "number": "205",
     "name": "AirManV3",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "A, *",
     "memory": 72,
@@ -1767,6 +1972,7 @@
   {
     "number": "206",
     "name": "QuickMan",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "Q, *",
     "memory": 32,
@@ -1776,6 +1982,7 @@
   {
     "number": "207",
     "name": "QuickMnV2",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "Q, *",
     "memory": 56,
@@ -1785,6 +1992,7 @@
   {
     "number": "208",
     "name": "QuickMnV3",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "Q, *",
     "memory": 80,
@@ -1794,6 +2002,7 @@
   {
     "number": "209",
     "name": "CutMan",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "C, *",
     "memory": 20,
@@ -1803,6 +2012,7 @@
   {
     "number": "210",
     "name": "CutManV2",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "C, *",
     "memory": 50,
@@ -1812,6 +2022,7 @@
   {
     "number": "211",
     "name": "CutManV3",
+    "type": "None",
     "damage": 300,
     "possibleCodes": "C, *",
     "memory": 80,
@@ -1821,6 +2032,7 @@
   {
     "number": "212",
     "name": "ShadoMan",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "S, *",
     "memory": 64,
@@ -1830,6 +2042,7 @@
   {
     "number": "213",
     "name": "ShadoMnV2",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "S, *",
     "memory": 80,
@@ -1839,6 +2052,7 @@
   {
     "number": "214",
     "name": "ShadoMnV3",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "S, *",
     "memory": 96,
@@ -1848,6 +2062,7 @@
   {
     "number": "215",
     "name": "KnightMn",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "K, *",
     "memory": 64,
@@ -1857,6 +2072,7 @@
   {
     "number": "216",
     "name": "KnghtMnV2",
+    "type": "None",
     "damage": 210,
     "possibleCodes": "K, *",
     "memory": 80,
@@ -1866,6 +2082,7 @@
   {
     "number": "217",
     "name": "KnghtMnV3",
+    "type": "None",
     "damage": 260,
     "possibleCodes": "K, *",
     "memory": 96,
@@ -1875,6 +2092,7 @@
   {
     "number": "218",
     "name": "MagnetMn",
+    "type": "Elec",
     "damage": 130,
     "possibleCodes": "M, *",
     "memory": 48,
@@ -1884,6 +2102,7 @@
   {
     "number": "219",
     "name": "MagntMnV2",
+    "type": "Elec",
     "damage": 140,
     "possibleCodes": "M, *",
     "memory": 64,
@@ -1893,6 +2112,7 @@
   {
     "number": "220",
     "name": "MagntMnV3",
+    "type": "Elec",
     "damage": 150,
     "possibleCodes": "M, *",
     "memory": 80,
@@ -1902,6 +2122,7 @@
   {
     "number": "221",
     "name": "FreezeMn",
+    "type": "Aqua",
     "damage": 50,
     "possibleCodes": "F, *",
     "memory": 64,
@@ -1911,6 +2132,7 @@
   {
     "number": "222",
     "name": "FrzManV2",
+    "type": "Aqua",
     "damage": 60,
     "possibleCodes": "F, *",
     "memory": 80,
@@ -1920,6 +2142,7 @@
   {
     "number": "223",
     "name": "FrzManV3",
+    "type": "Aqua",
     "damage": 70,
     "possibleCodes": "F, *",
     "memory": 96,
@@ -1929,6 +2152,7 @@
   {
     "number": "224",
     "name": "HeatMan",
+    "type": "Heat",
     "damage": 100,
     "possibleCodes": "H, *",
     "memory": 64,
@@ -1938,6 +2162,7 @@
   {
     "number": "225",
     "name": "HeatManV2",
+    "type": "Heat",
     "damage": 130,
     "possibleCodes": "H, *",
     "memory": 80,
@@ -1947,6 +2172,7 @@
   {
     "number": "226",
     "name": "HeatManV3",
+    "type": "Heat",
     "damage": 160,
     "possibleCodes": "H, *",
     "memory": 96,
@@ -1956,6 +2182,7 @@
   {
     "number": "227",
     "name": "ToadMan",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "T, *",
     "memory": 28,
@@ -1965,6 +2192,7 @@
   {
     "number": "228",
     "name": "ToadManV2",
+    "type": "Elec",
     "damage": 140,
     "possibleCodes": "T, *",
     "memory": 48,
@@ -1974,6 +2202,7 @@
   {
     "number": "229",
     "name": "ToadManV3",
+    "type": "Elec",
     "damage": 180,
     "possibleCodes": "T, *",
     "memory": 68,
@@ -1983,6 +2212,7 @@
   {
     "number": "230",
     "name": "ThunMan",
+    "type": "Elec",
     "damage": 80,
     "possibleCodes": "T, *",
     "memory": 30,
@@ -1992,6 +2222,7 @@
   {
     "number": "231",
     "name": "ThunManV2",
+    "type": "Elec",
     "damage": 130,
     "possibleCodes": "T, *",
     "memory": 60,
@@ -2001,6 +2232,7 @@
   {
     "number": "232",
     "name": "ThunManV3",
+    "type": "Elec",
     "damage": 180,
     "possibleCodes": "T, *",
     "memory": 90,
@@ -2010,6 +2242,7 @@
   {
     "number": "233",
     "name": "SnakeMan",
+    "type": "Wood",
     "damage": 30,
     "possibleCodes": "S, *",
     "memory": 25,
@@ -2019,6 +2252,7 @@
   {
     "number": "234",
     "name": "SnakeMnV2",
+    "type": "Wood",
     "damage": 40,
     "possibleCodes": "S, *",
     "memory": 50,
@@ -2028,6 +2262,7 @@
   {
     "number": "235",
     "name": "SnakeMnV3",
+    "type": "Wood",
     "damage": 50,
     "possibleCodes": "S, *",
     "memory": 75,
@@ -2037,6 +2272,7 @@
   {
     "number": "236",
     "name": "GateMan",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "G, *",
     "memory": 24,
@@ -2046,6 +2282,7 @@
   {
     "number": "237",
     "name": "GateManV2",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "G, *",
     "memory": 40,
@@ -2055,6 +2292,7 @@
   {
     "number": "238",
     "name": "GateManV3",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "G, *",
     "memory": 56,
@@ -2064,6 +2302,7 @@
   {
     "number": "239",
     "name": "PharoMan",
+    "type": "None",
     "damage": 240,
     "possibleCodes": "P, *",
     "memory": 32,
@@ -2073,6 +2312,7 @@
   {
     "number": "240",
     "name": "PharoMnV2",
+    "type": "None",
     "damage": 270,
     "possibleCodes": "P, *",
     "memory": 48,
@@ -2082,6 +2322,7 @@
   {
     "number": "241",
     "name": "PharoMnV3",
+    "type": "None",
     "damage": 300,
     "possibleCodes": "P, *",
     "memory": 64,
@@ -2091,6 +2332,7 @@
   {
     "number": "242",
     "name": "NapalmMn",
+    "type": "Heat",
     "damage": 220,
     "possibleCodes": "N, *",
     "memory": 48,
@@ -2100,6 +2342,7 @@
   {
     "number": "243",
     "name": "NaplmMnV2",
+    "type": "Heat",
     "damage": 240,
     "possibleCodes": "N, *",
     "memory": 64,
@@ -2109,6 +2352,7 @@
   {
     "number": "244",
     "name": "NaplmMnV3",
+    "type": "Heat",
     "damage": 260,
     "possibleCodes": "N, *",
     "memory": 80,
@@ -2118,6 +2362,7 @@
   {
     "number": "245",
     "name": "PlanetMn",
+    "type": "Wood",
     "damage": 70,
     "possibleCodes": "P, *",
     "memory": 64,
@@ -2127,6 +2372,7 @@
   {
     "number": "246",
     "name": "PlnetMnV2",
+    "type": "Wood",
     "damage": 80,
     "possibleCodes": "P, *",
     "memory": 80,
@@ -2136,6 +2382,7 @@
   {
     "number": "247",
     "name": "PlnetMnV3",
+    "type": "Wood",
     "damage": 90,
     "possibleCodes": "P, *",
     "memory": 96,
@@ -2145,6 +2392,7 @@
   {
     "number": "248",
     "name": "Bass",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "F, *",
     "memory": 96,
@@ -2154,6 +2402,7 @@
   {
     "number": "249",
     "name": "BassV2",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "F, *",
     "memory": 96,
@@ -2163,6 +2412,7 @@
   {
     "number": "250",
     "name": "BassV3",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "X, *",
     "memory": 96,
@@ -2172,6 +2422,7 @@
   {
     "number": "251",
     "name": "BgRedWav",
+    "type": "Heat",
     "damage": 220,
     "possibleCodes": "F, H, P, R, S, *",
     "memory": 64,
@@ -2181,6 +2432,7 @@
   {
     "number": "252",
     "name": "FreezBom",
+    "type": "Aqua",
     "damage": 180,
     "possibleCodes": "A, I, J, Q, U, *",
     "memory": 56,
@@ -2190,6 +2442,7 @@
   {
     "number": "253",
     "name": "Sparker",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "C, E, G, K, V, *",
     "memory": 48,
@@ -2199,6 +2452,7 @@
   {
     "number": "254",
     "name": "GaiaSwrd",
+    "type": "Wood",
     "damage": 200,
     "possibleCodes": "D, L, N, W, Y, *",
     "memory": 72,
@@ -2208,6 +2462,7 @@
   {
     "number": "255",
     "name": "BlkBomb",
+    "type": "Heat",
     "damage": 200,
     "possibleCodes": "B, F, G, P, R, *",
     "memory": 64,
@@ -2217,6 +2472,7 @@
   {
     "number": "256",
     "name": "FtrSword",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "A, I, L, S, Y, *",
     "memory": 50,
@@ -2226,6 +2482,7 @@
   {
     "number": "257",
     "name": "KngtSwrd",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "F, J, K, M, Q, *",
     "memory": 64,
@@ -2235,6 +2492,7 @@
   {
     "number": "258",
     "name": "HeroSwrd",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "E, N, O, T, Z, *",
     "memory": 90,
@@ -2244,6 +2502,7 @@
   {
     "number": "259",
     "name": "Meteors",
+    "type": "Heat",
     "damage": 40,
     "possibleCodes": "B, H, O, R, V, *",
     "memory": 68,
@@ -2253,6 +2512,7 @@
   {
     "number": "260",
     "name": "Poltrgst",
+    "type": "None",
     "possibleCodes": "E, P, R, U, W, *",
     "memory": 50,
     "description": "Items are thrown at the enemy!",
@@ -2261,6 +2521,7 @@
   {
     "number": "261",
     "name": "GateSP",
+    "type": "None",
     "damage": 300,
     "possibleCodes": "G, *",
     "memory": 50,
@@ -2270,6 +2531,7 @@
   {
     "number": "262",
     "name": "FireGspl",
+    "type": "Heat",
     "damage": 600,
     "possibleCodes": "X, *",
     "memory": 96,
@@ -2279,6 +2541,7 @@
   {
     "number": "263",
     "name": "AquaGspl",
+    "type": "Aqua",
     "damage": 600,
     "possibleCodes": "X, *",
     "memory": 96,
@@ -2288,6 +2551,7 @@
   {
     "number": "264",
     "name": "ElecGspl",
+    "type": "Elec",
     "damage": 600,
     "possibleCodes": "X, *",
     "memory": 96,
@@ -2297,6 +2561,7 @@
   {
     "number": "265",
     "name": "WoodGspl",
+    "type": "Wood",
     "damage": 600,
     "possibleCodes": "X, *",
     "memory": 96,
@@ -2306,6 +2571,7 @@
   {
     "number": "266",
     "name": "Snctuary",
+    "type": "None",
     "possibleCodes": "A, C, E, L, S, *",
     "memory": 99,
     "description": "Turns your panels holy!",
