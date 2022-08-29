@@ -2,6 +2,7 @@
   {
     "number": "1",
     "name": "Roll (ロール)",
+    "type": "None",
     "damage": 20,
     "possibleCodes": "",
     "memory": 0,
@@ -11,6 +12,7 @@
   {
     "number": "2",
     "name": "Roll2 (ロール２)",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "",
     "memory": 0,
@@ -20,6 +22,7 @@
   {
     "number": "3",
     "name": "Roll3 (ロール３)",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "",
     "memory": 0,
@@ -29,6 +32,7 @@
   {
     "number": "4",
     "name": "ProtoMan (ブルース)",
+    "type": "Sword",
     "damage": 150,
     "possibleCodes": "",
     "memory": 0,
@@ -38,6 +42,7 @@
   {
     "number": "5",
     "name": "ProtoMnEX (ブルースＥＸ)",
+    "type": "Sword",
     "damage": 170,
     "possibleCodes": "",
     "memory": 0,
@@ -47,6 +52,8 @@
   {
     "number": "6",
     "name": "ProtoMnSP (ブルースＳＰ)",
+    "type": "Sword",
+    "damage": 190,
     "possibleCodes": "",
     "memory": 0,
     "description": "Move in and slice the enemy",
@@ -55,6 +62,7 @@
   {
     "number": "22",
     "name": "BlastMan (ブラストマン)",
+    "type": "Heat",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -64,6 +72,7 @@
   {
     "number": "23",
     "name": "BlastMnEX (ブラストマンＥＸ)",
+    "type": "Heat",
     "damage": 140,
     "possibleCodes": "",
     "memory": 0,
@@ -73,6 +82,8 @@
   {
     "number": "24",
     "name": "BlastMnSP (ブラストマンＳＰ)",
+    "type": "Heat",
+    "damage": 150,
     "possibleCodes": "",
     "memory": 0,
     "description": "Head fwd \u0026 launch blst attk",
@@ -81,6 +92,7 @@
   {
     "number": "25",
     "name": "DiveMan (ダイブマン)",
+    "type": "Aqua",
     "damage": 130,
     "possibleCodes": "",
     "memory": 0,
@@ -90,6 +102,7 @@
   {
     "number": "26",
     "name": "DiveManEX (ダイブマンＥＸ)",
+    "type": "Aqua",
     "damage": 150,
     "possibleCodes": "",
     "memory": 0,
@@ -99,6 +112,8 @@
   {
     "number": "27",
     "name": "DiveManSP (ダイブマンＳＰ)",
+    "type": "Aqua",
+    "damage": 170,
     "possibleCodes": "",
     "memory": 0,
     "description": "Snd giant wave acrs area 2pnl",
@@ -107,6 +122,7 @@
   {
     "number": "28",
     "name": "CrcusMan (サーカスマン)",
+    "type": "None",
     "damage": 20,
     "possibleCodes": "",
     "memory": 0,
@@ -116,6 +132,7 @@
   {
     "number": "29",
     "name": "CrcusMnEX (サーカスマンＥＸ)",
+    "type": "None",
     "damage": 25,
     "possibleCodes": "",
     "memory": 0,
@@ -125,6 +142,8 @@
   {
     "number": "30",
     "name": "CrcusMnSP (サーカスマンＳＰ)",
+    "type": "None",
+    "damage": 30,
     "possibleCodes": "",
     "memory": 0,
     "description": "Capture enmy in a ash attck",
@@ -133,6 +152,7 @@
   {
     "number": "31",
     "name": "JudgeMan (ジャッジマン)",
+    "type": "Elec",
     "damage": 100,
     "possibleCodes": "",
     "memory": 0,
@@ -142,6 +162,7 @@
   {
     "number": "32",
     "name": "JudgeMnEX (ジャッジマンＥＸ)",
+    "type": "Elec",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -151,6 +172,8 @@
   {
     "number": "33",
     "name": "JudgeMnSP (ジャッジマンＳＰ)",
+    "type": "Elec",
+    "damage": 140,
     "possibleCodes": "",
     "memory": 0,
     "description": "Whip 3 panels forward",
@@ -159,6 +182,7 @@
   {
     "number": "34",
     "name": "ElmntMan (エレメントマン)",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "",
     "memory": 0,
@@ -168,6 +192,7 @@
   {
     "number": "35",
     "name": "ElmntMnEX (エレメントマンＥＸ)",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -177,6 +202,8 @@
   {
     "number": "36",
     "name": "ElmntMnSP (エレメントマンＳＰ)",
+    "type": "None",
+    "damage": 140,
     "possibleCodes": "",
     "memory": 0,
     "description": "Hit (A) whn col chges elem attk",
@@ -185,6 +212,7 @@
   {
     "number": "37",
     "name": "Colonel (カーネル)",
+    "type": "Sword",
     "damage": 160,
     "possibleCodes": "",
     "memory": 0,
@@ -194,6 +222,7 @@
   {
     "number": "38",
     "name": "ColonelEX (カーネルＥＸ)",
+    "type": "Sword",
     "damage": 180,
     "possibleCodes": "",
     "memory": 0,
@@ -201,8 +230,19 @@
     "locations": "Colonel EX/SP"
   },
   {
+    "number": "39",
+    "name": "ColonelSP (カーネルＳＰ)",
+    "type": "Sword",
+    "damage": 200,
+    "possibleCodes": "",
+    "memory": 0,
+    "description": "Cut enmy lines in Z shape",
+    "locations": "Colonel SP"
+  },
+  {
     "number": "7",
     "name": "SpoutMan (アクアマン)",
+    "type": "Aqua",
     "damage": 50,
     "possibleCodes": "",
     "memory": 0,
@@ -212,6 +252,7 @@
   {
     "number": "8",
     "name": "SpoutMnEX (アクアマンＥＸ)",
+    "type": "Aqua",
     "damage": 60,
     "possibleCodes": "",
     "memory": 0,
@@ -221,6 +262,7 @@
   {
     "number": "9",
     "name": "SpoutMnSP (アクアマンＳＰ)",
+    "type": "Aqua",
     "damage": 70,
     "possibleCodes": "",
     "memory": 0,
@@ -230,6 +272,7 @@
   {
     "number": "10",
     "name": "TmhkMan (トマホークマン)",
+    "type": "Wood",
     "damage": 140,
     "possibleCodes": "",
     "memory": 0,
@@ -239,6 +282,7 @@
   {
     "number": "11",
     "name": "TmhkManEX (トマホークマンＥＸ)",
+    "type": "Wood",
     "damage": 160,
     "possibleCodes": "",
     "memory": 0,
@@ -248,6 +292,7 @@
   {
     "number": "12",
     "name": "TmhkManSP (トマホークマンＳＰ)",
+    "type": "Wood",
     "damage": 180,
     "possibleCodes": "",
     "memory": 0,
@@ -257,6 +302,7 @@
   {
     "number": "13",
     "name": "TenguMan (テングマン)",
+    "type": "Wind",
     "damage": 70,
     "possibleCodes": "",
     "memory": 0,
@@ -266,6 +312,7 @@
   {
     "number": "14",
     "name": "TenguMnEX (テングマンＥＸ)",
+    "type": "Wind",
     "damage": 90,
     "possibleCodes": "",
     "memory": 0,
@@ -275,6 +322,7 @@
   {
     "number": "15",
     "name": "TenguMnSP (テングマンＳＰ)",
+    "type": "Wind",
     "damage": 110,
     "possibleCodes": "",
     "memory": 0,
@@ -284,6 +332,7 @@
   {
     "number": "16",
     "name": "GrndMan (グランドマン)",
+    "type": "Break",
     "damage": 60,
     "possibleCodes": "",
     "memory": 0,
@@ -293,6 +342,7 @@
   {
     "number": "17",
     "name": "GrndManEX (グランドマンＥＸ)",
+    "type": "Break",
     "damage": 70,
     "possibleCodes": "",
     "memory": 0,
@@ -302,6 +352,7 @@
   {
     "number": "18",
     "name": "GrndManSP (グランドマンＳＰ)",
+    "type": "Break",
     "damage": 80,
     "possibleCodes": "",
     "memory": 0,
@@ -311,6 +362,7 @@
   {
     "number": "19",
     "name": "DustMan (ダストマン)",
+    "type": "None",
     "damage": 110,
     "possibleCodes": "",
     "memory": 0,
@@ -320,6 +372,7 @@
   {
     "number": "20",
     "name": "DustManEX (ダストマンＥＸ)",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "",
     "memory": 0,
@@ -329,6 +382,7 @@
   {
     "number": "21",
     "name": "DustManSP (ダストマンＳＰ)",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "",
     "memory": 0,
@@ -338,6 +392,7 @@
   {
     "number": "7",
     "name": "HeatMan (ヒートマン)",
+    "type": "Heat",
     "damage": 100,
     "possibleCodes": "",
     "memory": 0,
@@ -347,6 +402,7 @@
   {
     "number": "8",
     "name": "HeatManEX (ヒートマンＥＸ)",
+    "type": "Heat",
     "damage": 130,
     "possibleCodes": "",
     "memory": 0,
@@ -356,6 +412,7 @@
   {
     "number": "9",
     "name": "HeatManSP (ヒートマンＳＰ)",
+    "type": "Heat",
     "damage": 160,
     "possibleCodes": "",
     "memory": 0,
@@ -365,6 +422,7 @@
   {
     "number": "10",
     "name": "ElecMan (エレキマン)",
+    "type": "Elec",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -374,6 +432,7 @@
   {
     "number": "11",
     "name": "ElecManEX (エレキマンＥＸ)",
+    "type": "Elec",
     "damage": 140,
     "possibleCodes": "",
     "memory": 0,
@@ -383,6 +442,7 @@
   {
     "number": "12",
     "name": "ElecManSP (エレキマンＳＰ)",
+    "type": "Elec",
     "damage": 160,
     "possibleCodes": "",
     "memory": 0,
@@ -392,6 +452,7 @@
   {
     "number": "13",
     "name": "SlashMan (スラッシュマン)",
+    "type": "Sword",
     "damage": 80,
     "possibleCodes": "",
     "memory": 0,
@@ -401,6 +462,7 @@
   {
     "number": "14",
     "name": "SlashMnEX (スラッシュマンＥＸ)",
+    "type": "Sword",
     "damage": 100,
     "possibleCodes": "",
     "memory": 0,
@@ -410,6 +472,7 @@
   {
     "number": "15",
     "name": "SlashMnSP (スラッシュマンＳＰ)",
+    "type": "Sword",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -419,6 +482,7 @@
   {
     "number": "16",
     "name": "EraseMan (キラーマン)",
+    "type": "Cursor",
     "damage": 120,
     "possibleCodes": "",
     "memory": 0,
@@ -428,6 +492,7 @@
   {
     "number": "17",
     "name": "EraseMnEX (キラーマンＥＸ)",
+    "type": "Cursor",
     "damage": 140,
     "possibleCodes": "",
     "memory": 0,
@@ -437,6 +502,7 @@
   {
     "number": "18",
     "name": "EraseMnSP (キラーマンＳＰ)",
+    "type": "Cursor",
     "damage": 160,
     "possibleCodes": "",
     "memory": 0,
@@ -446,6 +512,7 @@
   {
     "number": "19",
     "name": "ChrgeMan (チャージマン)",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "",
     "memory": 0,
@@ -455,6 +522,7 @@
   {
     "number": "20",
     "name": "ChrgeMnEX (チャージマンＥＸ)",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "",
     "memory": 0,
@@ -464,6 +532,7 @@
   {
     "number": "21",
     "name": "ChrgeMnSP (チャージマンＳＰ)",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "",
     "memory": 0,
