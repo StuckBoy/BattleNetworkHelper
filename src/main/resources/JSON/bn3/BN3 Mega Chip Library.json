@@ -2,7 +2,7 @@
   {
     "number": "1",
     "name": "Muramasa",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "M",
     "memory": 74,
     "description": "Power = amount of HP lost!",
@@ -11,6 +11,7 @@
   {
     "number": "2",
     "name": "HeroSwrd",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "P",
     "memory": 65,
@@ -20,6 +21,7 @@
   {
     "number": "3",
     "name": "ZeusHammer",
+    "type": "None",
     "damage": 250,
     "possibleCodes": "Z",
     "memory": 90,
@@ -29,6 +31,7 @@
   {
     "number": "4",
     "name": "StandOut",
+    "type": "Heat",
     "damage": 220,
     "possibleCodes": "P",
     "memory": 22,
@@ -38,6 +41,7 @@
   {
     "number": "5",
     "name": "Salamndr",
+    "type": "Heat",
     "damage": 300,
     "possibleCodes": "S, *",
     "memory": 50,
@@ -47,6 +51,7 @@
   {
     "number": "6",
     "name": "WatrLine",
+    "type": "Aqua",
     "damage": 180,
     "possibleCodes": "C, *",
     "memory": 18,
@@ -56,6 +61,7 @@
   {
     "number": "7",
     "name": "Fountain",
+    "type": "Aqua",
     "damage": 240,
     "possibleCodes": "D, *",
     "memory": 48,
@@ -65,6 +71,7 @@
   {
     "number": "8",
     "name": "Lightning",
+    "type": "Elec",
     "damage": 160,
     "possibleCodes": "L, *",
     "memory": 30,
@@ -74,6 +81,7 @@
   {
     "number": "9",
     "name": "Bolt",
+    "type": "Elec",
     "damage": 210,
     "possibleCodes": "T, *",
     "memory": 52,
@@ -83,6 +91,7 @@
   {
     "number": "10",
     "name": "GaiaSwrd",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "G, *",
     "memory": 28,
@@ -92,6 +101,7 @@
   {
     "number": "11",
     "name": "GaiaBlad",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "G, *",
     "memory": 55,
@@ -101,6 +111,7 @@
   {
     "number": "12",
     "name": "Meteors",
+    "type": "Heat",
     "damage": 40,
     "possibleCodes": "R",
     "memory": 86,
@@ -110,7 +121,7 @@
   {
     "number": "13",
     "name": "Guardian",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "O",
     "memory": 82,
     "description": "Statue punishes when hit",
@@ -119,7 +130,7 @@
   {
     "number": "14",
     "name": "Anubis",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "A",
     "memory": 90,
     "description": "Anubis poisons enemies",
@@ -128,6 +139,7 @@
   {
     "number": "15",
     "name": "GodStone",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "S",
     "memory": 66,
@@ -137,6 +149,7 @@
   {
     "number": "16",
     "name": "OldWood",
+    "type": "Wood",
     "damage": 100,
     "possibleCodes": "W",
     "memory": 72,
@@ -146,6 +159,7 @@
   {
     "number": "17",
     "name": "Jealousy",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "J",
     "memory": 64,
@@ -155,7 +169,7 @@
   {
     "number": "18",
     "name": "Poltrgst",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "G",
     "memory": 58,
     "description": "Objects thrown at enemies!",
@@ -164,7 +178,7 @@
   {
     "number": "19",
     "name": "LifeAura",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "D",
     "memory": 77,
     "description": "Repel all attacks under 200",
@@ -173,7 +187,7 @@
   {
     "number": "20",
     "name": "FullCust",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "*",
     "memory": 10,
     "description": "CustGauge instantly refills!",
@@ -182,7 +196,7 @@
   {
     "number": "21",
     "name": "Atk+30",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "*",
     "memory": 50,
     "description": "+30 for selected chip",
@@ -191,7 +205,7 @@
   {
     "number": "22",
     "name": "Navi+40",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "*",
     "memory": 60,
     "description": "+40 for selected Navi chip",
@@ -200,6 +214,7 @@
   {
     "number": "23",
     "name": "Roll",
+    "type": "None",
     "damage": 20,
     "possibleCodes": "R",
     "memory": 10,
@@ -209,6 +224,7 @@
   {
     "number": "24",
     "name": "Roll V2",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "R",
     "memory": 22,
@@ -218,6 +234,7 @@
   {
     "number": "25",
     "name": "Roll V3",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "R",
     "memory": 34,
@@ -227,6 +244,7 @@
   {
     "number": "26",
     "name": "GutsMan",
+    "type": "Elec?",
     "damage": 50,
     "possibleCodes": "G",
     "memory": 15,
@@ -236,6 +254,7 @@
   {
     "number": "27",
     "name": "GutsMan V2",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "G",
     "memory": 41,
@@ -245,6 +264,7 @@
   {
     "number": "28",
     "name": "GutsMan V3",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "G",
     "memory": 57,
@@ -254,6 +274,7 @@
   {
     "number": "29",
     "name": "GutsMan V4",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "G",
     "memory": 63,
@@ -263,6 +284,7 @@
   {
     "number": "30",
     "name": "ProtoMan",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "B",
     "memory": 68,
@@ -272,6 +294,7 @@
   {
     "number": "31",
     "name": "ProtoMn V2",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "B",
     "memory": 76,
@@ -281,6 +304,7 @@
   {
     "number": "32",
     "name": "ProtoMn V3",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "B",
     "memory": 82,
@@ -290,6 +314,7 @@
   {
     "number": "33",
     "name": "ProtoMn V4",
+    "type": "None",
     "damage": 220,
     "possibleCodes": "B",
     "memory": 90,
@@ -299,6 +324,7 @@
   {
     "number": "34",
     "name": "FlashMan",
+    "type": "Elec",
     "damage": 50,
     "possibleCodes": "F",
     "memory": 39,
@@ -308,6 +334,7 @@
   {
     "number": "35",
     "name": "FlashMn V2",
+    "type": "Elec",
     "damage": 70,
     "possibleCodes": "F",
     "memory": 59,
@@ -317,6 +344,7 @@
   {
     "number": "36",
     "name": "FlashMn V3",
+    "type": "Elec",
     "damage": 90,
     "possibleCodes": "F",
     "memory": 69,
@@ -326,6 +354,7 @@
   {
     "number": "37",
     "name": "FlashMn V4",
+    "type": "Elec",
     "damage": 120,
     "possibleCodes": "F",
     "memory": 79,
@@ -335,6 +364,7 @@
   {
     "number": "38",
     "name": "BeastMan",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "B",
     "memory": 38,
@@ -344,6 +374,7 @@
   {
     "number": "39",
     "name": "BeastMn V2",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "B",
     "memory": 60,
@@ -353,6 +384,7 @@
   {
     "number": "40",
     "name": "BeastMn V3",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "B",
     "memory": 68,
@@ -362,6 +394,7 @@
   {
     "number": "41",
     "name": "BeastMn V4",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "B",
     "memory": 76,
@@ -371,6 +404,7 @@
   {
     "number": "42",
     "name": "BubblMan",
+    "type": "Aqua",
     "damage": 20,
     "possibleCodes": "B",
     "memory": 50,
@@ -380,6 +414,7 @@
   {
     "number": "43",
     "name": "BubblMn V2",
+    "type": "Aqua",
     "damage": 20,
     "possibleCodes": "B",
     "memory": 62,
@@ -389,6 +424,7 @@
   {
     "number": "44",
     "name": "BubblMn V3",
+    "type": "Aqua",
     "damage": 20,
     "possibleCodes": "B",
     "memory": 74,
@@ -398,6 +434,7 @@
   {
     "number": "45",
     "name": "BubblMn V4",
+    "type": "Aqua",
     "damage": 20,
     "possibleCodes": "B",
     "memory": 74,
@@ -407,6 +444,7 @@
   {
     "number": "46",
     "name": "DesrtMan",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "D",
     "memory": 38,
@@ -416,6 +454,7 @@
   {
     "number": "47",
     "name": "DesrtMn V2",
+    "type": "None",
     "damage": 140,
     "possibleCodes": "D",
     "memory": 52,
@@ -425,6 +464,7 @@
   {
     "number": "48",
     "name": "DesrtMn V3",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "D",
     "memory": 64,
@@ -434,6 +474,7 @@
   {
     "number": "49",
     "name": "DesrtMn V4",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "D",
     "memory": 72,
@@ -443,6 +484,7 @@
   {
     "number": "50",
     "name": "PlantMan",
+    "type": "Wood",
     "damage": 20,
     "possibleCodes": "P",
     "memory": 60,
@@ -452,6 +494,7 @@
   {
     "number": "51",
     "name": "PlantMn V2",
+    "type": "Wood",
     "damage": 30,
     "possibleCodes": "P",
     "memory": 65,
@@ -461,6 +504,7 @@
   {
     "number": "52",
     "name": "PlantMn V3",
+    "type": "Wood",
     "damage": 40,
     "possibleCodes": "P",
     "memory": 70,
@@ -470,6 +514,7 @@
   {
     "number": "53",
     "name": "PlantMn V4",
+    "type": "Wood",
     "damage": 50,
     "possibleCodes": "P",
     "memory": 75,
@@ -479,6 +524,7 @@
   {
     "number": "54",
     "name": "FlamMan",
+    "type": "Heat",
     "damage": 120,
     "possibleCodes": "F",
     "memory": 32,
@@ -488,6 +534,7 @@
   {
     "number": "55",
     "name": "FlamMan V2",
+    "type": "Heat",
     "damage": 150,
     "possibleCodes": "F",
     "memory": 52,
@@ -497,6 +544,7 @@
   {
     "number": "56",
     "name": "FlamMan V3",
+    "type": "Heat",
     "damage": 180,
     "possibleCodes": "F",
     "memory": 62,
@@ -506,6 +554,7 @@
   {
     "number": "57",
     "name": "FlamMan V4",
+    "type": "Heat",
     "damage": 210,
     "possibleCodes": "F",
     "memory": 72,
@@ -515,6 +564,7 @@
   {
     "number": "58",
     "name": "DrillMan",
+    "type": "None",
     "damage": 70,
     "possibleCodes": "D",
     "memory": 66,
@@ -524,6 +574,7 @@
   {
     "number": "59",
     "name": "DrillMn V2",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "D",
     "memory": 70,
@@ -533,6 +584,7 @@
   {
     "number": "60",
     "name": "DrillMn V3",
+    "type": "None",
     "damage": 110,
     "possibleCodes": "D",
     "memory": 74,
@@ -542,6 +594,7 @@
   {
     "number": "61",
     "name": "DrillMn V4",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "D",
     "memory": 78,
@@ -551,6 +604,7 @@
   {
     "number": "62",
     "name": "MetalMan",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "M",
     "memory": 40,
@@ -560,6 +614,7 @@
   {
     "number": "63",
     "name": "MetalMn V2",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "M",
     "memory": 60,
@@ -569,6 +624,7 @@
   {
     "number": "64",
     "name": "MetalMn V3",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "M",
     "memory": 70,
@@ -578,6 +634,7 @@
   {
     "number": "65",
     "name": "MetalMn V4",
+    "type": "None",
     "damage": 190,
     "possibleCodes": "M",
     "memory": 80,
@@ -587,6 +644,7 @@
   {
     "number": "66",
     "name": "KingMan",
+    "type": "None",
     "damage": 140,
     "possibleCodes": "K",
     "memory": 36,
@@ -596,6 +654,7 @@
   {
     "number": "67",
     "name": "KingMan V2",
+    "type": "None",
     "damage": 170,
     "possibleCodes": "K",
     "memory": 48,
@@ -605,6 +664,7 @@
   {
     "number": "68",
     "name": "KingMan V3",
+    "type": "None",
     "damage": 200,
     "possibleCodes": "K",
     "memory": 60,
@@ -614,6 +674,7 @@
   {
     "number": "69",
     "name": "KingMan V4",
+    "type": "None",
     "damage": 240,
     "possibleCodes": "K",
     "memory": 72,
@@ -623,6 +684,7 @@
   {
     "number": "70",
     "name": "MistMan",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "M",
     "memory": 68,
@@ -632,6 +694,7 @@
   {
     "number": "71",
     "name": "MistMan V2",
+    "type": "None",
     "damage": 110,
     "possibleCodes": "M",
     "memory": 71,
@@ -641,6 +704,7 @@
   {
     "number": "72",
     "name": "MistMan V3",
+    "type": "None",
     "damage": 130,
     "possibleCodes": "M",
     "memory": 74,
@@ -650,6 +714,7 @@
   {
     "number": "73",
     "name": "MistMan V4",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "M",
     "memory": 77,
@@ -659,6 +724,7 @@
   {
     "number": "74",
     "name": "BowlMan",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "B",
     "memory": 80,
@@ -668,6 +734,7 @@
   {
     "number": "75",
     "name": "BowlMan V2",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "B",
     "memory": 82,
@@ -677,6 +744,7 @@
   {
     "number": "76",
     "name": "BowlMan V3",
+    "type": "None",
     "damage": 140,
     "possibleCodes": "B",
     "memory": 84,
@@ -686,6 +754,7 @@
   {
     "number": "77",
     "name": "BowlMan V4",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "B",
     "memory": 86,
@@ -695,6 +764,7 @@
   {
     "number": "78",
     "name": "DarkMan",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "D",
     "memory": 72,
@@ -704,6 +774,7 @@
   {
     "number": "79",
     "name": "DarkMan V2",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "D",
     "memory": 76,
@@ -713,6 +784,7 @@
   {
     "number": "80",
     "name": "DarkMan V3",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "D",
     "memory": 80,
@@ -722,6 +794,7 @@
   {
     "number": "81",
     "name": "DarkMan V4",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "D",
     "memory": 84,
@@ -731,6 +804,7 @@
   {
     "number": "82",
     "name": "JapanMan",
+    "type": "None",
     "damage": 40,
     "possibleCodes": "Y",
     "memory": 82,
@@ -740,6 +814,7 @@
   {
     "number": "83",
     "name": "JapanMn V2",
+    "type": "None",
     "damage": 45,
     "possibleCodes": "Y",
     "memory": 85,
@@ -749,6 +824,7 @@
   {
     "number": "84",
     "name": "JapanMn V3",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "Y",
     "memory": 88,
@@ -758,6 +834,7 @@
   {
     "number": "85",
     "name": "JapanMn V4",
+    "type": "None",
     "damage": 55,
     "possibleCodes": "Y",
     "memory": 91,
@@ -767,6 +844,7 @@
   {
     "number": "86",
     "name": "Punk",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "P",
     "memory": 92,

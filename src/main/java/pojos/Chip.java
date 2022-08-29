@@ -16,6 +16,11 @@ public class Chip implements Printable {
     private String name;
 
     /**
+     * The elemental type of the chip if it has one, or "None".
+     */
+    private String element;
+
+    /**
      * The amount dealt to enemies hit by this chip, null if it doesn't inflict
      * any damage.
      */
@@ -61,6 +66,14 @@ public class Chip implements Printable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getElement() {
+        return element;
+    }
+
+    public void setElement(String element) {
+        this.element = element;
     }
 
     public Integer getDamage() {
@@ -133,13 +146,16 @@ public class Chip implements Printable {
         System.out.println();
         simplePrint("Number:      " + getNumber());
         simplePrint("Name:        " + getName());
+        simplePrint("Type         " + getElement());
         if (getDamage() != null) {
             simplePrint("Damage:      " + getDamage());
         } else {
             simplePrint("Damage:      -");
         }
         simplePrint("Code(s):     " + getPossibleCodes());
-        simplePrint("Memory Size: " + getMemory() + " MB");
+        if (getMemory() != 0) {
+            simplePrint("Memory Size: " + getMemory() + " MB");
+        }
         simplePrint("Description: " + getDescription());
         simplePrint("Location(s): " + getLocations());
     }
