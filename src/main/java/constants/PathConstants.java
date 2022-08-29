@@ -19,9 +19,8 @@ public class PathConstants {
     private static final String errorCodeLibraryJson = "Error Codes.json";
     private static final String compressionCodeLibraryJson = "Compression Codes.json";
 
-    public static final String userConfigPath = "\\config\\UserConfig.json";
-    public static final String unixUserConfigPath = "/config/UserConfig.json";
-
+    public static final String configDir = "config";
+    public static final String userConfig = "UserConfig.json";
 
     //Battle Network 3 Constants
     public static final String bnThreeJsonPath = jsonFilePath + battleNetworkThreePath;

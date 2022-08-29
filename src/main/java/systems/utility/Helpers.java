@@ -1,5 +1,6 @@
 package systems.utility;
 
+import java.io.File;
 import java.util.List;
 
 import constants.PathConstants;
@@ -38,13 +39,8 @@ public class Helpers {
      */
     public static String getAbsoluteConfigPath() {
         String absolutePath = System.getProperty("user.dir");
-        String os = System.getProperty("os.name");
-        String absoluteConfigPath = "";
-        switch (os) {
-            case "Linux" -> absoluteConfigPath = absolutePath + PathConstants.unixUserConfigPath;
-            case "Windows" -> absoluteConfigPath = absolutePath + PathConstants.userConfigPath;
-        }
-        return absoluteConfigPath;
+        String dirSeparator = File.separator;
+        return absolutePath + dirSeparator + PathConstants.configDir + dirSeparator + PathConstants.userConfig;
     }
 
     /**
