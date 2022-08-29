@@ -2,7 +2,7 @@
   {
     "number": "1",
     "name": "FoldrBak",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "*",
     "memory": 99,
     "description": "Restores all chips & folders",
@@ -11,6 +11,7 @@
   {
     "number": "2",
     "name": "Bass+",
+    "type": "None",
     "damage": 550,
     "possibleCodes": "X",
     "memory": 98,
@@ -20,7 +21,7 @@
   {
     "number": "3",
     "name": "DarkAura",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "A",
     "memory": 55,
     "description": "Dark chip repels <300 atks",
@@ -29,6 +30,7 @@
   {
     "number": "4",
     "name": "DeltaRay",
+    "type": "None",
     "damage": 220,
     "possibleCodes": "Z",
     "memory": 92,
@@ -38,6 +40,7 @@
   {
     "number": "5",
     "name": "AlphArmΩ",
+    "type": "None",
     "damage": 500,
     "possibleCodes": "V",
     "memory": 97,
@@ -47,7 +50,7 @@
   {
     "number": "1",
     "name": "NavRcycl",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "*",
     "memory": 50,
     "description": "Recalls last Navi used",
@@ -56,6 +59,7 @@
   {
     "number": "2",
     "name": "Bass",
+    "type": "None",
     "damage": 90,
     "possibleCodes": "X",
     "memory": 98,
@@ -65,6 +69,7 @@
   {
     "number": "3",
     "name": "Serenade",
+    "type": "None",
     "damage": 100,
     "possibleCodes": "S",
     "memory": 97,
@@ -74,7 +79,7 @@
   {
     "number": "4",
     "name": "Balance",
-    "damage": 0,
+    "type": "None",
     "possibleCodes": "Y",
     "memory": 60,
     "description": "Both HP reduced by half!",
@@ -83,6 +88,7 @@
   {
     "number": "5",
     "name": "AlphArmΣ",
+    "type": "None",
     "damage": 50,
     "possibleCodes": "V",
     "memory": 97,
@@ -92,6 +98,7 @@
   {
     "number": "2",
     "name": "BassGS",
+    "type": "None",
     "damage": 700,
     "possibleCodes": "X",
     "memory": 99,
@@ -101,6 +108,7 @@
   {
     "number": "6",
     "name": "GutsManV5",
+    "type": "None",
     "damage": 120,
     "possibleCodes": "G",
     "memory": 79,
@@ -110,6 +118,7 @@
   {
     "number": "7",
     "name": "ProtoManV5",
+    "type": "None",
     "damage": 240,
     "possibleCodes": "B",
     "memory": 98,
@@ -119,6 +128,7 @@
   {
     "number": "8",
     "name": "FlashMnV5",
+    "type": "Elec",
     "damage": 150,
     "possibleCodes": "F",
     "memory": 89,
@@ -128,6 +138,7 @@
   {
     "number": "9",
     "name": "BeastMnV5",
+    "type": "None",
     "damage": 80,
     "possibleCodes": "B",
     "memory": 84,
@@ -137,6 +148,7 @@
   {
     "number": "10",
     "name": "BubblMnV5",
+    "type": "Aqua",
     "damage": 20,
     "possibleCodes": "B",
     "memory": 86,
@@ -146,6 +158,7 @@
   {
     "number": "11",
     "name": "DesrtManV5",
+    "type": "None",
     "damage": 210,
     "possibleCodes": "D",
     "memory": 80,
@@ -155,6 +168,7 @@
   {
     "number": "12",
     "name": "PlantMnV5",
+    "type": "Wood",
     "damage": 60,
     "possibleCodes": "P",
     "memory": 80,
@@ -164,6 +178,7 @@
   {
     "number": "13",
     "name": "FlamManV5",
+    "type": "Heat",
     "damage": 240,
     "possibleCodes": "F",
     "memory": 82,
@@ -173,6 +188,7 @@
   {
     "number": "14",
     "name": "DrillMnV5",
+    "type": "None",
     "damage": 150,
     "possibleCodes": "D",
     "memory": 82,
@@ -182,6 +198,7 @@
   {
     "number": "15",
     "name": "MetalMnV5",
+    "type": "None",
     "damage": 250,
     "possibleCodes": "M",
     "memory": 90,
@@ -191,6 +208,7 @@
   {
     "number": "16",
     "name": "KingManV5",
+    "type": "None",
     "damage": 280,
     "possibleCodes": "K",
     "memory": 84,
@@ -200,6 +218,7 @@
   {
     "number": "17",
     "name": "MistManV5",
+    "type": "None",
     "damage": 170,
     "possibleCodes": "M",
     "memory": 80,
@@ -209,6 +228,7 @@
   {
     "number": "18",
     "name": "BowlManV5",
+    "type": "None",
     "damage": 180,
     "possibleCodes": "B",
     "memory": 88,
@@ -218,6 +238,7 @@
   {
     "number": "19",
     "name": "DarkManV5",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "D",
     "memory": 88,
@@ -227,6 +248,7 @@
   {
     "number": "20",
     "name": "JapanMnV5",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "Y",
     "memory": 94,
