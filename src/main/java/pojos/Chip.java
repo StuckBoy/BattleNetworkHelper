@@ -16,9 +16,9 @@ public class Chip implements Printable {
     private String name;
 
     /**
-     * The elemental type of the chip if it has one, or "None".
+     * The type of the chip if it has one, or "None".
      */
-    private String element;
+    private String type;
 
     /**
      * The amount dealt to enemies hit by this chip, null if it doesn't inflict
@@ -68,12 +68,12 @@ public class Chip implements Printable {
         this.name = name;
     }
 
-    public String getElement() {
-        return element;
+    public String getType() {
+        return type;
     }
 
-    public void setElement(String element) {
-        this.element = element;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public Integer getDamage() {
@@ -146,7 +146,7 @@ public class Chip implements Printable {
         System.out.println();
         simplePrint("Number:      " + getNumber());
         simplePrint("Name:        " + getName());
-        simplePrint("Type         " + getElement());
+        simplePrint("Type         " + getType());
         if (getDamage() != null) {
             simplePrint("Damage:      " + getDamage());
         } else {

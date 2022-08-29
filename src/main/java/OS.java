@@ -190,9 +190,7 @@ public class OS {
                 try {
                     int input = keyboard.nextInt();
                     lookup.processInput(input, keyboard);
-                    if (input == 6) {
-                        continueProcess = false;
-                    }
+                    continueProcess = input != 7;
                 } catch (InputMismatchException ex) {
                     keyboard.next();
                 }
@@ -215,9 +213,7 @@ public class OS {
                 try {
                     int input = keyboard.nextInt();
                     lookup.processInput(input, keyboard);
-                    if (input == 4) {
-                        continueProcess = false;
-                    }
+                    continueProcess = input != 4;
                 } catch (InputMismatchException ex) {
                     keyboard.next();
                 }
@@ -247,9 +243,7 @@ public class OS {
                 try {
                     int input = keyboard.nextInt();
                     lookup.processInput(input, keyboard);
-                    if (input == 3) {
-                        continueProcess = false;
-                    }
+                    continueProcess = input != 3;
                 } catch (InputMismatchException ex) {
                     keyboard.next();
                 }
@@ -270,9 +264,7 @@ public class OS {
             try {
                 int input = keyboard.nextInt();
                 editor.processInput(input);
-                if (input == 3) {
-                    continueSubroutine = false;
-                }
+                continueSubroutine = input != 3;
             } catch (InputMismatchException ex) {
                 keyboard.next();
             }

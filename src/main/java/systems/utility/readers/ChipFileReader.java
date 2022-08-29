@@ -132,6 +132,24 @@ public class ChipFileReader {
         return foundChips;
     }
 
+    public List<Chip> searchChipsByType(String input) {
+        List<Chip> foundChips = new ArrayList<>();
+        foundChips.addAll(searchListForType(standardChipList, input));
+        foundChips.addAll(searchListForType(megaChipList, input));
+        foundChips.addAll(searchListForType(gigaChipList, input));
+        return foundChips;
+    }
+
+    private List<Chip> searchListForType(List<Chip> chipList, String input) {
+        List<Chip> foundChips = new ArrayList<>();
+        for (Chip chip : chipList) {
+            if (StringUtils.equalsIgnoreCase(chip.getType(), input)) {
+                foundChips.add(chip);
+            }
+        }
+        return foundChips;
+    }
+
     /**
      * Searches the loaded chips for ones whose damage matches the input.
      *
