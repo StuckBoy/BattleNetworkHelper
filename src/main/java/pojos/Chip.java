@@ -153,7 +153,9 @@ public class Chip implements Printable {
             simplePrint("Damage:      -");
         }
         simplePrint("Code(s):     " + getPossibleCodes());
-        simplePrint("Memory Size: " + getMemory() + " MB");
+        if (getMemory() != 0) {
+            simplePrint("Memory Size: " + getMemory() + " MB");
+        }
         simplePrint("Description: " + getDescription());
         simplePrint("Location(s): " + getLocations());
     }
