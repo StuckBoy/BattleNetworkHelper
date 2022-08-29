@@ -190,9 +190,7 @@ public class OS {
                 try {
                     int input = keyboard.nextInt();
                     lookup.processInput(input, keyboard);
-                    if (input == 6) {
-                        continueProcess = false;
-                    }
+                    continueProcess = input != 7;
                 } catch (InputMismatchException ex) {
                     keyboard.next();
                 }

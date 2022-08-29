@@ -56,6 +56,7 @@ public class ChipLookup implements Subsystem {
         List<String> options = new ArrayList<>();
         options.add("Search by number");
         options.add("Search by name");
+        options.add("Search by type");
         options.add("Search by damage");
         options.add("Search by code");
         options.add("Search by memory size");
@@ -77,10 +78,11 @@ public class ChipLookup implements Subsystem {
         switch (input) {
             case 1 -> beginNumberSearch(keyboard);
             case 2 -> beginNameSearch(keyboard);
-            case 3 -> beginDamageSearch(keyboard);
-            case 4 -> beginCodeSearch(keyboard);
-            case 5 -> beginMemorySizeSearch(keyboard);
-            case 6 -> simplePrint("Returning to main menu...\n");
+            case 3 -> beginTypeSearch(keyboard);
+            case 4 -> beginDamageSearch(keyboard);
+            case 5 -> beginCodeSearch(keyboard);
+            case 6 -> beginMemorySizeSearch(keyboard);
+            case 7 -> simplePrint("Returning to main menu...\n");
             default -> simplePrint("Unusable input, please try again.");
         }
     }
@@ -155,6 +157,13 @@ public class ChipLookup implements Subsystem {
         simplePrint("Please enter the name of the chip as it appears in-game.");
         String input = keyboard.next();
         List<Chip> foundChips = reader.searchChipsByName(input);
+        printOutcome(foundChips);
+    }
+
+    private void beginTypeSearch(Scanner keyboard) {
+        simplePrint("Please enter the type of the chip (Aqua, Elec, None, etc.)");
+        String input = keyboard.next();
+        List<Chip> foundChips = reader.searchChipsByType(input);
         printOutcome(foundChips);
     }
 
