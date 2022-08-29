@@ -2,6 +2,7 @@
   {
     "number": "1",
     "name": "Bass (フォルテ)",
+    "type": "None",
     "damage": 60,
     "possibleCodes": "?",
     "memory": 0,
@@ -11,6 +12,7 @@
   {
     "number": "2",
     "name": "BigHook (ギガントフック)",
+    "type": "Break",
     "damage": 240,
     "possibleCodes": "?",
     "memory": 0,
@@ -20,6 +22,7 @@
   {
     "number": "3",
     "name": "DeltaRay (デルタレイエッジ)",
+    "type": "Sword",
     "damage": 260,
     "possibleCodes": "?",
     "memory": 0,
@@ -29,6 +32,7 @@
   {
     "number": "4",
     "name": "ColForce (カーネルフォース)",
+    "type": "None",
     "damage": 30,
     "possibleCodes": "?",
     "memory": 0,
@@ -38,14 +42,17 @@
   {
     "number": "5",
     "name": "BugRSwrd (バグライズソード)",
+    "type": "Sword",
     "damage": 0,
     "possibleCodes": "?",
     "memory": 0,
     "description": "Use Bug Frag with DrkSword! (Sword; if 0 Bug Frags remained)",
     "locations": "Purchase from BugFrag Trader in Sky Area 1 for 100 BugFrags. (Gregar exclusive)"
-  },{
+  },
+  {
     "number": "1",
     "name": "BassAnly (フォルテアナザー)",
+    "type": "None",
     "damage": 160,
     "possibleCodes": "?",
     "memory": 0,
@@ -55,6 +62,7 @@
   {
     "number": "2",
     "name": "MetrKnuk (メテオナックル)",
+    "type": "Break",
     "damage": 100,
     "possibleCodes": "?",
     "memory": 0,
@@ -64,6 +72,7 @@
   {
     "number": "3",
     "name": "CrossDiv (クロスディバイド)",
+    "type": "None",
     "damage": 250,
     "possibleCodes": "?",
     "memory": 0,
@@ -73,6 +82,7 @@
   {
     "number": "4",
     "name": "HubBatc (サイトバッチ)",
+    "type": "None",
     "damage": 0,
     "possibleCodes": "?",
     "memory": 0,
@@ -82,6 +92,7 @@
   {
     "number": "5",
     "name": "BgDthThd (バグデスサンダー)",
+    "type": "Elec",
     "damage": 0,
     "possibleCodes": "?",
     "memory": 0,
