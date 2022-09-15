@@ -1,6 +1,7 @@
 import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
+import constants.AppConstants;
 import constants.Game;
 import exceptions.UnsupportedGameException;
 import org.apache.commons.lang3.StringUtils;
@@ -167,12 +168,12 @@ public class OS {
      */
     private static void listCommands() {
         List<String> commandList = new ArrayList<>();
-        commandList.add("Chip Lookup");
-        commandList.add("P.A. Lookup");
-        commandList.add("Folder Builder");
-        commandList.add("Code Lookup");
-        commandList.add("Edit Config");
-        commandList.add("Exit");
+        commandList.add(AppConstants.codeLookup);
+        commandList.add(AppConstants.programAdvanceLookup);
+        commandList.add(AppConstants.folderBuilder);
+        commandList.add(AppConstants.codeLookup);
+        commandList.add(AppConstants.editConfig);
+        commandList.add(AppConstants.exit);
         printOptions(commandList);
     }
 
